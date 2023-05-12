@@ -1,0 +1,183 @@
+{
+  "newsletter": "Newsletter Subscribe",
+  "yourEmail": "Your Email Address",
+  "gallery": "Gallery",
+  "header": {
+    "home": "Home",
+    "story": "Our Story",
+    "brands": "Brands",
+    "press": "Press & Media",
+    "contact": "Contact",
+    "language": "SR",
+    "address": "Address",
+    "email": "Email",
+    "phone": "Phone"
+  },
+  "footer": {
+    "footerHome": {
+      "heartBefore":"© 2023. DURŌ, All Rights Reserved. Made with ",
+      "heartAfter": " by "
+    },
+    "footerMain": {
+      "address": "Address",
+      "getInTouch": "Get in touch",
+      "follow": "Follow Us",
+      "home": "Home",
+      "privacyPolicy": "Privacy Policy"
+    }
+  },
+  "home": {
+    "title": "The World of DURŌ",
+    "titleSmall": "Niche perfumery",
+    "explore": "Explore more",
+    "read": "Read more",
+    "story": {
+      "title": "Our Story",
+      "desc1": "DURŌ is one of the most luxurious niche perfumeries in the world. We represent 25 of the most sought-after artisan perfume houses and offer a one-of-a-kind immersive experience in our luxurious boutique for perfume connoisseurs. Step into a treasure trove of beauty and sophistication!",
+      "desc2": "DURŌ, where the art of niche perfumery meets ultimate luxury."
+    },
+    "boutique": {
+      "title": "Our luxury boutique",
+      "desc1": "DURŌ niche perfumery is the epitome of elegance and sophistication. Each brand has its own dedicated presentation, carefully designed and laid out to create a unique perfume journey. From the moment you step into our boutique, you will be transported into a world of pure luxury and exclusivity. With a wide range of carefully curated fragrances to choose from, our knowledgeable staff will guide you through the various scents and help you find the perfect fragrance that suits your taste and personality.",
+      "desc2": "Visit us today and indulge in the ultimate perfume experience."
+    },
+    "featured": {
+      "title": "Featured Products"
+    },
+    "brands": {
+      "title": "Our Brands"
+    },
+    "news": {
+      "main": "Press & Media",
+      "title": "Latest News",
+      "recent": "Recent Posts",
+      "follow": "Follow Us",
+      "news": "News",
+      "news1": {
+        "title": "Opening hours during Easter Holiday",
+        "desc": "We denounce with righteous indige nation and dislike men who are so beguiled and demo realized by the charms of pleasure of the moment, so blinded by desire, that..."
+      },
+      "news2": {
+        "title": "We display the masterpieces of contemporary art",
+        "desc": "We denounce with righteous indige nation and dislike men who are so beguiled and demo realized by the charms of pleasure of the moment, so blinded by desire, that..."
+      },
+      "news3": {
+        "title": "We did it! DURŌ Belgrade is finally open!",
+        "desc": "We denounce with righteous indige nation and dislike men who are so beguiled and demo realized by the charms of pleasure of the moment, so blinded by desire, that..."
+      },
+      "news4": {
+        "title": "Grand Opening will take place on 10/4",
+        "desc": "We denounce with righteous indige nation and dislike men who are so beguiled and demo realized by the charms of pleasure of the moment, so blinded by desire, that..."
+      }
+    },
+    "contact": {
+      "title": "Get in touch with us",
+      "contact": "Contact",
+      "visit": "Visit us",
+      "email": "Send E-mail",
+      "call": "Call us",
+      "nameForm": "Your Name",
+      "emailForm": "E-Mail",
+      "phoneForm": "Phone Number",
+      "messageForm": "Your message Here",
+      "submit": "Submit Now"
+    }
+  },
+  "story": {
+    "title": "Discover the World of DURŌ",
+    "nicePerfumery": {
+      "subText": "DURŌ Nice perfumery",
+      "desc1": "At DURŌ, we believe that perfume is an art form. Our story began in Podgorica, Montenegro, where the original DURŌ concept was born. We crafted a one-of-a-kind immersive experience for perfume connoisseurs around Atelier Cologne Rajović, which quickly established itself as the go-to place for all perfume lovers in the region.",
+      "desc2": " After a successful year, we dreamed bigger. We wanted to share our passion and knowledge with a wider audience, and that's why we decided to open our luxurious boutique in Belgrade, Serbia. The response was overwhelming, and we were thrilled to see so many people appreciating and enjoying the art of niche perfumery.",
+      "desc3": "But we're not stopping there. We're constantly exploring and discovering new artisan perfume houses, bringing the best and most sought-after fragrances to our customers. Our next location is already set in Porto Montenegro in Tivat, where we're excited to introduce our immersive experience to even more perfume lovers.",
+      "desc4": "At DURŌ, we're not just selling perfumes. We're offering an unforgettable journey into the world of scents and emotions, where every fragrance has a story to tell. Step into our treasure trove of beauty and sophistication and discover the art of niche perfumery, where the highest quality ingredients and the most skilled perfumers create unique and memorable fragrances.",
+      "perfumes": "Perfumes",
+      "brands": "Brands"
+    },
+    "approach": {
+      "subText": "The DURŌ approach",
+      "titleBr": "Curating a Bespoke",
+      "title": "Perfume Journey",
+      "desc1": "At DURŌ, we believe that perfume is more than just a scent. It is a journey that takes you on a sensory experience, evoking emotions and memories. That is why we have dedicated ourselves to curating a selection of the most sought-after artisan perfume houses in the world.",
+      "desc2": "Our perfume collection is carefully chosen based on the quality of ingredients, craftsmanship, and creativity. Each brand has its unique story, and we are committed to bringing their individuality to our clients. We are constantly exploring new territories, seeking out new niche perfume houses that reflect our values of exclusivity and luxury.",
+      "desc3": "We offer an immersive and educational experience that goes beyond the traditional shopping experience. Whether you are a connoisseur or a novice, we will guide you through the process of selecting the perfect scent for you. We want to share our knowledge and passion for perfume, creating a community of perfume lovers who appreciate the art of niche perfumery. Join us on a journey of discovery and let us help you find your perfect signature scent."
+    },
+    "team": {
+      "subText": "The Team",
+      "title": "Our Visionary Team",
+      "founder": "Founder",
+      "coFounder": "Co-founder",
+      "manager": "Manager"
+    }
+  },
+  "news": {
+    "admin": "admin",
+    "strategy": "Strategy",
+    "desc": "We denounce with righteous indige nation and dislike men who are so beguiled and demo realized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue cannot foresee. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled data structures manages data in technology.",
+    "quote": "We can easily manage if we will only take, each day, the burden appointed to it. But the load will be too heavy for us if we carry yesterday’s burden over again today, and then add the burden of the morrow before we are required to bear it.",
+    "tips": {
+      "title": "Easy tips to build credit for your business",
+      "tip1": "How will digital activities impact traditional manufacturing.",
+      "tip2": "All these digital elements and projects aim to enhance.",
+      "tip3": "I monitor my staff with software that takes screenshots.",
+      "tip4": "Laoreet dolore magna niacin sodium glutimate aliquam hendrerit.",
+      "tip5": "Minim veniam quis niacin sodium glutimate nostrud exerci dolor.",
+      "desc1": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "desc2": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+      "tag1": "Creative",
+      "tag2" : "Elementor",
+      "tag3" : "Light",
+      "tag4" : "Minimal"
+    },
+    "comments": {
+      "title": "3 comments on “ICC Wales Reports Record Breaking Summer",
+      "reply": "Reply",
+      "leaveReply": "Leave a Reply",
+      "note": "Your email address will not be published. Required fields are marked *",
+      "comment1" : {
+        "title": "Rswpdemo",
+        "desc": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet"
+      },
+      "comment2" : {
+        "title": "Rswpdemo",
+        "desc": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet"
+      },
+      "comment3" : {
+        "title": "Rswpdemo",
+        "desc": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet"
+      }
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "terms": {
+      "title": "Terms of Use",
+      "list": {
+        "main": "Welcome to the DURŌ website. By accessing or using our website, you agree to be bound by the following terms and conditions:",
+        "li1": "All content on this website is owned by DURŌ and may not be reproduced, copied, or used without our express written consent.",
+        "li2": "We reserve the right to modify or discontinue any part of our website without prior notice.",
+        "li3": "We are not responsible for any errors, omissions, or inaccuracies in the content of our website.",
+        "li4": "You agree to use our website for lawful purposes only."
+      }
+    },
+    "policy": {
+      "privacyPolicy": {
+        "title": "Privacy policy",
+        "li1": "At DURŌ, we respect your privacy and are committed to protecting your personal information. Any personal information you provide to us, including your name, address, telephone number, and email address, will be handled with the utmost care and confidentiality. We will never sell or disclose your personal information to any third party, unless required to do so by law.",
+        "contact": "If you have any questions or concerns regarding the handling of your personal information, please contact us at"
+      },
+      "cookiePolicy": {
+        "title": "Cookie Policy",
+        "contact": "If you have any questions about our Cookie Policy or how we handle your personal information, please contact us at",
+        "p1": "Our website uses to enhance your browsing experience on our website. A cookie is a small text file that is stored on your computer or mobile device when you visit our website. Cookies enable us to track your browsing activity on our website, which helps us to improve the user experience and provide personalized content.",
+        "p2": "We use both session cookies, which expire when you close your browser, and persistent cookies, which remain on your device until they expire or you delete them.",
+        "p3": {
+          "main": "By using our website, you consent to our use of cookies:",
+          "li1": "To remember your preferences and settings.",
+          "li2": "To measure and analyze traffic to our website.",
+          "li3": "To personalize your experience on our website."
+        }
+      }
+    }
+  }
+}
