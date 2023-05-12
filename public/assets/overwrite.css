@@ -1,0 +1,69 @@
+/**  
+* -----------------------------------------------------------------------------
+*
+* Author : Intellect Avenue IT d.o.o.
+* Author URI : https://www.intellect.se/ 
+* Version: 1.0
+*
+* -----------------------------------------------------------------------------   
+    OVERWRITE
+---------------------------------------------------------*/
+.rs-banner.banner-home-style3 .content-wrap h1.title,
+.rs-banner.banner-home-style3 .content-wrap h2.title-small
+{
+  font-family: 'Poppins', sans-serif;
+}
+
+.rs-team.style7 .team-item .team-inner-wrap .team-content .team-price {
+    font-size: 10px;
+    font-weight: 400;
+    color: #DDCACA;
+	margin-top: 5px;
+}
+
+.canvas-contact {
+	margin-top: 4vw;
+}
+
+.footer-logo img {
+	height: 4vw;
+}
+
+.rs-contact.contact-page .sec-title .title.title2.title3 {
+    color: #000000;
+    font-size: 44px;
+}
+
+.rs-about .sec-title .title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.rs-counter.about-style .counter-list .counter-text .title {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0;
+}
+
+.rs-about .desc,
+.rs-services .desc {
+    color: #ffffff;
+}
+
+.rs-services .sec-title .title {
+    color: #ffffff;
+}
+
+.rs-counter.about-style .counter-list .counter-text .rs-count {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 66px;
+    padding: 0px 0px 0px 0px;
+    color: #bf994c;
+    position: relative;
+}
