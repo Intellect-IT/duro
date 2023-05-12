@@ -1,0 +1,184 @@
+{
+  "newsletter": "Pretplata na bilten",
+  "yourEmail": "Vaša Email Adresa",
+  "gallery": "Galerija",
+  "header": {
+    "home": "Kuća",
+    "story": "Naša Priča",
+    "brands": "Brendovi",
+    "press": "Mediji i Novinari",
+    "contact": "Kontakt",
+    "language": "EN",
+    "address": "Adresa",
+    "email": "Email",
+    "phone": "Telefon"
+  },
+  "footer": {
+    "footerHome": {
+      "heartBefore":"© 2023. DURŌ, Sva prava zadržana. Napravljeno sa ",
+      "heartAfter": " od strane "
+    },
+    "footerMain": {
+      "address": "Adresa",
+      "getInTouch": "Stupite u kontakt",
+      "follow": "Pratite Nas",
+      "home": "Kuća",
+      "privacyPolicy": "Politika Privatnosti"
+    }
+  },
+  "home": {
+    "home": "Kuća",
+    "title": "Svet DURŌ-a",
+    "titleSmall": "Nišna parfimerija",
+    "explore": "Istražite više",
+    "read": "Pročitajte više",
+    "story": {
+      "title": "Naša Priča",
+      "desc1": "DURŌ je jedna od najluksuznijih nišnih parfimerija na svetu. Predstavljamo 25 najtraženijih umetničkih parfimerijskih kuća i nudimo jedinstveno iskustvo u našoj raskošnoj butiku za poznavaoce parfema. Zakoračite u riznicu lepote i sofisticiranosti!",
+      "desc2": "DURŌ, gde se umetnost nišne parfimerije sreće sa vrhunskim luksuzom."
+    },
+    "boutique": {
+      "title": "Naš raskošni butik",
+      "desc1": "DURŌ nišna parfimerija je oličenje elegancije i sofisticiranosti. Svaki brend ima svoju posebno osmišljenu prezentaciju, pažljivo dizajniranu i postavljenu kako bi stvorila jedinstveno parfemsko putovanje. Od trenutka kada zakoračite u naš butik, bićete preneseni u svet čistog luksuza i ekskluzivnosti. Sa širokim izborom pažljivo odabranih mirisa za izbor, naš stručni tim će vas voditi kroz različite arome i pomoći vam da pronađete savršeni parfem koji odgovara vašem ukusu i ličnosti.",
+      "desc2": "Posetite nas danas i prepustite se najboljem iskustvu u parfimeriji."
+    },
+    "featured": {
+      "title": "Istaknuti Proizvodi"
+    },
+    "brands": {
+      "title": "Naši Brendovi"
+    },
+    "news": {
+      "main": "Mediji i Novinari",
+      "title": "Poslednje Vesti",
+      "recent": "Nedavni Postovi",
+      "follow": "Pratite Nas",
+      "news": "Vesti",
+      "news1": {
+        "title": "Radno vreme tokom Uskršnjih praznika",
+        "desc": "Izričito osuđujemo i ne slažemo se sa ljudima koji su zaslepljeni čarima trenutnog zadovoljstva i tako obmanuti i dehumanizovani, da su slepi za želje i potrebe drugih..."
+      },
+      "news2": {
+        "title": "Izlažemo remek-dela savremene umetnosti.",
+        "desc": "Izričito osuđujemo i ne slažemo se sa ljudima koji su zaslepljeni čarima trenutnog zadovoljstva i tako obmanuti i dehumanizovani, da su slepi za želje i potrebe drugih..."
+      },
+      "news3": {
+        "title": "Uspešno smo to uradili! DURŌ Beograd je konačno otvoren!",
+        "desc": "Izričito osuđujemo i ne slažemo se sa ljudima koji su zaslepljeni čarima trenutnog zadovoljstva i tako obmanuti i dehumanizovani, da su slepi za želje i potrebe drugih..."
+      },
+      "news4": {
+        "title": "Svečano otvaranje će se održati 10/4",
+        "desc": "Izričito osuđujemo i ne slažemo se sa ljudima koji su zaslepljeni čarima trenutnog zadovoljstva i tako obmanuti i dehumanizovani, da su slepi za želje i potrebe drugih..."
+      }
+    },
+    "contact": {
+      "title": "Stupite u kontakt sa nama",
+      "contact": "Kontakt",
+      "visit": "Posetite nas",
+      "email": "Pošaljite E-pošta",
+      "call": "Pozovite nas",
+      "nameForm": "Tvoje Ime",
+      "emailForm": "E-Pošta",
+      "phoneForm": "Broj telefona",
+      "messageForm": "Vaša poruka Ovde",
+      "submit": "Podnesi Sada"
+    }
+  },
+  "story": {
+    "title": "Otkrijte svet DURŌ",
+    "nicePerfumery": {
+      "subText": "DURŌ Parfimerija Visokog Kvaliteta",
+      "desc1": "Na DURŌ-u verujemo da je parfem umetnost. Naša priča počela je u Podgorici, Crna Gora, gde je rođena originalna DURŌ koncepcija. Stvorili smo jedinstveno iskustvo za poznavaoce parfema oko Atelier Cologne Rajovića, što je brzo postalo omiljeno mesto za sve ljubitelje parfema u regionu.",
+      "desc2": "Nakon uspješne godine, sanjali smo još veće snove. Željeli smo podijeliti našu strast i znanje s širim auditorijem, zato smo odlučili otvoriti našu luksuznu butik u Beogradu, Srbija. Odgovor je bio impresivan i bili smo oduševljeni vidjevši toliko ljudi koji cijene i uživaju u umjetnosti nišnih parfema.",
+      "desc3": "Ali ne stajemo tu. Neprestano istražujemo i otkrivamo nove umjetničke parfemske kuće, dovodeći najbolje i najtraženije mirise našim kupcima. Naša sljedeća lokacija već je postavljena u Porto Montenegru u Tivtu, gdje s nestrpljenjem želimo predstaviti naše imerzivno iskustvo još više ljubiteljima parfema.",
+      "desc4": "U DURŌ-u, ne prodajemo samo parfeme. Nudimo nezaboravno putovanje u svet mirisa i emocija, gde svaki parfem ima priču da ispriča. Zakoračite u našu riznicu lepote i sofisticiranosti i otkrijte umetnost nise parfimerije, gde najkvalitetniji sastojci i najiskusniji parfimeri stvaraju jedinstvene i nezaboravne mirise.",
+      "perfumes": "Parfemi",
+      "brands": "Brendovi"
+    },
+    "approach": {
+      "subText": "Pristup DURŌ-a",
+      "titleBr": "Kreiranje Personalizovane",
+      "title": "Parfemske Avanture",
+      "desc1": "U DURŌ-u verujemo da parfem predstavlja mnogo više od samo mirisa. To je putovanje koje vas vodi kroz senzorno iskustvo, budeći emocije i uspomene. Zato smo se posvetili kreiranju selekcije najtraženijih umetničkih kuća za parfeme na svetu.",
+      "desc2": "Naša kolekcija parfema pažljivo je odabrana na osnovu kvaliteta sastojaka, zanatske izrade i kreativnosti. Svaki brend ima svoju jedinstvenu priču i posvećeni smo donošenju njihove individualnosti našim klijentima. Konstantno istražujemo nova područja, tražeći nove kuće za proizvodnju parfema koje odražavaju naše vrijednosti ekskluzivnosti i luksuza.",
+      "desc3": "Nudimo uronjivu i edukativnu ​​iskustvo koje prevazilazi tradicionalno iskustvo kupovine. Bez obzira da li ste poznavalac ili početnik, vodićemo vas kroz proces odabira savršenog mirisa za vas. Želimo da podelimo svoje znanje i strast prema parfemima, stvarajući zajednicu ljubitelja parfema koji cene umetnost nish parfimerije. Pridružite nam se na putovanju otkrivanja i pustite da vam pomognemo da pronađete vaš savršeni potpis miris."
+    },
+    "team": {
+      "subText": "Tim",
+      "title": "Naš Vizionarski Tim",
+      "founder": "Osnivač",
+      "coFounder": "Suosnivač",
+      "manager": "Menadžer"
+    }
+  },
+  "news": {
+    "admin": "administracija",
+    "strategy": "Strategija",
+    "desc": "Osudjujemo sa pravednim ogorcenjem i ne volimo ljude koji su tako zavedeni i zaslepljeni čarima trenutnog zadovoljstva, tako zaslepljeni željom da ne mogu predvideti bol i nevolju koja mora da usledi. Ovi slučajevi su potpuno jednostavni i lako ih je razlikovati. U slobodnom satu, kada je naša moć izbora neograničena, strukture podataka upravljaju podacima u tehnologiji.",
+    "quote": "Lako možemo upravljati ako bismo samo preuzeli, svakog dana, teret koji nam je određen. Ali teret će biti pretežak za nas ako ponovo nosimo teret od juče i dodamo teret sutra pre nego što ga treba nositi.",
+    "tips": {
+      "title": "Jednostavni saveti za izgradnju kreditne sposobnosti vašeg biznisa",
+      "tip1": "Kako će digitalne aktivnosti utjecati na tradicionalnu proizvodnju.",
+      "tip2": "Svi ovi digitalni elementi i projekti imaju za cilj unaprijediti.",
+      "tip3": "Iz monitoringu zaposlenih koristim softver koji pravi snimke ekrana.",
+      "tip4": "Laoreet dolore magna niacin sodium glutimate aliquam hendrerit.",
+      "tip5": "Minim veniam quis niacin sodium glutimate nostrud exerci dolor.",
+      "desc1": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "desc2": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+      "tag1": "Kreativni",
+      "tag2" : "Elementor",
+      "tag3" : "Lagan",
+      "tag4" : "Minimalno"
+    },
+    "comments": {
+      "title": "3 komentara na “ICC Wales izveštava o rekordnoj letnjoj sezoni",
+      "reply": "Odgovor",
+      "leaveReply": "Ostavite Odgovor",
+      "note": "Vaša email adresa neće biti objavljena. Obavezna polja su označena sa *",
+      "comment1" : {
+        "title": "Rswpdemo",
+        "desc": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet"
+      },
+      "comment2" : {
+        "title": "Rswpdemo",
+        "desc": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet"
+      },
+      "comment3" : {
+        "title": "Rswpdemo",
+        "desc": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet"
+      }
+    }
+  },
+  "privacy": {
+    "title": "Politika Privatnosti",
+    "terms": {
+      "title": "Uslovi Korišćenja",
+      "list": {
+        "main": "Dobrodošli na DURŌ veb sajt. Pristupanjem ili korišćenjem našeg sajta, slažete se da ste vezani sledećim uslovima i odredbama:",
+        "li1": "Sav sadržaj na ovom veb-sajtu je vlasništvo kompanije DURŌ i ne sme se reprodukovati, kopirati ili koristiti bez našeg izričitog pisanog pristanka.",
+        "li2": "Zadržavamo pravo da izmenimo ili obustavimo bilo koji deo našeg veb-sajta bez prethodnog obaveštenja.",
+        "li3": "Nismo odgovorni za bilo kakve greške, propuste ili netočnosti u sadržaju naše web stranice.",
+        "li4": "Slažete se da će te našu web stranicu koristiti samo u zakonite svrhe."
+      }
+    },
+    "policy": {
+      "privacyPolicy": {
+        "title": "Politika privatnosti",
+        "li1": "U DURŌ-u poštujemo Vašu privatnost i posvećeni smo zaštiti Vaših ličnih informacija. Sve lične informacije koje nam pružite, uključujući Vaše ime, adresu, telefonski broj i email adresu, biće obrađene sa najvećom pažnjom i povjerljivošću. Nikada nećemo prodati ili otkriti Vaše lične informacije trećoj strani, osim ako smo zakonski obavezani da to učinimo.",
+        "contact": "Ako imate bilo kakvih pitanja ili briga u vezi s obradom vaših osobnih podataka, kontaktirajte nas na"
+      },
+      "cookiePolicy": {
+        "title": "Politika kolača",
+        "contact": "Ako imate bilo kakvih pitanja u vezi naše Politike kolačića ili načina na koji rukujemo vašim ličnim informacijama, molimo kontaktirajte nas na",
+        "p1": "Naša veb stranica koristi kolačiće (eng. cookies) kako bi poboljšala vaše iskustvo pregledanja naše veb stranice. Kolačić je mali tekstualni fajl koji se skladišti na vašem računaru ili mobilnom uređaju kada posetite našu veb stranicu. Kolačići nam omogućavaju praćenje vaše aktivnosti pregledanja naše veb stranice, što nam pomaže da poboljšamo korisničko iskustvo i pružimo personalizovani sadržaj.",
+        "p2": "Koristimo i sesijske kolačiće koji ističu kada zatvorite pregledač, i trajne kolačiće koji ostaju na uređaju dok ne isteknu ili ih ne izbrišete.",
+        "p3": {
+          "main": "Korišćenjem našeg veb sajta, slažete se sa korišćenjem kolačića:",
+          "li1": "Da bismo zapamtili vaše postavke i podešavanja.",
+          "li2": "Za merenje i analizu saobraćaja na našem veb sajtu.",
+          "li3": "Da personalizujemo vaše iskustvo na našoj veb stranici."
+        }
+      }
+    }
+  }
+}
