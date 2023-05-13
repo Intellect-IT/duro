@@ -17,7 +17,7 @@ export default function Brands({ setHeader }) {
 		window.addEventListener("scroll", handleScroll);
 
 		return () => window.removeEventListener("scroll", handleScroll);
-	}, []);
+	}, [setHeader]);
 
 	return (
 		<>
@@ -55,7 +55,7 @@ export default function Brands({ setHeader }) {
 										<div className="logo-img">
 											<a
 												title="Marc-Antoine Barrois"
-												href="#"
+												href="#!"
 											>
 												<img
 													src="./assets/images/event/brands/001_marc-antoine_barrois.png"
@@ -71,7 +71,7 @@ export default function Brands({ setHeader }) {
 								<div className="logo-item">
 									<div className="grid-figure">
 										<div title="Jovoy" className="logo-img">
-											<a href="#">
+											<a href="#!">
 												<img
 													src="./assets/images/event/brands/002_jovoy.png"
 													alt="Jovoy"
@@ -89,7 +89,7 @@ export default function Brands({ setHeader }) {
 											title="Jeroboam"
 											className="logo-img"
 										>
-											<a href="#">
+											<a href="#!">
 												<img
 													src="./assets/images/event/brands/003_jeroboam.png"
 													alt="Jeroboam"
@@ -104,7 +104,7 @@ export default function Brands({ setHeader }) {
 								<div className="logo-item">
 									<div className="grid-figure">
 										<div title="Morph" className="logo-img">
-											<a href="#">
+											<a href="#!">
 												<img
 													src="./assets/images/event/brands/004_morph.png"
 													alt="Morph"
@@ -119,7 +119,7 @@ export default function Brands({ setHeader }) {
 								<div className="logo-item">
 									<div className="grid-figure">
 										<div title="MDCI" className="logo-img">
-											<a href="#">
+											<a href="#!">
 												<img
 													src="./assets/images/event/brands/005_mdci.png"
 													alt="MDCI"
@@ -137,7 +137,7 @@ export default function Brands({ setHeader }) {
 											title="Puredistance"
 											className="logo-img"
 										>
-											<a href="#">
+											<a href="#!">
 												<img
 													src="./assets/images/event/brands/006_puredistance.png"
 													alt="Puredistance"
@@ -152,7 +152,7 @@ export default function Brands({ setHeader }) {
 								<div className="logo-item">
 									<div className="grid-figure">
 										<div title="HDP" className="logo-img">
-											<a href="#">
+											<a href="#!">
 												<img
 													src="./assets/images/event/brands/007_hdp.png"
 													title="HDP"
@@ -167,7 +167,7 @@ export default function Brands({ setHeader }) {
 								<div className="logo-item">
 									<div className="grid-figure">
 										<div title="Calaj" className="logo-img">
-											<a href="#">
+											<a href="#!">
 												<img
 													src="./assets/images/event/brands/008_calaj.png"
 													title="Calaj"
@@ -185,7 +185,7 @@ export default function Brands({ setHeader }) {
 											title="Indult"
 											className="logo-img"
 										>
-											<a href="#">
+											<a href="#!">
 												<img
 													src="./assets/images/event/brands/009_indult.png"
 													title="Indult"
@@ -203,7 +203,7 @@ export default function Brands({ setHeader }) {
 											title="Thameen"
 											className="logo-img"
 										>
-											<a href="#">
+											<a href="#!">
 												<img
 													src="./assets/images/event/brands/010_thameen.png"
 													alt="Thameen"
@@ -221,7 +221,7 @@ export default function Brands({ setHeader }) {
 											title="Theodoros Kalotinis"
 											className="logo-img"
 										>
-											<a href="#">
+											<a href="#!">
 												<img
 													src="./assets/images/event/brands/011_theodoros.png"
 													title="Theodoros Kalotinis"
@@ -239,7 +239,7 @@ export default function Brands({ setHeader }) {
 											title="Fragrance du Bois"
 											className="logo-img"
 										>
-											<a href="#">
+											<a href="#!">
 												<img
 													src="./assets/images/event/brands/012_fdb.png"
 													title="Fragrance du Bois"
@@ -254,7 +254,7 @@ export default function Brands({ setHeader }) {
 								<div className="logo-item">
 									<div className="grid-figure">
 										<div className="Ormonde Jayne">
-											<a href="#">
+											<a href="#!">
 												<img
 													src="./assets/images/event/brands/013_ormonde.png"
 													title="Ormonde Jayne"
@@ -272,7 +272,7 @@ export default function Brands({ setHeader }) {
 											title="Paradis des Sens"
 											className="logo-img"
 										>
-											<a href="#">
+											<a href="#!">
 												<img
 													src="./assets/images/event/brands/014_paradis.png"
 													title="Paradis des Sens"
@@ -290,7 +290,7 @@ export default function Brands({ setHeader }) {
 											title="Wesker"
 											className="logo-img"
 										>
-											<a href="#">
+											<a href="#!">
 												<img
 													src="./assets/images/event/brands/015_wesker.png"
 													title="Wesker"
@@ -308,7 +308,7 @@ export default function Brands({ setHeader }) {
 											title="Anima Mundi"
 											className="logo-img"
 										>
-											<a href="#">
+											<a href="#!">
 												<img
 													src="./assets/images/event/brands/016_anima_mundi.png"
 													title="Anima Mundi"
@@ -326,7 +326,7 @@ export default function Brands({ setHeader }) {
 											title="Electimuss"
 											className="logo-img"
 										>
-											<a href="#">
+											<a href="#!">
 												<img
 													src="./assets/images/event/brands/017_electimuss.png"
 													title="Electimuss"
@@ -344,7 +344,7 @@ export default function Brands({ setHeader }) {
 											title="Acque di Italia"
 											className="logo-img"
 										>
-											<a href="#">
+											<a href="#!">
 												<img
 													src="./assets/images/event/brands/018_aque_di_italia.png"
 													title="Acque di Italia"
@@ -362,7 +362,7 @@ export default function Brands({ setHeader }) {
 											title="Portus Cale"
 											className="logo-img"
 										>
-											<a href="#">
+											<a href="#!">
 												<img
 													src="./assets/images/event/brands/019_portus_cale.png"
 													title="Portus Cale"
@@ -380,7 +380,7 @@ export default function Brands({ setHeader }) {
 											title="Veronique Gabai"
 											className="logo-img"
 										>
-											<a href="#">
+											<a href="#!">
 												<img
 													src="./assets/images/event/brands/020_veronique_gabai.png"
 													title="Veronique Gabai"
@@ -398,7 +398,7 @@ export default function Brands({ setHeader }) {
 											title="Onyrico"
 											className="logo-img"
 										>
-											<a href="#">
+											<a href="#!">
 												<img
 													src="./assets/images/event/brands/021_onyrico.png"
 													title="Onyrico"
@@ -416,7 +416,7 @@ export default function Brands({ setHeader }) {
 											title="Affinessence"
 											className="logo-img"
 										>
-											<a href="#">
+											<a href="#!">
 												<img
 													src="./assets/images/event/brands/022_affinessence.png"
 													title="Affinessence"
@@ -434,7 +434,7 @@ export default function Brands({ setHeader }) {
 											title="Castelbel"
 											className="logo-img"
 										>
-											<a href="#">
+											<a href="#!">
 												<img
 													src="./assets/images/event/brands/023_castelbel.png"
 													title="Castelbel"
@@ -452,7 +452,7 @@ export default function Brands({ setHeader }) {
 											title="Liquides Imaginaries"
 											className="logo-img"
 										>
-											<a href="#">
+											<a href="#!">
 												<img
 													src="./assets/images/event/brands/024_liquides_imaginaries.png"
 													title="Liquides Imaginaries"

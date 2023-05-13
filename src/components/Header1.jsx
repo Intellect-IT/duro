@@ -127,7 +127,7 @@ export default function Header1() {
                         <a
                           id="nav-expander"
                           className="nav-expander bar"
-                          href="#"
+                          href="#!"
                           onClick={handleMobileMenu}
                         >
                           <div className="bar">
@@ -160,6 +160,7 @@ export default function Header1() {
               <a
                 id="nav-close2"
                 className="nav-close"
+                href="#!"
                 onClick={handleMobileMenu}
               >
                 <div className="line">
