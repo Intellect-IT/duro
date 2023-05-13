@@ -17,7 +17,7 @@ export default function News({ setHeader }) {
 		window.addEventListener("scroll", handleScroll);
 
 		return () => window.removeEventListener("scroll", handleScroll);
-	}, []);
+	}, [setHeader]);
 
 	return (
 		<>
@@ -48,7 +48,7 @@ export default function News({ setHeader }) {
 									<div className="col-lg-12 md-mb-50">
 										<div className="blog-details">
 											<div className="bs-img mb-35">
-												<a href="#">
+												<a href="#!">
 													<img
 														src="./assets/images/blog/4.jpg"
 														alt=""
@@ -73,7 +73,7 @@ export default function News({ setHeader }) {
 													<li className="Post-cate">
 														<div className="tag-line">
 															<i className="fa fa-book"></i>
-															<a href="#">
+															<a href="#!">
 															{t("news.strategy")}
 															</a>
 														</div>
@@ -120,7 +120,7 @@ export default function News({ setHeader }) {
 												{t("news.tips.desc1")}
 												</p>
 												<div className="bs-img mb-30">
-													<a href="#">
+													<a href="#!">
 														<img
 															src="./assets/images/blog/1.jpg"
 															alt=""
@@ -133,10 +133,10 @@ export default function News({ setHeader }) {
 
 												<div className="tag-info">
 													Tags:
-													<a href="#">{t("news.tips.tag1")}</a>
-													<a href="#">{t("news.tips.tag2")}</a>
-													<a href="#">{t("news.tips.tag3")}</a>
-													<a href="#">{t("news.tips.tag4")}</a>
+													<a href="#!">{t("news.tips.tag1")}</a>
+													<a href="#!">{t("news.tips.tag2")}</a>
+													<a href="#!">{t("news.tips.tag3")}</a>
+													<a href="#!">{t("news.tips.tag4")}</a>
 												</div>
 												<h3 className="comment-title">
 												{t("news.comments.title")}
@@ -149,11 +149,11 @@ export default function News({ setHeader }) {
 														/>
 													</div>
 													<div className="comment-text">
-														<a href="#">{t("news.comments.comment1.title")}</a>
+														<a href="#!">{t("news.comments.comment1.title")}</a>
 														<br />
 														<a
 															className="timedate"
-															href="#"
+															href="#!"
 														>
 															<time dateTime="2021-05-26T08:43:43+00:00">
 																May 26, 2021 at
@@ -164,7 +164,7 @@ export default function News({ setHeader }) {
 														{t("news.comments.comment1.desc")}
 														</p>
 														<div className="reply-btn">
-															<a href="#">
+															<a href="#!">
 															{t("news.comments.reply")}
 															</a>
 														</div>
@@ -178,11 +178,11 @@ export default function News({ setHeader }) {
 														/>
 													</div>
 													<div className="comment-text">
-														<a href="#">{t("news.comments.comment2.title")}</a>
+														<a href="#!">{t("news.comments.comment2.title")}</a>
 														<br />
 														<a
 															className="timedate"
-															href="#"
+															href="#!"
 														>
 															<time dateTime="2021-05-26T08:43:43+00:00">
 																May 26, 2021 at
@@ -193,7 +193,7 @@ export default function News({ setHeader }) {
 														{t("news.comments.comment2.desc")}
 														</p>
 														<div className="reply-btn">
-															<a href="#">
+															<a href="#!">
 															{t("news.comments.reply")}
 															</a>
 														</div>
@@ -207,11 +207,11 @@ export default function News({ setHeader }) {
 														/>
 													</div>
 													<div className="comment-text">
-														<a href="#">{t("news.comments.comment3.title")}</a>
+														<a href="#!">{t("news.comments.comment3.title")}</a>
 														<br />
 														<a
 															className="timedate"
-															href="#"
+															href="#!"
 														>
 															<time dateTime="2021-05-26T08:43:43+00:00">
 																May 26, 2021 at
@@ -222,7 +222,7 @@ export default function News({ setHeader }) {
 														{t("news.comments.comment3.title")}
 														</p>
 														<div className="reply-btn">
-															<a href="#">
+															<a href="#!">
 															{t("news.comments.reply")}
 															</a>
 														</div>
@@ -307,7 +307,7 @@ export default function News({ setHeader }) {
 										</div>
 										<div className="recent-post-widget no-border">
 											<div className="post-img">
-												<a href="#">
+												<a href="#!">
 													<img
 														src="./assets/images/blog/1.jpg"
 														alt=""
@@ -315,7 +315,7 @@ export default function News({ setHeader }) {
 												</a>
 											</div>
 											<div className="post-desc">
-												<a href="#">
+												<a href="#!">
 												{t("home.news.news1.title")}
 												</a>
 												<span className="date-post">
@@ -327,7 +327,7 @@ export default function News({ setHeader }) {
 										</div>
 										<div className="recent-post-widget">
 											<div className="post-img">
-												<a href="#">
+												<a href="#!">
 													<img
 														src="./assets/images/blog/2.jpg"
 														alt=""
@@ -335,7 +335,7 @@ export default function News({ setHeader }) {
 												</a>
 											</div>
 											<div className="post-desc">
-												<a href="#">
+												<a href="#!">
 													{" "}
 													{t("home.news.news2.title")}
 												</a>
@@ -348,7 +348,7 @@ export default function News({ setHeader }) {
 										</div>
 										<div className="recent-post-widget">
 											<div className="post-img">
-												<a href="#">
+												<a href="#!">
 													<img
 														src="./assets/images/blog/3.jpg"
 														alt=""
@@ -356,7 +356,7 @@ export default function News({ setHeader }) {
 												</a>
 											</div>
 											<div className="post-desc">
-												<a href="#">
+												<a href="#!">
 												{t("home.news.news3.title")}
 												</a>
 												<span className="date-post">
@@ -372,10 +372,10 @@ export default function News({ setHeader }) {
                                         <h3 className="title">Categories</h3>
                                     </div>
                                     <ul>
-                                        <li><a href="#">Branding</a></li>
-                                        <li><a href="#">Digital Marketing</a></li>
-                                        <li><a href="#">E-commerce</a></li>
-                                        <li><a href="#">Graphic Design</a></li>
+                                        <li><a href="#!">Branding</a></li>
+                                        <li><a href="#!">Digital Marketing</a></li>
+                                        <li><a href="#!">E-commerce</a></li>
+                                        <li><a href="#!">Graphic Design</a></li>
                                     </ul>
                                 </div>--> */}
 									<div className="follow-us">

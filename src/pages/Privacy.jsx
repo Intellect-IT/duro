@@ -17,7 +17,7 @@ export default function Privacy({ setHeader }) {
 		window.addEventListener("scroll", handleScroll);
 
 		return () => window.removeEventListener("scroll", handleScroll);
-	}, []);
+	}, [setHeader]);
 
 	return (
 		<>

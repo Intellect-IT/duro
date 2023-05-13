@@ -19,7 +19,7 @@ export default function Story({ setHeader }) {
 		window.addEventListener("scroll", handleScroll);
 
 		return () => window.removeEventListener("scroll", handleScroll);
-	}, []);
+	}, [setHeader]);
 
     useEffect(() => {
 		$(".popup-videos, .popup-border").magnificPopup({
@@ -208,7 +208,7 @@ export default function Story({ setHeader }) {
 								<div className="team-item">
 									<div className="team-inner-wrap">
 										<div className="images-wrap">
-											<a href="#">
+											<a href="#!">
 												<img
 													src="./assets/images/about/team-1.jpg"
 													alt="Miloš R."
@@ -221,7 +221,7 @@ export default function Story({ setHeader }) {
 												<div className="point"></div>
 											</div>
 											<h3 className="title-name">
-												<a href="#">Miloš R.</a>
+												<a href="#!">Miloš R.</a>
 											</h3>
 											<div className="team-title">
 											{t("story.team.founder")}
@@ -238,7 +238,7 @@ export default function Story({ setHeader }) {
 													</a>
 												</li>
 												<li>
-													<a href="#">
+													<a href="#!">
 														<i className="fa fa-linkedin"></i>
 													</a>
 												</li>
@@ -251,7 +251,7 @@ export default function Story({ setHeader }) {
 								<div className="team-item">
 									<div className="team-inner-wrap">
 										<div className="images-wrap">
-											<a href="#">
+											<a href="#!">
 												<img
 													src="./assets/images/about/team-2.jpg"
 													alt="Anastasija K."
@@ -264,7 +264,7 @@ export default function Story({ setHeader }) {
 												<div className="point"></div>
 											</div>
 											<h3 className="title-name">
-												<a href="#">Anastasija K.</a>
+												<a href="#!">Anastasija K.</a>
 											</h3>
 											<div className="team-title">
 											{t("story.team.coFounder")}
@@ -281,7 +281,7 @@ export default function Story({ setHeader }) {
 													</a>
 												</li>
 												<li>
-													<a href="#">
+													<a href="#!">
 														<i className="fa fa-linkedin"></i>
 													</a>
 												</li>
@@ -294,7 +294,7 @@ export default function Story({ setHeader }) {
 								<div className="team-item">
 									<div className="team-inner-wrap">
 										<div className="images-wrap">
-											<a href="#">
+											<a href="#!">
 												<img
 													src="./assets/images/about/team-3.jpg"
 													alt="Lav Š."
@@ -307,7 +307,7 @@ export default function Story({ setHeader }) {
 												<div className="point"></div>
 											</div>
 											<h3 className="title-name">
-												<a href="#">Lav Š.</a>
+												<a href="#!">Lav Š.</a>
 											</h3>
 											<div className="team-title">
 											{t("story.team.manager")}

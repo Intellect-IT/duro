@@ -158,7 +158,7 @@ export default function Header2({ header }) {
                         <a
                           id="nav-expander"
                           className="nav-expander bar"
-                          href="#"
+                          href="#!"
                           onClick={handleMobileMenu}
                         >
                           <div className="bar">
@@ -191,6 +191,7 @@ export default function Header2({ header }) {
               <a
                 id="nav-close2"
                 className="nav-close"
+                href="#!"
                 onClick={handleMobileMenu}
               >
                 <div className="line">

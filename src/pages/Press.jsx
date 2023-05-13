@@ -17,7 +17,7 @@ export default function Press({ setHeader }) {
 		window.addEventListener("scroll", handleScroll);
 
 		return () => window.removeEventListener("scroll", handleScroll);
-	}, []);
+	}, [setHeader]);
 
 	return (
 		<>
@@ -48,7 +48,7 @@ export default function Press({ setHeader }) {
 									<div className="col-lg-12 mb-50">
 										<div className="blog-item">
 											<div className="blog-img">
-												<a href="#">
+												<a href="#!">
 													<img
 														src="./assets/images/blog/4.jpg"
 														alt=""
@@ -62,7 +62,7 @@ export default function Press({ setHeader }) {
 											</div>
 											<div className="blog-content">
 												<h3 className="blog-title">
-													<a href="#">
+													<a href="/news">
 													{t("home.news.news1.title")}
 													</a>
 												</h3>
@@ -86,7 +86,7 @@ export default function Press({ setHeader }) {
 												{t("home.news.news1.desc")}
 												</div>
 												<div className="blog-button">
-													<a href="#">
+													<a href="/news">
 														<span className="btn-txt">
 															{t("home.read")}
 														</span>
@@ -99,7 +99,7 @@ export default function Press({ setHeader }) {
 									<div className="col-lg-12 mb-50">
 										<div className="blog-item">
 											<div className="blog-img">
-												<a href="#">
+												<a href="#!">
 													<img
 														src="./assets/images/blog/2.jpg"
 														alt=""
@@ -113,7 +113,7 @@ export default function Press({ setHeader }) {
 											</div>
 											<div className="blog-content">
 												<h3 className="blog-title">
-													<a href="#">
+													<a href="/news">
 													{t("home.news.news2.title")}
 													</a>
 												</h3>
@@ -137,7 +137,7 @@ export default function Press({ setHeader }) {
 												{t("home.news.news2.desc")}
 												</div>
 												<div className="blog-button">
-													<a href="#">
+													<a href="/news">
 														<span className="btn-txt">
 															{t("home.read")}
 														</span>
@@ -150,7 +150,7 @@ export default function Press({ setHeader }) {
 									<div className="col-lg-12 mb-50">
 										<div className="blog-item">
 											<div className="blog-img">
-												<a href="#">
+												<a href="#!">
 													<img
 														src="./assets/images/blog/3.jpg"
 														alt=""
@@ -164,7 +164,7 @@ export default function Press({ setHeader }) {
 											</div>
 											<div className="blog-content">
 												<h3 className="blog-title">
-													<a href="#">
+													<a href="/news">
 													{t("home.news.news3.title")}
 													</a>
 												</h3>
@@ -188,7 +188,7 @@ export default function Press({ setHeader }) {
 												{t("home.news.news3.desc")}
 												</div>
 												<div className="blog-button">
-													<a href="#">
+													<a href="/news">
 														<span className="btn-txt">
 															{t("home.read")}
 														</span>
@@ -201,7 +201,7 @@ export default function Press({ setHeader }) {
 									<div className="col-lg-12 mb-50">
 										<div className="blog-item">
 											<div className="blog-img">
-												<a href="#">
+												<a href="#!">
 													<img
 														src="./assets/images/blog/1.jpg"
 														alt=""
@@ -217,7 +217,7 @@ export default function Press({ setHeader }) {
 											</div>
 											<div className="blog-content">
 												<h3 className="blog-title">
-													<a href="#">
+													<a href="/news">
 													{t("home.news.news4.title")}
 													</a>
 												</h3>
@@ -241,7 +241,7 @@ export default function Press({ setHeader }) {
 												{t("home.news.news4.desc")}
 												</div>
 												<div className="blog-button">
-													<a href="#">
+													<a href="/news">
 														<span className="btn-txt">
 															{t("home.read")}
 														</span>
@@ -269,7 +269,7 @@ export default function Press({ setHeader }) {
 										</div>
 										<div className="recent-post-widget no-border">
 											<div className="post-img">
-												<a href="#">
+												<a href="#!">
 													<img
 														src="./assets/images/blog/1.jpg"
 														alt=""
@@ -277,7 +277,7 @@ export default function Press({ setHeader }) {
 												</a>
 											</div>
 											<div className="post-desc">
-												<a href="#">
+												<a href="/news">
 												{t("home.news.news4.title")}
 												</a>
 												<span className="date-post">
@@ -289,7 +289,7 @@ export default function Press({ setHeader }) {
 										</div>
 										<div className="recent-post-widget">
 											<div className="post-img">
-												<a href="#">
+												<a href="#!">
 													<img
 														src="./assets/images/blog/2.jpg"
 														alt=""
@@ -297,7 +297,7 @@ export default function Press({ setHeader }) {
 												</a>
 											</div>
 											<div className="post-desc">
-												<a href="#">
+												<a href="/news">
 													{" "}
 													{t("home.news.news2.title")}
 												</a>
@@ -310,7 +310,7 @@ export default function Press({ setHeader }) {
 										</div>
 										<div className="recent-post-widget">
 											<div className="post-img">
-												<a href="#">
+												<a href="#!">
 													<img
 														src="./assets/images/blog/3.jpg"
 														alt=""
@@ -318,7 +318,7 @@ export default function Press({ setHeader }) {
 												</a>
 											</div>
 											<div className="post-desc">
-												<a href="#">
+												<a href="/news">
 												{t("home.news.news3.title")}
 												</a>
 												<span className="date-post">
@@ -334,10 +334,10 @@ export default function Press({ setHeader }) {
                                         <h3 className="title">Categories</h3>
                                     </div>
                                     <ul>
-                                        <li><a href="#">Branding</a></li>
-                                        <li><a href="#">Digital Marketing</a></li>
-                                        <li><a href="#">E-commerce</a></li>
-                                        <li><a href="#">Graphic Design</a></li>
+                                        <li><a href="#!">Branding</a></li>
+                                        <li><a href="#!">Digital Marketing</a></li>
+                                        <li><a href="#!">E-commerce</a></li>
+                                        <li><a href="#!">Graphic Design</a></li>
                                     </ul>
                                 </div>--> */}
 									<div className="follow-us">
