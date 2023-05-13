@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import Loader from "../components/Loader";
 import { useTranslation } from "react-i18next";
 
@@ -17,7 +17,7 @@ export default function Contact({ setHeader }) {
 		window.addEventListener("scroll", handleScroll);
 
 		return () => window.removeEventListener("scroll", handleScroll);
-	}, []);
+	}, [setHeader]);
 
 	return (
 		<>
@@ -50,7 +50,7 @@ export default function Contact({ setHeader }) {
 							<div className="row y-middle">
 								<div className="col-lg-6 pr-40 md-pr-15 md-mb-50">
 									<div className="contact-map">
-										<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11323.815743977078!2d20.4463451!3d44.8021274!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a71158f3b75d9%3A0x3cdfdea1cf3307be!2sDUR%C5%8C%20%7C%20Niche%20perfumery!5e0!3m2!1sen!2srs!4v1681389080409!5m2!1sen!2srs"></iframe>
+										<iframe title="Location" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11323.815743977078!2d20.4463451!3d44.8021274!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a71158f3b75d9%3A0x3cdfdea1cf3307be!2sDUR%C5%8C%20%7C%20Niche%20perfumery!5e0!3m2!1sen!2srs!4v1681389080409!5m2!1sen!2srs"></iframe>
 									</div>
 								</div>
 								<div className="col-lg-6">

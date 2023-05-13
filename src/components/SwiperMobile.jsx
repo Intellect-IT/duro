@@ -14,6 +14,7 @@ const SwiperMobile = () => {
 		$(".popup-videos, .popup-border").magnificPopup({
 			disableOn: 10,
 			type: "iframe",
+			title: "popup",
 			mainClass: "mfp-fade",
 			removalDelay: 160,
 			preloader: false,

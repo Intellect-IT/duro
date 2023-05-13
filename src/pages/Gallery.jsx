@@ -18,7 +18,7 @@ export default function Gallery({ setHeader }) {
 		window.addEventListener("scroll", handleScroll);
 
 		return () => window.removeEventListener("scroll", handleScroll);
-	}, []);
+	}, [setHeader]);
 
 	useEffect(() => {
 		$(".image-popup").magnificPopup({
