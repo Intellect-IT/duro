@@ -11,6 +11,7 @@ import Contact from "./pages/Contact";
 import Gallery from "./pages/Gallery";
 import News from "./pages/News";
 import Privacy from "./pages/Privacy";
+import Brand from "./pages/Brand";
 
 import GoToTop from "./components/GoToTop";
 
@@ -18,8 +19,8 @@ function App() {
   const [header, setHeader] = useState(false);
   const location = useLocation();
   const changeNavbar = location.pathname === "/";
-
-
+  
+  
   return (
     <Suspense fallback="Loading...">
       <div>
@@ -35,7 +36,9 @@ function App() {
           <Route path="/press" element={<Press setHeader={setHeader} />} />
           <Route path="/contact" element={<Contact setHeader={setHeader} />} />
           <Route path="/gallery" element={<Gallery setHeader={setHeader} />} />
-          <Route path="/news" element={<News setHeader={setHeader}/>} />
+          {/* <Route path="/news" element={<News setHeader={setHeader}/>} /> */}
+          <Route path="/news/:id" element={<News setHeader={setHeader}/>} />
+          <Route path="/brands/:id" element={<Brand setHeader={setHeader}/>} />
           <Route path="/privacy" element={<Privacy setHeader={setHeader} />} />
         </Routes>
         {changeNavbar ? null : <GoToTop />}

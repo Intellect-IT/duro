@@ -332,7 +332,7 @@ const SwiperMobile = () => {
 											<div className="logo-img">
 												<a
 													title="Marc-Antoine Barrois"
-													href="#!"
+													href="/brands/marc-antoine_barrois"
 												>
 													<img
 														src="./assets/images/event/brands/001_marc-antoine_barrois.png"
@@ -351,7 +351,7 @@ const SwiperMobile = () => {
 												title="Jovoy"
 												className="logo-img"
 											>
-												<a href="#!">
+												<a href="/brands/jovoy">
 													<img
 														src="./assets/images/event/brands/002_jovoy.png"
 														alt="Jovoy"
@@ -369,7 +369,7 @@ const SwiperMobile = () => {
 												title="Jeroboam"
 												className="logo-img"
 											>
-												<a href="#!">
+												<a href="/brands/jeroboam">
 													<img
 														src="./assets/images/event/brands/003_jeroboam.png"
 														alt="Jeroboam"
@@ -387,7 +387,7 @@ const SwiperMobile = () => {
 												title="Morph"
 												className="logo-img"
 											>
-												<a href="#!">
+												<a href="/brands/morph">
 													<img
 														src="./assets/images/event/brands/004_morph.png"
 														alt="Morph"
@@ -405,7 +405,7 @@ const SwiperMobile = () => {
 												title="MDCI"
 												className="logo-img"
 											>
-												<a href="#!">
+												<a href="/brands/mdci">
 													<img
 														src="./assets/images/event/brands/005_mdci.png"
 														alt="MDCI"
@@ -423,7 +423,7 @@ const SwiperMobile = () => {
 												title="Puredistance"
 												className="logo-img"
 											>
-												<a href="#!">
+												<a href="/brands/puredistance">
 													<img
 														src="./assets/images/event/brands/006_puredistance.png"
 														alt="Puredistance"
@@ -441,7 +441,7 @@ const SwiperMobile = () => {
 												title="HDP"
 												className="logo-img"
 											>
-												<a href="#!">
+												<a href="/brands/hdp">
 													<img
 														src="./assets/images/event/brands/007_hdp.png"
 														title="HDP"
@@ -459,7 +459,7 @@ const SwiperMobile = () => {
 												title="Calaj"
 												className="logo-img"
 											>
-												<a href="#!">
+												<a href="/brands/calaj">
 													<img
 														src="./assets/images/event/brands/008_calaj.png"
 														title="Calaj"
@@ -477,7 +477,7 @@ const SwiperMobile = () => {
 												title="Indult"
 												className="logo-img"
 											>
-												<a href="#!">
+												<a href="/brands/indult">
 													<img
 														src="./assets/images/event/brands/009_indult.png"
 														title="Indult"
@@ -495,7 +495,7 @@ const SwiperMobile = () => {
 												title="Thameen"
 												className="logo-img"
 											>
-												<a href="#!">
+												<a href="/brands/thameen">
 													<img
 														src="./assets/images/event/brands/010_thameen.png"
 														alt="Thameen"
@@ -513,7 +513,7 @@ const SwiperMobile = () => {
 												title="Theodoros Kalotinis"
 												className="logo-img"
 											>
-												<a href="#!">
+												<a href="/brands/theodoros-kalotinis">
 													<img
 														src="./assets/images/event/brands/011_theodoros.png"
 														title="Theodoros Kalotinis"
@@ -531,7 +531,7 @@ const SwiperMobile = () => {
 												title="Fragrance du Bois"
 												className="logo-img"
 											>
-												<a href="#!">
+												<a href="/brands/fdb">
 													<img
 														src="./assets/images/event/brands/012_fdb.png"
 														title="Fragrance du Bois"
@@ -546,7 +546,7 @@ const SwiperMobile = () => {
 									<div className="logo-item">
 										<div className="grid-figure">
 											<div className="Ormonde Jayne">
-												<a href="#!">
+											<a href="/brands/ormonde-jayne">
 													<img
 														src="./assets/images/event/brands/013_ormonde.png"
 														title="Ormonde Jayne"
@@ -564,7 +564,7 @@ const SwiperMobile = () => {
 												title="Paradis des Sens"
 												className="logo-img"
 											>
-												<a href="#!">
+												<a href="/brands/paradis">
 													<img
 														src="./assets/images/event/brands/014_paradis.png"
 														title="Paradis des Sens"
@@ -582,7 +582,7 @@ const SwiperMobile = () => {
 												title="Wesker"
 												className="logo-img"
 											>
-												<a href="#!">
+												<a href="/brands/wesker">
 													<img
 														src="./assets/images/event/brands/015_wesker.png"
 														title="Wesker"
@@ -600,7 +600,7 @@ const SwiperMobile = () => {
 												title="Anima Mundi"
 												className="logo-img"
 											>
-												<a href="#!">
+												<a href="/brands/anima-mundi">
 													<img
 														src="./assets/images/event/brands/016_anima_mundi.png"
 														title="Anima Mundi"
@@ -618,7 +618,7 @@ const SwiperMobile = () => {
 												title="Electimuss"
 												className="logo-img"
 											>
-												<a href="#!">
+												<a href="/brands/electimuss">
 													<img
 														src="./assets/images/event/brands/017_electimuss.png"
 														title="Electimuss"
@@ -636,7 +636,7 @@ const SwiperMobile = () => {
 												title="Acque di Italia"
 												className="logo-img"
 											>
-												<a href="#!">
+												<a href="/brands/acque-di-italia">
 													<img
 														src="./assets/images/event/brands/018_aque_di_italia.png"
 														title="Acque di Italia"
@@ -654,7 +654,7 @@ const SwiperMobile = () => {
 												title="Portus Cale"
 												className="logo-img"
 											>
-												<a href="#!">
+												<a href="/brands/portus-cale">
 													<img
 														src="./assets/images/event/brands/019_portus_cale.png"
 														title="Portus Cale"
@@ -672,7 +672,7 @@ const SwiperMobile = () => {
 												title="Veronique Gabai"
 												className="logo-img"
 											>
-												<a href="#!">
+												<a href="/brands/veronique-gabai">
 													<img
 														src="./assets/images/event/brands/020_veronique_gabai.png"
 														title="Veronique Gabai"
@@ -690,7 +690,7 @@ const SwiperMobile = () => {
 												title="Onyrico"
 												className="logo-img"
 											>
-												<a href="#!">
+												<a href="/brands/onyrico">
 													<img
 														src="./assets/images/event/brands/021_onyrico.png"
 														title="Onyrico"
@@ -708,7 +708,7 @@ const SwiperMobile = () => {
 												title="Affinessence"
 												className="logo-img"
 											>
-												<a href="#!">
+												<a href="/brands/affinessence">
 													<img
 														src="./assets/images/event/brands/022_affinessence.png"
 														title="Affinessence"
@@ -726,7 +726,7 @@ const SwiperMobile = () => {
 												title="Castelbel"
 												className="logo-img"
 											>
-												<a href="#!">
+												<a href="/brands/castelbel">
 													<img
 														src="./assets/images/event/brands/023_castelbel.png"
 														title="Castelbel"
@@ -744,7 +744,7 @@ const SwiperMobile = () => {
 												title="Liquides Imaginaries"
 												className="logo-img"
 											>
-												<a href="#!">
+												<a href="/brands/liquides-imaginaries">
 													<img
 														src="./assets/images/event/brands/024_liquides_imaginaries.png"
 														title="Liquides Imaginaries"
@@ -818,7 +818,7 @@ const SwiperMobile = () => {
 							>
 								<div className="blog-item">
 									<div className="image-wrap">
-										<a href="#!">
+										<a href="/news/opening-hours-easter-holiday-2023">
 											<img
 												src="./assets/images/blog/4.jpg"
 												alt="Blog"
@@ -836,7 +836,7 @@ const SwiperMobile = () => {
 												Lav Š.
 											</li>
 											<li className="cat-list">
-												<a href="/news">
+												<a href="/news/opening-hours-easter-holiday-2023">
 													{" "}
 													<i className="fa fa-folder"></i>
 													{t("home.news.news")}
@@ -844,12 +844,12 @@ const SwiperMobile = () => {
 											</li>
 										</ul>
 										<h3 className="blog-title">
-											<a href="#!">
+											<a href="/news/opening-hours-easter-holiday-2023">
 											{t("home.news.news1.title")}
 											</a>
 										</h3>
 										<div className="blog-button">
-											<a href="/news">
+											<a href="/news/opening-hours-easter-holiday-2023">
 												<span className="btn-txt">
 													{t("home.read")}
 												</span>
@@ -860,7 +860,7 @@ const SwiperMobile = () => {
 								</div>
 								<div className="blog-item">
 									<div className="image-wrap">
-										<a href="#!">
+										<a href="/news/milorad-batta-mihailovitch-exhibition-duro-niche-perfumery">
 											<img
 												src="./assets/images/blog/2.jpg"
 												alt="Blog"
@@ -878,7 +878,7 @@ const SwiperMobile = () => {
 												Lav Š.
 											</li>
 											<li className="cat-list">
-												<a href="/news">
+												<a href="/news/milorad-batta-mihailovitch-exhibition-duro-niche-perfumery">
 													{" "}
 													<i className="fa fa-folder"></i>
 													{t("home.news.news")}
@@ -886,12 +886,12 @@ const SwiperMobile = () => {
 											</li>
 										</ul>
 										<h3 className="blog-title">
-											<a href="#!">
+											<a href="/news/milorad-batta-mihailovitch-exhibition-duro-niche-perfumery">
 											{t("home.news.news2.title")}
 											</a>
 										</h3>
 										<div className="blog-button">
-											<a href="/news">
+											<a href="/news/milorad-batta-mihailovitch-exhibition-duro-niche-perfumery">
 												<span className="btn-txt">
 													{t("home.read")}
 												</span>
@@ -902,7 +902,7 @@ const SwiperMobile = () => {
 								</div>
 								<div className="blog-item">
 									<div className="image-wrap">
-										<a href="#!">
+										<a href="/news/grand-opening-event-duro-niche-perfumery">
 											<img
 												src="./assets/images/blog/3.jpg"
 												alt="Blog"
@@ -920,7 +920,7 @@ const SwiperMobile = () => {
 												Lav Š.
 											</li>
 											<li className="cat-list">
-												<a href="/news">
+												<a href="/news/grand-opening-event-duro-niche-perfumery">
 													{" "}
 													<i className="fa fa-folder"></i>
 													{t("home.news.news")}
@@ -928,12 +928,12 @@ const SwiperMobile = () => {
 											</li>
 										</ul>
 										<h3 className="blog-title">
-											<a href="#!">
+											<a href="/news/grand-opening-event-duro-niche-perfumery">
 											{t("home.news.news3.title")}
 											</a>
 										</h3>
 										<div className="blog-button">
-											<a href="/news">
+											<a href="/news/grand-opening-event-duro-niche-perfumery">
 												<span className="btn-txt">
 													{t("home.read")}
 												</span>
@@ -944,7 +944,7 @@ const SwiperMobile = () => {
 								</div>
 								<div className="blog-item">
 									<div className="image-wrap">
-										<a href="#!">
+										<a href="/news/grand-opening-duro-niche-perfumery-press-release">
 											<img
 												src="./assets/images/blog/1.jpg"
 												alt="Blog"
@@ -962,7 +962,7 @@ const SwiperMobile = () => {
 												Lav Š.
 											</li>
 											<li className="cat-list">
-												<a href="/news">
+												<a href="/news/grand-opening-duro-niche-perfumery-press-release">
 													{" "}
 													<i className="fa fa-folder"></i>
 													{t("home.news.news")}
@@ -970,12 +970,12 @@ const SwiperMobile = () => {
 											</li>
 										</ul>
 										<h3 className="blog-title">
-											<a href="#!">
+											<a href="/news/grand-opening-duro-niche-perfumery-press-release">
 											{t("home.news.news4.title")}
 											</a>
 										</h3>
 										<div className="blog-button">
-											<a href="/news">
+											<a href="/news/grand-opening-duro-niche-perfumery-press-release">
 												<span className="btn-txt">
 													{t("home.read")}
 												</span>

@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import Loader from "../components/Loader";
 import { useTranslation } from "react-i18next";
+import { Helmet } from "react-helmet";
+import Newsletter from "../components/Newsletter";
 
 export default function Brands({ setHeader }) {
 	const { t } = useTranslation();
@@ -21,6 +23,29 @@ export default function Brands({ setHeader }) {
 
 	return (
 		<>
+		<Helmet>
+		{/* <!-- meta tag --> */}
+        <meta charset="utf-8"/>
+        <title>Our Brands | DURŌ Niche perfumery | Niche parfimerija</title>
+		
+		{/* <!-- Meta Tags--> */}
+		<meta name="description" content="DURŌ, where the art of niche perfumery meets ultimate luxury. We represent 25 of the most sought-after artisan perfume houses and offer a one-of-a-kind immersive experience in our boutique."/>
+		<meta name="keywords" content="durō, duro, niche perfumery, niche parfimerija, beograd, parfimerija, galerija"/>
+		<meta name="author" content="intellect.se"/>
+        
+		{/* <!-- responsive tag --> */}
+        <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+
+		{/* <!-- Facebook Metadata --> */}
+		<meta property="og:image:height" content="1200"/>
+		<meta property="og:image:width" content="1200"/>
+		<meta property="og:title" content="DURŌ | Niche perfumery"/>
+		<meta property="og:description" content="DURŌ, where the art of niche perfumery meets ultimate luxury. We represent 25 of the most sought-after artisan perfume houses and offer a one-of-a-kind immersive experience in our boutique."/>
+		<meta property="og:url" content="https://www.parfimerija-duro.rs"/>
+		<meta property="og:image" content="https://www.parfimerija-duro.rs/assets/images/favicon/og-image.jpg"/>
+		</Helmet>
 			<Loader />
 			{/* // <!-- Main content Start --> */}
 			<div className="main-content">
@@ -55,7 +80,7 @@ export default function Brands({ setHeader }) {
 										<div className="logo-img">
 											<a
 												title="Marc-Antoine Barrois"
-												href="#!"
+												href="/brands/marc-antoine_barrois"
 											>
 												<img
 													src="./assets/images/event/brands/001_marc-antoine_barrois.png"
@@ -71,7 +96,7 @@ export default function Brands({ setHeader }) {
 								<div className="logo-item">
 									<div className="grid-figure">
 										<div title="Jovoy" className="logo-img">
-											<a href="#!">
+											<a href="/brands/jovoy">
 												<img
 													src="./assets/images/event/brands/002_jovoy.png"
 													alt="Jovoy"
@@ -89,7 +114,7 @@ export default function Brands({ setHeader }) {
 											title="Jeroboam"
 											className="logo-img"
 										>
-											<a href="#!">
+											<a href="/brands/jeroboam">
 												<img
 													src="./assets/images/event/brands/003_jeroboam.png"
 													alt="Jeroboam"
@@ -104,7 +129,7 @@ export default function Brands({ setHeader }) {
 								<div className="logo-item">
 									<div className="grid-figure">
 										<div title="Morph" className="logo-img">
-											<a href="#!">
+											<a href="/brands/morph">
 												<img
 													src="./assets/images/event/brands/004_morph.png"
 													alt="Morph"
@@ -119,7 +144,7 @@ export default function Brands({ setHeader }) {
 								<div className="logo-item">
 									<div className="grid-figure">
 										<div title="MDCI" className="logo-img">
-											<a href="#!">
+											<a href="/brands/mdci">
 												<img
 													src="./assets/images/event/brands/005_mdci.png"
 													alt="MDCI"
@@ -137,7 +162,7 @@ export default function Brands({ setHeader }) {
 											title="Puredistance"
 											className="logo-img"
 										>
-											<a href="#!">
+											<a href="/brands/puredistance">
 												<img
 													src="./assets/images/event/brands/006_puredistance.png"
 													alt="Puredistance"
@@ -152,7 +177,7 @@ export default function Brands({ setHeader }) {
 								<div className="logo-item">
 									<div className="grid-figure">
 										<div title="HDP" className="logo-img">
-											<a href="#!">
+											<a href="/brands/hdp">
 												<img
 													src="./assets/images/event/brands/007_hdp.png"
 													title="HDP"
@@ -167,7 +192,7 @@ export default function Brands({ setHeader }) {
 								<div className="logo-item">
 									<div className="grid-figure">
 										<div title="Calaj" className="logo-img">
-											<a href="#!">
+											<a href="/brands/calaj">
 												<img
 													src="./assets/images/event/brands/008_calaj.png"
 													title="Calaj"
@@ -185,7 +210,7 @@ export default function Brands({ setHeader }) {
 											title="Indult"
 											className="logo-img"
 										>
-											<a href="#!">
+											<a href="/brands/indult">
 												<img
 													src="./assets/images/event/brands/009_indult.png"
 													title="Indult"
@@ -203,7 +228,7 @@ export default function Brands({ setHeader }) {
 											title="Thameen"
 											className="logo-img"
 										>
-											<a href="#!">
+											<a href="/brands/thameen">
 												<img
 													src="./assets/images/event/brands/010_thameen.png"
 													alt="Thameen"
@@ -221,7 +246,7 @@ export default function Brands({ setHeader }) {
 											title="Theodoros Kalotinis"
 											className="logo-img"
 										>
-											<a href="#!">
+											<a href="/brands/theodoros-kalotinis">
 												<img
 													src="./assets/images/event/brands/011_theodoros.png"
 													title="Theodoros Kalotinis"
@@ -239,7 +264,7 @@ export default function Brands({ setHeader }) {
 											title="Fragrance du Bois"
 											className="logo-img"
 										>
-											<a href="#!">
+											<a href="/brands/fdb">
 												<img
 													src="./assets/images/event/brands/012_fdb.png"
 													title="Fragrance du Bois"
@@ -254,7 +279,7 @@ export default function Brands({ setHeader }) {
 								<div className="logo-item">
 									<div className="grid-figure">
 										<div className="Ormonde Jayne">
-											<a href="#!">
+											<a href="/brands/ormonde-jayne">
 												<img
 													src="./assets/images/event/brands/013_ormonde.png"
 													title="Ormonde Jayne"
@@ -272,7 +297,7 @@ export default function Brands({ setHeader }) {
 											title="Paradis des Sens"
 											className="logo-img"
 										>
-											<a href="#!">
+											<a href="/brands/paradis">
 												<img
 													src="./assets/images/event/brands/014_paradis.png"
 													title="Paradis des Sens"
@@ -290,7 +315,7 @@ export default function Brands({ setHeader }) {
 											title="Wesker"
 											className="logo-img"
 										>
-											<a href="#!">
+											<a href="/brands/wesker">
 												<img
 													src="./assets/images/event/brands/015_wesker.png"
 													title="Wesker"
@@ -308,7 +333,7 @@ export default function Brands({ setHeader }) {
 											title="Anima Mundi"
 											className="logo-img"
 										>
-											<a href="#!">
+											<a href="/brands/anima-mundi">
 												<img
 													src="./assets/images/event/brands/016_anima_mundi.png"
 													title="Anima Mundi"
@@ -326,7 +351,7 @@ export default function Brands({ setHeader }) {
 											title="Electimuss"
 											className="logo-img"
 										>
-											<a href="#!">
+											<a href="/brands/electimuss">
 												<img
 													src="./assets/images/event/brands/017_electimuss.png"
 													title="Electimuss"
@@ -344,7 +369,7 @@ export default function Brands({ setHeader }) {
 											title="Acque di Italia"
 											className="logo-img"
 										>
-											<a href="#!">
+											 <a href="/brands/acque-di-italia">
 												<img
 													src="./assets/images/event/brands/018_aque_di_italia.png"
 													title="Acque di Italia"
@@ -362,7 +387,7 @@ export default function Brands({ setHeader }) {
 											title="Portus Cale"
 											className="logo-img"
 										>
-											<a href="#!">
+											<a href="/brands/portus-cale">
 												<img
 													src="./assets/images/event/brands/019_portus_cale.png"
 													title="Portus Cale"
@@ -380,7 +405,7 @@ export default function Brands({ setHeader }) {
 											title="Veronique Gabai"
 											className="logo-img"
 										>
-											<a href="#!">
+											<a href="/brands/veronique-gabai">
 												<img
 													src="./assets/images/event/brands/020_veronique_gabai.png"
 													title="Veronique Gabai"
@@ -398,7 +423,7 @@ export default function Brands({ setHeader }) {
 											title="Onyrico"
 											className="logo-img"
 										>
-											<a href="#!">
+											<a href="/brands/onyrico">
 												<img
 													src="./assets/images/event/brands/021_onyrico.png"
 													title="Onyrico"
@@ -416,7 +441,7 @@ export default function Brands({ setHeader }) {
 											title="Affinessence"
 											className="logo-img"
 										>
-											<a href="#!">
+											<a href="/brands/affinessence">
 												<img
 													src="./assets/images/event/brands/022_affinessence.png"
 													title="Affinessence"
@@ -434,7 +459,7 @@ export default function Brands({ setHeader }) {
 											title="Castelbel"
 											className="logo-img"
 										>
-											<a href="#!">
+											<a href="/brands/castelbel">
 												<img
 													src="./assets/images/event/brands/023_castelbel.png"
 													title="Castelbel"
@@ -452,7 +477,7 @@ export default function Brands({ setHeader }) {
 											title="Liquides Imaginaries"
 											className="logo-img"
 										>
-											<a href="#!">
+											<a href="/brands/liquides-imaginaries">
 												<img
 													src="./assets/images/event/brands/024_liquides_imaginaries.png"
 													title="Liquides Imaginaries"
@@ -470,41 +495,7 @@ export default function Brands({ setHeader }) {
 
 				{/* <!-- Newsletter section start --> */}
 				<div className="rs-newsletter blue-bg style1 pt-90 md-pt-60 mb--110">
-					<div className="container">
-						<div className="newsletter-wrap">
-							<div className="row y-middle">
-								<div className="col-lg-6 md-mb-30">
-									<div className="content-wrap">
-										<div className="icon-img">
-											<img
-												src="./assets/images/mail.png"
-												alt="images"
-											/>
-										</div>
-										<h3 className="newsletter-title">
-										{t("newsletter")}
-										</h3>
-									</div>
-								</div>
-								<div className="col-lg-6">
-									<form className="newsletter-form">
-										<input
-											type="email"
-											name="email"
-											placeholder={t("yourEmail")}
-											required=""
-										/>
-										<em className="paper-plane">
-											<input
-												type="submit"
-												value="Subscribe"
-											/>
-										</em>
-									</form>
-								</div>
-							</div>
-						</div>
-					</div>
+					<Newsletter/>
 				</div>
 
 				{/* <!-- Newsletter section end --> */}

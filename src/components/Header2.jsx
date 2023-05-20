@@ -2,9 +2,10 @@ import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
+import Cookie from "js-cookie"
 
 export default function Header2({ header }) {
-  const [language, setLanguage] = useState("en");
+  const [language, setLanguage] = useState("sr");
   const { t, i18n } = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [active, setActive] = useState("");
@@ -18,15 +19,6 @@ export default function Header2({ header }) {
     window.document
       .getElementsByClassName("full-width-header")[0]
       .classList.toggle("nav-expanded");
-  };
-
-  const handleLanguageChange = () => {
-    window.document
-      .getElementsByClassName("full-width-header")[0]
-      .classList.toggle("nav-expanded");
-	  const newLanguage = language === "en" ? "sr" : "en";
-	  setLanguage(newLanguage);
-	  i18n.changeLanguage(newLanguage);
   };
 
   useEffect(() => {
@@ -45,6 +37,10 @@ export default function Header2({ header }) {
     handleNavbar();
     setIsMenuOpen(false);
   }, [location]);
+
+  useEffect(() => {
+    Cookie.set('language', language);
+  }, [language]);
 
   return (
     <>
@@ -123,13 +119,6 @@ export default function Header2({ header }) {
                           >
                             <Link to="/contact">{t("header.contact")}</Link>
                           </li>
-                          <li onClick={() => {
-							const newLanguage = language === "en" ? "sr" : "en";
-							setLanguage(newLanguage);
-							i18n.changeLanguage(newLanguage);
-						  }}>
-                            <Link to="#">{t("header.language")}</Link>
-                          </li>
                         </ul>
                         {/* <!-- //.nav-menu --> */}
                       </nav>
@@ -153,6 +142,25 @@ export default function Header2({ header }) {
                       <span></span>
                       <span></span>
                     </div>
+
+                    <div className="main-menu">
+                      <nav className="rs-menu hidden-md">
+                        <ul className="nav-menu language-menu">
+                          <li
+                            onClick={() => {
+                              const newLanguage =
+                                language === "sr" ? "en" : "sr";
+                              setLanguage(newLanguage);
+                              i18n.changeLanguage(newLanguage);
+                            }}
+                          >
+                            <Link to="#" className="language-btn">
+                              {t("header.language")}
+                            </Link>
+                          </li>
+                        </ul>
+                      </nav>
+                    </div>
                     <ul>
                       <li className="humburger">
                         <a
@@ -174,6 +182,20 @@ export default function Header2({ header }) {
                           </div>
                         </a>
                       </li>
+
+                      <div className="language-menu-mobile">
+                        <div
+                          onClick={() => {
+                            const newLanguage = language === "sr" ? "en" : "sr";
+                            setLanguage(newLanguage);
+                            i18n.changeLanguage(newLanguage);
+                          }}
+                        >
+                          <Link to="#" className="language-btn-mobile">
+                            {t("header.language")}
+                          </Link>
+                        </div>
+                      </div>
                     </ul>
                   </div>
                 </div>
@@ -220,9 +242,6 @@ export default function Header2({ header }) {
               </li>
               <li onClick={handleMobileMenu}>
                 <Link to="/contact">{t("header.contact")}</Link>
-              </li>
-              <li onClick={handleLanguageChange}>
-                <Link to="#">{t("header.language")}</Link>
               </li>
             </ul>
             {/* <!-- //.nav-menu -->  */}
@@ -273,17 +292,17 @@ export default function Header2({ header }) {
               <ul className="social">
                 <li>
                   <a href="https://www.facebook.com/duro.cologne">
-                    <i className="fa fa-facebook"></i>
+                    <i className="fa-brands fa-facebook"></i>
                   </a>
                 </li>
                 <li>
                   <a href="https://www.facebook.com/DuroCologne">
-                    <i className="fa fa-twitter"></i>
+                    <i className="fa-brands fa-twitter"></i>
                   </a>
                 </li>
                 <li>
                   <a href="https://www.instagram.com/duro.cologne">
-                    <i className="fa fa-instagram"></i>
+                    <i className="fa-brands fa-instagram"></i>
                   </a>
                 </li>
               </ul>
