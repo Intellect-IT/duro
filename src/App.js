@@ -30,16 +30,16 @@ function App() {
           <Header2 header={header} />
         )}
         <Routes>
-          <Route path="/" element={<Home header={header} />} />
           <Route path="/our-story" element={<Story setHeader={setHeader} />} />
-          <Route path="/brands" element={<Brands setHeader={setHeader} />} />
           <Route path="/press" element={<Press setHeader={setHeader} />} />
           <Route path="/contact" element={<Contact setHeader={setHeader} />} />
           <Route path="/gallery" element={<Gallery setHeader={setHeader} />} />
-          {/* <Route path="/news" element={<News setHeader={setHeader}/>} /> */}
           <Route path="/news/:id" element={<News setHeader={setHeader}/>} />
+          {/* <Route path="/news" element={<News setHeader={setHeader}/>} /> */}
           <Route path="/brands/:id" element={<Brand setHeader={setHeader}/>} />
+          <Route path="/brands" element={<Brands setHeader={setHeader} />} />
           <Route path="/privacy" element={<Privacy setHeader={setHeader} />} />
+          <Route path="/" exact element={<Home header={header} />} />
         </Routes>
         {changeNavbar ? null : <GoToTop />}
         {changeNavbar ? null : <Footer2 />}

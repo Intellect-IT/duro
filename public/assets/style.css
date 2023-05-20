@@ -1482,7 +1482,6 @@ blockquote cite:before {
   color: #ffffff;
   position: relative;
   font-family: Poppins;
-  padding: 0.4em 0.5em !important;
 }
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li a:hover {
   color: #bf994c;
@@ -2205,8 +2204,7 @@ body .search-modal .close:hover {
 .language-btn {
   display: unset !important;
   border: 2px solid #fff !important;
-  padding: 0.4em !important;
-  
+  padding: 0.4em 0.5em !important;
   border-radius: 4em;
   margin: 0 !important;
 }
