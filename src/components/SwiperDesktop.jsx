@@ -12,6 +12,7 @@ import "swiper/css/pagination";
 
 import { Pagination, Mousewheel } from "swiper";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 const SwiperDesktop = () => {
   const { t } = useTranslation();
@@ -101,9 +102,9 @@ const SwiperDesktop = () => {
                     <p className="desc-small pb-25">{t("home.story.desc1")} </p>
                     <p className="desc-small">{t("home.story.desc2")}</p>
                     <div className="btn-part mt-40">
-                      <a className="readon btn-text ticket" href="/our-story">
+                      <Link className="readon btn-text ticket" to="/our-story">
                         <span>{t("home.explore")}</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -130,9 +131,9 @@ const SwiperDesktop = () => {
                     </p>
                     <p className="desc-small">{t("home.boutique.desc2")}</p>
                     <div className="btn-part mt-40">
-                      <a className="readon btn-text ticket" href="/brands">
+                      <Link className="readon btn-text ticket" to="/brands">
                         <span>{t("home.read")}</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -306,16 +307,16 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div className="logo-img">
-                        <a
+                        <Link
                           title="Marc-Antoine Barrois"
-                          href="/brands/marc-antoine_barrois"
+                          to="/brands/marc-antoine_barrois"
                         >
                           <img
                             src="./assets/images/event/brands/001_marc-antoine_barrois.png"
                             alt="Marc-Antoine Barrois"
                             title="Marc-Antoine Barrois"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -324,13 +325,13 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Jovoy" className="logo-img">
-                        <a href="/brands/jovoy">
+                        <Link to="/brands/jovoy">
                           <img
                             src="./assets/images/event/brands/002_jovoy.png"
                             alt="Jovoy"
                             title="Jovoy"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -339,13 +340,13 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Jeroboam" className="logo-img">
-                        <a href="/brands/jeroboam">
+                        <Link to="/brands/jeroboam">
                           <img
                             src="./assets/images/event/brands/003_jeroboam.png"
                             alt="Jeroboam"
                             title="Jeroboam"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -354,13 +355,13 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Morph" className="logo-img">
-                        <a href="/brands/morph">
+                        <Link to="/brands/morph">
                           <img
                             src="./assets/images/event/brands/004_morph.png"
                             alt="Morph"
                             title="Morph"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -369,13 +370,13 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="MDCI" className="logo-img">
-                        <a href="/brands/mdci">
+                        <Link to="/brands/mdci">
                           <img
                             src="./assets/images/event/brands/005_mdci.png"
                             alt="MDCI"
                             title="MDCI"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -384,13 +385,13 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Puredistance" className="logo-img">
-                        <a href="/brands/puredistance">
+                        <Link to="/brands/puredistance">
                           <img
                             src="./assets/images/event/brands/006_puredistance.png"
                             alt="Puredistance"
                             title="Puredistance"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -399,13 +400,13 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="HDP" className="logo-img">
-                        <a href="/brands/hdp">
+                        <Link to="/brands/hdp">
                           <img
                             src="./assets/images/event/brands/007_hdp.png"
                             title="HDP"
                             alt="HDP"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -414,13 +415,13 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Calaj" className="logo-img">
-                        <a href="/brands/calaj">
+                        <Link to="/brands/calaj">
                           <img
                             src="./assets/images/event/brands/008_calaj.png"
                             title="Calaj"
                             alt="Calaj"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -429,13 +430,13 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Indult" className="logo-img">
-                        <a href="/brands/indult">
+                        <Link to="/brands/indult">
                           <img
                             src="./assets/images/event/brands/009_indult.png"
                             title="Indult"
                             alt="Indult"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -444,13 +445,13 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Thameen" className="logo-img">
-                        <a href="/brands/thameen">
+                        <Link to="/brands/thameen">
                           <img
                             src="./assets/images/event/brands/010_thameen.png"
                             alt="Thameen"
                             title="Thameen"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -459,13 +460,13 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Theodoros Kalotinis" className="logo-img">
-                        <a href="/brands/theodoros-kalotinis">
+                        <Link to="/brands/theodoros-kalotinis">
                           <img
                             src="./assets/images/event/brands/011_theodoros.png"
                             title="Theodoros Kalotinis"
                             alt="Theodoros Kalotinis"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -474,13 +475,13 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Fragrance du Bois" className="logo-img">
-                        <a href="/brands/fdb">
+                        <Link to="/brands/fdb">
                           <img
                             src="./assets/images/event/brands/012_fdb.png"
                             title="Fragrance du Bois"
                             alt="Fragrance du Bois"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -489,13 +490,13 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div className="Ormonde Jayne">
-                        <a href="/brands/ormonde-jayne">
+                        <Link to="/brands/ormonde-jayne">
                           <img
                             src="./assets/images/event/brands/013_ormonde.png"
                             title="Ormonde Jayne"
                             alt="Ormonde Jayne"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -504,13 +505,13 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Paradis des Sens" className="logo-img">
-                        <a href="/brands/paradis">
+                        <Link to="/brands/paradis">
                           <img
                             src="./assets/images/event/brands/014_paradis.png"
                             title="Paradis des Sens"
                             alt="Paradis des Sens"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -519,13 +520,13 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Wesker" className="logo-img">
-                        <a href="/brands/wesker">
+                        <Link to="/brands/wesker">
                           <img
                             src="./assets/images/event/brands/015_wesker.png"
                             title="Wesker"
                             alt="Wesker"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -534,13 +535,13 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Anima Mundi" className="logo-img">
-                        <a href="/brands/anima-mundi">
+                        <Link to="/brands/anima-mundi">
                           <img
                             src="./assets/images/event/brands/016_anima_mundi.png"
                             title="Anima Mundi"
                             alt="Anima Mundi"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -549,13 +550,13 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Electimuss" className="logo-img">
-                        <a href="/brands/electimuss">
+                        <Link to="/brands/electimuss">
                           <img
                             src="./assets/images/event/brands/017_electimuss.png"
                             title="Electimuss"
                             alt="Electimuss"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -564,13 +565,13 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Acque di Italia" className="logo-img">
-                        <a href="/brands/acque-di-italia">
+                        <Link to="/brands/acque-di-italia">
                           <img
                             src="./assets/images/event/brands/018_aque_di_italia.png"
                             title="Acque di Italia"
                             alt="Acque di Italia"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -579,13 +580,13 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Portus Cale" className="logo-img">
-                        <a href="/brands/portus-cale">
+                        <Link to="/brands/portus-cale">
                           <img
                             src="./assets/images/event/brands/019_portus_cale.png"
                             title="Portus Cale"
                             alt="Portus Cale"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -594,13 +595,13 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Veronique Gabai" className="logo-img">
-                        <a href="/brands/veronique-gabai">
+                        <Link to="/brands/veronique-gabai">
                           <img
                             src="./assets/images/event/brands/020_veronique_gabai.png"
                             title="Veronique Gabai"
                             alt="Veronique Gabai"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -609,13 +610,13 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Onyrico" className="logo-img">
-                        <a href="/brands/onyrico">
+                        <Link to="/brands/onyrico">
                           <img
                             src="./assets/images/event/brands/021_onyrico.png"
                             title="Onyrico"
                             alt="Onyrico"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -624,13 +625,13 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Affinessence" className="logo-img">
-                        <a href="/brands/affinessence">
+                        <Link to="/brands/affinessence">
                           <img
                             src="./assets/images/event/brands/022_affinessence.png"
                             title="Affinessence"
                             alt="Affinessence"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -639,13 +640,13 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Castelbel" className="logo-img">
-                        <a href="/brands/castelbel">
+                        <Link to="/brands/castelbel">
                           <img
                             src="./assets/images/event/brands/023_castelbel.png"
                             title="Castelbel"
                             alt="Castelbel"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -654,13 +655,13 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Liquides Imaginaries" className="logo-img">
-                        <a href="/brands/liquides-imaginaries">
+                        <Link to="/brands/liquides-imaginaries">
                           <img
                             src="./assets/images/event/brands/024_liquides_imaginaries.png"
                             title="Liquides Imaginaries"
                             alt="Liquides Imaginaries"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -728,9 +729,9 @@ const SwiperDesktop = () => {
               >
                 <div className="blog-item">
                   <div className="image-wrap">
-                    <a href="/news/opening-hours-easter-holiday-2023">
+                    <Link to="/news/opening-hours-easter-holiday-2023">
                       <img src="./assets/images/blog/4.jpg" alt="Blog" />
-                    </a>
+                    </Link>
                     <div className="blog-date">
                       <span className="day">13</span>
                       <span className="month">Apr</span>
@@ -743,29 +744,29 @@ const SwiperDesktop = () => {
                         Lav Š.
                       </li>
                       <li className="cat-list">
-                        <a href="/news/opening-hours-easter-holiday-2023">
+                        <Link to="/news/opening-hours-easter-holiday-2023">
                           {" "}
                           <i className="fa fa-folder"></i>
                           {t("home.news.news")}
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                     <h3 className="blog-title">
-                      <a href="/news/opening-hours-easter-holiday-2023">{t("home.news.news1.title")}</a>
+                      <Link to="/news/opening-hours-easter-holiday-2023">{t("home.news.news1.title")}</Link>
                     </h3>
                     <div className="blog-button">
-                      <a href="/news/opening-hours-easter-holiday-2023">
+                      <Link to="/news/opening-hours-easter-holiday-2023">
                         <span className="btn-txt">{t("home.read")}</span>
                         <i className="fa fa fa-chevron-right"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
                 <div className="blog-item">
                   <div className="image-wrap">
-                    <a href="/news/milorad-batta-mihailovitch-exhibition-duro-niche-perfumery">
+                    <Link to="/news/milorad-batta-mihailovitch-exhibition-duro-niche-perfumery">
                       <img src="./assets/images/blog/2.jpg" alt="Blog" />
-                    </a>
+                    </Link>
                     <div className="blog-date">
                       <span className="day">11</span>
                       <span className="month">Apr</span>
@@ -778,29 +779,29 @@ const SwiperDesktop = () => {
                         Lav Š.
                       </li>
                       <li className="cat-list">
-                        <a href="/news/milorad-batta-mihailovitch-exhibition-duro-niche-perfumery">
+                        <Link to="/news/milorad-batta-mihailovitch-exhibition-duro-niche-perfumery">
                           {" "}
                           <i className="fa fa-folder"></i>
                           {t("home.news.news")}
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                     <h3 className="blog-title">
-                      <a href="/news/milorad-batta-mihailovitch-exhibition-duro-niche-perfumery">{t("home.news.news2.title")}</a>
+                      <Link to="/news/milorad-batta-mihailovitch-exhibition-duro-niche-perfumery">{t("home.news.news2.title")}</Link>
                     </h3>
                     <div className="blog-button">
-                      <a href="/news/milorad-batta-mihailovitch-exhibition-duro-niche-perfumery">
+                      <Link to="/news/milorad-batta-mihailovitch-exhibition-duro-niche-perfumery">
                         <span className="btn-txt">{t("home.read")}</span>
                         <i className="fa fa fa-chevron-right"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
                 <div className="blog-item">
                   <div className="image-wrap">
-                    <a href="/news/grand-opening-event-duro-niche-perfumery">
+                    <Link to="/news/grand-opening-event-duro-niche-perfumery">
                       <img src="./assets/images/blog/3.jpg" alt="Blog" />
-                    </a>
+                    </Link>
                     <div className="blog-date">
                       <span className="day">10</span>
                       <span className="month">Apr</span>
@@ -813,29 +814,29 @@ const SwiperDesktop = () => {
                         Lav Š.
                       </li>
                       <li className="cat-list">
-                        <a href="/news/grand-opening-event-duro-niche-perfumery">
+                        <Link to="/news/grand-opening-event-duro-niche-perfumery">
                           {" "}
                           <i className="fa fa-folder"></i>
                           {t("home.news.news")}
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                     <h3 className="blog-title">
-                      <a href="/news/grand-opening-event-duro-niche-perfumery">{t("home.news.news3.title")}</a>
+                      <Link to="/news/grand-opening-event-duro-niche-perfumery">{t("home.news.news3.title")}</Link>
                     </h3>
                     <div className="blog-button">
-                      <a href="/news/grand-opening-event-duro-niche-perfumery">
+                      <Link to="/news/grand-opening-event-duro-niche-perfumery">
                         <span className="btn-txt">{t("home.read")}</span>
                         <i className="fa fa fa-chevron-right"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
                 <div className="blog-item">
                   <div className="image-wrap">
-                    <a href="/news/grand-opening-duro-niche-perfumery-press-release">
+                    <Link to="/news/grand-opening-duro-niche-perfumery-press-release">
                       <img src="./assets/images/blog/1.jpg" alt="Blog" />
-                    </a>
+                    </Link>
                     <div className="blog-date">
                       <span className="day">05</span>
                       <span className="month">Apr</span>
@@ -848,21 +849,21 @@ const SwiperDesktop = () => {
                         Lav Š.
                       </li>
                       <li className="cat-list">
-                        <a href="/news/grand-opening-duro-niche-perfumery-press-release">
+                        <Link to="/news/grand-opening-duro-niche-perfumery-press-release">
                           {" "}
                           <i className="fa fa-folder"></i>
                           {t("home.news.news")}
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                     <h3 className="blog-title">
-                      <a href="/news/grand-opening-duro-niche-perfumery-press-release">{t("home.news.news4.title")}</a>
+                      <Link to="/news/grand-opening-duro-niche-perfumery-press-release">{t("home.news.news4.title")}</Link>
                     </h3>
                     <div className="blog-button">
-                      <a href="/news/grand-opening-duro-niche-perfumery-press-release">
+                      <Link to="/news/grand-opening-duro-niche-perfumery-press-release">
                         <span className="btn-txt">{t("home.read")}</span>
                         <i className="fa fa fa-chevron-right"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

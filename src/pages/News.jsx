@@ -6,7 +6,7 @@ import { useParams } from "react-router-dom";
 import Newsletter from "../components/Newsletter";
 
 export default function News({ setHeader }) {
-  const { id } = useParams();
+  const { slug } = useParams();
   const { t } = useTranslation();
 
   useEffect(() => {
@@ -79,7 +79,7 @@ export default function News({ setHeader }) {
         {/* <!-- Breadcrumbs End --> */}
 
         {/* <!-- Blog Section Start --> */}
-        <h1>{id}</h1>
+        <h1>{slug}</h1>
         <div className="rs-inner-blog gray-bg4 pt-120 md-pt-80">
           <div className="container">
             <div className="row">
