@@ -3,6 +3,7 @@ import Loader from "../components/Loader";
 import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet";
 import Newsletter from "../components/Newsletter";
+import { Link } from "react-router-dom";
 
 export default function Press({ setHeader }) {
   const { t } = useTranslation();
@@ -84,18 +85,18 @@ export default function Press({ setHeader }) {
                   <div className="col-lg-12 mb-50">
                     <div className="blog-item">
                       <div className="blog-img">
-                        <a href="/opening-hours-easter-holiday-2023">
+                        <Link to="/news/opening-hours-easter-holiday-2023">
                           <img src="./assets/images/blog/4.jpg" alt="" />
-                        </a>
+                        </Link>
                         <ul className="post-categories">
                           <li>
-                            <a href="/opening-hours-easter-holiday-2023">{t("home.news.news")}</a>
+                            <Link to="/news/opening-hours-easter-holiday-2023">{t("home.news.news")}</Link>
                           </li>
                         </ul>
                       </div>
                       <div className="blog-content">
                         <h3 className="blog-title">
-                          <a href="/opening-hours-easter-holiday-2023">{t("home.news.news1.title")}</a>
+                          <Link to="/news/opening-hours-easter-holiday-2023">{t("home.news.news1.title")}</Link>
                         </h3>
                         <div className="blog-meta">
                           <ul className="btm-cate">
@@ -117,10 +118,10 @@ export default function Press({ setHeader }) {
                           {t("home.news.news1.desc")}
                         </div>
                         <div className="blog-button">
-                          <a href="/opening-hours-easter-holiday-2023">
+                          <Link to="/news/opening-hours-easter-holiday-2023">
                             <span className="btn-txt">{t("home.read")}</span>
                             <i className="fa fa fa-chevron-right"></i>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -128,18 +129,18 @@ export default function Press({ setHeader }) {
                   <div className="col-lg-12 mb-50">
                     <div className="blog-item">
                       <div className="blog-img">
-                        <a href="/milorad-batta-mihailovitch-exhibition-duro-niche-perfumery">
+                        <Link to="/news/milorad-batta-mihailovitch-exhibition-duro-niche-perfumery">
                           <img src="./assets/images/blog/2.jpg" alt="" />
-                        </a>
+                        </Link>
                         <ul className="post-categories">
                           <li>
-                            <a href="/milorad-batta-mihailovitch-exhibition-duro-niche-perfumery">{t("home.news.news")}</a>
+                            <Link to="/news/milorad-batta-mihailovitch-exhibition-duro-niche-perfumery">{t("home.news.news")}</Link>
                           </li>
                         </ul>
                       </div>
                       <div className="blog-content">
                         <h3 className="blog-title">
-                          <a href="/milorad-batta-mihailovitch-exhibition-duro-niche-perfumery">{t("home.news.news2.title")}</a>
+                          <Link to="/news/milorad-batta-mihailovitch-exhibition-duro-niche-perfumery">{t("home.news.news2.title")}</Link>
                         </h3>
                         <div className="blog-meta">
                           <ul className="btm-cate">
@@ -161,10 +162,10 @@ export default function Press({ setHeader }) {
                           {t("home.news.news2.desc")}
                         </div>
                         <div className="blog-button">
-                          <a href="/milorad-batta-mihailovitch-exhibition-duro-niche-perfumery">
+                          <Link to="/news/milorad-batta-mihailovitch-exhibition-duro-niche-perfumery">
                             <span className="btn-txt">{t("home.read")}</span>
                             <i className="fa fa fa-chevron-right"></i>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -172,18 +173,18 @@ export default function Press({ setHeader }) {
                   <div className="col-lg-12 mb-50">
                     <div className="blog-item">
                       <div className="blog-img">
-                        <a href="/grand-opening-event-duro-niche-perfumery">
+                        <Link to="/news/grand-opening-event-duro-niche-perfumery">
                           <img src="./assets/images/blog/3.jpg" alt="" />
-                        </a>
+                        </Link>
                         <ul className="post-categories">
                           <li>
-                            <a href="/grand-opening-event-duro-niche-perfumery">{t("home.news.news")}</a>
+                            <Link to="/news/grand-opening-event-duro-niche-perfumery">{t("home.news.news")}</Link>
                           </li>
                         </ul>
                       </div>
                       <div className="blog-content">
                         <h3 className="blog-title">
-                          <a href="/grand-opening-event-duro-niche-perfumery">{t("home.news.news3.title")}</a>
+                          <Link to="/news/grand-opening-event-duro-niche-perfumery">{t("home.news.news3.title")}</Link>
                         </h3>
                         <div className="blog-meta">
                           <ul className="btm-cate">
@@ -204,10 +205,10 @@ export default function Press({ setHeader }) {
                           {t("home.news.news3.desc")}
                         </div>
                         <div className="blog-button">
-                          <a href="/grand-opening-event-duro-niche-perfumery">
+                          <Link to="/news/grand-opening-event-duro-niche-perfumery">
                             <span className="btn-txt">{t("home.read")}</span>
                             <i className="fa fa fa-chevron-right"></i>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -215,18 +216,18 @@ export default function Press({ setHeader }) {
                   <div className="col-lg-12 mb-50">
                     <div className="blog-item">
                       <div className="blog-img">
-                        <a href="/grand-opening-duro-niche-perfumery-press-release">
+                        <Link to="/news/grand-opening-duro-niche-perfumery-press-release">
                           <img src="./assets/images/blog/1.jpg" alt="" />
-                        </a>
+                        </Link>
                         <ul className="post-categories">
                           <li>
-                            <a href="/grand-opening-duro-niche-perfumery-press-release">{t("home.news.news")}</a>
+                            <Link to="/news/grand-opening-duro-niche-perfumery-press-release">{t("home.news.news")}</Link>
                           </li>
                         </ul>
                       </div>
                       <div className="blog-content">
                         <h3 className="blog-title">
-                          <a href="/grand-opening-duro-niche-perfumery-press-release">{t("home.news.news4.title")}</a>
+                          <Link to="/news/grand-opening-duro-niche-perfumery-press-release">{t("home.news.news4.title")}</Link>
                         </h3>
                         <div className="blog-meta">
                           <ul className="btm-cate">
@@ -247,10 +248,10 @@ export default function Press({ setHeader }) {
                           {t("home.news.news4.desc")}
                         </div>
                         <div className="blog-button">
-                          <a href="/grand-opening-duro-niche-perfumery-press-release">
+                          <Link to="/news/grand-opening-duro-niche-perfumery-press-release">
                             <span className="btn-txt">{t("home.read")}</span>
                             <i className="fa fa fa-chevron-right"></i>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -271,12 +272,12 @@ export default function Press({ setHeader }) {
                     </div>
                     <div className="recent-post-widget no-border">
                       <div className="post-img">
-                        <a href="/opening-hours-easter-holiday-2023">
+                        <Link to="/news/opening-hours-easter-holiday-2023">
                           <img src="./assets/images/blog/1.jpg" alt="" />
-                        </a>
+                        </Link>
                       </div>
                       <div className="post-desc">
-                        <a href="/opening-hours-easter-holiday-2023">{t("home.news.news4.title")}</a>
+                        <Link to="/news/opening-hours-easter-holiday-2023">{t("home.news.news4.title")}</Link>
                         <span className="date-post">
                           {" "}
                           <i className="fa fa-calendar"></i> April 13, 2023{" "}
@@ -285,12 +286,12 @@ export default function Press({ setHeader }) {
                     </div>
                     <div className="recent-post-widget">
                       <div className="post-img">
-                        <a href="/milorad-batta-mihailovitch-exhibition-duro-niche-perfumery">
+                        <Link to="/news/milorad-batta-mihailovitch-exhibition-duro-niche-perfumery">
                           <img src="./assets/images/blog/2.jpg" alt="" />
-                        </a>
+                        </Link>
                       </div>
                       <div className="post-desc">
-                        <a href="/milorad-batta-mihailovitch-exhibition-duro-niche-perfumery"> {t("home.news.news2.title")}</a>
+                        <Link to="/news/milorad-batta-mihailovitch-exhibition-duro-niche-perfumery"> {t("home.news.news2.title")}</Link>
                         <span className="date-post">
                           {" "}
                           <i className="fa fa-calendar"></i> April 11, 2023{" "}
@@ -299,12 +300,12 @@ export default function Press({ setHeader }) {
                     </div>
                     <div className="recent-post-widget">
                       <div className="post-img">
-                        <a href="/milorad-bata-mihajlovic-izlozba-duro-parfimerija">
+                        <Link to="/news/milorad-bata-mihajlovic-izlozba-duro-parfimerija">
                           <img src="./assets/images/blog/3.jpg" alt="" />
-                        </a>
+                        </Link>
                       </div>
                       <div className="post-desc">
-                        <a href="/milorad-bata-mihajlovic-izlozba-duro-parfimerija">{t("home.news.news3.title")}</a>
+                        <Link to="/news/milorad-bata-mihajlovic-izlozba-duro-parfimerija">{t("home.news.news3.title")}</Link>
                         <span className="date-post">
                           {" "}
                           <i className="fa fa-calendar"></i> April 10, 2023{" "}
@@ -317,10 +318,10 @@ export default function Press({ setHeader }) {
                                         <h3 className="title">Categories</h3>
                                     </div>
                                     <ul>
-                                        <li><a href="#!">Branding</a></li>
-                                        <li><a href="#!">Digital Marketing</a></li>
-                                        <li><a href="#!">E-commerce</a></li>
-                                        <li><a href="#!">Graphic Design</a></li>
+                                        <li><Link to="#!">Branding</Link></li>
+                                        <li><Link to="#!">Digital Marketing</Link></li>
+                                        <li><Link to="#!">E-commerce</Link></li>
+                                        <li><Link to="#!">Graphic Design</Link></li>
                                     </ul>
                                 </div>--> */}
                   <div className="follow-us">
