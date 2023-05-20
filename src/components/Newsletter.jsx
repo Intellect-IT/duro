@@ -27,7 +27,7 @@ export default function Newsletter() {
           <div className="col-lg-6 md-mb-30">
             <div className="content-wrap">
               <div className="icon-img">
-                <img src="./assets/images/mail.png" alt="images" />
+                <img src="../assets/images/mail.png" alt="images" />
               </div>
               <h3 className="newsletter-title">{t("newsletter")}</h3>
             </div>

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
-import Cookie from "js-cookie"
+import Cookie from "js-cookie";
 
 export default function Header2({ header }) {
   const [language, setLanguage] = useState("sr");
@@ -66,12 +66,12 @@ export default function Header2({ header }) {
                     <Link to="/">
                       <img
                         className="normal-logo"
-                        src="./assets/images/logo-light.svg"
+                        src="../assets/images/logo-light.svg"
                         alt="logo"
                       />
                       <img
                         className="sticky-logo"
-                        src="./assets/images/logo-dark.svg"
+                        src="../assets/images/logo-dark.svg"
                         alt="logo"
                       />
                     </Link>
@@ -224,7 +224,7 @@ export default function Header2({ header }) {
             </div>
             <div className="canvas-logo">
               <Link to="/">
-                <img src="./assets/images/logo-footer-light.svg" alt="DURŌ" />
+                <img src="../assets/images/logo-footer-light.svg" alt="DURŌ" />
               </Link>
             </div>
             <ul className="nav-menu">

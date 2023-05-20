@@ -48,6 +48,31 @@ export default function News({ setHeader }) {
         <meta http-equiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+        {/* <!-- Template Favicon & Icons --> */}
+        <link
+          rel="icon"
+          href="../assets/images/favicon/favicon.ico"
+          sizes="any"
+        />
+        <link
+          rel="icon"
+          href="../assets/images/favicon/icon.svg"
+          type="image/svg+xml"
+        />
+        <link
+          rel="apple-touch-icon"
+          href="../assets/images/favicon/apple-touch-icon.png"
+        />
+        <link
+          rel="manifest"
+          href="../assets/images/favicon/manifest.webmanifest"
+        />
+        <link
+          rel="shortcut icon"
+          type="image/x-icon"
+          href="../assets/images/fav.png"
+        />
+
         {/* <!-- Facebook Metadata --> */}
         <meta property="og:image:height" content="1200" />
         <meta property="og:image:width" content="1200" />
@@ -89,7 +114,7 @@ export default function News({ setHeader }) {
                     <div className="blog-details">
                       <div className="bs-img mb-35">
                         <a href="#!">
-                          <img src="./assets/images/blog/4.jpg" alt="" />
+                          <img src="../assets/images/blog/4.jpg" alt="" />
                         </a>
                       </div>
                       <div className="blog-full">
@@ -136,7 +161,7 @@ export default function News({ setHeader }) {
                         <p>{t("news.tips.desc1")}</p>
                         <div className="bs-img mb-30">
                           <a href="#!">
-                            <img src="./assets/images/blog/1.jpg" alt="" />
+                            <img src="../assets/images/blog/1.jpg" alt="" />
                           </a>
                         </div>
                         <p>{t("news.tips.desc2")}</p>
@@ -148,13 +173,13 @@ export default function News({ setHeader }) {
                           <a href="#!">{t("news.tips.tag3")}</a>
                           <a href="#!">{t("news.tips.tag4")}</a>
                         </div>
-                        <h3 className="comment-title">
+                        {/* <h3 className="comment-title">
                           {t("news.comments.title")}
                         </h3>
                         <div className="comment-body">
                           <div className="comment-author">
                             <img
-                              src="./assets/images/avatar.png"
+                              src="../assets/images/avatar.png"
                               alt="images"
                             />
                           </div>
@@ -175,7 +200,7 @@ export default function News({ setHeader }) {
                         <div className="comment-body">
                           <div className="comment-author">
                             <img
-                              src="./assets/images/avatar.png"
+                              src="../assets/images/avatar.png"
                               alt="images"
                             />
                           </div>
@@ -196,7 +221,7 @@ export default function News({ setHeader }) {
                         <div className="comment-body">
                           <div className="comment-author">
                             <img
-                              src="./assets/images/avatar.png"
+                              src="../assets/images/avatar.png"
                               alt="images"
                             />
                           </div>
@@ -213,7 +238,7 @@ export default function News({ setHeader }) {
                               <a href="#!">{t("news.comments.reply")}</a>
                             </div>
                           </div>
-                        </div>
+                        </div> */}
                         <h3 className="comment-title">
                           {t("news.comments.leaveReply")}
                         </h3>
@@ -290,7 +315,7 @@ export default function News({ setHeader }) {
                     <div className="recent-post-widget no-border">
                       <div className="post-img">
                         <a href="#!">
-                          <img src="./assets/images/blog/1.jpg" alt="" />
+                          <img src="../assets/images/blog/1.jpg" alt="" />
                         </a>
                       </div>
                       <div className="post-desc">
@@ -304,7 +329,7 @@ export default function News({ setHeader }) {
                     <div className="recent-post-widget">
                       <div className="post-img">
                         <a href="#!">
-                          <img src="./assets/images/blog/2.jpg" alt="" />
+                          <img src="../assets/images/blog/2.jpg" alt="" />
                         </a>
                       </div>
                       <div className="post-desc">
@@ -318,7 +343,7 @@ export default function News({ setHeader }) {
                     <div className="recent-post-widget">
                       <div className="post-img">
                         <a href="#!">
-                          <img src="./assets/images/blog/3.jpg" alt="" />
+                          <img src="../assets/images/blog/3.jpg" alt="" />
                         </a>
                       </div>
                       <div className="post-desc">
@@ -374,7 +399,7 @@ export default function News({ setHeader }) {
           </div>
           {/* <!-- Newsletter section start --> */}
           <div className="rs-newsletter style1 pt-120 md-pt-80 mb--110">
-            <Newsletter/>
+            <Newsletter />
           </div>
           {/* <!-- Newsletter section end --> */}
         </div>

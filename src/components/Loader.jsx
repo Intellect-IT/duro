@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import $ from "jquery";
+import loaderimg from '../assets/images/duro_sign_light.svg';
 
 const Loader = () => {
     useEffect(() => {
@@ -12,7 +13,7 @@ const Loader = () => {
 				<div className="loader-container">
 					<div className="loader-icon">
 						<img
-							src="./assets/images/duro_sign_light.svg"
+							src={loaderimg}
 							alt="DURŌ, Niche perfumery"
 						/>
 					</div>

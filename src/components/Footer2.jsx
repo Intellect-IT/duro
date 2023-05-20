@@ -13,7 +13,7 @@ export default function Footer2() {
                     <div className="row">
                         <div className="col-lg-4 col-md-12 col-sm-12 md-mb-10">
                             <div className="footer-logo mb-40">
-                                <Link to="/"><img src="./assets/images/logo-footer-light.svg" title="DURŌ" alt="DURŌ"/></Link>
+                                <Link to="/"><img src="../assets/images/logo-footer-light.svg" title="DURŌ" alt="DURŌ"/></Link>
                             </div>
                         </div>
                         <div className="col-lg-8">
