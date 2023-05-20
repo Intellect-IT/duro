@@ -14,7 +14,6 @@ import Privacy from "./pages/Privacy";
 import Brand from "./pages/Brand";
 
 import GoToTop from "./components/GoToTop";
-import BrandsRoot from "./pages/BrandsRoot";
 
 function App() {
   const [header, setHeader] = useState(false);
