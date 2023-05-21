@@ -742,7 +742,7 @@ const SwiperDesktop = () => {
                     <ul className="blog-meta">
                       <li className="admin">
                         <i className="fa fa-user-o"></i>
-                        Lav Š.
+                        Lav Šćelović-Pokupec
                       </li>
                       <li className="cat-list">
                         <Link to="/news/opening-hours-easter-holiday-2023">
@@ -779,7 +779,7 @@ const SwiperDesktop = () => {
                     <ul className="blog-meta">
                       <li className="admin">
                         <i className="fa fa-user-o"></i>
-                        Lav Š.
+                        Lav Šćelović-Pokupec
                       </li>
                       <li className="cat-list">
                         <Link to="/news/milorad-batta-mihailovitch-exhibition-duro-niche-perfumery">
@@ -816,7 +816,7 @@ const SwiperDesktop = () => {
                     <ul className="blog-meta">
                       <li className="admin">
                         <i className="fa fa-user-o"></i>
-                        Lav Š.
+                        Lav Šćelović-Pokupec
                       </li>
                       <li className="cat-list">
                         <Link to="/news/grand-opening-event-duro-niche-perfumery">
@@ -853,7 +853,7 @@ const SwiperDesktop = () => {
                     <ul className="blog-meta">
                       <li className="admin">
                         <i className="fa fa-user-o"></i>
-                        Lav Š.
+                        Lav Šćelović-Pokupec
                       </li>
                       <li className="cat-list">
                         <Link to="/news/grand-opening-duro-niche-perfumery-press-release">
