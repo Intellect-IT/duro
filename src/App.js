@@ -31,11 +31,10 @@ function App() {
         <Routes>
           <Route path="/" exact element={<Home header={header} />} />
           <Route path="/our-story" element={<Story setHeader={setHeader} />} />
-          <Route path="/press" element={<Press setHeader={setHeader} />} />
           <Route path="/contact" element={<Contact setHeader={setHeader} />} />
           <Route path="/gallery" element={<Gallery setHeader={setHeader} />} />
           <Route path="/news/:slug" element={<News setHeader={setHeader} />} />
-          {/* <Route path="/news" element={<News setHeader={setHeader}/>} /> */}
+          <Route path="/news" element={<Press setHeader={setHeader} />} />
           <Route path="/brands/:slug" element={<Brand setHeader={setHeader}/>} />
           <Route path="/brands" element={<Brands setHeader={setHeader} />} />
           <Route path="/privacy" element={<Privacy setHeader={setHeader} />} />

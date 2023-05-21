@@ -27,8 +27,8 @@ export default function Header2({ header }) {
         setActive("story");
       } else if (location.pathname.includes("brands")) {
         setActive("brands");
-      } else if (location.pathname.includes("press")) {
-        setActive("press");
+      } else if (location.pathname.includes("news")) {
+        setActive("news");
       } else if (location.pathname.includes("contact")) {
         setActive("contact");
       }
@@ -107,10 +107,10 @@ export default function Header2({ header }) {
                           </li>
                           <li
                             className={
-                              active === "press" ? "current-menu-item" : ""
+                              active === "news" ? "current-menu-item" : ""
                             }
                           >
-                            <Link to="/press">{t("header.press")}</Link>
+                            <Link to="/news">{t("header.press")}</Link>
                           </li>
                           <li
                             className={
@@ -238,7 +238,7 @@ export default function Header2({ header }) {
                 <Link to="/brands">{t("header.brands")}</Link>
               </li>
               <li onClick={handleMobileMenu}>
-                <Link to="/press">{t("header.press")}</Link>
+                <Link to="/news">{t("header.press")}</Link>
               </li>
               <li onClick={handleMobileMenu}>
                 <Link to="/contact">{t("header.contact")}</Link>

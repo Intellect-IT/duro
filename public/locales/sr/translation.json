@@ -15,7 +15,7 @@
   },
   "footer": {
     "footerHome": {
-      "heartBefore":"© 2023. DURŌ, All Rights Reserved. Made with ",
+      "heartBefore": "© 2023. DURŌ, All Rights Reserved. Made with ",
       "heartAfter": " by "
     },
     "footerMain": {
@@ -126,27 +126,43 @@
       "desc1": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
       "desc2": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
       "tag1": "Kreativni",
-      "tag2" : "Elementor",
-      "tag3" : "Lagan",
-      "tag4" : "Minimalno"
+      "tag2": "Elementor",
+      "tag3": "Lagan",
+      "tag4": "Minimalno"
     },
     "comments": {
       "title": "3 komentara na “ICC Wales izveštava o rekordnoj letnjoj sezoni",
       "reply": "Odgovor",
       "leaveReply": "Ostavite Odgovor",
       "note": "Vaša email adresa neće biti objavljena. Obavezna polja su označena sa *",
-      "comment1" : {
+      "comment1": {
         "title": "Rswpdemo",
         "desc": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet"
       },
-      "comment2" : {
+      "comment2": {
         "title": "Rswpdemo",
         "desc": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet"
       },
-      "comment3" : {
+      "comment3": {
         "title": "Rswpdemo",
         "desc": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet"
       }
+    },
+    "blog1": {
+      "title": "Radno vreme za praznike: Uskrs 2023",
+      "content": "<p>Zbog nastupajućih praznika, radno vreme parfimerije je prilagođeno radnom vremenu TC „Galerija“ Beograd.</p><ul><li><b>Petak, 14.4.,</b> od 10.00 - 18.00</li><li><b>Subota, 15.4.,</b> od 10.00 - 22.00</li><li><b>Nedelja, 16.4.,</b> neradni dan</li></ul><br/><p>Takođe, sa zadovoljstvom vas obaveštavamo da ćemo imati puno radno vreme 1. i 2. maja, pružajući vam produženu priliku da nas posetite i uživate u očaravajućem svetu parfema.</p><p>Tim DURŌ niche parfimerije vam želi srećne Uskršnje praznike ispunjene ljubavlju, mirom i predivnim mirisima koji čine ovo doba godine posebnim.</p>"
+    },
+    "blog2": {
+      "title": "Remek dela Milorada Bate Mihajlovića u DURŌ parfimeriji",
+      "content": "<p>Povodom svečanog otvaranja, sa ponosom najavljujemo javnu izložbu dva velika dela našeg poznatog slikara i akademika <b>Milorada Bate Mihajlovića (1923 - 2011)</b> u prostoru <b>DURŌ niche parfimerije</b>. Ova remek dela potiču iz njegovog najboljeg pariskog perioda i prvi put su izložena u Srbiji. Izložba je realizovana u saradnji sa poznatim beogradskim kolekcionarima, a dela potiču iz fundusa čuvene pariske galerije <b>„Ariel“</b>, gde su la izlagana sredinom i krajem ’60-tih godina XX veka.</p><ul><li>1. <b>„Hiljadu i jedna noć“, 1968.,</b> ulje na platnu, 146 x 114 cm</li><li>2. <b>„Velika kompozicija“, 1970.,</b> ulje na platnu, 146 x 114 cm</li></ul><p><b><br/>Milorad Bata Mihajlović</b> je jedan od naših najznačajnijih slikara iz tzv. „pariskog kruga“, a njegova dela se nalaze u muzejima, privatnim zbirkama i institucijama širom sveta. Kritičari tog doba u Francuskoj opisuju ga kao slikara izuzetnog senzibiliteta, a njegova dela iz perioda druge polovine 60-tih godina odlikuje metaforičnost boja i naglašena ritmička figuracija.</p><p>U okviru galerijskog prostora, dostupni su i katalozi i monografije sa njegovim delima. Uskoro će u Beogradu biti organizovana velika retrospektivna izložba njegovog opusa, uz prezentaciju nove monografije i podršku Ministarstva kulture.</p><p>U svetu parfema, gde je savršenstvo moguće pronaći i u najmanjim nijansama, DURŌ ne samo da je osmislio parfemsko iskustvo koja će učiniti da se vreme zaustavi na sekund, već vam pruža priliku da upotpunite privlačnost tog utiska i prepustite se harmoniji mirisa i vanvremenske umetnosti.</p><p>Dela će biti izložena do daljnjeg.</p><p>Dobrodošli!</p>"
+    },
+    "blog3": {
+      "title": "Svečano otvaranje DURŌ niche parfimerije u Beogradu",
+      "content": "<p>Poštovane dame i gospodo, velika nam je čast i zadovoljstvo da podelimo sa vama radost povodom svečanog otvaranja naše nove parfimerije u TC „Galerija“ Beograd. U društvu naših dragih partnera, prijatelja, porodice i pravih zaljubljenika u parfeme, presekli smo vrpcu i sa velikim oduševljenjem otvorili vrata DURŌ niche parfimerije!</p><p>Posebno smo zahvalni na neiscrpnoj ljubavi i ogromnom podsticaju koju nam pružate, jer je upravo vaša podrška omogućila naš rast i širenje na parfemsku scenu Srbije. Svaki pojedinačni doprinos je bio neprocenjiv za naš napredak u ovoj magičnoj avanturi parfemskog sveta!</p><p>Hvala svima koji su bili deo ovog nezaboravnog događaja! Jedva čekamo da vas ponovo ugostimo!</p><p>Živeli!</p>"
+    },
+    "blog4": {
+      "title": "Veliko otvaranje DURŌ niche parfimerije",
+      "content": "<p><b>DURŌ niche parfimerija</b> s ponosom najavljuje svoje veliko otvaranje, označavajući dolazak jedinstvenog koncepta posvećenog umetnosti parfema u srcu Beograda. Čarobna atmosfera naše luksuzne parfimerije, smeštene u prestižnom TC \"Galerija\", stvara nezaboravno estetsko iskustvo koje prevazilazi vreme i ostavlja neizbrisiv utisak.</p><p>Grand Opening Event će se održati <b>10. aprila od 18.00 CET</b>, predstavljajući najfinije parfeme 25 niche brendova koje ekskluzivno zastupamo za srpsko tržište: Electimuss, Ormonde Jayne, Jovoy, Jeroboam, Marc-Antoine Barrois, Fragrance du Bois, Puredistance, Histoires de Parfums, Paradis des Sens, Liquides Imaginaires, Veronique Gabai, Calaj, Theodoros Kalotinis, Parfums MDCI, Naomi Goodsir, Indult, Morph, Wesker, Anima Mundi, Onyrico, Castelbel, Portus Cale, Acque di Italia, Thameen i Affinessence.</p><p>Svaki brend oživljava esenciju luksuza, zanatske veštine i kreativnosti, nudeći neponovljivo parfemsko putovanje za sve.</p><p>Želimo da iskažemo iskrenu zahvalnost našim cenjenim partnerima, predstavnicima brendova, prijateljima i porodici na njihovoj nepokolebljivoj podršci u ostvarenju ovog sna. Pridružite nam se na ovom ekskluzivnom događaju.</p><p>Media contact:<b><br/>Lav Šćelović-Pokupec, menadžer<br/>lav@duro.cologne<br/>+381 60 5561303</b></p>"
     }
   },
   "privacy": {

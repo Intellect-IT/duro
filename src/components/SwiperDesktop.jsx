@@ -13,6 +13,7 @@ import "swiper/css/pagination";
 import { Pagination, Mousewheel } from "swiper";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
+import ContactForm from "./ContactForm";
 
 const SwiperDesktop = () => {
   const { t } = useTranslation();
@@ -65,7 +66,7 @@ const SwiperDesktop = () => {
                       <div className="animate-border white-color-style">
                         <a
                           className="popup-border"
-                          href="https://youtu.be/XZI0CdEx4vc"
+                          href="https://www.youtube.com/watch?v=XZI0CdEx4vc"
                         >
                           <i className="fa fa-play"></i>
                         </a>
@@ -752,7 +753,9 @@ const SwiperDesktop = () => {
                       </li>
                     </ul>
                     <h3 className="blog-title">
-                      <Link to="/news/opening-hours-easter-holiday-2023">{t("home.news.news1.title")}</Link>
+                      <Link to="/news/opening-hours-easter-holiday-2023">
+                        {t("home.news.news1.title")}
+                      </Link>
                     </h3>
                     <div className="blog-button">
                       <Link to="/news/opening-hours-easter-holiday-2023">
@@ -787,7 +790,9 @@ const SwiperDesktop = () => {
                       </li>
                     </ul>
                     <h3 className="blog-title">
-                      <Link to="/news/milorad-batta-mihailovitch-exhibition-duro-niche-perfumery">{t("home.news.news2.title")}</Link>
+                      <Link to="/news/milorad-batta-mihailovitch-exhibition-duro-niche-perfumery">
+                        {t("home.news.news2.title")}
+                      </Link>
                     </h3>
                     <div className="blog-button">
                       <Link to="/news/milorad-batta-mihailovitch-exhibition-duro-niche-perfumery">
@@ -822,7 +827,9 @@ const SwiperDesktop = () => {
                       </li>
                     </ul>
                     <h3 className="blog-title">
-                      <Link to="/news/grand-opening-event-duro-niche-perfumery">{t("home.news.news3.title")}</Link>
+                      <Link to="/news/grand-opening-event-duro-niche-perfumery">
+                        {t("home.news.news3.title")}
+                      </Link>
                     </h3>
                     <div className="blog-button">
                       <Link to="/news/grand-opening-event-duro-niche-perfumery">
@@ -857,7 +864,9 @@ const SwiperDesktop = () => {
                       </li>
                     </ul>
                     <h3 className="blog-title">
-                      <Link to="/news/grand-opening-duro-niche-perfumery-press-release">{t("home.news.news4.title")}</Link>
+                      <Link to="/news/grand-opening-duro-niche-perfumery-press-release">
+                        {t("home.news.news4.title")}
+                      </Link>
                     </h3>
                     <div className="blog-button">
                       <Link to="/news/grand-opening-duro-niche-perfumery-press-release">
@@ -977,62 +986,7 @@ const SwiperDesktop = () => {
                   <div className="col-lg-6">
                     <div className="contact-wrap">
                       <div id="form-messages"></div>
-                      <form id="contact-form" method="post" action="mailer.php">
-                        <fieldset>
-                          <div className="row">
-                            <div className="col-sm-12 mb-6">
-                              <input
-                                className="from-control"
-                                type="text"
-                                id="name"
-                                name="name"
-                                placeholder={t("home.contact.nameForm")}
-                                required=""
-                              />
-                            </div>
-                            <div className="col-sm-12 mb-6">
-                              <input
-                                className="from-control"
-                                type="text"
-                                id="email"
-                                name="email"
-                                placeholder={t("home.contact.emailForm")}
-                                required=""
-                              />
-                            </div>
-                            <div className="col-sm-12 mb-31">
-                              <input
-                                className="from-control"
-                                type="text"
-                                id="phone"
-                                name="phone"
-                                placeholder={t("home.contact.phoneForm")}
-                                required=""
-                              />
-                            </div>
-                            <div className="col-sm-12 mb-8">
-                              <textarea
-                                className="from-control"
-                                id="message"
-                                name="message"
-                                placeholder={t("home.contact.messageForm")}
-                                required=""
-                              ></textarea>
-                            </div>
-                          </div>
-                          <div className="btn-part">
-                            <div className="form-group mt-7">
-                              <div className="submit-btn">
-                                <input
-                                  className="submit"
-                                  type="submit"
-                                  value={t("home.contact.submit")}
-                                />
-                              </div>
-                            </div>
-                          </div>
-                        </fieldset>
-                      </form>
+                      <ContactForm />
                     </div>
                   </div>
                 </div>

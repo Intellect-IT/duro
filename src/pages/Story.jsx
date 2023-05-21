@@ -213,7 +213,7 @@ export default function Story({ setHeader }) {
                   <div className="animate-border">
                     <a
                       className="popup-border"
-                      href="https://youtu.be/XZI0CdEx4vc"
+                      href="https://www.youtube.com/watch?v=XZI0CdEx4vc"
                     >
                       <i className="fa fa-play"></i>
                     </a>

@@ -1,0 +1,30 @@
+{
+    "opening-hours-easter-holiday-2023" : {
+        "url": "Opening Hours for Holidays: Easter 2023",
+        "title": "news.blog1.title",
+        "content": "news.blog1.content",
+        "img": "../assets/images/blog/1.jpg",
+        "date": "April 13, 2023"
+    },
+    "milorad-batta-mihailovitch-exhibition-duro-niche-perfumery" : {
+        "url": "Opening Hours for Holidays: Easter 2023",
+        "title": "news.blog2.title",
+        "content": "news.blog2.content",
+        "img": "../assets/images/blog/2.jpg",
+        "date": "April 11, 2023"
+    },
+    "grand-opening-event-duro-niche-perfumery" : {
+        "url": "Opening Hours for Holidays: Easter 2023",
+        "title": "news.blog3.title",
+        "content": "news.blog3.content",
+        "img": "../assets/images/blog/3.jpg",
+        "date": "April 10, 2023"
+    },
+    "grand-opening-duro-niche-perfumery-press-release" : {
+        "url": "Opening Hours for Holidays: Easter 2023",
+        "title": "news.blog4.title",
+        "content": "news.blog4.content",
+        "img": "../assets/images/blog/4.jpg",
+        "date": "April 11, 2023"
+    }
+}

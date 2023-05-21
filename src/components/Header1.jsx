@@ -80,7 +80,7 @@ export default function Header1() {
                             <Link to="/brands">{t("header.brands")}</Link>
                           </li>
                           <li>
-                            <Link to="/press">{t("header.press")}</Link>
+                            <Link to="/news">{t("header.press")}</Link>
                           </li>
                           <li>
                             <Link to="/contact">{t("header.contact")}</Link>
@@ -204,7 +204,7 @@ export default function Header1() {
                 <Link to="/brands">{t("header.brands")}</Link>
               </li>
               <li>
-                <Link to="/press">{t("header.press")}</Link>
+                <Link to="/news">{t("header.press")}</Link>
               </li>
               <li>
                 <Link to="/contact">{t("header.contact")}</Link>

@@ -1,13 +1,21 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Loader from "../components/Loader";
 import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet";
 import { useParams } from "react-router-dom";
 import Newsletter from "../components/Newsletter";
+import newsData from "../data/news.json";
+import parse from "html-react-parser";
+import NewsWidget from "../components/NewsWidget";
 
 export default function News({ setHeader }) {
   const { slug } = useParams();
   const { t } = useTranslation();
+  const [currentBlog, setCurrentBlog] = useState(newsData[slug]);
+
+  useEffect(() => {
+    setCurrentBlog(newsData[slug])
+  }, [slug])
 
   useEffect(() => {
     const handleScroll = () => {
@@ -29,7 +37,7 @@ export default function News({ setHeader }) {
         {/* <!-- meta tag --> */}
         <meta charset="utf-8" />
         <title>
-          Opening hours during Easter Holiday | DURŌ Niche perfumery | Niche
+          {t(currentBlog.title)} | DURŌ Niche perfumery | Niche
           parfimerija
         </title>
 
@@ -104,7 +112,6 @@ export default function News({ setHeader }) {
         {/* <!-- Breadcrumbs End --> */}
 
         {/* <!-- Blog Section Start --> */}
-        <h1>{slug}</h1>
         <div className="rs-inner-blog gray-bg4 pt-120 md-pt-80">
           <div className="container">
             <div className="row">
@@ -114,15 +121,15 @@ export default function News({ setHeader }) {
                     <div className="blog-details">
                       <div className="bs-img mb-35">
                         <a href="#!">
-                          <img src="../assets/images/blog/4.jpg" alt="" />
+                          <img src={currentBlog.img} alt="" />
                         </a>
                       </div>
                       <div className="blog-full">
                         <ul className="single-post-meta">
                           <li>
                             <span className="p-date">
-                              <i className="fa fa-calendar-check-o"></i> January
-                              21, 2020{" "}
+                              <i className="fa fa-calendar-check-o"></i>{" "}
+                              {currentBlog.date}{" "}
                             </span>
                           </li>
                           <li>
@@ -150,21 +157,14 @@ export default function News({ setHeader }) {
                             <cite>Robert Calibo</cite>
                           </p>
                         </blockquote>
-                        <h3>{t("news.tips.title")}</h3>
-                        <ul className="dots">
-                          <li>{t("news.tips.tip1")}</li>
-                          <li>{t("news.tips.tip2")}</li>
-                          <li>{t("news.tips.tip3")}</li>
-                          <li>{t("news.tips.tip4")}</li>
-                          <li>{t("news.tips.tip5")}</li>
-                        </ul>
-                        <p>{t("news.tips.desc1")}</p>
-                        <div className="bs-img mb-30">
+                        <h3>{t(newsData[slug].title)}</h3>
+                        <div>{parse(t(currentBlog.content))}</div>
+                        {/* <div className="bs-img mb-30">
                           <a href="#!">
                             <img src="../assets/images/blog/1.jpg" alt="" />
                           </a>
                         </div>
-                        <p>{t("news.tips.desc2")}</p>
+                        <p>{t("news.tips.desc2")}</p> */}
 
                         <div className="tag-info">
                           Tags:
@@ -308,53 +308,7 @@ export default function News({ setHeader }) {
                                         <button type="submit" value="Search"><i className="flaticon-search"></i></button>
                                     </div>
                                 </div>--> */}
-                  <div className="recent-posts mb-50">
-                    <div className="widget-title">
-                      <h3 className="title">{t("home.news.recent")}</h3>
-                    </div>
-                    <div className="recent-post-widget no-border">
-                      <div className="post-img">
-                        <a href="#!">
-                          <img src="../assets/images/blog/1.jpg" alt="" />
-                        </a>
-                      </div>
-                      <div className="post-desc">
-                        <a href="#!">{t("home.news.news1.title")}</a>
-                        <span className="date-post">
-                          {" "}
-                          <i className="fa fa-calendar"></i> April 13, 2023{" "}
-                        </span>
-                      </div>
-                    </div>
-                    <div className="recent-post-widget">
-                      <div className="post-img">
-                        <a href="#!">
-                          <img src="../assets/images/blog/2.jpg" alt="" />
-                        </a>
-                      </div>
-                      <div className="post-desc">
-                        <a href="#!"> {t("home.news.news2.title")}</a>
-                        <span className="date-post">
-                          {" "}
-                          <i className="fa fa-calendar"></i> April 11, 2023{" "}
-                        </span>
-                      </div>
-                    </div>
-                    <div className="recent-post-widget">
-                      <div className="post-img">
-                        <a href="#!">
-                          <img src="../assets/images/blog/3.jpg" alt="" />
-                        </a>
-                      </div>
-                      <div className="post-desc">
-                        <a href="#!">{t("home.news.news3.title")}</a>
-                        <span className="date-post">
-                          {" "}
-                          <i className="fa fa-calendar"></i> April 10, 2023{" "}
-                        </span>
-                      </div>
-                    </div>
-                  </div>
+                  <NewsWidget />
                   {/* <!--<div className="categories mb-45">
                                     <div className="widget-title">
                                         <h3 className="title">Categories</h3>

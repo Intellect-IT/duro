@@ -3,6 +3,7 @@ import Loader from "../components/Loader";
 import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet";
 import Newsletter from "../components/Newsletter";
+import ContactForm from "../components/ContactForm";
 
 export default function Contact({ setHeader }) {
   const { t } = useTranslation();
@@ -95,62 +96,7 @@ export default function Contact({ setHeader }) {
                 <div className="col-lg-6">
                   <div className="contact-wrap">
                     <div id="form-messages"></div>
-                    <form id="contact-form" method="post" action="mailer.php">
-                      <fieldset>
-                        <div className="row">
-                          <div className="col-sm-12 mb-6">
-                            <input
-                              className="from-control"
-                              type="text"
-                              id="name"
-                              name="name"
-                              placeholder={t("home.contact.nameForm")}
-                              required=""
-                            />
-                          </div>
-                          <div className="col-sm-12 mb-6">
-                            <input
-                              className="from-control"
-                              type="text"
-                              id="email"
-                              name="email"
-                              placeholder={t("home.contact.emailForm")}
-                              required=""
-                            />
-                          </div>
-                          <div className="col-sm-12 mb-31">
-                            <input
-                              className="from-control"
-                              type="text"
-                              id="phone"
-                              name="phone"
-                              placeholder={t("home.contact.phoneForm")}
-                              required=""
-                            />
-                          </div>
-                          <div className="col-sm-12 mb-8">
-                            <textarea
-                              className="from-control"
-                              id="message"
-                              name="message"
-                              placeholder={t("home.contact.messageForm")}
-                              required=""
-                            ></textarea>
-                          </div>
-                        </div>
-                        <div className="btn-part">
-                          <div className="form-group mt-7">
-                            <div className="submit-btn">
-                              <input
-                                className="submit"
-                                type="submit"
-                                value={t("home.contact.submit")}
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </fieldset>
-                    </form>
+                    <ContactForm/>
                   </div>
                 </div>
               </div>
@@ -161,7 +107,7 @@ export default function Contact({ setHeader }) {
         {/* <!-- Contact Section End -->  */}
         {/* <!-- Newsletter section start --> */}
         <div className="rs-newsletter gray-bg4 style1 pt-90 md-pt-60 mb--110">
-          <Newsletter/>
+          <Newsletter />
         </div>
         {/* <!-- Newsletter section end --> */}
       </div>
