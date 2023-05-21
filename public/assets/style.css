@@ -2200,6 +2200,29 @@ body .search-modal .close span:before {
 body .search-modal .close:hover {
   opacity: 0.8 !important;
 }
+
+.language-btn {
+  display: unset !important;
+  border: 2px solid #fff !important;
+  padding: 0.4em 0.5em !important;
+  border-radius: 4em;
+  margin: 0 !important;
+}
+
+.language-btn-mobile {
+  display: none !important;
+  border: 2px solid #fff !important;
+  padding: 0.2em 0.4em 1.8em 0.4em !important;
+  border-radius: 4em;
+  margin-left: 14px !important;
+  color: #fff !important;
+  height: 35px !important;
+}
+
+.language-btn:hover {
+  border-color: #bf994c !important;
+}
+
 /*------------------------------------
     04. Sticky Menu CSS
 --------------------------------------*/
@@ -5495,9 +5518,9 @@ body .search-modal .close:hover {
   overflow: hidden;
 }
 .rs-newsletter.style1 .newsletter-wrap .newsletter-form .paper-plane:before {
-  content: "\f110";
+  content: "\f1d8";
   position: absolute;
-  font-family: Flaticon;
+  font-family: "Font Awesome 6 Free";
   display: inline-block;
   vertical-align: middle;
   right: 27px;

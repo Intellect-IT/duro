@@ -6,6 +6,8 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
+import ContactForm from "./ContactForm";
 
 const SwiperMobile = () => {
 	const { t } = useTranslation();
@@ -46,7 +48,7 @@ const SwiperMobile = () => {
 											<div className="animate-border white-color-style">
 												<a
 													className="popup-border"
-													href="https://youtu.be/XZI0CdEx4vc"
+													href="https://www.youtube.com/watch?v=XZI0CdEx4vc"
 												>
 													<i className="fa fa-play"></i>
 												</a>
@@ -87,12 +89,12 @@ const SwiperMobile = () => {
 										{t("home.story.desc2")}
 										</p>
 										<div className="btn-part mt-40">
-											<a
+											<Link
 												className="readon btn-text ticket"
-												href="/our-story"
+												to="/our-story"
 											>
 												<span>{t("home.explore")}</span>
-											</a>
+											</Link>
 										</div>
 									</div>
 								</div>
@@ -121,12 +123,12 @@ const SwiperMobile = () => {
 										{t("home.boutique.desc2")}
 										</p>
 										<div className="btn-part mt-40">
-											<a
+											<Link
 												className="readon btn-text ticket"
-												href="/brands"
+												to="/brands"
 											>
 												<span>{t("home.read")}</span>
-											</a>
+											</Link>
 										</div>
 									</div>
 								</div>
@@ -330,16 +332,16 @@ const SwiperMobile = () => {
 									<div className="logo-item">
 										<div className="grid-figure">
 											<div className="logo-img">
-												<a
+												<Link
 													title="Marc-Antoine Barrois"
-													href="#!"
+													to="/brands/marc-antoine_barrois"
 												>
 													<img
 														src="./assets/images/event/brands/001_marc-antoine_barrois.png"
 														alt="Marc-Antoine Barrois"
 														title="Marc-Antoine Barrois"
 													/>
-												</a>
+												</Link>
 											</div>
 										</div>
 									</div>
@@ -351,13 +353,13 @@ const SwiperMobile = () => {
 												title="Jovoy"
 												className="logo-img"
 											>
-												<a href="#!">
+												<Link to="/brands/jovoy">
 													<img
 														src="./assets/images/event/brands/002_jovoy.png"
 														alt="Jovoy"
 														title="Jovoy"
 													/>
-												</a>
+												</Link>
 											</div>
 										</div>
 									</div>
@@ -369,13 +371,13 @@ const SwiperMobile = () => {
 												title="Jeroboam"
 												className="logo-img"
 											>
-												<a href="#!">
+												<Link to="/brands/jeroboam">
 													<img
 														src="./assets/images/event/brands/003_jeroboam.png"
 														alt="Jeroboam"
 														title="Jeroboam"
 													/>
-												</a>
+												</Link>
 											</div>
 										</div>
 									</div>
@@ -387,13 +389,13 @@ const SwiperMobile = () => {
 												title="Morph"
 												className="logo-img"
 											>
-												<a href="#!">
+												<Link to="/brands/morph">
 													<img
 														src="./assets/images/event/brands/004_morph.png"
 														alt="Morph"
 														title="Morph"
 													/>
-												</a>
+												</Link>
 											</div>
 										</div>
 									</div>
@@ -405,13 +407,13 @@ const SwiperMobile = () => {
 												title="MDCI"
 												className="logo-img"
 											>
-												<a href="#!">
+												<Link to="/brands/mdci">
 													<img
 														src="./assets/images/event/brands/005_mdci.png"
 														alt="MDCI"
 														title="MDCI"
 													/>
-												</a>
+												</Link>
 											</div>
 										</div>
 									</div>
@@ -423,13 +425,13 @@ const SwiperMobile = () => {
 												title="Puredistance"
 												className="logo-img"
 											>
-												<a href="#!">
+												<Link to="/brands/puredistance">
 													<img
 														src="./assets/images/event/brands/006_puredistance.png"
 														alt="Puredistance"
 														title="Puredistance"
 													/>
-												</a>
+												</Link>
 											</div>
 										</div>
 									</div>
@@ -441,13 +443,13 @@ const SwiperMobile = () => {
 												title="HDP"
 												className="logo-img"
 											>
-												<a href="#!">
+												<Link to="/brands/hdp">
 													<img
 														src="./assets/images/event/brands/007_hdp.png"
 														title="HDP"
 														alt="HDP"
 													/>
-												</a>
+												</Link>
 											</div>
 										</div>
 									</div>
@@ -459,13 +461,13 @@ const SwiperMobile = () => {
 												title="Calaj"
 												className="logo-img"
 											>
-												<a href="#!">
+												<Link to="/brands/calaj">
 													<img
 														src="./assets/images/event/brands/008_calaj.png"
 														title="Calaj"
 														alt="Calaj"
 													/>
-												</a>
+												</Link>
 											</div>
 										</div>
 									</div>
@@ -477,13 +479,13 @@ const SwiperMobile = () => {
 												title="Indult"
 												className="logo-img"
 											>
-												<a href="#!">
+												<Link to="/brands/indult">
 													<img
 														src="./assets/images/event/brands/009_indult.png"
 														title="Indult"
 														alt="Indult"
 													/>
-												</a>
+												</Link>
 											</div>
 										</div>
 									</div>
@@ -495,13 +497,13 @@ const SwiperMobile = () => {
 												title="Thameen"
 												className="logo-img"
 											>
-												<a href="#!">
+												<Link to="/brands/thameen">
 													<img
 														src="./assets/images/event/brands/010_thameen.png"
 														alt="Thameen"
 														title="Thameen"
 													/>
-												</a>
+												</Link>
 											</div>
 										</div>
 									</div>
@@ -513,13 +515,13 @@ const SwiperMobile = () => {
 												title="Theodoros Kalotinis"
 												className="logo-img"
 											>
-												<a href="#!">
+												<Link to="/brands/theodoros-kalotinis">
 													<img
 														src="./assets/images/event/brands/011_theodoros.png"
 														title="Theodoros Kalotinis"
 														alt="Theodoros Kalotinis"
 													/>
-												</a>
+												</Link>
 											</div>
 										</div>
 									</div>
@@ -531,13 +533,13 @@ const SwiperMobile = () => {
 												title="Fragrance du Bois"
 												className="logo-img"
 											>
-												<a href="#!">
+												<Link to="/brands/fdb">
 													<img
 														src="./assets/images/event/brands/012_fdb.png"
 														title="Fragrance du Bois"
 														alt="Fragrance du Bois"
 													/>
-												</a>
+												</Link>
 											</div>
 										</div>
 									</div>
@@ -546,13 +548,13 @@ const SwiperMobile = () => {
 									<div className="logo-item">
 										<div className="grid-figure">
 											<div className="Ormonde Jayne">
-												<a href="#!">
+											<Link to="/brands/ormonde-jayne">
 													<img
 														src="./assets/images/event/brands/013_ormonde.png"
 														title="Ormonde Jayne"
 														alt="Ormonde Jayne"
 													/>
-												</a>
+												</Link>
 											</div>
 										</div>
 									</div>
@@ -564,13 +566,13 @@ const SwiperMobile = () => {
 												title="Paradis des Sens"
 												className="logo-img"
 											>
-												<a href="#!">
+												<Link to="/brands/paradis">
 													<img
 														src="./assets/images/event/brands/014_paradis.png"
 														title="Paradis des Sens"
 														alt="Paradis des Sens"
 													/>
-												</a>
+												</Link>
 											</div>
 										</div>
 									</div>
@@ -582,13 +584,13 @@ const SwiperMobile = () => {
 												title="Wesker"
 												className="logo-img"
 											>
-												<a href="#!">
+												<Link to="/brands/wesker">
 													<img
 														src="./assets/images/event/brands/015_wesker.png"
 														title="Wesker"
 														alt="Wesker"
 													/>
-												</a>
+												</Link>
 											</div>
 										</div>
 									</div>
@@ -600,13 +602,13 @@ const SwiperMobile = () => {
 												title="Anima Mundi"
 												className="logo-img"
 											>
-												<a href="#!">
+												<Link to="/brands/anima-mundi">
 													<img
 														src="./assets/images/event/brands/016_anima_mundi.png"
 														title="Anima Mundi"
 														alt="Anima Mundi"
 													/>
-												</a>
+												</Link>
 											</div>
 										</div>
 									</div>
@@ -618,13 +620,13 @@ const SwiperMobile = () => {
 												title="Electimuss"
 												className="logo-img"
 											>
-												<a href="#!">
+												<Link to="/brands/electimuss">
 													<img
 														src="./assets/images/event/brands/017_electimuss.png"
 														title="Electimuss"
 														alt="Electimuss"
 													/>
-												</a>
+												</Link>
 											</div>
 										</div>
 									</div>
@@ -636,13 +638,13 @@ const SwiperMobile = () => {
 												title="Acque di Italia"
 												className="logo-img"
 											>
-												<a href="#!">
+												<Link to="/brands/acque-di-italia">
 													<img
 														src="./assets/images/event/brands/018_aque_di_italia.png"
 														title="Acque di Italia"
 														alt="Acque di Italia"
 													/>
-												</a>
+												</Link>
 											</div>
 										</div>
 									</div>
@@ -654,13 +656,13 @@ const SwiperMobile = () => {
 												title="Portus Cale"
 												className="logo-img"
 											>
-												<a href="#!">
+												<Link to="/brands/portus-cale">
 													<img
 														src="./assets/images/event/brands/019_portus_cale.png"
 														title="Portus Cale"
 														alt="Portus Cale"
 													/>
-												</a>
+												</Link>
 											</div>
 										</div>
 									</div>
@@ -672,13 +674,13 @@ const SwiperMobile = () => {
 												title="Veronique Gabai"
 												className="logo-img"
 											>
-												<a href="#!">
+												<Link to="/brands/veronique-gabai">
 													<img
 														src="./assets/images/event/brands/020_veronique_gabai.png"
 														title="Veronique Gabai"
 														alt="Veronique Gabai"
 													/>
-												</a>
+												</Link>
 											</div>
 										</div>
 									</div>
@@ -690,13 +692,13 @@ const SwiperMobile = () => {
 												title="Onyrico"
 												className="logo-img"
 											>
-												<a href="#!">
+												<Link to="/brands/onyrico">
 													<img
 														src="./assets/images/event/brands/021_onyrico.png"
 														title="Onyrico"
 														alt="Onyrico"
 													/>
-												</a>
+												</Link>
 											</div>
 										</div>
 									</div>
@@ -708,13 +710,13 @@ const SwiperMobile = () => {
 												title="Affinessence"
 												className="logo-img"
 											>
-												<a href="#!">
+												<Link to="/brands/affinessence">
 													<img
 														src="./assets/images/event/brands/022_affinessence.png"
 														title="Affinessence"
 														alt="Affinessence"
 													/>
-												</a>
+												</Link>
 											</div>
 										</div>
 									</div>
@@ -726,13 +728,13 @@ const SwiperMobile = () => {
 												title="Castelbel"
 												className="logo-img"
 											>
-												<a href="#!">
+												<Link to="/brands/castelbel">
 													<img
 														src="./assets/images/event/brands/023_castelbel.png"
 														title="Castelbel"
 														alt="Castelbel"
 													/>
-												</a>
+												</Link>
 											</div>
 										</div>
 									</div>
@@ -744,13 +746,13 @@ const SwiperMobile = () => {
 												title="Liquides Imaginaries"
 												className="logo-img"
 											>
-												<a href="#!">
+												<Link to="/brands/liquides-imaginaries">
 													<img
 														src="./assets/images/event/brands/024_liquides_imaginaries.png"
 														title="Liquides Imaginaries"
 														alt="Liquides Imaginaries"
 													/>
-												</a>
+												</Link>
 											</div>
 										</div>
 									</div>
@@ -818,12 +820,12 @@ const SwiperMobile = () => {
 							>
 								<div className="blog-item">
 									<div className="image-wrap">
-										<a href="#!">
+										<Link to="/news/opening-hours-easter-holiday-2023">
 											<img
 												src="./assets/images/blog/4.jpg"
 												alt="Blog"
 											/>
-										</a>
+										</Link>
 										<div className="blog-date">
 											<span className="day">13</span>
 											<span className="month">Apr</span>
@@ -836,36 +838,36 @@ const SwiperMobile = () => {
 												Lav Š.
 											</li>
 											<li className="cat-list">
-												<a href="/news">
+												<Link to="/news/opening-hours-easter-holiday-2023">
 													{" "}
 													<i className="fa fa-folder"></i>
 													{t("home.news.news")}
-												</a>
+												</Link>
 											</li>
 										</ul>
 										<h3 className="blog-title">
-											<a href="#!">
+											<Link to="/news/opening-hours-easter-holiday-2023">
 											{t("home.news.news1.title")}
-											</a>
+											</Link>
 										</h3>
 										<div className="blog-button">
-											<a href="/news">
+											<Link to="/news/opening-hours-easter-holiday-2023">
 												<span className="btn-txt">
 													{t("home.read")}
 												</span>
 												<i className="fa fa fa-chevron-right"></i>
-											</a>
+											</Link>
 										</div>
 									</div>
 								</div>
 								<div className="blog-item">
 									<div className="image-wrap">
-										<a href="#!">
+										<Link to="/news/milorad-batta-mihailovitch-exhibition-duro-niche-perfumery">
 											<img
 												src="./assets/images/blog/2.jpg"
 												alt="Blog"
 											/>
-										</a>
+										</Link>
 										<div className="blog-date">
 											<span className="day">11</span>
 											<span className="month">Apr</span>
@@ -878,36 +880,36 @@ const SwiperMobile = () => {
 												Lav Š.
 											</li>
 											<li className="cat-list">
-												<a href="/news">
+												<Link to="/news/milorad-batta-mihailovitch-exhibition-duro-niche-perfumery">
 													{" "}
 													<i className="fa fa-folder"></i>
 													{t("home.news.news")}
-												</a>
+												</Link>
 											</li>
 										</ul>
 										<h3 className="blog-title">
-											<a href="#!">
+											<Link to="/news/milorad-batta-mihailovitch-exhibition-duro-niche-perfumery">
 											{t("home.news.news2.title")}
-											</a>
+											</Link>
 										</h3>
 										<div className="blog-button">
-											<a href="/news">
+											<Link to="/news/milorad-batta-mihailovitch-exhibition-duro-niche-perfumery">
 												<span className="btn-txt">
 													{t("home.read")}
 												</span>
 												<i className="fa fa fa-chevron-right"></i>
-											</a>
+											</Link>
 										</div>
 									</div>
 								</div>
 								<div className="blog-item">
 									<div className="image-wrap">
-										<a href="#!">
+										<Link to="/news/grand-opening-event-duro-niche-perfumery">
 											<img
 												src="./assets/images/blog/3.jpg"
 												alt="Blog"
 											/>
-										</a>
+										</Link>
 										<div className="blog-date">
 											<span className="day">10</span>
 											<span className="month">Apr</span>
@@ -920,36 +922,36 @@ const SwiperMobile = () => {
 												Lav Š.
 											</li>
 											<li className="cat-list">
-												<a href="/news">
+												<Link to="/news/grand-opening-event-duro-niche-perfumery">
 													{" "}
 													<i className="fa fa-folder"></i>
 													{t("home.news.news")}
-												</a>
+												</Link>
 											</li>
 										</ul>
 										<h3 className="blog-title">
-											<a href="#!">
+											<Link to="/news/grand-opening-event-duro-niche-perfumery">
 											{t("home.news.news3.title")}
-											</a>
+											</Link>
 										</h3>
 										<div className="blog-button">
-											<a href="/news">
+											<Link to="/news/grand-opening-event-duro-niche-perfumery">
 												<span className="btn-txt">
 													{t("home.read")}
 												</span>
 												<i className="fa fa fa-chevron-right"></i>
-											</a>
+											</Link>
 										</div>
 									</div>
 								</div>
 								<div className="blog-item">
 									<div className="image-wrap">
-										<a href="#!">
+										<Link to="/news/grand-opening-duro-niche-perfumery-press-release">
 											<img
 												src="./assets/images/blog/1.jpg"
 												alt="Blog"
 											/>
-										</a>
+										</Link>
 										<div className="blog-date">
 											<span className="day">05</span>
 											<span className="month">Apr</span>
@@ -962,25 +964,25 @@ const SwiperMobile = () => {
 												Lav Š.
 											</li>
 											<li className="cat-list">
-												<a href="/news">
+												<Link to="/news/grand-opening-duro-niche-perfumery-press-release">
 													{" "}
 													<i className="fa fa-folder"></i>
 													{t("home.news.news")}
-												</a>
+												</Link>
 											</li>
 										</ul>
 										<h3 className="blog-title">
-											<a href="#!">
+											<Link to="/news/grand-opening-duro-niche-perfumery-press-release">
 											{t("home.news.news4.title")}
-											</a>
+											</Link>
 										</h3>
 										<div className="blog-button">
-											<a href="/news">
+											<Link to="/news/grand-opening-duro-niche-perfumery-press-release">
 												<span className="btn-txt">
 													{t("home.read")}
 												</span>
 												<i className="fa fa fa-chevron-right"></i>
-											</a>
+											</Link>
 										</div>
 									</div>
 								</div>
@@ -1099,66 +1101,7 @@ const SwiperMobile = () => {
 									<div className="col-lg-6">
 										<div className="contact-wrap">
 											<div id="form-messages"></div>
-											<form
-												id="contact-form"
-												method="post"
-												action="mailer.php"
-											>
-												<fieldset>
-													<div className="row">
-														<div className="col-sm-12 mb-6">
-															<input
-																className="from-control"
-																type="text"
-																id="name"
-																name="name"
-																placeholder={t("home.contact.nameForm")}
-																required=""
-															/>
-														</div>
-														<div className="col-sm-12 mb-6">
-															<input
-																className="from-control"
-																type="text"
-																id="email"
-																name="email"
-																placeholder={t("home.contact.emailForm")}
-																required=""
-															/>
-														</div>
-														<div className="col-sm-12 mb-31">
-															<input
-																className="from-control"
-																type="text"
-																id="phone"
-																name="phone"
-																placeholder={t("home.contact.phoneForm")}
-																required=""
-															/>
-														</div>
-														<div className="col-sm-12 mb-8">
-															<textarea
-																className="from-control"
-																id="message"
-																name="message"
-																placeholder={t("home.contact.messageForm")}
-																required=""
-															></textarea>
-														</div>
-													</div>
-													<div className="btn-part">
-														<div className="form-group mt-7">
-															<div className="submit-btn">
-																<input
-																	className="submit"
-																	type="submit"
-																	value={t("home.contact.submit")}
-																/>
-															</div>
-														</div>
-													</div>
-												</fieldset>
-											</form>
+											<ContactForm/>
 										</div>
 									</div>
 								</div>

@@ -216,6 +216,9 @@
     .full-width-header .rs-header .menu-area .rs-menu-area {
         display: block;
     }
+    .language-btn-mobile{
+        display: block !important;
+    }
     .full-width-header .mobile-menu {
         display: block;
         height: 65px;

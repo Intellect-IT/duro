@@ -3,10 +3,10 @@
   "yourEmail": "Vaša Email Adresa",
   "gallery": "Galerija",
   "header": {
-    "home": "Kuća",
-    "story": "Naša Priča",
+    "home": "Home",
+    "story": "O Nama",
     "brands": "Brendovi",
-    "press": "Mediji i Novinari",
+    "press": "Novosti",
     "contact": "Kontakt",
     "language": "EN",
     "address": "Adresa",
@@ -15,43 +15,43 @@
   },
   "footer": {
     "footerHome": {
-      "heartBefore":"© 2023. DURŌ, Sva prava zadržana. Napravljeno sa ",
-      "heartAfter": " od strane "
+      "heartBefore": "© 2023. DURŌ, All Rights Reserved. Made with ",
+      "heartAfter": " by "
     },
     "footerMain": {
       "address": "Adresa",
-      "getInTouch": "Stupite u kontakt",
-      "follow": "Pratite Nas",
-      "home": "Kuća",
+      "getInTouch": "Kontaktirajte nas",
+      "follow": "Zapratite nas",
+      "home": "Home",
       "privacyPolicy": "Politika Privatnosti"
     }
   },
   "home": {
-    "home": "Kuća",
-    "title": "Svet DURŌ-a",
-    "titleSmall": "Nišna parfimerija",
-    "explore": "Istražite više",
+    "home": "Home",
+    "title": "DURŌ",
+    "titleSmall": "niche parfimerija",
+    "explore": "O nama",
     "read": "Pročitajte više",
     "story": {
       "title": "Naša Priča",
-      "desc1": "DURŌ je jedna od najluksuznijih nišnih parfimerija na svetu. Predstavljamo 25 najtraženijih umetničkih parfimerijskih kuća i nudimo jedinstveno iskustvo u našoj raskošnoj butiku za poznavaoce parfema. Zakoračite u riznicu lepote i sofisticiranosti!",
-      "desc2": "DURŌ, gde se umetnost nišne parfimerije sreće sa vrhunskim luksuzom."
+      "desc1": "DURŌ je jedna od najluksuznijih niche parfimerija na svetu. Zastupamo 25 najtraženijih umetničkih parfemskih kuća. U spektakularnom ambijentu kreiramo jedinstveno iskustvo za sve ljubitelje parfema.",
+      "desc2": "Zakoračite u riznicu lepote i sofisticiranosti - mesto gde svet autentičnih parfema, ukrašen prvoklasnom uslugom, postaje deo vaše stvarnosti."
     },
     "boutique": {
-      "title": "Naš raskošni butik",
-      "desc1": "DURŌ nišna parfimerija je oličenje elegancije i sofisticiranosti. Svaki brend ima svoju posebno osmišljenu prezentaciju, pažljivo dizajniranu i postavljenu kako bi stvorila jedinstveno parfemsko putovanje. Od trenutka kada zakoračite u naš butik, bićete preneseni u svet čistog luksuza i ekskluzivnosti. Sa širokim izborom pažljivo odabranih mirisa za izbor, naš stručni tim će vas voditi kroz različite arome i pomoći vam da pronađete savršeni parfem koji odgovara vašem ukusu i ličnosti.",
-      "desc2": "Posetite nas danas i prepustite se najboljem iskustvu u parfimeriji."
+      "title": "Naša luksuzna parfimerija",
+      "desc1": "DURŌ je luksuzna niche parfimerija u Beogradu. U našem elegantnom i sofisticiranom prostoru, svaki brend koji zastupamo ima posebno osmišljenu prezentaciju, dizajniranu sa pažnjom i predstavljenu tako da bi se stvorilo jedinstveno parfemsko putovanje. Od trenutka kada zakoračite u našu parfimeriju, bićete očarani jedinstvenim ambijentom. Sa širokim izborom luksuznih niche parfema, naš tim je spreman da zajedno sa vama pronađe onaj koji savršeno odgovara vašem stilu i ličnosti.",
+      "desc2": "Posetite nas danas i doživite neponovljivo iskustvo u našoj parfimeriji."
     },
     "featured": {
-      "title": "Istaknuti Proizvodi"
+      "title": "Najpopularniji proizvodi"
     },
     "brands": {
       "title": "Naši Brendovi"
     },
     "news": {
-      "main": "Mediji i Novinari",
-      "title": "Poslednje Vesti",
-      "recent": "Nedavni Postovi",
+      "main": "Novosti",
+      "title": "Najnovije Vesti",
+      "recent": "Najnoviji Postovi",
       "follow": "Pratite Nas",
       "news": "Vesti",
       "news1": {
@@ -72,40 +72,40 @@
       }
     },
     "contact": {
-      "title": "Stupite u kontakt sa nama",
+      "title": "Kontaktirajte nas",
       "contact": "Kontakt",
       "visit": "Posetite nas",
-      "email": "Pošaljite E-pošta",
+      "email": "Pošaljite E-mail",
       "call": "Pozovite nas",
       "nameForm": "Tvoje Ime",
       "emailForm": "E-Pošta",
       "phoneForm": "Broj telefona",
-      "messageForm": "Vaša poruka Ovde",
-      "submit": "Podnesi Sada"
+      "messageForm": "Vaša poruka",
+      "submit": "Pošalji"
     }
   },
   "story": {
-    "title": "Otkrijte svet DURŌ",
+    "title": "Otkrijte DURŌ svet",
     "nicePerfumery": {
-      "subText": "DURŌ Parfimerija Visokog Kvaliteta",
-      "desc1": "Na DURŌ-u verujemo da je parfem umetnost. Naša priča počela je u Podgorici, Crna Gora, gde je rođena originalna DURŌ koncepcija. Stvorili smo jedinstveno iskustvo za poznavaoce parfema oko Atelier Cologne Rajovića, što je brzo postalo omiljeno mesto za sve ljubitelje parfema u regionu.",
-      "desc2": "Nakon uspješne godine, sanjali smo još veće snove. Željeli smo podijeliti našu strast i znanje s širim auditorijem, zato smo odlučili otvoriti našu luksuznu butik u Beogradu, Srbija. Odgovor je bio impresivan i bili smo oduševljeni vidjevši toliko ljudi koji cijene i uživaju u umjetnosti nišnih parfema.",
-      "desc3": "Ali ne stajemo tu. Neprestano istražujemo i otkrivamo nove umjetničke parfemske kuće, dovodeći najbolje i najtraženije mirise našim kupcima. Naša sljedeća lokacija već je postavljena u Porto Montenegru u Tivtu, gdje s nestrpljenjem želimo predstaviti naše imerzivno iskustvo još više ljubiteljima parfema.",
-      "desc4": "U DURŌ-u, ne prodajemo samo parfeme. Nudimo nezaboravno putovanje u svet mirisa i emocija, gde svaki parfem ima priču da ispriča. Zakoračite u našu riznicu lepote i sofisticiranosti i otkrijte umetnost nise parfimerije, gde najkvalitetniji sastojci i najiskusniji parfimeri stvaraju jedinstvene i nezaboravne mirise.",
+      "subText": "DURŌ niche parfimerija",
+      "desc1": "„Parfem je umetnost, on je oblik izražavanja koji govori jače od reči.“ Izjavila je jednom prilikom proslavljena italijanska glumica, i ikona lepote i stila – Monika Beluči. DURŌ je nastao na toj potrebi – da se široj publici predstavi ta specifična i očaravajuća umetnost. Naša priča je započela u srcu Crne Gore, u Podgorici, gde smo stvorili jedinstvenu oazu za ljubitelje parfema u okviru Atelier Cologne Rajović. U luksuznom ambijentu u Bulevaru Džordža Vašingtona, pažljivo osmišljenom tako da ponudi neponovljivo iskustvo, naša prva parfimerija se veoma brzo etablirala kao omiljeno mesto za sve zaljubljenike u parfeme u regionu.",
+      "desc2": "Ubrzo zatim, sanjali smo još veće snove, vođeni željom da podelimo našu strast i znanje sa širom publikom. Tako je nastao DURŌ koncept, i DURŌ niche parfimerija. 10. aprila 2023. godine na prestižnom događaju i zajedno sa više stotina zvanica, otvorili smo našu luksuznu parfimeriju u Beogradu, u okviru TC „Galerija“. Već u prvim danima nakon otvaranja, reakcije javnosti, publike i posetilaca je bio impresivan, čime je još jednom potvrđeno da u regionu postoji veliki tržišni potencijal i da je Beogradu bilo potrebno mesto koje će okupiti sve one koji cene i uživaju u umetnosti niche parfema.",
+      "desc3": "I pored svih ovih uspeha, ne planiramo da se zaustavimo. Neprestano istražujemo i otkrivamo nove zanatske parfemske kuće, sa ciljem da našim posetiocima omogućimo da doživite najbolje i najtraženije parfeme na svetu. Naša sledeća destinacija je luksuzna marina u Porto Montenegru u Tivtu, Crna Gora, gde ćemo ubrzo otvoriti svoja vrata i predstaviti naš jedinstveni koncept još većem broju ljubitelja parfema.",
+      "desc4": "U DURŌ-u nismo fokusirani samo na prodaju parfema. Naš pristup je drugačiji. Mi nudimo jedinstveno i nezaboravno putovanje u svet čarobnih aroma i emocija, gde svaki parfem ima svoju priču. Zakoračite u riznicu lepote i sofisticiranosti - mesto gde svet autentičnih parfema, ukrašen prvoklasnom uslugom, postaje deo vaše stvarnosti.",
       "perfumes": "Parfemi",
       "brands": "Brendovi"
     },
     "approach": {
-      "subText": "Pristup DURŌ-a",
-      "titleBr": "Kreiranje Personalizovane",
+      "subText": "DURŌ koncept",
+      "titleBr": "Kreiranje Jedinstvene",
       "title": "Parfemske Avanture",
-      "desc1": "U DURŌ-u verujemo da parfem predstavlja mnogo više od samo mirisa. To je putovanje koje vas vodi kroz senzorno iskustvo, budeći emocije i uspomene. Zato smo se posvetili kreiranju selekcije najtraženijih umetničkih kuća za parfeme na svetu.",
-      "desc2": "Naša kolekcija parfema pažljivo je odabrana na osnovu kvaliteta sastojaka, zanatske izrade i kreativnosti. Svaki brend ima svoju jedinstvenu priču i posvećeni smo donošenju njihove individualnosti našim klijentima. Konstantno istražujemo nova područja, tražeći nove kuće za proizvodnju parfema koje odražavaju naše vrijednosti ekskluzivnosti i luksuza.",
-      "desc3": "Nudimo uronjivu i edukativnu ​​iskustvo koje prevazilazi tradicionalno iskustvo kupovine. Bez obzira da li ste poznavalac ili početnik, vodićemo vas kroz proces odabira savršenog mirisa za vas. Želimo da podelimo svoje znanje i strast prema parfemima, stvarajući zajednicu ljubitelja parfema koji cene umetnost nish parfimerije. Pridružite nam se na putovanju otkrivanja i pustite da vam pomognemo da pronađete vaš savršeni potpis miris."
+      "desc1": "U DURŌ-u verujemo da parfem predstavlja više od običnog mirisa. To je putovanje koje vas vodi kroz senzorno iskustvo, budeći emocije i sećanja. Zato smo se posvetili odabiru najcenjenijih i najtraženijih umetničkih parfemskih kuća na svetu, koje ekskluzivno zastupamo na našem tržištu, ali i u regionu.",
+      "desc2": "Naša kolekcija parfema pažljivo je odabrana na osnovu kvaliteta sastojaka, veštine izrade, kreativnosti i ekskluzivnosti. Svaki luksuzni brend koji zastupamo, ima svoju jedinstvenu priču, a mi smo posvećeni tome da njihove kolekcije predstavimo svim zaljubljenicima u parfeme. Neprestano istražujemo nove teritorije, upoznajemo i pronalazimo nove parfimere vredne pažnje.",
+      "desc3": "Zato smo i kreirali parfemsko iskustvo koje nadmašuje tradicionalno iskustvo kupovine. Bez obzira da li ste poznavalac ili entuzijasta, vodićemo vas kroz proces odabira savršenog parfema za vas. Želimo da podelimo naše znanje i strast prema parfemima, stvarajući zajednicu ljubitelja parfema koji cene umetnost niche parfimerija. Pridružite nam se na ovom putovanju i dopustite nam da vam predstavimo naš jedinstveni pristup."
     },
     "team": {
-      "subText": "Tim",
-      "title": "Naš Vizionarski Tim",
+      "subText": "Naš Tim",
+      "title": "DURŌ Tim",
       "founder": "Osnivač",
       "coFounder": "Suosnivač",
       "manager": "Menadžer"
@@ -126,27 +126,43 @@
       "desc1": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
       "desc2": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
       "tag1": "Kreativni",
-      "tag2" : "Elementor",
-      "tag3" : "Lagan",
-      "tag4" : "Minimalno"
+      "tag2": "Elementor",
+      "tag3": "Lagan",
+      "tag4": "Minimalno"
     },
     "comments": {
       "title": "3 komentara na “ICC Wales izveštava o rekordnoj letnjoj sezoni",
       "reply": "Odgovor",
       "leaveReply": "Ostavite Odgovor",
       "note": "Vaša email adresa neće biti objavljena. Obavezna polja su označena sa *",
-      "comment1" : {
+      "comment1": {
         "title": "Rswpdemo",
         "desc": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet"
       },
-      "comment2" : {
+      "comment2": {
         "title": "Rswpdemo",
         "desc": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet"
       },
-      "comment3" : {
+      "comment3": {
         "title": "Rswpdemo",
         "desc": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet"
       }
+    },
+    "blog1": {
+      "title": "Radno vreme za praznike: Uskrs 2023",
+      "content": "<p>Zbog nastupajućih praznika, radno vreme parfimerije je prilagođeno radnom vremenu TC „Galerija“ Beograd.</p><ul><li><b>Petak, 14.4.,</b> od 10.00 - 18.00</li><li><b>Subota, 15.4.,</b> od 10.00 - 22.00</li><li><b>Nedelja, 16.4.,</b> neradni dan</li></ul><br/><p>Takođe, sa zadovoljstvom vas obaveštavamo da ćemo imati puno radno vreme 1. i 2. maja, pružajući vam produženu priliku da nas posetite i uživate u očaravajućem svetu parfema.</p><p>Tim DURŌ niche parfimerije vam želi srećne Uskršnje praznike ispunjene ljubavlju, mirom i predivnim mirisima koji čine ovo doba godine posebnim.</p>"
+    },
+    "blog2": {
+      "title": "Remek dela Milorada Bate Mihajlovića u DURŌ parfimeriji",
+      "content": "<p>Povodom svečanog otvaranja, sa ponosom najavljujemo javnu izložbu dva velika dela našeg poznatog slikara i akademika <b>Milorada Bate Mihajlovića (1923 - 2011)</b> u prostoru <b>DURŌ niche parfimerije</b>. Ova remek dela potiču iz njegovog najboljeg pariskog perioda i prvi put su izložena u Srbiji. Izložba je realizovana u saradnji sa poznatim beogradskim kolekcionarima, a dela potiču iz fundusa čuvene pariske galerije <b>„Ariel“</b>, gde su la izlagana sredinom i krajem ’60-tih godina XX veka.</p><ul><li>1. <b>„Hiljadu i jedna noć“, 1968.,</b> ulje na platnu, 146 x 114 cm</li><li>2. <b>„Velika kompozicija“, 1970.,</b> ulje na platnu, 146 x 114 cm</li></ul><p><b><br/>Milorad Bata Mihajlović</b> je jedan od naših najznačajnijih slikara iz tzv. „pariskog kruga“, a njegova dela se nalaze u muzejima, privatnim zbirkama i institucijama širom sveta. Kritičari tog doba u Francuskoj opisuju ga kao slikara izuzetnog senzibiliteta, a njegova dela iz perioda druge polovine 60-tih godina odlikuje metaforičnost boja i naglašena ritmička figuracija.</p><p>U okviru galerijskog prostora, dostupni su i katalozi i monografije sa njegovim delima. Uskoro će u Beogradu biti organizovana velika retrospektivna izložba njegovog opusa, uz prezentaciju nove monografije i podršku Ministarstva kulture.</p><p>U svetu parfema, gde je savršenstvo moguće pronaći i u najmanjim nijansama, DURŌ ne samo da je osmislio parfemsko iskustvo koja će učiniti da se vreme zaustavi na sekund, već vam pruža priliku da upotpunite privlačnost tog utiska i prepustite se harmoniji mirisa i vanvremenske umetnosti.</p><p>Dela će biti izložena do daljnjeg.</p><p>Dobrodošli!</p>"
+    },
+    "blog3": {
+      "title": "Svečano otvaranje DURŌ niche parfimerije u Beogradu",
+      "content": "<p>Poštovane dame i gospodo, velika nam je čast i zadovoljstvo da podelimo sa vama radost povodom svečanog otvaranja naše nove parfimerije u TC „Galerija“ Beograd. U društvu naših dragih partnera, prijatelja, porodice i pravih zaljubljenika u parfeme, presekli smo vrpcu i sa velikim oduševljenjem otvorili vrata DURŌ niche parfimerije!</p><p>Posebno smo zahvalni na neiscrpnoj ljubavi i ogromnom podsticaju koju nam pružate, jer je upravo vaša podrška omogućila naš rast i širenje na parfemsku scenu Srbije. Svaki pojedinačni doprinos je bio neprocenjiv za naš napredak u ovoj magičnoj avanturi parfemskog sveta!</p><p>Hvala svima koji su bili deo ovog nezaboravnog događaja! Jedva čekamo da vas ponovo ugostimo!</p><p>Živeli!</p>"
+    },
+    "blog4": {
+      "title": "Veliko otvaranje DURŌ niche parfimerije",
+      "content": "<p><b>DURŌ niche parfimerija</b> s ponosom najavljuje svoje veliko otvaranje, označavajući dolazak jedinstvenog koncepta posvećenog umetnosti parfema u srcu Beograda. Čarobna atmosfera naše luksuzne parfimerije, smeštene u prestižnom TC \"Galerija\", stvara nezaboravno estetsko iskustvo koje prevazilazi vreme i ostavlja neizbrisiv utisak.</p><p>Grand Opening Event će se održati <b>10. aprila od 18.00 CET</b>, predstavljajući najfinije parfeme 25 niche brendova koje ekskluzivno zastupamo za srpsko tržište: Electimuss, Ormonde Jayne, Jovoy, Jeroboam, Marc-Antoine Barrois, Fragrance du Bois, Puredistance, Histoires de Parfums, Paradis des Sens, Liquides Imaginaires, Veronique Gabai, Calaj, Theodoros Kalotinis, Parfums MDCI, Naomi Goodsir, Indult, Morph, Wesker, Anima Mundi, Onyrico, Castelbel, Portus Cale, Acque di Italia, Thameen i Affinessence.</p><p>Svaki brend oživljava esenciju luksuza, zanatske veštine i kreativnosti, nudeći neponovljivo parfemsko putovanje za sve.</p><p>Želimo da iskažemo iskrenu zahvalnost našim cenjenim partnerima, predstavnicima brendova, prijateljima i porodici na njihovoj nepokolebljivoj podršci u ostvarenju ovog sna. Pridružite nam se na ovom ekskluzivnom događaju.</p><p>Media contact:<b><br/>Lav Šćelović-Pokupec, menadžer<br/>lav@duro.cologne<br/>+381 60 5561303</b></p>"
     }
   },
   "privacy": {
@@ -154,23 +170,23 @@
     "terms": {
       "title": "Uslovi Korišćenja",
       "list": {
-        "main": "Dobrodošli na DURŌ veb sajt. Pristupanjem ili korišćenjem našeg sajta, slažete se da ste vezani sledećim uslovima i odredbama:",
-        "li1": "Sav sadržaj na ovom veb-sajtu je vlasništvo kompanije DURŌ i ne sme se reprodukovati, kopirati ili koristiti bez našeg izričitog pisanog pristanka.",
-        "li2": "Zadržavamo pravo da izmenimo ili obustavimo bilo koji deo našeg veb-sajta bez prethodnog obaveštenja.",
-        "li3": "Nismo odgovorni za bilo kakve greške, propuste ili netočnosti u sadržaju naše web stranice.",
-        "li4": "Slažete se da će te našu web stranicu koristiti samo u zakonite svrhe."
+        "main": "Dobrodošli na DURŌ veb sajt. Pristupanjem ili korišćenjem našeg sajta, slažete se sa sledećim uslovima i odredbama:",
+        "li1": "Sav sadržaj na ovom veb-sajtu je vlasništvo kompanije DURŌ i ne sme se reprodukovati, kopirati ili koristiti bez naše izričite saglasnosti.",
+        "li2": "Zadržavamo pravo da izmenimo ili uklonimo bilo koji deo našeg veb-sajta bez prethodnog obaveštenja.",
+        "li3": "Nismo odgovorni za bilo kakve greške, propuste ili netačnosti u sadržaju naše veb stranice.",
+        "li4": "Slažete se da će te našu veb stranicu koristiti samo u zakonite svrhe."
       }
     },
     "policy": {
       "privacyPolicy": {
         "title": "Politika privatnosti",
-        "li1": "U DURŌ-u poštujemo Vašu privatnost i posvećeni smo zaštiti Vaših ličnih informacija. Sve lične informacije koje nam pružite, uključujući Vaše ime, adresu, telefonski broj i email adresu, biće obrađene sa najvećom pažnjom i povjerljivošću. Nikada nećemo prodati ili otkriti Vaše lične informacije trećoj strani, osim ako smo zakonski obavezani da to učinimo.",
-        "contact": "Ako imate bilo kakvih pitanja ili briga u vezi s obradom vaših osobnih podataka, kontaktirajte nas na"
+        "li1": "U DURŌ-u poštujemo Vašu privatnost i posvećeni smo zaštiti Vaših ličnih podataka. Svi lični podaci koje podelite sa nama, uključujući Vaše ime, adresu, telefonski broj i e-mail adresu, biće pohranjene sa najvećom pažnjom i povjerljivošću. Obavezujemo se da nikada nećemo prodati ili podelitii Vaše lične podatke trećoj strani, osim ako smo zakonski u obavezi da to učinimo.",
+        "contact": "Ako imate bilo kakvih pitanja u vezi s obradom vaših ličnih podataka, kontaktirajte nas na"
       },
       "cookiePolicy": {
-        "title": "Politika kolača",
+        "title": "Politika korišćenja kolačića",
         "contact": "Ako imate bilo kakvih pitanja u vezi naše Politike kolačića ili načina na koji rukujemo vašim ličnim informacijama, molimo kontaktirajte nas na",
-        "p1": "Naša veb stranica koristi kolačiće (eng. cookies) kako bi poboljšala vaše iskustvo pregledanja naše veb stranice. Kolačić je mali tekstualni fajl koji se skladišti na vašem računaru ili mobilnom uređaju kada posetite našu veb stranicu. Kolačići nam omogućavaju praćenje vaše aktivnosti pregledanja naše veb stranice, što nam pomaže da poboljšamo korisničko iskustvo i pružimo personalizovani sadržaj.",
+        "p1": "Naša veb stranica koristi kolačiće (eng. cookies) kako bi poboljšala vaše iskustvo posete našoj veb stranici. Kolačić je mali tekstualni fajl koji se skladišti na vašem računaru ili mobilnom uređaju kada posetite našu veb stranicu. Kolačići nam omogućavaju praćenje vaše aktivnosti pregledanja naše veb stranice, što nam pomaže da poboljšamo korisničko iskustvo i pružimo personalizovani sadržaj.",
         "p2": "Koristimo i sesijske kolačiće koji ističu kada zatvorite pregledač, i trajne kolačiće koji ostaju na uređaju dok ne isteknu ili ih ne izbrišete.",
         "p3": {
           "main": "Korišćenjem našeg veb sajta, slažete se sa korišćenjem kolačića:",

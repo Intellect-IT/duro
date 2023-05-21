@@ -13,7 +13,7 @@ export default function Footer2() {
                     <div className="row">
                         <div className="col-lg-4 col-md-12 col-sm-12 md-mb-10">
                             <div className="footer-logo mb-40">
-                                <Link to="/"><img src="./assets/images/logo-footer-light.svg" title="DURŌ" alt="DURŌ"/></Link>
+                                <Link to="/"><img src="../assets/images/logo-footer-light.svg" title="DURŌ" alt="DURŌ"/></Link>
                             </div>
                         </div>
                         <div className="col-lg-8">
@@ -36,16 +36,16 @@ export default function Footer2() {
                                     <h3 className="footer-title">{t("footer.footerMain.follow")}</h3>
                                     <ul className="footer-social">  
                                         <li> 
-                                            <a href="https://www.facebook.com/duro.cologne"><i className="fa fa-facebook"></i></a>
+                                            <a href="https://www.facebook.com/duro.cologne"><i className="fa-brands fa-facebook"></i></a>
                                         </li>
                                         <li> 
-                                            <a href="https://www.twitter.com/DuroCologne"><i className="fa fa-twitter"></i></a> 
+                                            <a href="https://www.twitter.com/DuroCologne"><i className="fa-brands fa-twitter"></i></a> 
                                         </li>
                                         <li> 
-                                            <a href="https://www.instagram.com/duro.cologne"><i className="fa fa-instagram"></i></a>
+                                            <a href="https://www.instagram.com/duro.cologne"><i className="fa-brands fa-instagram"></i></a>
                                         </li>
 										<li>
-											<a href="https://www.youtube.com/@duro.cologne"><i className="fa fa-youtube"></i></a>
+											<a href="https://www.youtube.com/watch?v=XZI0CdEx4vc"><i className="fa-brands fa-youtube"></i></a>
 										</li>
                                     </ul>
                                 </div>
