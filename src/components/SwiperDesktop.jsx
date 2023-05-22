@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import $ from "jquery";
 // import magnificPopup from 'magnific-popup';
 import "magnific-popup";
@@ -16,7 +16,12 @@ import { Link } from "react-router-dom";
 import ContactForm from "./ContactForm";
 
 const SwiperDesktop = () => {
-  const { t } = useTranslation();
+  const [render, setRender] = useState(0)
+  const { t, i18n } = useTranslation();
+
+  useEffect(() => {
+    setRender(prevRender => prevRender+0.001)
+  }, [i18n.language])
 
   useEffect(() => {
     $(".popup-videos, .popup-border").magnificPopup({
@@ -676,7 +681,7 @@ const SwiperDesktop = () => {
           </div>
           {/* <!-- Our Brands Section End --> */}
         </SwiperSlide>
-        <SwiperSlide className="swiper-slide">
+        <SwiperSlide className="swiper-slide" key={render}>
           {/* <!-- News Section Start --> */}
           <div
             id="rs-blog"
