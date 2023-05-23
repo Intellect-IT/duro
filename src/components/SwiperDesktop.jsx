@@ -137,7 +137,7 @@ const SwiperDesktop = () => {
                     </p>
                     <p className="desc-small">{t("home.boutique.desc2")}</p>
                     <div className="btn-part mt-40">
-                      <Link className="readon btn-text ticket" to="/brands">
+                      <Link className="readon btn-text ticket" to="/gallery">
                         <span>{t("home.read")}</span>
                       </Link>
                     </div>

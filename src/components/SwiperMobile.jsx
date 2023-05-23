@@ -125,7 +125,7 @@ const SwiperMobile = () => {
 										<div className="btn-part mt-40">
 											<Link
 												className="readon btn-text ticket"
-												to="/brands"
+												to="/gallery"
 											>
 												<span>{t("home.read")}</span>
 											</Link>
