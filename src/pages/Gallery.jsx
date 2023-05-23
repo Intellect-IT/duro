@@ -82,7 +82,7 @@ export default function Gallery({ setHeader }) {
       {/* <!-- Main content Start --> */}
       <div className="main-content">
         {/* <!-- Breadcrumbs Start --> */}
-        <div className="rs-breadcrumbs img1">
+        <div className="rs-breadcrumbs img6">
           <div className="container">
             <div className="breadcrumbs-inner">
               <h1 className="page-title">
@@ -241,7 +241,7 @@ export default function Gallery({ setHeader }) {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-sm-6">
+            {/*<div className="col-lg-3 col-md-6 col-sm-6">
               <div className="gallery-item">
                 <div className="gallery-icon">
                   <a
@@ -288,7 +288,7 @@ export default function Gallery({ setHeader }) {
                   </a>
                 </div>
               </div>
-            </div>
+            </div>*/}
           </div>
         </div>
         {/* <!-- Gallery End --> */}
