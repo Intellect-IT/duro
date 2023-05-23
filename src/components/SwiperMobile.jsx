@@ -135,7 +135,7 @@ const SwiperMobile = () => {
 								<div className="col-lg-6 md-mb-70">
 									<div className="about-img">
 										<img
-											src="./assets/images/about/about-4.png"
+											src="./assets/images/about/about-7.png"
 											alt="Our Story"
 										/>
 									</div>
