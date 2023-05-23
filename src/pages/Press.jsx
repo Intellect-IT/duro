@@ -114,7 +114,7 @@ export default function Press({ setHeader }) {
                             <li>
                               <div className="author">
                                 <i className="fa fa-user-o"></i>
-                                Lav Š.
+                                Lav Šćelović-Pokupec
                               </div>
                             </li>
                           </ul>
@@ -162,7 +162,7 @@ export default function Press({ setHeader }) {
                             <li>
                               <div className="author">
                                 <i className="fa fa-user-o"></i>
-                                Lav Š.
+                                Lav Šćelović-Pokupec
                               </div>
                             </li>
                           </ul>
@@ -209,7 +209,7 @@ export default function Press({ setHeader }) {
                             </li>
                             <li>
                               <div className="author">
-                                <i className="fa fa-user-o"></i> Lav Š.
+                                <i className="fa fa-user-o"></i> Lav Šćelović-Pokupec
                               </div>
                             </li>
                           </ul>
@@ -256,7 +256,7 @@ export default function Press({ setHeader }) {
                             </li>
                             <li>
                               <div className="author">
-                                <i className="fa fa-user-o"></i> Lav Š.
+                                <i className="fa fa-user-o"></i> Lav Šćelović-Pokupec
                               </div>
                             </li>
                           </ul>

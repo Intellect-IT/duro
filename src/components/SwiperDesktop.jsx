@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import $ from "jquery";
 // import magnificPopup from 'magnific-popup';
 import "magnific-popup";
@@ -16,7 +16,12 @@ import { Link } from "react-router-dom";
 import ContactForm from "./ContactForm";
 
 const SwiperDesktop = () => {
-  const { t } = useTranslation();
+  const [render, setRender] = useState(0)
+  const { t, i18n } = useTranslation();
+
+  useEffect(() => {
+    setRender(prevRender => prevRender+0.001)
+  }, [i18n.language])
 
   useEffect(() => {
     $(".popup-videos, .popup-border").magnificPopup({
@@ -308,9 +313,13 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div className="logo-img">
-                        <Link
+                        {/*<Link
                           title="Marc-Antoine Barrois"
                           to="/brands/marc-antoine_barrois"
+                         >*/}
+                          <Link
+                          title="Marc-Antoine Barrois"
+                          to="#!"
                         >
                           <img
                             src="./assets/images/event/brands/001_marc-antoine_barrois.png"
@@ -326,7 +335,7 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Jovoy" className="logo-img">
-                        <Link to="/brands/jovoy">
+                        <Link to="#!">
                           <img
                             src="./assets/images/event/brands/002_jovoy.png"
                             alt="Jovoy"
@@ -341,7 +350,7 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Jeroboam" className="logo-img">
-                        <Link to="/brands/jeroboam">
+                        <Link to="#!">
                           <img
                             src="./assets/images/event/brands/003_jeroboam.png"
                             alt="Jeroboam"
@@ -356,7 +365,7 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Morph" className="logo-img">
-                        <Link to="/brands/morph">
+                        <Link to="#!">
                           <img
                             src="./assets/images/event/brands/004_morph.png"
                             alt="Morph"
@@ -371,7 +380,7 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="MDCI" className="logo-img">
-                        <Link to="/brands/mdci">
+                        <Link to="#!">
                           <img
                             src="./assets/images/event/brands/005_mdci.png"
                             alt="MDCI"
@@ -386,7 +395,7 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Puredistance" className="logo-img">
-                        <Link to="/brands/puredistance">
+                        <Link to="#!">
                           <img
                             src="./assets/images/event/brands/006_puredistance.png"
                             alt="Puredistance"
@@ -401,7 +410,7 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="HDP" className="logo-img">
-                        <Link to="/brands/hdp">
+                        <Link to="#!">
                           <img
                             src="./assets/images/event/brands/007_hdp.png"
                             title="HDP"
@@ -416,7 +425,7 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Calaj" className="logo-img">
-                        <Link to="/brands/calaj">
+                        <Link to="#!">
                           <img
                             src="./assets/images/event/brands/008_calaj.png"
                             title="Calaj"
@@ -431,7 +440,7 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Indult" className="logo-img">
-                        <Link to="/brands/indult">
+                        <Link to="#!">
                           <img
                             src="./assets/images/event/brands/009_indult.png"
                             title="Indult"
@@ -446,7 +455,7 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Thameen" className="logo-img">
-                        <Link to="/brands/thameen">
+                        <Link to="#!">
                           <img
                             src="./assets/images/event/brands/010_thameen.png"
                             alt="Thameen"
@@ -461,7 +470,7 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Theodoros Kalotinis" className="logo-img">
-                        <Link to="/brands/theodoros-kalotinis">
+                        <Link to="#!">
                           <img
                             src="./assets/images/event/brands/011_theodoros.png"
                             title="Theodoros Kalotinis"
@@ -476,7 +485,7 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Fragrance du Bois" className="logo-img">
-                        <Link to="/brands/fdb">
+                        <Link to="#!">
                           <img
                             src="./assets/images/event/brands/012_fdb.png"
                             title="Fragrance du Bois"
@@ -491,7 +500,7 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div className="Ormonde Jayne">
-                        <Link to="/brands/ormonde-jayne">
+                        <Link to="#!">
                           <img
                             src="./assets/images/event/brands/013_ormonde.png"
                             title="Ormonde Jayne"
@@ -506,7 +515,7 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Paradis des Sens" className="logo-img">
-                        <Link to="/brands/paradis">
+                        <Link to="#!">
                           <img
                             src="./assets/images/event/brands/014_paradis.png"
                             title="Paradis des Sens"
@@ -521,7 +530,7 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Wesker" className="logo-img">
-                        <Link to="/brands/wesker">
+                        <Link to="#!">
                           <img
                             src="./assets/images/event/brands/015_wesker.png"
                             title="Wesker"
@@ -536,7 +545,7 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Anima Mundi" className="logo-img">
-                        <Link to="/brands/anima-mundi">
+                        <Link to="#!">
                           <img
                             src="./assets/images/event/brands/016_anima_mundi.png"
                             title="Anima Mundi"
@@ -551,7 +560,7 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Electimuss" className="logo-img">
-                        <Link to="/brands/electimuss">
+                        <Link to="#!">
                           <img
                             src="./assets/images/event/brands/017_electimuss.png"
                             title="Electimuss"
@@ -566,7 +575,7 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Acque di Italia" className="logo-img">
-                        <Link to="/brands/acque-di-italia">
+                        <Link to="#!">
                           <img
                             src="./assets/images/event/brands/018_aque_di_italia.png"
                             title="Acque di Italia"
@@ -581,7 +590,7 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Portus Cale" className="logo-img">
-                        <Link to="/brands/portus-cale">
+                        <Link to="#!">
                           <img
                             src="./assets/images/event/brands/019_portus_cale.png"
                             title="Portus Cale"
@@ -596,7 +605,7 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Veronique Gabai" className="logo-img">
-                        <Link to="/brands/veronique-gabai">
+                        <Link to="#!">
                           <img
                             src="./assets/images/event/brands/020_veronique_gabai.png"
                             title="Veronique Gabai"
@@ -611,7 +620,7 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Onyrico" className="logo-img">
-                        <Link to="/brands/onyrico">
+                        <Link to="#!">
                           <img
                             src="./assets/images/event/brands/021_onyrico.png"
                             title="Onyrico"
@@ -626,7 +635,7 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Affinessence" className="logo-img">
-                        <Link to="/brands/affinessence">
+                        <Link to="#!">
                           <img
                             src="./assets/images/event/brands/022_affinessence.png"
                             title="Affinessence"
@@ -641,7 +650,7 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Castelbel" className="logo-img">
-                        <Link to="/brands/castelbel">
+                        <Link to="#!">
                           <img
                             src="./assets/images/event/brands/023_castelbel.png"
                             title="Castelbel"
@@ -656,7 +665,7 @@ const SwiperDesktop = () => {
                   <div className="logo-item">
                     <div className="grid-figure">
                       <div title="Liquides Imaginaries" className="logo-img">
-                        <Link to="/brands/liquides-imaginaries">
+                        <Link to="#!">
                           <img
                             src="./assets/images/event/brands/024_liquides_imaginaries.png"
                             title="Liquides Imaginaries"
@@ -672,7 +681,7 @@ const SwiperDesktop = () => {
           </div>
           {/* <!-- Our Brands Section End --> */}
         </SwiperSlide>
-        <SwiperSlide className="swiper-slide">
+        <SwiperSlide className="swiper-slide" key={render}>
           {/* <!-- News Section Start --> */}
           <div
             id="rs-blog"
@@ -742,7 +751,7 @@ const SwiperDesktop = () => {
                     <ul className="blog-meta">
                       <li className="admin">
                         <i className="fa fa-user-o"></i>
-                        Lav Š.
+                        Lav Šćelović-Pokupec
                       </li>
                       <li className="cat-list">
                         <Link to="/news/opening-hours-easter-holiday-2023">
@@ -779,7 +788,7 @@ const SwiperDesktop = () => {
                     <ul className="blog-meta">
                       <li className="admin">
                         <i className="fa fa-user-o"></i>
-                        Lav Š.
+                        Lav Šćelović-Pokupec
                       </li>
                       <li className="cat-list">
                         <Link to="/news/milorad-batta-mihailovitch-exhibition-duro-niche-perfumery">
@@ -816,7 +825,7 @@ const SwiperDesktop = () => {
                     <ul className="blog-meta">
                       <li className="admin">
                         <i className="fa fa-user-o"></i>
-                        Lav Š.
+                        Lav Šćelović-Pokupec
                       </li>
                       <li className="cat-list">
                         <Link to="/news/grand-opening-event-duro-niche-perfumery">
@@ -853,7 +862,7 @@ const SwiperDesktop = () => {
                     <ul className="blog-meta">
                       <li className="admin">
                         <i className="fa fa-user-o"></i>
-                        Lav Š.
+                        Lav Šćelović-Pokupec
                       </li>
                       <li className="cat-list">
                         <Link to="/news/grand-opening-duro-niche-perfumery-press-release">

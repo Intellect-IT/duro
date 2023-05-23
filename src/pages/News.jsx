@@ -138,7 +138,7 @@ export default function News({ setHeader }) {
                               <i className="fa fa-user-o"></i> {t("news.admin")}{" "}
                             </span>
                           </li>
-                          <li className="Post-cate">
+                          {/*<li className="Post-cate">
                             <div className="tag-line">
                               <i className="fa fa-book"></i>
                               <a href="#!">{t("news.strategy")}</a>
@@ -147,16 +147,16 @@ export default function News({ setHeader }) {
                           <li className="post-comment">
                             {" "}
                             <i className="fa fa-comments-o"></i> 1
-                          </li>
+                          </li>*/}
                         </ul>
-                        <p>{t("news.desc")}</p>
+                        {/*<p>{t("news.desc")}</p>
                         <blockquote>
                           <p className="margin-0">
                             {t("news.quote")}
                             <br />
                             <cite>Robert Calibo</cite>
                           </p>
-                        </blockquote>
+                        </blockquote>*/}
                         <h3>{t(newsData[slug].title)}</h3>
                         <div>{parse(t(currentBlog.content))}</div>
                         {/* <div className="bs-img mb-30">
@@ -166,13 +166,13 @@ export default function News({ setHeader }) {
                         </div>
                         <p>{t("news.tips.desc2")}</p> */}
 
-                        <div className="tag-info">
+                        {/*<div className="tag-info">
                           Tags:
                           <a href="#!">{t("news.tips.tag1")}</a>
                           <a href="#!">{t("news.tips.tag2")}</a>
                           <a href="#!">{t("news.tips.tag3")}</a>
                           <a href="#!">{t("news.tips.tag4")}</a>
-                        </div>
+                      </div>*/}
                         {/* <h3 className="comment-title">
                           {t("news.comments.title")}
                         </h3>
@@ -239,7 +239,7 @@ export default function News({ setHeader }) {
                             </div>
                           </div>
                         </div> */}
-                        <h3 className="comment-title">
+                        {/*<h3 className="comment-title">
                           {t("news.comments.leaveReply")}
                         </h3>
                         <p>{t("news.comments.note")}</p>
@@ -294,7 +294,7 @@ export default function News({ setHeader }) {
                               </div>
                             </fieldset>
                           </form>
-                        </div>
+                        </div>*/}
                       </div>
                     </div>
                   </div>

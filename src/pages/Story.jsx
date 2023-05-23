@@ -329,7 +329,7 @@ export default function Story({ setHeader }) {
                       <a href="#!">
                         <img
                           src="./assets/images/about/team-3.jpg"
-                          alt="Lav Š."
+                          alt="Lav Šćelović-Pokupec"
                         />
                       </a>
                     </div>
@@ -339,7 +339,7 @@ export default function Story({ setHeader }) {
                         <div className="point"></div>
                       </div>
                       <h3 className="title-name">
-                        <a href="#!">Lav Š.</a>
+                        <a href="#!">Lav Šćelović-Pokupec</a>
                       </h3>
                       <div className="team-title">
                         {t("story.team.manager")}

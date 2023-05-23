@@ -51,24 +51,24 @@
     "news": {
       "main": "Novosti",
       "title": "Najnovije Vesti",
-      "recent": "Najnoviji Postovi",
-      "follow": "Pratite Nas",
+      "recent": "Najnoviji članci",
+      "follow": "Zaratite Nas",
       "news": "Vesti",
       "news1": {
-        "title": "Radno vreme tokom Uskršnjih praznika",
-        "desc": "Izričito osuđujemo i ne slažemo se sa ljudima koji su zaslepljeni čarima trenutnog zadovoljstva i tako obmanuti i dehumanizovani, da su slepi za želje i potrebe drugih..."
+        "title": "Radno vreme za praznike: Uskrs 2023",
+        "desc": "Zbog nastupajućih praznika, radno vreme parfimerije je prilagođeno radnom vremenu TC „Galerija“ Beograd."
       },
       "news2": {
-        "title": "Izlažemo remek-dela savremene umetnosti.",
-        "desc": "Izričito osuđujemo i ne slažemo se sa ljudima koji su zaslepljeni čarima trenutnog zadovoljstva i tako obmanuti i dehumanizovani, da su slepi za želje i potrebe drugih..."
+        "title": "Remek dela Milorada Bate Mihajlovića u DURŌ-u",
+        "desc": "Povodom svečanog otvaranja, sa ponosom najavljujemo javnu izložbu dva velika dela našeg poznatog slikara i akademika Milorada Bate Mihajlovića (1923 - 2011) u prostoru DURŌ niche parfimerije."
       },
       "news3": {
-        "title": "Uspešno smo to uradili! DURŌ Beograd je konačno otvoren!",
-        "desc": "Izričito osuđujemo i ne slažemo se sa ljudima koji su zaslepljeni čarima trenutnog zadovoljstva i tako obmanuti i dehumanizovani, da su slepi za želje i potrebe drugih..."
+        "title": "Svečano otvaranje DURŌ niche parfimerije u Beogradu",
+        "desc": "Poštovane dame i gospodo, velika nam je čast i zadovoljstvo da podelimo sa vama radost povodom svečanog otvaranja naše nove parfimerije u TC „Galerija“ Beograd. U društvu naših dragih partnera, prijatelja, porodice i pravih zaljubljenika u parfeme, presekli smo vrpcu i sa velikim oduševljenjem otvorili vrata DURŌ niche parfimerije!"
       },
       "news4": {
-        "title": "Svečano otvaranje će se održati 10/4",
-        "desc": "Izričito osuđujemo i ne slažemo se sa ljudima koji su zaslepljeni čarima trenutnog zadovoljstva i tako obmanuti i dehumanizovani, da su slepi za želje i potrebe drugih..."
+        "title": "Veliko otvaranje DURŌ niche parfimerije će se održati 10/4",
+        "desc": "DURŌ niche parfimerija s ponosom najavljuje svoje veliko otvaranje, označavajući dolazak jedinstvenog koncepta posvećenog umetnosti parfema u srcu Beograda. Čarobna atmosfera naše luksuzne parfimerije, smeštene u prestižnom TC „Galerija“, stvara nezaboravno estetsko iskustvo koje prevazilazi vreme i ostavlja neizbrisiv utisak."
       }
     },
     "contact": {
@@ -112,7 +112,7 @@
     }
   },
   "news": {
-    "admin": "administracija",
+    "admin": "Lav Šćelović-Pokupec",
     "strategy": "Strategija",
     "desc": "Osudjujemo sa pravednim ogorcenjem i ne volimo ljude koji su tako zavedeni i zaslepljeni čarima trenutnog zadovoljstva, tako zaslepljeni željom da ne mogu predvideti bol i nevolju koja mora da usledi. Ovi slučajevi su potpuno jednostavni i lako ih je razlikovati. U slobodnom satu, kada je naša moć izbora neograničena, strukture podataka upravljaju podacima u tehnologiji.",
     "quote": "Lako možemo upravljati ako bismo samo preuzeli, svakog dana, teret koji nam je određen. Ali teret će biti pretežak za nas ako ponovo nosimo teret od juče i dodamo teret sutra pre nego što ga treba nositi.",
