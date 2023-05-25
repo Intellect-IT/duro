@@ -214,7 +214,7 @@ const SwiperDesktop = () => {
                   <div className="team-inner-wrap">
                     <div className="images-wrap">
                       <img
-                        src="./assets/images/products/1.jpg"
+                        src="./assets/images/products/1_1.jpg"
                         alt="Ganymede"
                       />
                     </div>
@@ -231,7 +231,7 @@ const SwiperDesktop = () => {
                   <div className="team-inner-wrap">
                     <div className="images-wrap">
                       <img
-                        src="./assets/images/products/2.jpg"
+                        src="./assets/images/products/2_1.jpg"
                         alt="Chypre Palatin"
                       />
                     </div>
@@ -248,7 +248,7 @@ const SwiperDesktop = () => {
                   <div className="team-inner-wrap">
                     <div className="images-wrap">
                       <img
-                        src="./assets/images/products/3.jpg"
+                        src="./assets/images/products/3_1.jpg"
                         alt="Blanche Bête"
                       />
                     </div>
@@ -265,7 +265,7 @@ const SwiperDesktop = () => {
                   <div className="team-inner-wrap">
                     <div className="images-wrap">
                       <img
-                        src="./assets/images/products/4.jpg"
+                        src="./assets/images/products/4_1.jpg"
                         alt="Incident Diplomatique"
                       />
                     </div>
@@ -281,7 +281,7 @@ const SwiperDesktop = () => {
                 <div className="team-item">
                   <div className="team-inner-wrap">
                     <div className="images-wrap">
-                      <img src="./assets/images/products/5.jpg" alt="Team" />
+                      <img src="./assets/images/products/5_1.jpg" alt="Jeroboam Gozo" />
                     </div>
                     <div className="team-content">
                       <h3 className="title-name">
@@ -295,6 +295,66 @@ const SwiperDesktop = () => {
               </OwlCarousel>
             </div>
           </div>
+        </SwiperSlide>
+        <SwiperSlide className="swiper-slide">
+        {/*<!-- Approach Section End -->*/}
+						<div class="rs-services style1 bg1 pt-110 pb-60 md-pt-75 md-pb-80">
+							<div class="container">
+								<div class="sec-title text-center mb-90">
+                  <h2 class="title title2 title3 text-middle">
+                  {t("home.approach.title")}
+                  </h2>
+                </div>
+								<div class="row y-middle">
+									<div class="col-lg-4 col-md-6 md-mb-30">
+										<div class="services-item">
+											<div class="services-wrap">
+												<div class="services-icon">
+													<img src="./assets/images/approach/1.png" alt="Exclusive perfumes" />
+												</div>
+												<div class="services-text">
+													<h4 class="title">{t("home.approach.principle1.title")}</h4>
+													<p class="services-txt">
+                          {t("home.approach.principle1.desc1")}<br/><br/>{t("home.approach.principle1.desc2")}
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4 col-md-6 md-mb-30">
+										<div class="services-item">
+											<div class="services-wrap">
+												<div class="services-icon">
+													<img src="./assets/images/approach/2.png" alt="Bespoke approach" />
+												</div>
+												<div class="services-text">
+													<h4 class="title"> {t("home.approach.principle2.title")}</h4>
+													<p class="services-txt">
+                          {t("home.approach.principle2.desc1")}<br/><br/>{t("home.approach.principle2.desc2")}
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4 col-md-6">
+										<div class="services-item">
+											<div class="services-wrap">
+												<div class="services-icon">
+													<img src="./assets/images/approach/3.png" alt="Immersive Luxury" />
+												</div>
+												<div class="services-text">
+													<h4 class="title">{t("home.approach.principle3.title")}</h4>
+													<p class="services-txt">
+                          {t("home.approach.principle3.desc1")}<br/><br/>{t("home.approach.principle3.desc2")}
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						{/*<!-- Approach Section End -->*/}
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           {/* <!-- Our Brands Section Start --> */}
