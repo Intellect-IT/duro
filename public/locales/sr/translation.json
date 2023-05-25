@@ -214,5 +214,17 @@
         }
       }
     }
+  },
+  "errors": {
+    "name": "Ime je potrebno",
+    "email": "E-mail je potreban",
+    "emailInvalid": "Nevažeća adresa e-pošte",
+    "phone": "Broj telefona je potreban",
+    "phoneInvalid": "Nevažeći broj telefona",
+    "message": "Poruka je potrebna"
+  },
+  "routes": {
+    "home": "/",
+    "story": "/ono-estoria"
   }
 }
