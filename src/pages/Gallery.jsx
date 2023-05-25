@@ -95,7 +95,7 @@ export default function Gallery({ setHeader }) {
         {/* <!-- Breadcrumbs End --> */}
 
         {/* <!-- Gallery Start --> */}
-        <div className="rs-gallery style1 mb--160">
+        <div className="rs-gallery style1 mb--199">
           <div className="row no-gutters">
             <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="gallery-item">
