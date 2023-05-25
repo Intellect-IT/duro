@@ -4,12 +4,14 @@ import LanguageDetector from 'i18next-browser-languagedetector'
 import { initReactI18next } from 'react-i18next'
 
 i18n.use(Backend).use(LanguageDetector).use(initReactI18next).init({
-  fallbackLng: 'sr',
+  fallbackLng: ['sr'],
+  whitelist: ['sr', 'en'],
   debug: true,
   lng: "sr",
   detection: {
-    order: ['queryString', 'cookie'],
-    cache: ['cookie']
+    order: ['path', 'queryString', 'cookie'],
+    cache: ['cookie'],
+    checkWhitelist: true
   },
   interpolation: {
     escapeValue: false

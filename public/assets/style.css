@@ -6944,6 +6944,12 @@ body .search-modal .close:hover {
 .rs-contact.home-style3 .map-canvas .address-main .address-box .address-item .address-text .services-txt a:hover {
   color: #ccc;
 }
+
+.error-message {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #d63811;
+}
 /*------------------------------------
     27. Footer Section CSS
 ------------------------------------*/

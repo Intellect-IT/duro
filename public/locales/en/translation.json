@@ -195,5 +195,17 @@
         }
       }
     }
+  },
+  "errors": {
+    "name": "Name is required",
+    "email": "Email is required",
+    "emailInvalid": "Invalid email address",
+    "phone": "Phone number is required",
+    "phoneInvalid": "Invalid phone number",
+    "message": "Message is required"
+  },
+  "routes": {
+    "home": "/",
+    "story": "/our-story"
   }
 }

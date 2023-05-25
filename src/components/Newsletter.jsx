@@ -6,18 +6,41 @@ export default function Newsletter() {
   const [loading, setLoading] = useState(false);
   const [sub, setSub] = useState(false);
   const [email, setEmail] = useState("");
-  const { t } = useTranslation();
+  const [emailError, setEmailError] = useState("");
+  const { t, i18n } = useTranslation();
+
+  function isValidEmail(email) {
+    // Use a regular expression or any other validation logic to validate email format
+    const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
+    return emailRegex.test(email);
+  }
 
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    const url =
-      "https://gmail.us13.list-manage.com/subscribe/post-json?u=f5e02948469133d4eb19aa26c&amp;id=8d67ad26d9&amp;f_id=0080e6e2f0";
-    jsonp(`${url}&EMAIL=${email}`, { param: "c" }, (_, { msg }) => {
+
+    // Validate email
+    if (!email.trim()) {
       setLoading(false);
-      setSub(true);
-    });
+      setEmailError(t("errors.email"));
+    } else if (!isValidEmail(email)) {
+      setLoading(false);
+      setEmailError(t("errors.emailInvalid"));
+    } else {
+      const url =
+        "https://gmail.us13.list-manage.com/subscribe/post-json?u=f5e02948469133d4eb19aa26c&amp;id=8d67ad26d9&amp;f_id=0080e6e2f0";
+      jsonp(`${url}&EMAIL=${email}`, { param: "c" }, (_, { msg }) => {
+        setLoading(false);
+        setSub(true);
+      });
+    }
+
   };
+
+  useEffect(() => {
+    setEmailError(""); // Clear the error message when the language changes
+  }, [i18n.language]);
+
 
   useEffect(() => {
     if (sub) {
@@ -31,6 +54,7 @@ export default function Newsletter() {
 
   const handleChange = (e) => {
     setEmail(e.target.value);
+    setEmailError(""); // Clear the error message when the email is modified
   };
 
   return (
@@ -46,7 +70,7 @@ export default function Newsletter() {
             </div>
           </div>
           <div className="col-lg-6">
-            <form className="newsletter-form" onSubmit={handleSubmit}>
+            <form className="newsletter-form" onSubmit={handleSubmit} noValidate>
               <input
                 type="email"
                 name="email"
@@ -55,6 +79,7 @@ export default function Newsletter() {
                 value={email}
                 onChange={handleChange}
               />
+              {emailError && <div className="error-message">* {emailError}</div>}
               <em className="paper-plane">
                 <input type="submit" value="Subscribe" />
               </em>
