@@ -208,7 +208,7 @@ export default function Story({ setHeader }) {
               <div className="col-lg-6 pl-50 md-pl-15">
                 <div className="rs-videos choose-video">
                   <div className="images-video">
-                    <img src="./assets/images/about/about-6.png" alt="DURŌ" />
+                    <img src="./assets/images/about/about-8.png" alt="DURŌ" />
                   </div>
                   <div className="animate-border">
                     <a
