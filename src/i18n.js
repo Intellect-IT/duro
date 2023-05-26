@@ -4,18 +4,22 @@ import LanguageDetector from 'i18next-browser-languagedetector'
 import { initReactI18next } from 'react-i18next'
 
 i18n.use(Backend).use(LanguageDetector).use(initReactI18next).init({
-  fallbackLng: ['sr'],
-  whitelist: ['sr', 'en'],
+  fallbackLng: 'sr',
+  supportedLngs: ['sr', 'en'],
   debug: true,
   lng: "sr",
   detection: {
     order: ['path', 'queryString', 'cookie'],
     cache: ['cookie'],
+    lookupFromPathIndex: 0,
     checkWhitelist: true
   },
   interpolation: {
     escapeValue: false
-  }
+  },
+  backend: {
+    loadPath: './locales/{{lng}}/translation.json',
+}
 })
 
 export default i18n

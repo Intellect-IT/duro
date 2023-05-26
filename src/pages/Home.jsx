@@ -4,8 +4,10 @@ import Loader from "../components/Loader";
 import SwiperDesktop from "../components/SwiperDesktop";
 import SwiperMobile from "../components/SwiperMobile";
 import { Helmet } from "react-helmet";
+import { useTranslation } from "react-i18next";
 
 export default function Home() {
+  const { t } = useTranslation();
   const [viewScrollUp, setViewScrollUp] = useState(false);
   const [screenSize, setScreenSize] = useState(getCurrentDimension());
 
@@ -46,7 +48,7 @@ export default function Home() {
       <Helmet>
         {/* <!-- meta tag --> */}
         <meta charset="utf-8" />
-        <title>DURŌ Niche perfumery | Niche parfimerija</title>
+        <title>{t("titles.home")} | Niche parfimerija</title>
 
         {/* <!-- Meta Tags--> */}
         <meta

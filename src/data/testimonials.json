@@ -1,0 +1,30 @@
+{
+    "en": [
+        {
+            "statement": "I was left speechless by the most exclusive niche perfumery I’ve ever visited.",
+            "name": "Stela Džajić"
+        },
+        {
+            "statement": "The best perfume shop in Belgrade! All of the staff members are very friendly.",
+            "name": "Irina Malikova"
+        },
+        {
+            "statement": "I have been in many perfumeries around the world, but this one has a special touch for me.",
+            "name": "Saša Oljača"
+        }
+    ],
+    "sr": [
+        {
+            "statement": "Pažljivo odabrane i divno prezentovane niche kuče! Baš ono što je bilo potrebno da upotpuni “parfemsku scenu” ovog grada",
+            "name": "Dragana Tasić Otašević"
+        },
+        {
+            "statement": "Jedinstven doživljaj na svakom nivou! Divno uređen prostor, i interakcija sa mušterijama.",
+            "name": "Matija Žigić"
+        },
+        {
+            "statement": "Kakav utisak ostavljala ova parfimerija! Mesto na kojem se uspomene čuvaju u bočicama.",
+            "name": "Ksenija Dunđerski"
+        }
+    ]
+}

@@ -29,7 +29,7 @@ export default function Press({ setHeader }) {
         {/* <!-- meta tag --> */}
         <meta charset="utf-8" />
         <title>
-          Press &amp; Media | DURŌ Niche perfumery | Niche parfimerija
+        {t("titles.press")} | DURŌ Niche perfumery | Niche parfimerija
         </title>
 
         {/* <!-- Meta Tags--> */}

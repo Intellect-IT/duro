@@ -41,7 +41,7 @@ export default function Story({ setHeader }) {
         {/* <!-- meta tag --> */}
         <meta charset="utf-8" />
         <title>
-          Discover our World | DURŌ Niche perfumery | Niche parfimerija
+        {t("titles.story")} | DURŌ Niche perfumery | Niche parfimerija
         </title>
 
         {/* <!-- Meta Tags--> */}

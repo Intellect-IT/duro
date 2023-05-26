@@ -1,5 +1,6 @@
 {
   "newsletter": "Pretplata na bilten",
+  "testimonials": "Ispovesti",
   "yourEmail": "Vaša Email Adresa",
   "gallery": "Galerija",
   "header": {
@@ -205,8 +206,13 @@
     "phoneInvalid": "Nevažeći broj telefona",
     "message": "Poruka je potrebna"
   },
-  "routes": {
-    "home": "/",
-    "story": "/ono-estoria"
+  "titles": {
+    "home": "DURŌ Niche perfumery",
+    "story": "Otkrijte naš svet",
+    "brands": "Naši brendovi",
+    "contact": "Kontakt",
+    "gallery": "Galerija",
+    "press": "Štampa i mediji",
+    "privacy": "Politika privatnosti"
   }
 }

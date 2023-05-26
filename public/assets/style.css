@@ -6543,6 +6543,28 @@ body .search-modal .close:hover {
   text-align: left;
   margin-top: 20px;
 }
+
+.testimonial-statement {
+  font-family: 'Playfair Display', sans-serif;
+  color: #fff;
+  font-size: 2.2rem;
+}
+
+.testimonial-name {
+  color: #BB9A54;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.testimonial-images-wrap {
+  width: fit-content;
+  margin: auto;
+}
+
+.testimonial-img {
+  width: 78% !important;
+  height: auto;
+}
 /* ------------------------------------
     25. Timecount Ceremony Section CSS
 ---------------------------------------*/

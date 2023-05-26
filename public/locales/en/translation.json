@@ -1,5 +1,6 @@
 {
   "newsletter": "Newsletter Subscribe",
+  "testimonials": "Testimonials",
   "yourEmail": "Your Email Address",
   "gallery": "Gallery",
   "header": {
@@ -204,8 +205,13 @@
     "phoneInvalid": "Invalid phone number",
     "message": "Message is required"
   },
-  "routes": {
-    "home": "/",
-    "story": "/our-story"
+  "titles": {
+    "home": "DURŌ Niche perfumery",
+    "story": "Discover our World",
+    "brands": "Our Brands",
+    "contact": "Contact",
+    "gallery": "Gallery",
+    "press": "Press & Media",
+    "privacy": "Privacy Policy"
   }
 }

@@ -14,6 +14,7 @@ import { Pagination, Mousewheel } from "swiper";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import ContactForm from "./ContactForm";
+import Testimonials from "./Testimonials";
 
 const SwiperDesktop = () => {
   const [render, setRender] = useState(0)
@@ -889,6 +890,11 @@ const SwiperDesktop = () => {
             </div>
           </div>
           {/* <!-- Blog Section End --> */}
+        </SwiperSlide>
+        <SwiperSlide className="swiper-slide">
+          {/* <!-- Testimonials Section Start --> */}
+          <Testimonials/>
+          {/* <!-- Testimonials Section End -->   */}
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           {/* <!-- Contact Section Start --> */}

@@ -27,7 +27,7 @@ export default function Contact({ setHeader }) {
       <Helmet>
         {/* <!-- meta tag --> */}
         <meta charset="utf-8" />
-        <title>Contact | DURŌ Niche perfumery | Niche parfimerija</title>
+        <title>{t("titles.contact")} | DURŌ Niche perfumery | Niche parfimerija</title>
 
         {/* <!-- Meta Tags--> */}
         <meta
