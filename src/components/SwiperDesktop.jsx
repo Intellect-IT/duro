@@ -963,7 +963,7 @@ const SwiperDesktop = () => {
                 <div className="col-lg-8 pr-130 md-pr-15">
                   <div className="contact-img md-mb-50">
                     <img
-                      src="./assets/images/contact/contact-2.png"
+                      src="./assets/images/contact/contact-1.png"
                       alt="Get in touch with us"
                     />
                   </div>
