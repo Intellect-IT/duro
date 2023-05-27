@@ -203,7 +203,19 @@
     "emailInvalid": "Invalid email address",
     "phone": "Phone number is required",
     "phoneInvalid": "Invalid phone number",
-    "message": "Message is required"
+    "message": "Message is required",
+    "404": {
+      "title": "Oops! Page not found.",
+      "desc1": "The page you are looking for was not found.",
+      "desc2a": "You may return to the",
+      "desc2b": "Home Page"
+    },
+    "500": {
+      "title": "Oops! Something went wrong.",
+      "desc1": "The page you are looking for is temporarily unavailable.",
+      "desc2a": "You may return to the",
+      "desc2b": "Home Page"
+    }
   },
   "titles": {
     "home": "DURŌ Niche perfumery",

@@ -204,7 +204,19 @@
     "emailInvalid": "Nevažeća adresa e-pošte",
     "phone": "Broj telefona je potreban",
     "phoneInvalid": "Nevažeći broj telefona",
-    "message": "Poruka je potrebna"
+    "message": "Poruka je potrebna",
+    "404": {
+      "title": "Ups! Stranica nije pronađena.",
+      "desc1": "Stranica koju tražite nije pronađena.",
+      "desc2a": "Možete se vratiti na",
+      "desc2b": "Početna stranica"
+    },
+    "500": {
+      "title": "Ups! Došlo je do greške.",
+      "desc1": "Stranica koju tražite trenutno nije dostupna.",
+      "desc2a": "Možete se vratiti na",
+      "desc2b": "Početna stranica"
+    }
   },
   "titles": {
     "home": "DURŌ Niche perfumery",

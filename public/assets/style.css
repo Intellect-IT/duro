@@ -34,12 +34,13 @@
     22. Pricing Section CSS
     23. Blog Section CSS
     24. Testimonial Section CSS
-    25. Timecount Ceremony Section CSS
-    26. Contact Section CSS
-    27. Footer Section CSS
-    28. Scroll Up CSS
-    29. Preloader CSS
-    30. Animation Part CSS      
+    25. Errors Section CSS
+    26. Timecount Ceremony Section CSS
+    27. Contact Section CSS
+    28. Footer Section CSS
+    29. Scroll Up CSS
+    30. Preloader CSS
+    31. Animation Part CSS      
 
 --------------------------------------------------------*/
 /* @charset "utf-8"; */
@@ -6566,7 +6567,36 @@ body .search-modal .close:hover {
   height: auto;
 }
 /* ------------------------------------
-    25. Timecount Ceremony Section CSS
+    25. Errors Section CSS
+---------------------------------------*/
+.error-type {
+  color: #CA3A31;
+  font-size: 9.8rem;
+  font-weight: 600;
+}
+
+.icon-warning .fa-warning {
+  color: #CA3A31;
+  font-size: 2.4rem;
+}
+
+.error-text {
+  color: #EBEFF6;
+  font-size: 2.4rem;
+  line-height: 1;
+}
+
+.error-desc {
+  color: #CED1D7;
+  font-size: 1.2rem;
+}
+
+.rs-warning .row {
+  justify-content: center;
+  align-items: center;
+}
+/* ------------------------------------
+    26. Timecount Ceremony Section CSS
 ---------------------------------------*/
 .rs-timecoun-ceremony .coming-soon-part .coming-soon-text .CountDownTimer .time_circles {
   width: 100%;
@@ -6689,7 +6719,7 @@ body .search-modal .close:hover {
   border-radius: 50%;
 }
 /* ------------------------------------
-    26. Contact Section CSS
+    27. Contact Section CSS
 ---------------------------------------*/
 .rs-contact {
   position: relative;
@@ -6973,7 +7003,7 @@ body .search-modal .close:hover {
   color: #d63811;
 }
 /*------------------------------------
-    27. Footer Section CSS
+    28. Footer Section CSS
 ------------------------------------*/
 .rs-footer.style1 {
   /*background-image: url(./images/bg/footer-bg.jpg);*/
@@ -7091,7 +7121,7 @@ body .search-modal .close:hover {
   background: #eb3f0f;
 }
 /* -----------------------
-    28. Scroll Up CSS
+    29. Scroll Up CSS
 --------------------------*/
 #scrollUp {
   text-align: center;
@@ -7151,7 +7181,7 @@ body .search-modal .close:hover {
   padding-right: 30px;
 }
 /*----------------------------------------------
-    29. Preloader CSS
+    30. Preloader CSS
 ----------------------------------------------*/
 #pre-load {
   background-color: #fff;
@@ -7247,7 +7277,7 @@ body .search-modal .close:hover {
   }
 }
 /* ------------------------------------
-    30. Animation Part CSS
+    31. Animation Part CSS
 ---------------------------------------*/
 @keyframes loaderspin {
   0% {

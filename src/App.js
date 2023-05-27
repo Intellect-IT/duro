@@ -14,6 +14,8 @@ import Privacy from "./pages/Privacy";
 import Brand from "./pages/Brand";
 
 import GoToTop from "./components/GoToTop";
+import Error404 from "./pages/Error404";
+import Error500 from "./pages/Error500";
 // import i18n from "./i18n";
 
 function App() {
@@ -40,6 +42,7 @@ function App() {
           <Route path="/brands/:slug" element={<Brand setHeader={setHeader}/>} />
           <Route path="/brands" element={<Brands setHeader={setHeader} />} />
           <Route path="/privacy" element={<Privacy setHeader={setHeader} />} />
+          <Route path="*" element={<Error404 />} />
         </Routes>
         {changeNavbar ? null : <GoToTop />}
         {changeNavbar ? null : <Footer2 />}

@@ -213,6 +213,11 @@
 }
 
 @media only screen and (max-width: 991px) {
+  .error-type {
+    font-size: 9rem;
+    line-height: 1;
+    padding-top: 1em;
+  }
   .hidden-md {
     display: none !important;
   }
@@ -818,6 +823,15 @@
 }
 
 @media only screen and (max-width: 575px) {
+  .icon-warning .fa-warning {
+    font-size: 2rem;
+  }
+  .error-text {
+    font-size: 2rem;
+  }
+  .error-desc {
+    font-size: 1rem;
+  }
   .sec-title .title br {
     display: none;
   }
@@ -865,6 +879,19 @@
   }
 }
 @media only screen and (max-width: 480px) {
+  .error-type {
+    font-size: 8rem;
+    padding-top: 0.8em;
+  }
+  .icon-warning .fa-warning {
+    font-size: 1.5rem;
+  }
+  .error-text {
+    font-size: 1.5rem;
+  }
+  .error-desc {
+    font-size: 0.9rem;
+  }
   .testimonial-statement {
     font-size: 1.4rem;
   }
