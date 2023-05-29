@@ -43,6 +43,7 @@ function App() {
           <Route path="/brands" element={<Brands setHeader={setHeader} />} />
           <Route path="/privacy" element={<Privacy setHeader={setHeader} />} />
           <Route path="*" element={<Error404 />} />
+          <Route path="/error" element={<Error500 />} />
         </Routes>
         {changeNavbar ? null : <GoToTop />}
         {changeNavbar ? null : <Footer2 />}
