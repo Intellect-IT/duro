@@ -66,7 +66,7 @@ export default function Brands({ setHeader }) {
       {/* // <!-- Main content Start --> */}
       <div className="main-content">
         {/* <!-- Breadcrumbs Start --> */}
-        <div className="rs-breadcrumbs electimuss-3">
+        <div className="rs-breadcrumbs electimuss-3" style={{backgroundImage: `url(../assets/images/brands/electimuss/hero_3.jpg)`}}>
           <div className="container">
             <div className="breadcrumbs-inner">
               <h1 className="page-title">

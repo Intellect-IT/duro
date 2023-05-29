@@ -215,7 +215,7 @@ const SwiperDesktop = () => {
                   <div className="team-inner-wrap">
                     <div className="images-wrap">
                       <img
-                        src="./assets/images/products/1_1.jpg"
+                        src="./assets/images/products/1.jpg"
                         alt="Ganymede"
                       />
                     </div>
@@ -232,7 +232,7 @@ const SwiperDesktop = () => {
                   <div className="team-inner-wrap">
                     <div className="images-wrap">
                       <img
-                        src="./assets/images/products/2_1.jpg"
+                        src="./assets/images/products/2.jpg"
                         alt="Chypre Palatin"
                       />
                     </div>
@@ -249,7 +249,7 @@ const SwiperDesktop = () => {
                   <div className="team-inner-wrap">
                     <div className="images-wrap">
                       <img
-                        src="./assets/images/products/3_1.jpg"
+                        src="./assets/images/products/3.jpg"
                         alt="Blanche Bête"
                       />
                     </div>
@@ -266,7 +266,7 @@ const SwiperDesktop = () => {
                   <div className="team-inner-wrap">
                     <div className="images-wrap">
                       <img
-                        src="./assets/images/products/4_1.jpg"
+                        src="./assets/images/products/4.jpg"
                         alt="Incident Diplomatique"
                       />
                     </div>
@@ -282,7 +282,7 @@ const SwiperDesktop = () => {
                 <div className="team-item">
                   <div className="team-inner-wrap">
                     <div className="images-wrap">
-                      <img src="./assets/images/products/5_1.jpg" alt="Jeroboam Gozo" />
+                      <img src="./assets/images/products/5.jpg" alt="Jeroboam Gozo" />
                     </div>
                     <div className="team-content">
                       <h3 className="title-name">
