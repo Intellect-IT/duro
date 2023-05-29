@@ -80,3 +80,32 @@
   border-radius: 4px 4px 4px 4px;
   padding: 0px 0px 0px 0px;
 }
+.rs-breadcrumbs.electimuss-1 {
+    background: url(assets/images/brands/electimuss/hero.jpg);
+  }
+  
+  .rs-breadcrumbs.electimuss-2 {
+    background: url(assets/images/brands/electimuss/hero_2.jpg);
+  }
+  
+  .rs-breadcrumbs.electimuss-3 {
+    background: url(assets/images/brands/electimuss/hero_3.jpg);
+  }
+  
+  .rs-breadcrumbs.electimuss-4 {
+    background: url(assets/images/brands/electimuss/hero_4.jpg);
+  }
+  
+  .brand-logo {
+      text-align: center
+  }
+  .brand-logo img {
+      width: 250px;
+  }
+  .spotlight.sec-title .title {
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 46px;
+      color: #ffffff;
+      margin: 0;
+  }
