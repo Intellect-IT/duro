@@ -3170,7 +3170,7 @@ body .search-modal .close:hover {
   margin: 0;
 }
 .rs-services.style1 .services-item:hover {
-  background-image: linear-gradient(60deg, #05106d 0%, #3749db 100%);
+  /*background-image: linear-gradient(60deg, #05106d 0%, #3749db 100%);*/
   border-radius: 4px 4px 4px 4px;
   padding: 0px 0px 0px 0px;
 }

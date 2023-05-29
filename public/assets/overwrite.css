@@ -67,3 +67,19 @@
     color: #bf994c;
     position: relative;
 }
+.services-text .services-txt
+{
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0;
+}
+
+.rs-services.style1 .services-item:hover {
+  background-color: #00000017 !important;
+}
+
+.rs-services.style1 .services-item .services-wrap .services-text .title {
+    color: #bf994c;
+  }

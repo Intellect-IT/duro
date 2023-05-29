@@ -46,6 +46,24 @@
     "featured": {
       "title": "Najpopularniji proizvodi"
     },
+    "approach": {
+      "title": "DURŌ koncept",
+      "principle1": {
+        "title": "Niche parfemi",
+        "desc1": "Naša kolekcija parfema pažljivo je odabrana da odražava našu beskompromisnu strast prema izvrsnosti, zanatskoj veštini i kreativnosti.",
+        "desc2": "Selektirali smo luksuzne niche brendove iz celog sveta koji imaju jedinstvene priče i izuzetne parfeme."
+      },
+      "principle2": {
+        "title": "Personalizovani pristup",
+        "desc1": "Naš iskusni tim razume vaš stil, ličnost i preferencije, nudeći personalizovano i edukativno iskustvo kako biste otkrili vaš jedinstveni parfem.",
+        "desc2": "Sa ličnim i posvećenim pristupom, prilagođavamo parfemsku avanturu vašim željama."
+      },
+      "principle3": {
+        "title": "Luksuzni butik",
+        "desc1": "Ekskluzivnost, sofisticiranost i jedinstveni stil. Od atmosfere do posvećene usluge, vodimo računa o svakom detalju.",
+        "desc2": "Zato smo kreirali parfemsko iskustvo koje nadmašuje tradicionalno iskustvo kupovine, ukrašeno luksuzom koji će vas oduševiti."
+      }
+    },
     "brands": {
       "title": "Naši Brendovi"
     },
