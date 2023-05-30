@@ -1,14 +1,21 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Loader from "../components/Loader";
 import OwlCarousel from "react-owl-carousel";
-import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet";
 import Newsletter from "../components/Newsletter";
-import { Link, useParams } from "react-router-dom";
+import brandsData from "../data/brands.json";
+import parse from "html-react-parser";
+import { useParams } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 export default function Brands({ setHeader }) {
-  //   const { slug } = useParams();
+  const { slug } = useParams();
   const { t } = useTranslation();
+  const [currentBrand, setCurrentBrand] = useState(brandsData[slug]);
+
+  useEffect(() => {
+    setCurrentBrand(brandsData[slug]);
+  }, [slug]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -66,12 +73,17 @@ export default function Brands({ setHeader }) {
       {/* // <!-- Main content Start --> */}
       <div className="main-content">
         {/* <!-- Breadcrumbs Start --> */}
-        <div className="rs-breadcrumbs electimuss-3" style={{backgroundImage: `url(../assets/images/brands/electimuss/hero_3.jpg)`}}>
+        <div
+          className="rs-breadcrumbs electimuss-3"
+          style={{
+            backgroundImage: `url(${currentBrand.heroImg === "" ? "../assets/images/breadcrumbs/inr-2.jpg" : currentBrand.heroImg})`,
+          }}
+        >
           <div className="container">
             <div className="breadcrumbs-inner">
               <h1 className="page-title">
-                Electimuss
-                <span className="watermark">Electimuss</span>
+                {currentBrand.title}
+                <span className="watermark">{currentBrand.title}</span>
               </h1>
             </div>
           </div>
@@ -85,109 +97,50 @@ export default function Brands({ setHeader }) {
               <div className="col-lg-4 pr-15 md-pr-15 md-mb-50">
                 <div className="brand-logo">
                   <img
-                    src="../assets/images/event/brands/017_electimuss.png"
-                    alt="Electimuss"
+                    src={currentBrand.logo}
+                    alt={currentBrand.title}
                   />
                 </div>
               </div>
               <div className="col-lg-8 pl-45 md-pl-15">
-                <p className="desc margin-0 pt-40 pb-15">
-                  At Electimuss London, fragrance becomes an art form. Inspired
-                  by the opulence and allure of Ancient Rome, they embark on a
-                  journey to craft perfumes that embody unrivaled quality,
-                  creativity, and individuality.
-                </p>
-                <p className="desc margin-0 pb-15">
-                  Collaborating with the world's most talented perfumers,
-                  including Julien Rasquinet, Christian Provenzano, John
-                  Stephens, Marco Genovese, and Sofia Bardelli, they harness
-                  their expertise to bring their olfactory visions to life.
-                  Through their perfumes, they aim to empower individuals to
-                  express their unique identities and elevate everyday moments
-                  into extraordinary experiences.
-                </p>
+                {currentBrand.lead === "" ? (<p className="desc margin-0 pb-15">Coming soon...</p>) : parse(t(currentBrand.lead))}
               </div>
             </div>
-            <div className="row y-middle pt-120 pb-40 md-pt-80 md-pb-20">
+            {currentBrand.story === "" ? null : (<div className="row y-middle pt-120 pb-40 md-pt-80 md-pb-20">
               <div className="col-lg-6 md-mb-50">
                 <div className="sec-title mb-60">
-                  <span className="sub-text">About brand</span>
+                  <span className="sub-text">{t("brands.pageHeadings.about")}</span>
                   <h2 className="title pb-22">
-                    Electimuss London <br />
-                    To choose the best
+                    {currentBrand.name} <br />
+                    {t(currentBrand.tagline)}
                   </h2>
                   <div className="heading-border-line left-style"></div>
                 </div>
                 <div className="row">
                   <div className="col-lg-12">
-                    <p className="desc margin-0 pb-15">
-                      Introducing Electimuss London, where fragrance becomes an
-                      art form. Inspired by the opulence and allure of Ancient
-                      Rome, they have embarked on a journey to craft perfumes
-                      that embody unrivaled quality, creativity, and
-                      individuality.
-                    </p>
-                    <p className="desc margin-0 pb-15">
-                      The Romans' unwavering passion for perfume and their
-                      pursuit of the finest scents resonate deeply with
-                      Electimuss London. They draw inspiration from their epic
-                      stories and rituals, where fragrance infused every facet
-                      of life, from celebrations to seduction. These vibrant
-                      tales fuel their imaginations, serving as the wellspring
-                      for their captivating fragrances.
-                    </p>
-                    <p className="desc margin-0 pb-15">
-                      Electimuss London is a connoisseur of fragrance,
-                      perpetually seeking the very best. Just as the Romans
-                      scoured the Empire for exquisite oils and ingredients,
-                      they blend rare and precious elements with meticulous
-                      care. Their commitment to quality knows no bounds, with
-                      their perfumes boasting 25% or 30% Pure Parfum/Extrait
-                      concentration, resulting in decadently daring blends that
-                      linger with exquisite longevity.
-                    </p>
-                    <p className="desc margin-0 pb-15">
-                      Their perfumes are an invitation to indulge in intensity.
-                      Each composition is a potent elixir of scents,
-                      meticulously formulated for unrivaled projection and
-                      endurance. They believe that luxury should be accessible,
-                      which is why they combine exceptional quality with fair
-                      pricing, allowing fragrance enthusiasts of all budgets to
-                      experience the allure of their creations.
-                    </p>
-                    <p className="desc margin-0 pb-15">
-                      Discover more about Electimuss London on their{" "}
-                      <a
-                        href="https://www.electimuss.com/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        website
-                      </a>
-                      .
-                    </p>
+                  {parse(t(currentBrand.story))}
                   </div>
                 </div>
               </div>
               <div className="col-lg-6 pl-50 md-pl-15">
                 <div className="images-part">
                   <img
-                    src="../assets/images/brands/electimuss/001.png"
-                    alt="Electimuss"
+                    src={currentBrand.storyImg}
+                    alt={currentBrand.name}
                   />
                 </div>
               </div>
-            </div>
+            </div>)}
           </div>
         </div>
         {/* <!-- About Section End --> */}
 
         {/* <!-- Products Section Start --> */}
-        <div className="rs-team style7 blue-bg height-ctrl md-pb-40 md-pt-40">
+        {currentBrand.products.length > 0 ? (<div className="rs-team style7 blue-bg height-ctrl md-pb-40 md-pt-40">
           <div className="container">
             <div className="sec-title spotlight text-center mb-60">
-              <span className="sub-text">In spotlight</span>
-              <h2 className="title pb-22">Featured products</h2>
+              <span className="sub-text">{t("brands.pageHeadings.spotlight")}</span>
+              <h2 className="title pb-22">{t("brands.pageHeadings.featured")}</h2>
               <div className="heading-border-line center-style"></div>
             </div>
             <OwlCarousel
@@ -234,111 +187,42 @@ export default function Brands({ setHeader }) {
                 },
               }}
             >
-              <div className="team-item">
-                <div className="team-inner-wrap">
-                  <div className="images-wrap">
-                    <img
-                      src="../assets/images/brands/electimuss/products/trajan.jpg"
-                      alt="Electimuss Trajan"
-                    />
-                  </div>
-                  <div className="team-content">
-                    <h3 className="title-name">
-                      <a href="#!">Trajan (100 ml)</a>
-                    </h3>
-                    <div className="team-title">Electimuss </div>
-                    <div className="team-price">00.000,00 RSD</div>
-                  </div>
-                </div>
-              </div>
-              <div className="team-item">
-                <div className="team-inner-wrap">
-                  <div className="images-wrap">
-                    <img
-                      src="../assets/images/brands/electimuss/products/persephones-patchouli.jpg"
-                      alt="Electimuss Persephone’s Patchouli"
-                    />
-                  </div>
-                  <div className="team-content">
-                    <h3 className="title-name">
-                      <a href="#!">Persephone’s Patchouli (100 ml)</a>
-                    </h3>
-                    <div className="team-title">Electimuss </div>
-                    <div className="team-price">00.000,00 RSD</div>
-                  </div>
-                </div>
-              </div>
-              <div className="team-item">
-                <div className="team-inner-wrap">
-                  <div className="images-wrap">
-                    <img
-                      src="../assets/images/brands/electimuss/products/imperium.jpg"
-                      alt="Electimuss Imperium"
-                    />
-                  </div>
-                  <div className="team-content">
-                    <h3 className="title-name">
-                      <a href="#!">Imperium (100 ml)</a>
-                    </h3>
-                    <div className="team-title">Electimuss </div>
-                    <div className="team-price">00.000,00 RSD</div>
-                  </div>
-                </div>
-              </div>
-              <div className="team-item">
-                <div className="team-inner-wrap">
-                  <div className="images-wrap">
-                    <img
-                      src="../assets/images/brands/electimuss/products/vixere.jpg"
-                      alt="Electimuss Vixere/"
-                    />
-                  </div>
-                  <div className="team-content">
-                    <h3 className="title-name">
-                      <a href="#!">Vixere (100 ml)</a>
-                    </h3>
-                    <div className="team-title">Electimuss </div>
-                    <div className="team-price">00.000,00 RSD</div>
-                  </div>
-                </div>
-              </div>
-              <div className="team-item">
-                <div className="team-inner-wrap">
-                  <div className="images-wrap">
-                    <img
-                      src="../assets/images/brands/electimuss/products/amber-aquilaria.jpg"
-                      alt="Electimuss Amber Aquilaria"
-                    />
-                  </div>
-                  <div className="team-content">
-                    <h3 className="title-name">
-                      <a href="#!">Amber Aquilaria (100 ml)</a>
-                    </h3>
-                    <div className="team-title">Electimuss </div>
-                    <div className="team-price">00.000,00 RSD</div>
-                  </div>
-                </div>
-              </div>
+                {currentBrand.products.map((product) => (
+                    <div className="team-item">
+                    <div className="team-inner-wrap">
+                      <div className="images-wrap">
+                        <img
+                          src={product.img}
+                          alt={product.title}
+                        />
+                      </div>
+                      <div className="team-content">
+                        <h3 className="title-name">
+                          <a href="#!">{product.title} {product.volume !== "" && `(${product.volume})`}</a>
+                        </h3>
+                        <div className="team-title">{product.brand}</div>
+                        <div className="team-price">{product.price === "" ? "00.000,00" : product.price} RSD</div>
+                      </div>
+                    </div>
+                    </div>
+                ))}
             </OwlCarousel>
           </div>
-        </div>
+        </div>) : null}
         {/* <!-- Products Section End --> */}
 
         {/* <!-- Quote Section Start --> */}
-        <div className="rs-team style2 blue-bg pt-100 pb-50 md-pt-75">
+        {currentBrand.quote === "" ? null : (<div className="rs-team style2 blue-bg pt-100 pb-50 md-pt-75">
           <div className="container">
             <div className="sec-title text-center mb-60">
-              <span className="sub-text">The Quote</span>
+              <span className="sub-text">{t("brands.pageHeadings.quote")}</span>
               <h2 className="title white-color pb-35">
-                "Through the mists of time, Roman legends whisper of epicurean
-                pleasures and extravagance, of ambition and seduction.
-                Electimuss London is a niche luxury fragrance house inspired by
-                the legends of love, power and glamour of Rome."
+                "{t(currentBrand.quote)}"
               </h2>
               <div className="heading-border-line"></div>
             </div>
           </div>
-        </div>
+        </div>)}
         {/* <!-- Quote Section End --> */}
 
         {/* <!-- Newsletter section start --> */}

@@ -1334,6 +1334,13 @@ blockquote cite:before {
 .sec-title .title.title3 {
   font-size: 30px;
 }
+.spotlight.sec-title .title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 46px;
+  color: #ffffff;
+  margin: 0;
+}
 .sec-title .desc-small {
   font-size: 15px;
   line-height: 26px;
