@@ -157,8 +157,8 @@ export default function Brands({ setHeader }) {
               navSpeed={false}
               center={false}
               navText={[
-                "<i class='flaticon-left-arrow'></i>",
-                "<i class='flaticon-right-arrow'></i>",
+                "<i className='flaticon-left-arrow'></i>",
+                "<i className='flaticon-right-arrow'></i>",
               ]}
               responsive={{
                 0: {
@@ -187,8 +187,8 @@ export default function Brands({ setHeader }) {
                 },
               }}
             >
-                {currentBrand.products.map((product) => (
-                    <div className="team-item">
+                {currentBrand.products.map((product, i) => (
+                    <div className="team-item" key={i}>
                     <div className="team-inner-wrap">
                       <div className="images-wrap">
                         <img

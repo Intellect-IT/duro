@@ -30,8 +30,8 @@ export default function Testimonials() {
           navSpeed={false}
           center={false}
           navText={[
-            "<i class='flaticon-left-arrow'></i>",
-            "<i class='flaticon-right-arrow'></i>",
+            "<i className='flaticon-left-arrow'></i>",
+            "<i className='flaticon-right-arrow'></i>",
           ]}
           responsive={{
             0: {
@@ -61,8 +61,8 @@ export default function Testimonials() {
           }}
         >
           {i18n.language === "sr"
-            ? testimonials.sr.map((item) => (
-                <div className="team-item mt-sm-5 mt-3">
+            ? testimonials.sr.map((item, i) => (
+                <div key={i} className="team-item mt-sm-5 mt-3">
                   <div className="team-inner-wrap">
                     <div className="team-content">
                       <div className="testimonial-images-wrap">

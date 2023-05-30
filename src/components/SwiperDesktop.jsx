@@ -299,53 +299,53 @@ const SwiperDesktop = () => {
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
         {/*<!-- Approach Section End -->*/}
-						<div class="rs-services style1 bg1 pt-110 pb-60 md-pt-75 md-pb-80">
-							<div class="container">
-								<div class="sec-title text-center mb-90">
-                  <h2 class="title title2 title3 text-middle">
+						<div className="rs-services style1 bg1 pt-110 pb-60 md-pt-75 md-pb-80">
+							<div className="container">
+								<div className="sec-title text-center mb-90">
+                  <h2 className="title title2 title3 text-middle">
                   {t("home.approach.title")}
                   </h2>
                 </div>
-								<div class="row y-middle">
-									<div class="col-lg-4 col-md-6 md-mb-30">
-										<div class="services-item">
-											<div class="services-wrap">
-												<div class="services-icon">
+								<div className="row y-middle">
+									<div className="col-lg-4 col-md-6 md-mb-30">
+										<div className="services-item">
+											<div className="services-wrap">
+												<div className="services-icon">
 													<img src="./assets/images/approach/1.png" alt="Exclusive perfumes" />
 												</div>
-												<div class="services-text">
-													<h4 class="title">{t("home.approach.principle1.title")}</h4>
-													<p class="services-txt">
+												<div className="services-text">
+													<h4 className="title">{t("home.approach.principle1.title")}</h4>
+													<p className="services-txt">
                           {t("home.approach.principle1.desc1")}<br/><br/>{t("home.approach.principle1.desc2")}
 													</p>
 												</div>
 											</div>
 										</div>
 									</div>
-									<div class="col-lg-4 col-md-6 md-mb-30">
-										<div class="services-item">
-											<div class="services-wrap">
-												<div class="services-icon">
+									<div className="col-lg-4 col-md-6 md-mb-30">
+										<div className="services-item">
+											<div className="services-wrap">
+												<div className="services-icon">
 													<img src="./assets/images/approach/2.png" alt="Bespoke approach" />
 												</div>
-												<div class="services-text">
-													<h4 class="title"> {t("home.approach.principle2.title")}</h4>
-													<p class="services-txt">
+												<div className="services-text">
+													<h4 className="title"> {t("home.approach.principle2.title")}</h4>
+													<p className="services-txt">
                           {t("home.approach.principle2.desc1")}<br/><br/>{t("home.approach.principle2.desc2")}
 													</p>
 												</div>
 											</div>
 										</div>
 									</div>
-									<div class="col-lg-4 col-md-6">
-										<div class="services-item">
-											<div class="services-wrap">
-												<div class="services-icon">
+									<div className="col-lg-4 col-md-6">
+										<div className="services-item">
+											<div className="services-wrap">
+												<div className="services-icon">
 													<img src="./assets/images/approach/3.png" alt="Immersive Luxury" />
 												</div>
-												<div class="services-text">
-													<h4 class="title">{t("home.approach.principle3.title")}</h4>
-													<p class="services-txt">
+												<div className="services-text">
+													<h4 className="title">{t("home.approach.principle3.title")}</h4>
+													<p className="services-txt">
                           {t("home.approach.principle3.desc1")}<br/><br/>{t("home.approach.principle3.desc2")}
 													</p>
 												</div>

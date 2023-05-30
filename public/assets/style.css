@@ -39,8 +39,9 @@
     27. Contact Section CSS
     28. Footer Section CSS
     29. Scroll Up CSS
-    30. Preloader CSS
-    31. Animation Part CSS      
+    30. Modal CSS
+    31. Preloader CSS
+    32. Animation Part CSS      
 
 --------------------------------------------------------*/
 /* @charset "utf-8"; */
@@ -2117,8 +2118,8 @@ body.modal-open {
   padding: 0 !important;
 }
 body .modal.show .modal-dialog {
-  width: 100%;
-  max-width: 900px;
+  /* width: 100%; */
+  /* max-width: 900px; */
 }
 body .search-modal {
   padding: 0 !important;
@@ -5440,6 +5441,12 @@ body .search-modal .close:hover {
   border-radius: 5px;
   position: relative;
 }
+.modal_form .newsletter-wrap {
+  padding: 50px 0px 10px 0px;
+  background-color: #bf994c;
+  border-radius: 5px;
+  position: relative;
+}
 .rs-newsletter.style1 .newsletter-wrap .content-wrap {
   display: flex;
   align-items: center;
@@ -5459,10 +5466,10 @@ body .search-modal .close:hover {
   margin-bottom: 0;
   text-transform: capitalize;
 }
-.rs-newsletter.style1 .newsletter-wrap .newsletter-form {
+.rs-newsletter.style1 .newsletter-wrap .newsletter-form, .modal_form .newsletter-form {
   position: relative;
 }
-.rs-newsletter.style1 .newsletter-wrap .newsletter-form input[type="email"] {
+.rs-newsletter.style1 .newsletter-wrap .newsletter-form input[type="email"], .modal_form .newsletter-form input[type="email"] {
   position: relative;
   margin: 0;
   padding-right: 130px;
@@ -5475,35 +5482,35 @@ body .search-modal .close:hover {
   padding-left: 18px;
   border-radius: 4px;
 }
-.rs-newsletter.style1 .newsletter-wrap .newsletter-form input[type="email"] {
+.rs-newsletter.style1 .newsletter-wrap .newsletter-form input[type="email"], .modal_form .newsletter-form input[type="email"] {
   width: 100%;
   opacity: 1;
 }
-.rs-newsletter.style1 .newsletter-wrap .newsletter-form ::-webkit-input-placeholder {
+.rs-newsletter.style1 .newsletter-wrap .newsletter-form ::-webkit-input-placeholder, .modal_form .newsletter-form ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
 
   color: #ffffff;
   opacity: 1;
 }
-.rs-newsletter.style1 .newsletter-wrap .newsletter-form ::-moz-placeholder {
+.rs-newsletter.style1 .newsletter-wrap .newsletter-form ::-moz-placeholder, .modal_form .newsletter-form ::-moz-placeholder {
   /* Firefox 19+ */
 
   color: #ffffff;
   opacity: 1;
 }
-.rs-newsletter.style1 .newsletter-wrap .newsletter-form :-ms-input-placeholder {
+.rs-newsletter.style1 .newsletter-wrap .newsletter-form :-ms-input-placeholder, .modal_form .newsletter-form :-ms-input-placeholder {
   /* IE 10+ */
 
   color: #ffffff;
   opacity: 1;
 }
-.rs-newsletter.style1 .newsletter-wrap .newsletter-form :-moz-placeholder {
+.rs-newsletter.style1 .newsletter-wrap .newsletter-form :-moz-placeholder, .modal_form .newsletter-form :-moz-placeholder {
   /* Firefox 18- */
 
   color: #ffffff;
   opacity: 1;
 }
-.rs-newsletter.style1 .newsletter-wrap .newsletter-form input[type="submit"] {
+.rs-newsletter.style1 .newsletter-wrap .newsletter-form input[type="submit"], .modal_form .newsletter-form input[type="submit"] {
   font-size: 0px;
   background: transparent;
   height: 60px;
@@ -5512,7 +5519,7 @@ body .search-modal .close:hover {
   z-index: 9;
   border: none;
 }
-.rs-newsletter.style1 .newsletter-wrap .newsletter-form .paper-plane {
+.rs-newsletter.style1 .newsletter-wrap .newsletter-form .paper-plane, .modal_form .newsletter-form .paper-plane {
   font-style: normal;
   background: rgba(0, 0, 0, 0) linear-gradient(160deg, #041E42 0%, #03164F 50%, #020F2F 100%) repeat scroll 0% 0%;
   border: none;
@@ -5528,7 +5535,7 @@ body .search-modal .close:hover {
   border-radius: 0 4px 4px 0;
   overflow: hidden;
 }
-.rs-newsletter.style1 .newsletter-wrap .newsletter-form .paper-plane:before {
+.rs-newsletter.style1 .newsletter-wrap .newsletter-form .paper-plane:before, .modal_form .newsletter-form .paper-plane:before {
   content: "\f1d8";
   position: absolute;
   font-family: "Font Awesome 6 Free";
@@ -5543,7 +5550,7 @@ body .search-modal .close:hover {
   cursor: pointer;
   transition: all .5s ease;
 }
-.rs-newsletter.style1 .newsletter-wrap .newsletter-form .paper-plane:after {
+.rs-newsletter.style1 .newsletter-wrap .newsletter-form .paper-plane:after, .modal_form .newsletter-form .paper-plane:after {
   content: "";
   width: 100%;
   height: 100%;
@@ -5556,7 +5563,7 @@ body .search-modal .close:hover {
   transition: 0.5s;
   opacity: 0;
 }
-.rs-newsletter.style1 .newsletter-wrap .newsletter-form .paper-plane:hover:after {
+.rs-newsletter.style1 .newsletter-wrap .newsletter-form .paper-plane:hover:after, .modal_form .newsletter-form .paper-plane:hover:after {
   opacity: 1;
   bottom: 0;
 }
@@ -7188,7 +7195,61 @@ body .search-modal .close:hover {
   padding-right: 30px;
 }
 /*----------------------------------------------
-    30. Preloader CSS
+    30. Modal CSS
+----------------------------------------------*/
+.modal-content {
+  overflow: hidden;
+  border: none;
+}
+.modal_form {
+  width: 100%;
+}
+.modal__text-content {
+  position: relative;
+  background-color: #bf994c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.modal__close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 18px;
+  cursor: pointer;
+}
+.modal__heading {
+  color: #fff;
+  font-size: 2.4rem;
+}
+.modal__description {
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+.modal__privacy {
+  color: #fff;
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+.modal__content {
+  display: flex;
+  justify-content: center;
+}
+.modal-content, .modal-body, .modal-dialog {
+  max-width: 900px !important;
+}
+.modal__content a {
+  color: #03164F;
+  border-bottom: 1px solid #03164F;
+}
+.modal__cancel a {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+/*----------------------------------------------
+    31. Preloader CSS
 ----------------------------------------------*/
 #pre-load {
   background-color: #fff;
@@ -7284,7 +7345,7 @@ body .search-modal .close:hover {
   }
 }
 /* ------------------------------------
-    31. Animation Part CSS
+    32. Animation Part CSS
 ---------------------------------------*/
 @keyframes loaderspin {
   0% {

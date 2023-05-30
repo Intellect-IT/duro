@@ -213,6 +213,21 @@
 }
 
 @media only screen and (max-width: 991px) {
+  .modal_form .newsletter-wrap {
+    padding: 24px 0px 10px 0px;
+  }
+  .modal__heading {
+    font-size: 2rem;
+  }
+  .modal__description {
+    font-size: 1rem;
+  }
+  .modal__privacy {
+    font-size: 0.8rem;
+  }
+  .modal__cancel a {
+    font-size: 1rem;
+  }
   .error-type {
     font-size: 9rem;
     line-height: 1;
@@ -517,6 +532,17 @@
     width: 74% !important;
   }
 }
+
+@media only screen and (max-width: 787px) {
+  .modal_form .newsletter-wrap {
+    padding: 20px 0px 10px 0px;
+  }
+  .modal__heading {
+    font-size: 1.8rem;
+    line-height: 1.2;
+  }
+}
+
 
 @media only screen and (max-width: 767px) {
   .hidden-sm {
