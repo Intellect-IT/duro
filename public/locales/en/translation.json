@@ -222,6 +222,10 @@
     "phone": "Phone number is required",
     "phoneInvalid": "Invalid phone number",
     "message": "Message is required",
+    "success": "Submitted successfully!",
+    "failed": "Error! Please try again",
+    "submitting": "Submitting your request...",
+    "thanks": "Thanks for Subscribing!",
     "404": {
       "title": "Oops! Page not found.",
       "desc1": "The page you are looking for was not found.",
@@ -243,6 +247,21 @@
     "gallery": "Gallery",
     "press": "Press & Media",
     "privacy": "Privacy Policy"
+  },
+  "modal": {
+    "subscribe": {
+      "title": "Join our community of perfume enthusiasts!",
+      "desc": "Subscribe to our newsletter for the latest news, product promotions, valuable tips & tricks, and exclusive biweekly updates from the world of niche perfumes.",
+      "notice": "We highly value your privacy and commit to never sending you irrelevant information or disclosing your personal data without your consent. We strictly adhere to our",
+      "policy": "Privacy policy",
+      "decline": "No thanks!"
+    },
+    "cookies": {
+      "consent": "By using this website, you agree to our use of cookies to enhance your browsing experience.",
+      "notice": "For more information on how we use cookies, please see our",
+      "policy": "Cookie Policy",
+      "accept": "I understand"
+    }
   },
   "brands": {
     "pageHeadings": {

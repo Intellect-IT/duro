@@ -90,11 +90,11 @@ export default function Newsletter() {
             <div className="spinner-grow spinner-grow-sm" role="status">
               <span className="sr-only">Loading...</span>
             </div>
-            <p className="mb-0"> Submitting your request...</p>
+            <p className="mb-0">{t("errors.submitting")}</p>
           </div>) : sub ? (
             <div className="col-6 d-flex justify-content-center align-items-center">
               <i className="fa fa-check"></i>
-              <p className="mb-0"> Thanks for Subscribing!</p>
+              <p className="mb-0">{t("errors.thanks")}</p>
             </div>
           ) : (null)}
         </div>

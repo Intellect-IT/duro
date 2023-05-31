@@ -213,12 +213,12 @@ export default function ContactForm() {
         ) : success ? (
           <div className="col d-flex justify-content-start align-items-center">
             <i className="fa fa-check mr-5"></i>
-            <p className="mb-0">Submitted successfully!</p>
+            <p className="mb-0">{t("errors.success")}</p>
           </div>
         ) : error ? (
           <div className="col d-flex justify-content-start align-items-center">
             <i className="fa fa-cancel mr-5"></i>
-            <p className="mb-0">Error! Please try again</p>
+            <p className="mb-0">{t("errors.failed")}</p>
           </div>
         ) : null}
       </div>

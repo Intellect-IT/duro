@@ -7,6 +7,8 @@ import { Helmet } from "react-helmet";
 import { useTranslation } from "react-i18next";
 import Modal from "react-bootstrap/Modal";
 import jsonp from "jsonp";
+import CookieConsent from "react-cookie-consent";
+import Cookies from "js-cookie";
 
 export default function Home() {
   const { t, i18n } = useTranslation();
@@ -16,10 +18,24 @@ export default function Home() {
   const [sub, setSub] = useState(false);
   const [email, setEmail] = useState("");
   const [emailError, setEmailError] = useState("");
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
 
-  const handleClose = () => setShow(false);
-  // const handleShow = () => setShow(true);
+  const handleClose = () => {
+    setShow(false);
+    Cookies.set("modalClosed", true, { expires: 10 });
+  };
+
+  useEffect(() => {
+    const cookieExists = Cookies.get("modalClosed");
+    if (cookieExists) {
+      setShow(false);
+    } else {
+      const modalTimeout = setTimeout(() => {
+        setShow(true);
+      }, 4000);
+      return () => clearTimeout(modalTimeout);
+    }
+  }, []);
 
   function getCurrentDimension() {
     return {
@@ -78,13 +94,11 @@ export default function Home() {
         setSub(true);
       });
     }
-
   };
 
   useEffect(() => {
     setEmailError(""); // Clear the error message when the language changes
   }, [i18n.language]);
-
 
   useEffect(() => {
     if (sub) {
@@ -207,22 +221,30 @@ export default function Home() {
                 <img
                   src="./assets/images/modal/main.png"
                   alt="niche perfumery"
+                  className="modal__img"
                 />
               </div>
               <div className="col-md-7 modal__text-content py-4 px-md-5 px-4">
-                <img src="./assets/images/modal/close-icon.png" alt="close" className="modal__close" onClick={handleClose}/>
+                <div className="modal__close-btn" onClick={handleClose}>
+                <div className="close-container">
+                  <div className="leftright"></div>
+                  <div className="rightleft"></div>
+                  {/* <label className="close-label">close</label> */}
+                </div>
+                </div>
                 <h3 className="modal__heading mt-4">
-                  Join our community of perfume enthusiasts!
+                  {t("modal.subscribe.title")}
                 </h3>
                 <div className="modal__description">
-                  Subscribe to our newsletter for the latest news, product
-                  promotions, valuable tips & tricks, and exclusive biweekly
-                  updates from the world of niche perfumes.
+                  {t("modal.subscribe.desc")}
                 </div>
                 <div className="modal_form">
                   <div className="newsletter-wrap">
-                    <form className="newsletter-form" onSubmit={handleSubmit} noValidate>
-                    {/* <form className="newsletter-form"> */}
+                    <form
+                      className="newsletter-form"
+                      onSubmit={handleSubmit}
+                      noValidate
+                    >
                       <input
                         type="email"
                         name="email"
@@ -231,38 +253,60 @@ export default function Home() {
                         value={email}
                         onChange={handleChange}
                       />
-                      {emailError && <div className="error-message">* {emailError}</div>}
+                      {emailError && (
+                        <div className="error-message">* {emailError}</div>
+                      )}
                       <em className="paper-plane">
                         <input type="submit" value="Subscribe" />
                       </em>
                     </form>
                     <div className="col-6"></div>
-                    {loading ? (<div className="col-6 d-flex justify-content-center align-items-center">
-                        <div className="spinner-grow spinner-grow-sm" role="status">
+                    {loading ? (
+                      <div className="col-6 d-flex justify-content-center align-items-center">
+                        <div
+                          className="spinner-grow spinner-grow-sm"
+                          role="status"
+                        >
                           <span className="sr-only">Loading...</span>
                         </div>
-                        <p className="mb-0"> Submitting your request...</p>
-                      </div>) : sub ? (
-                        <div className="col-6 d-flex justify-content-center align-items-center">
-                          <i className="fa fa-check"></i>
-                          <p className="mb-0"> Thanks for Subscribing!</p>
-                        </div>
-                      ) : (null)}
+                        <p className="mb-0">{t("errors.submitting")}</p>
+                      </div>
+                    ) : sub ? (
+                      <div className="col-6 d-flex justify-content-center align-items-center">
+                        <i className="fa fa-check"></i>
+                        <p className="mb-0">{t("errors.thanks")}</p>
+                      </div>
+                    ) : null}
                   </div>
                 </div>
                 <div className="modal__privacy">
-                  We highly value your privacy and commit to never sending you
-                  irrelevant information or disclosing your personal data
-                  without your consent. We strictly adhere to our <a href="/privacy">Privacy policy »</a>
+                  {t("modal.subscribe.notice")}{" "}
+                  <a href="/privacy">{t("modal.subscribe.policy")} »</a>
                 </div>
                 <div className="modal__cancel mt-4">
-                  <a href="#!" onClick={handleClose}>No thanks!</a>
+                  <a href="#!" onClick={handleClose}>
+                    {t("modal.subscribe.decline")}
+                  </a>
                 </div>
               </div>
             </div>
           </Modal.Body>
         </Modal>
       </div>
+      <CookieConsent
+        // debug
+        buttonText={t("modal.cookies.accept")}
+        buttonClasses="accept-cookies-btn"
+        containerClasses="cookie-consent-container"
+        style={{ background: "#bf994c", alignItems: "center", gap: "1em"}}
+      >
+        <p className="m-0">
+        {t("modal.cookies.consent")}
+        </p>
+        <p className="m-0">
+        {t("modal.cookies.notice")} <a href="/privacy" className="cookie-policy-btn">{t("modal.cookies.policy")} »</a>
+        </p>
+      </CookieConsent>
     </>
   );
 }

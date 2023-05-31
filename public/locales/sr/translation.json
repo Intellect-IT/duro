@@ -223,6 +223,10 @@
     "phone": "Broj telefona je potreban",
     "phoneInvalid": "Nevažeći broj telefona",
     "message": "Poruka je potrebna",
+    "success": "Uspešno poslato!",
+    "failed": "Greška! Molimo pokušajte ponovo.",
+    "submitting": "Podnošenje zahteva...",
+    "thanks": "Hvala vam što ste se prijavili!",
     "404": {
       "title": "Ups! Stranica nije pronađena.",
       "desc1": "Stranica koju tražite nije pronađena.",
@@ -244,6 +248,21 @@
     "gallery": "Galerija",
     "press": "Štampa i mediji",
     "privacy": "Politika privatnosti"
+  },
+  "modal": {
+    "subscribe": {
+      "title": "Pridružite se našoj zajednici ljubitelja parfema!",
+      "desc": "Pretplatite se na naš newsletter kako biste dobijali najnovije vesti, promotivne ponude, korisne savete, kao i ekskluzivne dvonedeljne vesti iz sveta luksuznih niche parfema.",
+      "notice": "Poštujemo vašu privatnost i obavezujemo se da vam nikada nećemo slati informacije niti otkrivati vaše lične podatke bez vašeg pristanka. Strogo se pridržavamo naše",
+      "policy": "Politike privatnosti",
+      "decline": "Ne, hvala!"
+    },
+    "cookies": {
+      "consent": "Korišćenjem ovog veb sajta, pristajete na upotrebu kolačića (eng. cookies) radi poboljšanja vašeg pregledanja.",
+      "notice": "Za više informacija o tome kako koristimo kolačiće, molimo pogledajte našu",
+      "policy": "Politika korišćenja kolačića",
+      "accept": "Slažem se"
+    }
   },
   "brands": {
     "pageHeadings": {

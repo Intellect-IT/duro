@@ -916,6 +916,11 @@ blockquote cite:before {
   display: inline-block;
   transition: all 0.4s ease-in-out 0s;
 }
+.accept-cookies-btn {
+  color: #ffffff !important;
+  display: inline-block;
+  transition: all 0.4s ease-in-out 0s;
+}
 .readon.btn-text {
   background: rgba(0, 0, 0, 0) linear-gradient(160deg, #bf994c 0%, #9e7e37 50%, #7d632e 100%) repeat scroll 0% 0%;
   text-align: center;
@@ -924,6 +929,20 @@ blockquote cite:before {
   transition: 0.5s;
   overflow: hidden;
   position: relative;
+}
+.accept-cookies-btn {
+  background: rgba(0, 0, 0, 0) linear-gradient(160deg, #0d0079 0%, #0E0E63 50%, #0F0F68 100%) repeat scroll 0% 0% !important;
+  text-align: center;
+  padding: 10px 32px !important;
+  border-radius: 4px 4px 4px 4px !important;
+  transition: 0.5s;
+}
+.accept-cookies-btn:hover {
+  background: rgba(0, 0, 0, 0) linear-gradient(160deg, #030e8f 0%, #03164F 50%, #041E42 100%) repeat scroll 0% 0% !important;
+  text-align: center;
+  padding: 10px 32px !important;
+  border-radius: 4px 4px 4px 4px !important;
+  transition: 0.5s;
 }
 .readon.btn-text span {
   position: relative;
@@ -7200,6 +7219,7 @@ body .search-modal .close:hover {
 .modal-content {
   overflow: hidden;
   border: none;
+  background-color: #bf994c;
 }
 .modal_form {
   width: 100%;
@@ -7240,13 +7260,98 @@ body .search-modal .close:hover {
 .modal-content, .modal-body, .modal-dialog {
   max-width: 900px !important;
 }
-.modal__content a {
+.modal__content a, .cookie-policy-btn {
   color: #03164F;
-  border-bottom: 1px solid #03164F;
+  position: relative;
+}
+.cookie-policy-btn {
+  font-weight: 500;
+}
+.cookie-policy-btn:hover {
+  color: #03164F;
 }
 .modal__cancel a {
+  position: relative;
   font-size: 1.2rem;
   font-weight: 500;
+}
+.modal__content a::after, .cookie-policy-btn::after {
+  position: absolute;
+  content: '';
+  inset: 0;
+  height: 100%;
+  width: 0px;
+  border-bottom: 1px solid #03164F;
+  transition: width 300ms ease-in-out;
+}
+.modal__content a:hover::after, .cookie-policy-btn:hover::after {
+  width: 100%;
+}
+.modal__img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.close-container{
+  position: relative;
+  margin: auto;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+.modal__close-btn {
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+.leftright{
+  height: 3px;
+  width: 25px;
+  position: absolute;
+  margin-top: 24px;
+  background-color: #9E7D37;
+  border-radius: 2px;
+  transform: rotate(45deg);
+  transition: all .3s ease-in;
+}
+
+.rightleft{
+  height: 3px;
+  width: 25px;
+  position: absolute;
+  margin-top: 24px;
+  background-color: #9E7D37;
+  border-radius: 2px;
+  transform: rotate(-45deg);
+  transition: all .3s ease-in;
+}
+.close-label{
+  color: white;
+  font-size: .6em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all .3s ease-in;
+  opacity: 0;
+}
+.close-label {
+  margin: 40px 0 0 0;
+  position: absolute;
+  left: -5px;
+}
+
+.close-container:hover .leftright{
+  transform: rotate(-45deg);
+  background-color: #03164F;
+}
+.close-container:hover .rightleft{
+  transform: rotate(45deg);
+  background-color: #03164F;
+}
+.close-container:hover label{
+  opacity: 1;
+}
+.cookie-consent-container {
+  opacity: 0.85;
 }
 /*----------------------------------------------
     31. Preloader CSS
