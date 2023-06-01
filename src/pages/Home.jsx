@@ -219,7 +219,7 @@ export default function Home() {
             <div className="p-0 modal__content">
               <div className="col-5 px-0 d-none d-md-block">
                 <img
-                  src="./assets/images/modal/main.png"
+                  src="./assets/images/modal/main.jpg"
                   alt="niche perfumery"
                   className="modal__img"
                 />
