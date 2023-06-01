@@ -40,16 +40,16 @@ export default function Home() {
     }
   }, []);
 
-  useEffect(() => {
-    const newsletterSubscribed = Cookies.get("newsletterSubscribed");
+  // useEffect(() => {
+  //   const newsletterSubscribed = Cookies.get("newsletterSubscribed");
 
-    if (newsletterSubscribed) {
-      const modalTimeout = setTimeout(() => {
-        setShow(false);
-      }, 2000);
-      return () => clearTimeout(modalTimeout);
-    }
-  }, [Cookies.get("newsletterSubscribed")]);
+  //   if (newsletterSubscribed) {
+  //     const modalTimeout = setTimeout(() => {
+  //       setShow(false);
+  //     }, 2000);
+  //     return () => clearTimeout(modalTimeout);
+  //   }
+  // }, [Cookies.get("newsletterSubscribed")]);
 
   function getCurrentDimension() {
     return {
@@ -107,6 +107,10 @@ export default function Home() {
         setLoading(false);
         setSub(true);
         Cookies.set("newsletterSubscribed", true, { expires: 60 });
+        const timeoutId = setTimeout(() => {
+          setShow(false);
+        }, 3000);
+        return () => clearTimeout(timeoutId);
       });
     }
   };
@@ -119,8 +123,8 @@ export default function Home() {
     if (sub) {
       const timeoutId = setTimeout(() => {
         setSub(false);
-        setShow(false);
       }, 3000);
+
 
       return () => clearTimeout(timeoutId);
     }
