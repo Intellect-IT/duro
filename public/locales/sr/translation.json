@@ -1,7 +1,7 @@
 {
   "newsletter": "Pretplata na bilten",
-  "testimonials": "Ispovesti",
-  "yourEmail": "Vaša Email Adresa",
+  "testimonials": "Iskustva korisnika",
+  "yourEmail": "Vaša E-mail Adresa",
   "gallery": "Galerija",
   "header": {
     "home": "Home",
@@ -11,7 +11,7 @@
     "contact": "Kontakt",
     "language": "EN",
     "address": "Adresa",
-    "email": "Email",
+    "email": "E-mail",
     "phone": "Telefon"
   },
   "footer": {
@@ -40,7 +40,7 @@
     },
     "boutique": {
       "title": "Naša luksuzna parfimerija",
-      "desc1": "DURŌ je luksuzna niche parfimerija u Beogradu. U našem elegantnom i sofisticiranom prostoru, svaki brend koji zastupamo ima posebno osmišljenu prezentaciju, dizajniranu sa pažnjom i predstavljenu tako da bi se stvorilo jedinstveno parfemsko putovanje. Od trenutka kada zakoračite u našu parfimeriju, bićete očarani jedinstvenim ambijentom. Sa širokim izborom luksuznih niche parfema, naš tim je spreman da zajedno sa vama pronađe onaj koji savršeno odgovara vašem stilu i ličnosti.",
+      "desc1": "DURŌ je luksuzna niche parfimerija u Beogradu. U našem elegantnom i sofisticiranom prostoru, svaki brend koji zastupamo ima posebno osmišljenu prezentaciju, dizajniranu sa pažnjom i predstavljenu tako da bi se stvorilo jedinstveno parfemsko putovanje. Od trenutka kada zakoračite u našu parfimeriju, bićete očarani jedinstvenim ambijentom i očaravajućom atmosferom. Vodeći vas kroz izuzetan izbor luksuznih niche parfema, naš tim je spreman da zajedno sa vama pronađe onaj koji savršeno odgovara vašem stilu i ličnosti.",
       "desc2": "Posetite nas danas i doživite neponovljivo iskustvo u našoj parfimeriji."
     },
     "featured": {
@@ -50,18 +50,18 @@
       "title": "DURŌ koncept",
       "principle1": {
         "title": "Niche parfemi",
-        "desc1": "Naša kolekcija parfema pažljivo je odabrana da odražava našu beskompromisnu strast prema izvrsnosti, zanatskoj veštini i kreativnosti.",
-        "desc2": "Selektirali smo luksuzne niche brendove iz celog sveta koji imaju jedinstvene priče i izuzetne parfeme."
+        "desc1": "Naša selekcija parfema je pažljivo odabrana da odražava našu beskompromisnu strast prema izvrsnosti, majstorskoj veštini i kreativnosti.",
+        "desc2": "Izabrali smo luksuzne niche parfemske kuće iz celog sveta koje krase jedinstvene priče i izuzetni parfemi."
       },
       "principle2": {
         "title": "Personalizovani pristup",
-        "desc1": "Naš iskusni tim razume vaš stil, ličnost i preferencije, nudeći personalizovano i edukativno iskustvo kako biste otkrili vaš jedinstveni parfem.",
+        "desc1": "Članovi našeg posvećenog tima razumeće vašu ličnost, stil i preferencije, te će vam ponuditi personalizovano i edukativno iskustvo kako biste otkrili vaš jedinstveni parfem.",
         "desc2": "Sa ličnim i posvećenim pristupom, prilagođavamo parfemsku avanturu vašim željama."
       },
       "principle3": {
         "title": "Luksuzni butik",
-        "desc1": "Ekskluzivnost, sofisticiranost i jedinstveni stil. Od atmosfere do posvećene usluge, vodimo računa o svakom detalju.",
-        "desc2": "Zato smo kreirali parfemsko iskustvo koje nadmašuje tradicionalno iskustvo kupovine, ukrašeno luksuzom koji će vas oduševiti."
+        "desc1": "Ekskluzivnost, sofisticiranost i jedinstveni stil. Od autentične atmosfere do posvećene usluge, vodimo računa o svakom detalju.",
+        "desc2": "Kreirali smo parfemsko iskustvo koje nadmašuje tradicionalno iskustvo kupovine, ukrašeno luksuzom koji će vas oduševiti."
       }
     },
     "brands": {
@@ -83,11 +83,11 @@
       },
       "news3": {
         "title": "Svečano otvaranje DURŌ niche parfimerije u Beogradu",
-        "desc": "Poštovane dame i gospodo, velika nam je čast i zadovoljstvo da podelimo sa vama radost povodom svečanog otvaranja naše nove parfimerije u TC „Galerija“ Beograd. U društvu naših dragih partnera, prijatelja, porodice i pravih zaljubljenika u parfeme, presekli smo vrpcu i sa velikim oduševljenjem otvorili vrata DURŌ niche parfimerije!"
+        "desc": "Poštovane dame i gospodo, velika nam je čast i zadovoljstvo da sa vama podelimo radost povodom svečanog otvaranja naše nove parfimerije u TC „Galerija“ Beograd. U društvu dragih partnera, prijatelja, porodice i pravih zaljubljenika u parfeme, svečano smo presekli vrpcu i sa velikim oduševljenjem otvorili vrata DURŌ niche parfimerije!"
       },
       "news4": {
         "title": "Veliko otvaranje DURŌ niche parfimerije će se održati 10/4",
-        "desc": "DURŌ niche parfimerija s ponosom najavljuje svoje veliko otvaranje, označavajući dolazak jedinstvenog koncepta posvećenog umetnosti parfema u srcu Beograda. Čarobna atmosfera naše luksuzne parfimerije, smeštene u prestižnom TC „Galerija“, stvara nezaboravno estetsko iskustvo koje prevazilazi vreme i ostavlja neizbrisiv utisak."
+        "desc": "DURŌ niche parfimerija s ponosom najavljuje trenutak velikog otvaranja, označavajući rađanje jedinstvenog koncepta posvećenog umetnosti parfema u srcu Beograda. Čarobna atmosfera naše luksuzne parfimerije, smeštene u prestižnom TC „Galerija“, stvara nezaboravno estetsko iskustvo koje prevazilazi vreme i ostavlja neizbrisiv utisak."
       }
     },
     "contact": {
@@ -107,10 +107,10 @@
     "title": "Otkrijte DURŌ svet",
     "nicePerfumery": {
       "subText": "DURŌ niche parfimerija",
-      "desc1": "„Parfem je umetnost, on je oblik izražavanja koji govori jače od reči.“ Izjavila je jednom prilikom proslavljena italijanska glumica, i ikona lepote i stila – Monika Beluči. DURŌ je nastao na toj potrebi – da se široj publici predstavi ta specifična i očaravajuća umetnost. Naša priča je započela u srcu Crne Gore, u Podgorici, gde smo stvorili jedinstvenu oazu za ljubitelje parfema u okviru Atelier Cologne Rajović. U luksuznom ambijentu u Bulevaru Džordža Vašingtona, pažljivo osmišljenom tako da ponudi neponovljivo iskustvo, naša prva parfimerija se veoma brzo etablirala kao omiljeno mesto za sve zaljubljenike u parfeme u regionu.",
-      "desc2": "Ubrzo zatim, sanjali smo još veće snove, vođeni željom da podelimo našu strast i znanje sa širom publikom. Tako je nastao DURŌ koncept, i DURŌ niche parfimerija. 10. aprila 2023. godine na prestižnom događaju i zajedno sa više stotina zvanica, otvorili smo našu luksuznu parfimeriju u Beogradu, u okviru TC „Galerija“. Već u prvim danima nakon otvaranja, reakcije javnosti, publike i posetilaca je bio impresivan, čime je još jednom potvrđeno da u regionu postoji veliki tržišni potencijal i da je Beogradu bilo potrebno mesto koje će okupiti sve one koji cene i uživaju u umetnosti niche parfema.",
-      "desc3": "I pored svih ovih uspeha, ne planiramo da se zaustavimo. Neprestano istražujemo i otkrivamo nove zanatske parfemske kuće, sa ciljem da našim posetiocima omogućimo da doživite najbolje i najtraženije parfeme na svetu. Naša sledeća destinacija je luksuzna marina u Porto Montenegru u Tivtu, Crna Gora, gde ćemo ubrzo otvoriti svoja vrata i predstaviti naš jedinstveni koncept još većem broju ljubitelja parfema.",
-      "desc4": "U DURŌ-u nismo fokusirani samo na prodaju parfema. Naš pristup je drugačiji. Mi nudimo jedinstveno i nezaboravno putovanje u svet čarobnih aroma i emocija, gde svaki parfem ima svoju priču. Zakoračite u riznicu lepote i sofisticiranosti - mesto gde svet autentičnih parfema, ukrašen prvoklasnom uslugom, postaje deo vaše stvarnosti.",
+      "desc1": "„Monika Beluči, proslavljena italijanska glumica i ikona lepote i stila, je jednom prilikom izjavila: „Parfem je umetnost, to je oblik izražavanja koji govori jače od reči.“  DURŌ koncept je nastao na toj potrebi – da se široj publici predstavi ta specifična i očaravajuća umetnost. Naša priča je započela u srcu Crne Gore, u Podgorici, gde smo stvorili jedinstvenu oazu za ljubitelje parfema u okviru parfimerije Atelier Cologne Rajović. U luksuznom ambijentu u Bulevaru Džordža Vašingtona, pažljivo osmišljenom tako da ponudi neponovljivo iskustvo, naša prva parfimerija se brzo etablirala kao omiljeno mesto za sve zaljubljenike u parfeme u regionu.",
+      "desc2": "Nismo stali na tome već smo sanjali velike snove, vođeni željom da podelimo našu strast i znanje sa širom publikom. Tako je nastao DURŌ koncept, kao i DURŌ niche parfimerija. 10.aprila 2023. godine na prestižnom događaju kojem je prisustvovalo više stotina zvanica, otvorili smo našu luksuznu parfimeriju u Beogradu, u okviru TC „Galerija“. Već u prvim danima nakon otvaranja, reakcije javnosti, publike i posetilaca bile su impresivne, čime je još jednom potvrđeno da u regionu postoji veliki potencijal za razvoj niche koncepta te da je Beogradu bilo potrebno mesto koje će okupiti sve one koji vole ovaj koncept i uživaju u parfemskoj umetnosti.",
+      "desc3": "Na ovome ne planiramo da stanemo. Neprestano istražujemo i otkrivamo nove umetničke parfemske kuće, sa ciljem da našim posetiocima omogućimo da dožive svet najboljih i najtraženijih parfema na svetu. Naša sledeća destinacija je luksuzna marina Porto Montenegro u Tivtu, gde ćemo uskoro otvoriti svoja vrata i predstaviti naš jedinstveni koncept još većem broju ljubitelja parfema.",
+      "desc4": "U parfimeriji DURŌ nismo fokusirani na uobičajeni komercijalni pristup prodaji parfema. Naš pristup je drugačiji. Mi nudimo jedinstveno i nezaboravno putovanje u svet čarobnih aroma i emocija, gde svaki parfem ima svoju priču. Zakoračite u riznicu lepote i sofisticiranosti - mesto gde svet autentičnih parfema, ukrašen prvoklasnom uslugom, postaje deo vaše stvarnosti.",
       "perfumes": "Parfemi",
       "brands": "Brendovi"
     },
@@ -118,15 +118,15 @@
       "subText": "DURŌ koncept",
       "titleBr": "Kreiranje Jedinstvene",
       "title": "Parfemske Avanture",
-      "desc1": "U DURŌ-u verujemo da parfem predstavlja više od običnog mirisa. To je putovanje koje vas vodi kroz senzorno iskustvo, budeći emocije i sećanja. Zato smo se posvetili odabiru najcenjenijih i najtraženijih umetničkih parfemskih kuća na svetu, koje ekskluzivno zastupamo na našem tržištu, ali i u regionu.",
-      "desc2": "Naša kolekcija parfema pažljivo je odabrana na osnovu kvaliteta sastojaka, veštine izrade, kreativnosti i ekskluzivnosti. Svaki luksuzni brend koji zastupamo, ima svoju jedinstvenu priču, a mi smo posvećeni tome da njihove kolekcije predstavimo svim zaljubljenicima u parfeme. Neprestano istražujemo nove teritorije, upoznajemo i pronalazimo nove parfimere vredne pažnje.",
-      "desc3": "Zato smo i kreirali parfemsko iskustvo koje nadmašuje tradicionalno iskustvo kupovine. Bez obzira da li ste poznavalac ili entuzijasta, vodićemo vas kroz proces odabira savršenog parfema za vas. Želimo da podelimo naše znanje i strast prema parfemima, stvarajući zajednicu ljubitelja parfema koji cene umetnost niche parfimerija. Pridružite nam se na ovom putovanju i dopustite nam da vam predstavimo naš jedinstveni pristup."
+      "desc1": "Svi mi koji smo deo DURŌ koncepta verujemo da parfem predstavlja više od običnog mirisa. To je putovanje koje vas vodi kroz senzorno iskustvo, budeći emocije i sećanja. Zato smo se posvetili istraživanju najcenjenijih i najtraženijih umetničkih parfemskih kuća na svetu, koje ekskluzivno zastupamo na našem tržištu, ali i u regionu.",
+      "desc2": "Naša selekcija parfema pažljivo je odabrana na osnovu kvaliteta sastojaka, veštine izrade, kreativnosti i ekskluzivnosti. Svaki luksuzni brend koji zastupamo, ima svoju jedinstvenu priču, a mi smo posvećeni tome da sve te priče podelimo sa zaljubljenicima u parfeme. Neprestano istražujemo nove teritorije, upoznajemo i pronalazimo nove parfeme, noseve i koncepte vredne pažnje.",
+      "desc3": "Zato smo i kreirali parfemsko iskustvo koje nadmašuje tradicionalno iskustvo kupovine. Bez obzira da li ste prekaljeni poznavalac ili entuzijasta koji tek otpočinje svoj parfemski put, vodićemo vas kroz proces odabira savršenog parfema po vašoj meri. Želimo da podelimo naše znanje ali i našu strast prema parfemima, doprinoseći stvaranju zajednice ljubitelja koji duboko cene ovu prekrasnu umetnost. Pridružite nam se na ovom putovanju i dopustite nam da vam predstavimo naš jedinstveni pristup."
     },
     "team": {
       "subText": "Naš Tim",
       "title": "DURŌ Tim",
       "founder": "Osnivač",
-      "coFounder": "Suosnivač",
+      "coFounder": "Osnivač",
       "manager": "Menadžer"
     }
   },
@@ -177,11 +177,11 @@
     },
     "blog3": {
       "title": "Svečano otvaranje DURŌ niche parfimerije u Beogradu",
-      "content": "<p>Poštovane dame i gospodo, velika nam je čast i zadovoljstvo da podelimo sa vama radost povodom svečanog otvaranja naše nove parfimerije u TC „Galerija“ Beograd. U društvu naših dragih partnera, prijatelja, porodice i pravih zaljubljenika u parfeme, presekli smo vrpcu i sa velikim oduševljenjem otvorili vrata DURŌ niche parfimerije!</p><p>Posebno smo zahvalni na neiscrpnoj ljubavi i ogromnom podsticaju koju nam pružate, jer je upravo vaša podrška omogućila naš rast i širenje na parfemsku scenu Srbije. Svaki pojedinačni doprinos je bio neprocenjiv za naš napredak u ovoj magičnoj avanturi parfemskog sveta!</p><p>Hvala svima koji su bili deo ovog nezaboravnog događaja! Jedva čekamo da vas ponovo ugostimo!</p><p>Živeli!</p>"
+      "content": "<p>Poštovane dame i gospodo, velika nam je čast i zadovoljstvo da podelimo sa vama radost povodom svečanog otvaranja naše nove parfimerije u TC „Galerija“ Beograd. U društvu dragih partnera, prijatelja, porodice i pravih zaljubljenika u parfeme, svečano smo presekli vrpcu i sa velikim oduševljenjem otvorili vrata DURŌ niche parfimerije!</p><p>Posebno smo zahvalni na neiscrpnoj ljubavi i ogromnom podsticajima koje nam pružate, jer je upravo vaša podrška omogućila naš rast i širenje na parfemsku scenu Srbije. Svaki pojedinačni doprinos je bio neprocenjiv za naš napredak u ovoj magičnoj avanturi parfemskog sveta!</p><p>Hvala svima koji su bili deo ovog nezaboravnog događaja! Jedva čekamo da vas ponovo ugostimo!</p><p>Živeli!</p>"
     },
     "blog4": {
       "title": "Veliko otvaranje DURŌ niche parfimerije",
-      "content": "<p><b>DURŌ niche parfimerija</b> s ponosom najavljuje svoje veliko otvaranje, označavajući dolazak jedinstvenog koncepta posvećenog umetnosti parfema u srcu Beograda. Čarobna atmosfera naše luksuzne parfimerije, smeštene u prestižnom TC \"Galerija\", stvara nezaboravno estetsko iskustvo koje prevazilazi vreme i ostavlja neizbrisiv utisak.</p><p>Grand Opening Event će se održati <b>10. aprila od 18.00 CET</b>, predstavljajući najfinije parfeme 25 niche brendova koje ekskluzivno zastupamo za srpsko tržište: Electimuss, Ormonde Jayne, Jovoy, Jeroboam, Marc-Antoine Barrois, Fragrance du Bois, Puredistance, Histoires de Parfums, Paradis des Sens, Liquides Imaginaires, Veronique Gabai, Calaj, Theodoros Kalotinis, Parfums MDCI, Naomi Goodsir, Indult, Morph, Wesker, Anima Mundi, Onyrico, Castelbel, Portus Cale, Acque di Italia, Thameen i Affinessence.</p><p>Svaki brend oživljava esenciju luksuza, zanatske veštine i kreativnosti, nudeći neponovljivo parfemsko putovanje za sve.</p><p>Želimo da iskažemo iskrenu zahvalnost našim cenjenim partnerima, predstavnicima brendova, prijateljima i porodici na njihovoj nepokolebljivoj podršci u ostvarenju ovog sna. Pridružite nam se na ovom ekskluzivnom događaju.</p><p>Media contact:<b><br/>Lav Šćelović-Pokupec, menadžer<br/>lav@duro.cologne<br/>+381 60 5561303</b></p>"
+      "content": "<p><b>DURŌ niche parfimerija</b> s ponosom najavljuje svečanu ceremoniju otvaranja, označavajući početak jedinstvenog koncepta posvećenog umetnosti parfema u srcu Beograda. Čarobna atmosfera naše luksuzne parfimerije, smeštene u prestižnom TC \"Galerija\", stvara nezaboravno estetsko iskustvo koje prevazilazi vreme i ostavlja neizbrisiv utisak.</p><p>Grand Opening Event će se održati <b>10. aprila od 18.00 CET</b>, na kome će biti predstavljeni izvanredni parfemi 25 niche parfemskih kuća koje ekskluzivno zastupamo na području Srbije: Electimuss, Ormonde Jayne, Jovoy, Jeroboam, Marc-Antoine Barrois, Fragrance du Bois, Puredistance, Histoires de Parfums, Paradis des Sens, Liquides Imaginaires, Veronique Gabai, Calaj, Theodoros Kalotinis, Parfums MDCI, Indult, Morph, Wesker, Anima Mundi, Onyrico, Castelbel, Portus Cale, Acque di Italia, Thameen i Affinessence.</p><p>Svaki brend oživljava esenciju luksuza, majstorske veštine i kreativnosti, nudeći neponovljivo parfemsko putovanje za sve.</p><p>Želimo da iskažemo iskrenu zahvalnost našim cenjenim partnerima, predstavnicima brendova, prijateljima i porodici na njihovoj nepokolebljivoj podršci u ostvarenju ovog sna. Pridružite nam se na ovom ekskluzivnom događaju.</p><p>Media contact:<b><br/>Lav Šćelović-Pokupec, menadžer<br/>lav@duro.cologne<br/>+381 60 5561303</b></p>"
     }
   },
   "privacy": {
@@ -199,7 +199,7 @@
     "policy": {
       "privacyPolicy": {
         "title": "Politika privatnosti",
-        "li1": "U DURŌ-u poštujemo Vašu privatnost i posvećeni smo zaštiti Vaših ličnih podataka. Svi lični podaci koje podelite sa nama, uključujući Vaše ime, adresu, telefonski broj i e-mail adresu, biće pohranjene sa najvećom pažnjom i povjerljivošću. Obavezujemo se da nikada nećemo prodati ili podelitii Vaše lične podatke trećoj strani, osim ako smo zakonski u obavezi da to učinimo.",
+        "li1": "U parfimeriji DURŌ poštujemo Vašu privatnost i posvećeni smo zaštiti Vaših ličnih podataka. Svi lični podaci koje podelite sa nama, uključujući Vaše ime, adresu, telefonski broj i e-mail adresu, biće pohranjeni sa najvećom pažnjom i povjerljivošću. Obavezujemo se da nikada nećemo prodati ili podelitii Vaše lične podatke trećoj strani, osim ako smo zakonski u obavezi da to učinimo.",
         "contact": "Ako imate bilo kakvih pitanja u vezi s obradom vaših ličnih podataka, kontaktirajte nas na"
       },
       "cookiePolicy": {
@@ -272,22 +272,22 @@
       "quote": "Citati"
     },
     "electimuss": {
-      "tagline": "IZABRATI NAJBOLJE",
-      "lead": "<p className='desc margin-0 pt-40 pb-15'> At Electimuss London, fragrance becomes an art form. Inspired by the opulence and allure of Ancient Rome, they embark on a journey to craft perfumes that embody unrivaled quality, creativity, and individuality.</p>",
-      "story": "<p className='desc margin-0 pb-15'>Predstavljamo vam Electimuss London, gde parfem postaje umetnost. Inspirisan raskoši i čarolijom antičkog Rima, Electimuss London se upustio u stvaranje parfema koji utelovljuju neuporedivu kvalitetu, kreativnost i individualnost.</p><p className='desc margin-0 pb-15'>Strast Rimljana prema parfemima i njihova potraga za najfinijim mirisima duboko rezonira u Electimuss London-u. Oni crpe inspiraciju iz njihovih epskih priča i rituala, gde je miris bio utkan u svaki aspekt života - od proslava do zavođenja. Ove živopisne priče hrane njihovu maštu i služe kao izvor nadahnuća za njihove fascinantne parfeme.</p><p className='desc margin-0 pb-15'>Electimuss London je poznavaoc mirisa koji neprestano traga za najboljim. Baš kao što su Rimljani prelazili ceo Rimski Carstvo u potrazi za izuzetnim uljima i sastojcima, oni pažljivo mešaju retke i dragocene elemente sa velikom pažnjom. Njihova posvećenost kvalitetu ne poznaje granice, jer njihovi parfemi sadrže 25% ili 30% čistog parfema / ekstrakta, što rezultira dekadentno hrabrim mešavinama koje ostaju dugo na koži.</p><p className='desc margin-0 pb-15'>Njihovi parfemi su poziv na intenzitet. Svaka kompozicija je moćni eliksir mirisa, pažljivo formulisana za neuporedivu projekciju i trajnost. Veruju da luksuz treba da bude dostupan svima, zbog čega kombinuju izuzetan kvalitet sa pristupačnim cenama, omogućavajući ljubiteljima parfema sa različitim budžetima da dožive čaroliju njihovih kreacija.</p><p className='desc margin-0 pb-15'>Saradnja sa najtalentovanijim parfimerima na svetu, uključujući Julien Rasquinet, Christian Provenzano, John Stephens, Marco Genovese i Sofia Bardelli, omogućava im da pretvore svoje olfaktorne vizije u stvarnost. Kroz svoje parfeme, ciljaju da osnaže pojedince da izraze svoj jedinstveni identitet i da svakodnevne trenutke pretvore u izvanredna iskustva.</p><p className='desc margin-0 pb-15'>Otkrijte više o brendu Electimuss London na njihovom <a href='https://www.electimuss.com/' target='_blank' rel='noreferrer'>veb sajtu</a>.</p>",
+      "tagline": "Izabrati najbolje",
+      "lead": "<p className='desc margin-0 pt-40 pb-15'> Parfemi londonske kuće Electimuss predstavljaju svojevrsni oblik umetnosti. Inspirisani raskoši i čarolijom drevnog Rima, parfemi otelotvoruju kvalitet, individualnost i kreativnost bez premca.</p>",
+      "story": "<p className='desc margin-0 pb-15'></p><p className='desc margin-0 pb-15'>Strast Rimljana prema parfemima i njihova potraga za najfinijim mirisima duboko je utkana u kuću Electimuss London. Inspiracija se crpi iz epskih priča i rituala, gde je miris bio utkan u svaki aspekt života - od proslava do zavođenja. Ove živopisne priče hrane maštu parfimera i služe kao izvor nadahnuća za fascinantna dela.</p><p className='desc margin-0 pb-15'>Electimuss London je riznica mirisa u kojoj se neprestano traga za najboljim. Baš kao što su Rimljani putovali širom Rimskog Carstva u potrazi za izuzetnim uljima i esencijama, parfimeri pažljivo mešaju retke i dragocene elemente. Njihova posvećenost kvalitetu ne poznaje granice, jer Electimuss parfemi sadrže 25% ili 30% parfemskog ulja, što rezultira dekadentno hrabrim mešavinama koje dugo ostaju na koži.</p><p className='desc margin-0 pb-15'>Drugo ime za Electimuss parfeme je ”Intenzitet”. Svaka kompozicija je moćni eliksir mirisa, pažljivo formulisana za neuporedivu projekciju i trajnost. U kući Electimuss se veruje da luksuz treba da bude dostupan svima, zbog čega kombinuju izuzetan kvalitet sa pristupačnim cenama, omogućavajući ljubiteljima parfema sa različitim budžetima da dožive čaroliju njihovih kreacija.</p><p className='desc margin-0 pb-15'>Saradnja sa najtalentovanijim parfimerima na svetu, kao što su Julien Rasquinet, Christian Provenzano, John Stephens, Marco Genovese i Sofia Bardelli, omogućava im da pretvore svoje olfaktorne vizije u stvarnost. Kroz svoje parfeme, ciljaju da osnaže pojedince da izraze svoj jedinstveni identitet i da svakodnevne trenutke pretvore u izvanredna iskustva.</p><p className='desc margin-0 pb-15'>Otkrijte više o brendu Electimuss London na njihovom <a href='https://www.electimuss.com/' target='_blank' rel='noreferrer'>veb sajtu</a>.</p>",
       "quote": "Kroz maglu vremena, rimske legende šapuću o hedonističkim užicima i raskoši, o ambiciji i zavođenju. Electimuss London je kuća luksuznih parfema inspirisana legendama o ljubavi, moći i glamuru Rima."
     },
     "ormonde-jayne": {
       "tagline": "Inovativno. Sveobuhvatno. Inspirativno.",
-      "lead": "<p className='desc margin-0 pt-40 pb-15'>Ormonde Jayne je ekskluzivna parfimerijska kuća osnovana od strane LInde Pilkington u Londonu. Ormonde Jayne komponuje mirise koristeći neobične sastojke koji se retko koriste u parfimeriji.</p><p className='desc margin-0 pb-15'>Parfemi Ormonde Jayne smešteni su u jednostavne i elegantne bočice od debelog stakla, smeštene u prepoznatljive mandarinske i ebonovane kutije brenda. Parfemi su dostupni u koncentraciji eau de parfum i parfema po meri, čija koncentracija se bira prema želji kupca. Odabrani mirisi iz kolekcije takođe su dostupni kao mirisne sveće, losion za telo, kreme za telo i ulje za kupanje.</p>",
-      "story": "<p className='desc margin-0 pb-15'>Ormonde Jayne je brend koji je nastao iz Linda-ine dugogodišnje fascinacije mirisima i ukusima. Od njenog detinjstva i ljubavi prema parfemskim bočicama do njenih putovanja širom sveta, strast za mirisima i različitim kulturama oblikovala je suštinu Ormonde Jayne-a. Počevši od izrade izuzetnih mirisnih sveća, brend je brzo stekao priznanje i proširio asortiman koji obuhvata parfeme, sprejeve za prostor, kupke ulja i kreme za telo. Sa butikom na londonskom Old Bond Street-u, Ormonde Jayne postao je pionir britanske nišne parfimerije, spajajući englesku zanatsku veštinu, francusku parfimerijsku umetnost i senzualnost Orijenta. Inteligentan dizajn, čiste linije i živopisno pakovanje brenda odražavaju beskrajnu eleganciju i stvaraju zaista zadivljujuće iskustvo.</p><p className='desc margin-0 pb-15'>Otkrijte više o brendu Ormonde Jayne na njihovom <a href='https://www.electimuss.com/' target='_blank' rel='noreferrer'>veb sajtu</a>.</p>",
+      "lead": "<p className='desc margin-0 pt-40 pb-15'>Ormonde Jayne je ekskluzivna parfemska kuća koju je u Londonu osnovala Linda Pilkington. Parfeme ove kuće krase sastojci koji se retko koriste.</p><p className='desc margin-0 pb-15'>Parfemi Ormonde Jayne smešteni su u jednostavne i elegantne bočice od debljeg stakla, a upakovani su u prepoznatjlive narandžaste kutije. Parfemi su dostupni u koncentraciji eau de parfum a postoji i opcija made to measure, gde koncentraciju određuju kupci po sopstvenom nahođenju. Odabrani mirisi iz kolekcije takođe su dostupni kao mirisne sveće, losioni i kreme za telo, parfemi za kosu i ulje za kupanje.</p>",
+      "story": "<p className='desc margin-0 pb-15'>Do stvaranja ove kuće dovela je Lindina dugogodišnja fascinacija parfemskim bočicama, parfemima ali i ukusima. Od ranog detinjstva i ljubavi prema parfemskim bočicama do njenih putovanja širom sveta, strast za mirisima i različitim kulturama oblikovala je suštinu brenda Ormonde Jayne. Počevši od izrade izuzetnih mirisnih sveća, brend je brzo stekao priznanje i proširio asortiman koji obuhvata parfeme, sprejeve za prostor, kupke ulja i kreme za telo. Sa butikom na londonskoj Old Bond Street, kuća Ormonde Jayne je postala pionir britanske niche parfimerije, spajajući englesku zanatsku veštinu, francusku parfemsku umetnost i senzualnost Orijenta. Inteligentan dizajn, čiste linije i živopisno pakovanje brenda odražavaju beskrajnu eleganciju i stvaraju zaista zadivljujuće iskustvo.</p><p className='desc margin-0 pb-15'>Otkrijte više o brendu Ormonde Jayne na njihovom <a href='https://www.ormondejayne.com/' target='_blank' rel='noreferrer'>veb sajtu</a>.</p>",
       "quote": "Stvarajući Ormonde Jayne, moj cilj je bio da spojim elemente koje smatram simbolima istinske elegancije: kvalitet engleskog zanatstva, umetnost francuske parfimerije i senzualnost i prirodnu harmoniju Orijenta"
     },
     "jovoy": {
       "tagline": "Retki Parfemi",
-      "lead": "<p className='desc margin-0 pt-40 pb-15'>Osnovan 1923. godine od strane Blank Arvua, Jovoy Paris je poznata kuća parfema koja je izdržala test vremena. Ovaj brend je prvobitno bio poznat po svojoj izuzetnoj liniji parfema sa bocama u obliku životinja, osvajajući svet svojim jedinstvenim kreacijama. Blank je godinu dana kasnije osnovala novu kuću, Corday, nazvanu po revolucionarki Šarlot Kordai. Iako je Corday prestao sa proizvodnjom početkom 1960-ih, nasleđe Jovoya je ostalo.</p>",
-      "story": "<p className='desc margin-0 pb-15'>U svetu crno-bele, ponekad zlatne, često crvene boje, JOVOY dočarava duh današnjeg doba kroz svoj upečatljiv i očaravajući vizuelni stil.</p><p className='desc margin-0 pb-15'>Smesten na ulici rue de Castiglione u Parizu, ovaj kuća parfema ostaje posvećena svojim osnovnim vrednostima: retkosti, istraživanju, divljenju, nijansama, radosti, hrabrosti, lojalnosti, eleganciji, osetljivosti i nezasitnoj radoznalosti koju njegov osnivač Fransoa Enin i dugoročni partneri sprovode na način koji zarazno obuhvata tržište koje se neprestano menja.</p>",
-      "quote": "U carstvu JOVOY-a, slavimo izvanredno. Naši parfemi su stvoreni da prevaziđu obično, pozivajući vas da doživite trenutke uzvišene lepote i očaravajuće emocije"
+      "lead": "<p className='desc margin-0 pt-40 pb-15'>Pariska kuću Jovoy je osnovana 1923.godine. Ovaj kuća je prvobitno bila poznat po izuzetnoj liniji parfema sa bocama u obliku životinja, tako da su jedinstvene kreacije parfimerke Blanche Arvoy osvajale svet. Blanche je godinu dana kasnije osnovala novu kuću, Corday, nazvanu po revolucionarki Charlotte Corday. Iako je kuća Corday prestala sa proizvodnjom početkom 1960-ih, nasleđe Jovoya je ostalo.</p>",
+      "story": "<p className='desc margin-0 pb-15'>U svetu crno-bele, ponekad zlatne, često crvene boje, Jovoy dočarava duh današnjeg doba kroz svoj upečatljiv i očaravajući vizuelni stil.</p><p className='desc margin-0 pb-15'>Smeštena u ulici Rue de Castiglione u Parizu, ova parfemska kuća ostaje posvećena svojim osnovnim vrednostima: retkosti, istraživanju, divljenju, nijansama, radosti, hrabrosti, lojalnosti, eleganciji, osetljivosti i nezasitnoj radoznalosti što je koncept koji osnivač modernog Jovoy zdanja Francois Henin i dugoročni partneri sprovode na način koji nezaustavljivo obuhvata parfemsku scenu koja se neprestano menja.</p>",
+      "quote": "U Jovoy carstvu slavimo izvanredno. Naši parfemi su stvoreni da prevaziđu obično, pozivajući vas da doživite trenutke uzvišene lepote i očaravajuće emocije"
     }
   }
 }
