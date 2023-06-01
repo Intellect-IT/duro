@@ -9,11 +9,12 @@
     OVERWRITE
 ---------------------------------------------------------*/
 .rs-banner.banner-home-style3 .content-wrap h1.title,
-.rs-banner.banner-home-style3 .content-wrap h2.title-small
+.rs-banner.banner-home-style3 .content-wrap h2.title-small,
+.rs-banner.banner-home-style3 .content-wrap .sub-title
 {
   font-family: 'Poppins', sans-serif;
+  text-shadow: 0px 10px 30px #000000;
 }
-
 .rs-team.style7 .team-item .team-inner-wrap .team-content .team-price {
     font-size: 10px;
     font-weight: 400;
