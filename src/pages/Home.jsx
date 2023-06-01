@@ -262,7 +262,7 @@ export default function Home() {
                     </form>
                     <div className="col-6"></div>
                     {loading ? (
-                      <div className="col-6 d-flex justify-content-center align-items-center">
+                      <div className="col-6 d-flex justify-content-start align-items-center">
                         <div
                           className="spinner-grow spinner-grow-sm"
                           role="status"
@@ -272,7 +272,7 @@ export default function Home() {
                         <p className="mb-0">{t("errors.submitting")}</p>
                       </div>
                     ) : sub ? (
-                      <div className="col-6 d-flex justify-content-center align-items-center">
+                      <div className="d-flex justify-content-start align-items-center">
                         <i className="fa fa-check"></i>
                         <p className="mb-0">{t("errors.thanks")}</p>
                       </div>
