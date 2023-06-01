@@ -298,7 +298,7 @@ export default function Home() {
         buttonText={t("modal.cookies.accept")}
         buttonClasses="accept-cookies-btn"
         containerClasses="cookie-consent-container"
-        style={{ background: "#bf994c", alignItems: "center", gap: "1em"}}
+        style={{ background: "#bf994c", alignItems: "center", gap: "1em", zIndex: "10000"}}
       >
         <p className="m-0">
         {t("modal.cookies.consent")}
