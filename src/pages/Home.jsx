@@ -27,15 +27,29 @@ export default function Home() {
 
   useEffect(() => {
     const cookieExists = Cookies.get("modalClosed");
-    if (cookieExists) {
+    const newsletterSubscribed = Cookies.get("newsletterSubscribed");
+
+    if (cookieExists || newsletterSubscribed) {
       setShow(false);
     } else {
       const modalTimeout = setTimeout(() => {
         setShow(true);
       }, 4000);
+
       return () => clearTimeout(modalTimeout);
     }
   }, []);
+
+  useEffect(() => {
+    const newsletterSubscribed = Cookies.get("newsletterSubscribed");
+
+    if (newsletterSubscribed) {
+      const modalTimeout = setTimeout(() => {
+        setShow(false);
+      }, 2000);
+      return () => clearTimeout(modalTimeout);
+    }
+  }, [Cookies.get("newsletterSubscribed")]);
 
   function getCurrentDimension() {
     return {
@@ -92,6 +106,7 @@ export default function Home() {
       jsonp(`${url}&EMAIL=${email}`, { param: "c" }, (_, { msg }) => {
         setLoading(false);
         setSub(true);
+        Cookies.set("newsletterSubscribed", true, { expires: 60 });
       });
     }
   };
@@ -213,6 +228,7 @@ export default function Home() {
           show={show}
           onHide={handleClose}
           centered
+          backdrop="static"
           className="subscribe-modal"
         >
           <Modal.Body className="p-0">
@@ -226,11 +242,11 @@ export default function Home() {
               </div>
               <div className="col-md-7 modal__text-content py-4 px-md-5 px-4">
                 <div className="modal__close-btn" onClick={handleClose}>
-                <div className="close-container">
-                  <div className="leftright"></div>
-                  <div className="rightleft"></div>
-                  {/* <label className="close-label">close</label> */}
-                </div>
+                  <div className="close-container">
+                    <div className="leftright"></div>
+                    <div className="rightleft"></div>
+                    {/* <label className="close-label">close</label> */}
+                  </div>
                 </div>
                 <h3 className="modal__heading mt-4">
                   {t("modal.subscribe.title")}
@@ -298,13 +314,19 @@ export default function Home() {
         buttonText={t("modal.cookies.accept")}
         buttonClasses="accept-cookies-btn"
         containerClasses="cookie-consent-container"
-        style={{ background: "#bf994c", alignItems: "center", gap: "1em", zIndex: "10000"}}
+        style={{
+          background: "#bf994c",
+          alignItems: "center",
+          gap: "1em",
+          zIndex: "10000",
+        }}
       >
+        <p className="m-0">{t("modal.cookies.consent")}</p>
         <p className="m-0">
-        {t("modal.cookies.consent")}
-        </p>
-        <p className="m-0">
-        {t("modal.cookies.notice")} <a href="/privacy" className="cookie-policy-btn">{t("modal.cookies.policy")} »</a>
+          {t("modal.cookies.notice")}{" "}
+          <a href="/privacy" className="cookie-policy-btn">
+            {t("modal.cookies.policy")} »
+          </a>
         </p>
       </CookieConsent>
     </>
