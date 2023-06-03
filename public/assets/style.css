@@ -6581,12 +6581,12 @@ body .search-modal .close:hover {
 .testimonial-statement {
   font-family: 'Playfair Display', sans-serif;
   color: #fff;
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 
 .testimonial-name {
   color: #BB9A54;
-  font-size: 1.8rem;
+  font-size: 1rem;
   font-weight: 700;
 }
 
@@ -6596,7 +6596,7 @@ body .search-modal .close:hover {
 }
 
 .testimonial-img {
-  width: 78% !important;
+  width: 60% !important;
   height: auto;
 }
 /* ------------------------------------
