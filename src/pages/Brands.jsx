@@ -94,7 +94,7 @@ export default function Brands({ setHeader }) {
                     <div className="logo-img">
                       <Link
                         title="Marc-Antoine Barrois"
-                        to="/brands/marc-antoine_barrois"
+                        to="/brands/marc-antoine-barrois"
                       >
                         <img
                           src="./assets/images/event/brands/001_marc-antoine_barrois.png"
@@ -184,12 +184,12 @@ export default function Brands({ setHeader }) {
               <div className="col-lg-2 col-md-6 col-6 mb-20">
                 <div className="logo-item">
                   <div className="grid-figure">
-                    <div title="HDP" className="logo-img">
-                      <Link to="/brands/hdp">
+                    <div title="Histoires de Parfums" className="logo-img">
+                      <Link to="/brands/histoires-de-parfums">
                         <img
                           src="./assets/images/event/brands/007_hdp.png"
-                          title="HDP"
-                          alt="HDP"
+                          title="Histoires de Parfums"
+                          alt="Histoires de Parfums"
                         />
                       </Link>
                     </div>
@@ -260,7 +260,7 @@ export default function Brands({ setHeader }) {
                 <div className="logo-item">
                   <div className="grid-figure">
                     <div title="Fragrance du Bois" className="logo-img">
-                      <Link to="/brands/fdb">
+                      <Link to="/brands/fragrance-du-bois">
                         <img
                           src="./assets/images/event/brands/012_fdb.png"
                           title="Fragrance du Bois"
@@ -290,7 +290,7 @@ export default function Brands({ setHeader }) {
                 <div className="logo-item">
                   <div className="grid-figure">
                     <div title="Paradis des Sens" className="logo-img">
-                      <Link to="/brands/paradis">
+                      <Link to="/brands/paradis-des-sens">
                         <img
                           src="./assets/images/event/brands/014_paradis.png"
                           title="Paradis des Sens"
