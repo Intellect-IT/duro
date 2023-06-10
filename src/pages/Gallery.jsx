@@ -45,8 +45,7 @@ export default function Gallery({ setHeader }) {
         {/* <!-- meta tag --> */}
         <meta charset="utf-8" />
         <title>
-        {t("titles.gallery")} :: DURŌ | Niche perfumery | Niche parfimerija :: TC "Galerija"
-          :: Beograd
+        {t("header.gallery.pageTitle")} - DURŌ Niche perfumery - Niche parfimerija
         </title>
 
         {/* <!-- Meta Tags--> */}

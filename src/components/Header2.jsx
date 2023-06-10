@@ -89,35 +89,35 @@ export default function Header2({ header }) {
                       <nav className="rs-menu hidden-md">
                         <ul className="nav-menu">
                           <li>
-                            <Link to="/">{t("header.home")}</Link>
+                            <Link to="/">{t("header.home.menuTitle")}</Link>
                           </li>
                           <li
                             className={
                               active === "story" ? "current-menu-item" : ""
                             }
                           >
-                            <Link to="/our-story">{t("header.story")}</Link>
+                            <Link to="/our-story">{t("header.story.menuTitle")}</Link>
                           </li>
                           <li
                             className={
                               active === "brands" ? "current-menu-item" : ""
                             }
                           >
-                            <Link to="/brands">{t("header.brands")}</Link>
+                            <Link to="/brands">{t("header.brands.menuTitle")}</Link>
                           </li>
                           <li
                             className={
                               active === "news" ? "current-menu-item" : ""
                             }
                           >
-                            <Link to="/news">{t("header.press")}</Link>
+                            <Link to="/news">{t("header.press.menuTitle")}</Link>
                           </li>
                           <li
                             className={
                               active === "contact" ? "current-menu-item" : ""
                             }
                           >
-                            <Link to="/contact">{t("header.contact")}</Link>
+                            <Link to="/contact">{t("header.contact.menuTitle")}</Link>
                           </li>
                         </ul>
                         {/* <!-- //.nav-menu --> */}

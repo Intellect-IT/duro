@@ -26,7 +26,9 @@ export default function Privacy({ setHeader }) {
       <Helmet>
         {/* <!-- meta tag --> */}
         <meta charset="utf-8" />
-        <title>{t("titles.privacy")} | DURŌ Niche perfumery | Niche parfimerija</title>
+        <title>
+          {t("header.privacy.pageTitle")} - DURŌ Niche perfumery - Niche parfimerija
+          </title>
 
         {/* <!-- Meta Tags--> */}
         <meta

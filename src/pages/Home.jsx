@@ -140,7 +140,9 @@ export default function Home() {
       <Helmet>
         {/* <!-- meta tag --> */}
         <meta charset="utf-8" />
-        <title>{t("titles.home")} | Niche parfimerija</title>
+        <title>
+          {t("header.home.pageTitle")} DURŌ Niche perfumery - Niche parfimerija
+        </title>
 
         {/* <!-- Meta Tags--> */}
         <meta

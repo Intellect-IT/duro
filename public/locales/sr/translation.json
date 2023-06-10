@@ -4,11 +4,36 @@
   "yourEmail": "Vaša E-mail Adresa",
   "gallery": "Galerija",
   "header": {
-    "home": "Home",
-    "story": "O Nama",
-    "brands": "Brendovi",
-    "press": "Novosti",
-    "contact": "Kontakt",
+    "home": {
+      "menuTitle": "Home",
+      "pageTitle": "",
+      "metaDescription": "DURŌ - gde je umetnost niche parfimerije uokvirena vrhunskim luksuzom. Zastupamo 25 najtraženijih umetničkih parfemskih kuća i niche brendova. U spektakularnom ambijentu kreiramo jedinstveno iskustvo za sve ljubitelje parfema."
+    },
+    "story": {
+      "menuTitle": "O Nama",
+      "pageTitle": "O Nama",
+      "metaDescription": "DURŌ je luksuzna niche parfimerija u Beogradu. Zakoračite u riznicu lepote i sofisticiranosti - mesto gde svet autentičnih parfema, ukrašen prvoklasnom uslugom, postaje deo vaše stvarnosti."
+    },
+    "brands": {
+      "menuTitle": "Brendovi",
+      "pageTitle": "Naši Brendovi",
+      "metaDescription": "Otkrijte vrhunske niche brendove koji ekskluzivno zastupa naša parfimerija. Prepustite se čarima ove umetnosti i pronađite svoj omiljeni brend."
+    },
+    "press": {
+      "menuTitle": "Novosti",
+      "pageTitle": "Najnovije vesti",
+      "metaDescription": "Budite u toku sa najnovijim vestima i događajima za iz sveta DURŌ Niche parfimerije."
+    },
+    "contact": {
+      "menuTitle": "Kontakt",
+      "pageTitle": "Kontaktirajte nas",
+      "metaDescription": "Stupite u kontakt sa nama. Naš tim je tu da vam pruži podršku, informacije i odgovori na sve vaše upite."
+    },
+    "gallery": {
+      "menuTitle": "Galerija",
+      "pageTitle": "Naša luksuzna parfimerija",
+      "metaDescription": "Naša luksuzna parfimerija u slikama. Upoznajte se sa jedinstvenom vizuelnom estetikom i uživajte u DURŌ konceptu."
+    },
     "language": "EN",
     "address": "Adresa",
     "email": "E-mail",
@@ -246,7 +271,7 @@
     "brands": "Naši brendovi",
     "contact": "Kontakt",
     "gallery": "Galerija",
-    "press": "Štampa i mediji",
+    "press": "Novosti",
     "privacy": "Politika privatnosti"
   },
   "modal": {

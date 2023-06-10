@@ -37,8 +37,7 @@ export default function News({ setHeader }) {
         {/* <!-- meta tag --> */}
         <meta charset="utf-8" />
         <title>
-          {t(currentBlog.title)} | DURŌ Niche perfumery | Niche
-          parfimerija
+          {t(currentBlog.title)} - {t("header.press.pageTitle")} -  DURŌ Niche perfumery - Niche parfimerija
         </title>
 
         {/* <!-- Meta Tags--> */}

@@ -28,7 +28,7 @@ export default function Brands({ setHeader }) {
         {/* <!-- meta tag --> */}
         <meta charset="utf-8" />
         <title>
-          {t("titles.brands")} | DURŌ Niche perfumery | Niche parfimerija
+          {t("header.brands.pageTitle")} - DURŌ Niche perfumery - Niche parfimerija
         </title>
 
         {/* <!-- Meta Tags--> */}

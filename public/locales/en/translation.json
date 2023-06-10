@@ -4,11 +4,36 @@
   "yourEmail": "Your Email Address",
   "gallery": "Gallery",
   "header": {
-    "home": "Home",
-    "story": "Our Story",
-    "brands": "Brands",
-    "press": "Press & Media",
-    "contact": "Contact",
+    "home": {
+      "menuTitle": "Home",
+      "pageTitle": "",
+      "metaDescription": "DURŌ - where the art of niche perfumery is framed by ultimate luxury. We represent 25 of the most sought-after artisan perfume houses and niche brands. In a spectacular setting, we create a unique experience for all perfume enthusiasts."
+    },
+    "story": {
+      "menuTitle": "Our Story",
+      "pageTitle": "Our Story",
+      "metaDescription": "At DURŌ, we believe that perfume is more than just a scent. It is a journey that takes you on a sensory experience, evoking emotions and memories. That is why we have dedicated ourselves to curating a selection of the most sought-after artisan perfume houses in the world."
+    },
+    "brands": {
+      "menuTitle": "Brands",
+      "pageTitle": "Our Brands",
+      "metaDescription": "Discover top-notch niche brands exclusively represented by our perfumery. Immerse yourself in the charms of this art and find your favorite brand."
+    },
+    "press": {
+      "menuTitle": "Press & Media",
+      "pageTitle": "Latest News",
+      "metaDescription": "Stay up to date with the latest news and events from the world of DURŌ Niche perfumery."
+    },
+    "contact": {
+      "menuTitle": "Contact",
+      "pageTitle": "Contact Us",
+      "metaDescription": "Get in touch with us. Our team is happy to provide support, information, and answer all your inquiries."
+    },
+    "gallery": {
+      "menuTitle": "Gallery",
+      "pageTitle": "Our Luxury Perfumery",
+      "metaDescription": "Our luxury perfumery captured in photos. Get to know the unique visual aesthetics and enjoy the DURŌ concept."
+    },
     "language": "SR",
     "address": "Address",
     "email": "Email",
