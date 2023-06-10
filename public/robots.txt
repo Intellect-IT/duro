@@ -1,3 +1,13 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
+
+Sitemap: https://parfimerija-duro.rs/sitemap.xml
+
+Allow: /home
+Allow: /story
+Allow: /brands
+Allow: /brands/*
+Allow: /news
+Allow: /news/*
+Allow: /contact
+Allow: /gallery
