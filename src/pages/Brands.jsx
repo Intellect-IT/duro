@@ -34,7 +34,7 @@ export default function Brands({ setHeader }) {
         {/* <!-- Meta Tags--> */}
         <meta
           name="description"
-          content="DURŌ, where the art of niche perfumery meets ultimate luxury. We represent 25 of the most sought-after artisan perfume houses and offer a one-of-a-kind immersive experience in our boutique."
+          content={t("header.brands.metaDescription")}
         />
         <meta
           name="keywords"

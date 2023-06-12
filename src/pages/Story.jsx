@@ -51,7 +51,7 @@ export default function Story({ setHeader }) {
         />
         <meta
           name="keywords"
-          content="durō, duro, niche perfumery, niche parfimerija, beograd, parfimerija, galerija"
+          content={t("header.story.metaDescription")}
         />
         <meta name="author" content="intellect.se" />
 
