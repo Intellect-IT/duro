@@ -253,14 +253,14 @@
     },
     "thameen": {
         "logo": "../assets/images/event/brands/010_thameen.png",
-        "heroImg": "",
-        "storyImg": "",
+        "heroImg": "../assets/images/brands/thameen/hero.jpg",
+        "storyImg": "../assets/images/brands/thameen/001.png",
         "title": "Thameen",
-        "name": "Thameen",
-        "tagline": "",
-        "lead": "",
-        "story": "",
-        "quote": "",
+        "name": "Thameen London",
+        "tagline": "brands.thameen.tagline",
+        "lead": "brands.thameen.lead",
+        "story": "brands.thameen.story",
+        "quote": "brands.thameen.quote",
         "products": []
     },
     "theodoros-kalotinis": {
