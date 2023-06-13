@@ -5,11 +5,14 @@ import { initReactI18next } from 'react-i18next'
 
 i18n.use(Backend).use(LanguageDetector).use(initReactI18next).init({
   fallbackLng: 'sr',
+  supportedLngs: ['sr', 'en'],
   debug: true,
   lng: "sr",
   detection: {
-    order: ['queryString', 'cookie'],
-    cache: ['cookie']
+    order: ['path', 'queryString', 'cookie'],
+    cache: ['cookie'],
+    lookupFromPathIndex: 0,
+    checkWhitelist: true
   },
   interpolation: {
     escapeValue: false

@@ -41,13 +41,13 @@ export default function Story({ setHeader }) {
         {/* <!-- meta tag --> */}
         <meta charset="utf-8" />
         <title>
-          Discover our World | DURŌ Niche perfumery | Niche parfimerija
+        {t("header.story.pageTitle")} - DURŌ Niche perfumery - Niche parfimerija
         </title>
 
         {/* <!-- Meta Tags--> */}
         <meta
           name="description"
-          content="DURŌ, where the art of niche perfumery meets ultimate luxury. We represent 25 of the most sought-after artisan perfume houses and offer a one-of-a-kind immersive experience in our boutique."
+          content={t("header.story.metaDescription")}
         />
         <meta
           name="keywords"
@@ -208,7 +208,7 @@ export default function Story({ setHeader }) {
               <div className="col-lg-6 pl-50 md-pl-15">
                 <div className="rs-videos choose-video">
                   <div className="images-video">
-                    <img src="./assets/images/about/about-6.png" alt="DURŌ" />
+                    <img src="./assets/images/about/about-8.png" alt="DURŌ" />
                   </div>
                   <div className="animate-border">
                     <a

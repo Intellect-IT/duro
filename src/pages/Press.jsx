@@ -29,13 +29,13 @@ export default function Press({ setHeader }) {
         {/* <!-- meta tag --> */}
         <meta charset="utf-8" />
         <title>
-          Press &amp; Media | DURŌ Niche perfumery | Niche parfimerija
+        {t("header.press.pageTitle")} - DURŌ Niche perfumery - Niche parfimerija
         </title>
 
         {/* <!-- Meta Tags--> */}
         <meta
           name="description"
-          content="DURŌ, where the art of niche perfumery meets ultimate luxury. We represent 25 of the most sought-after artisan perfume houses and offer a one-of-a-kind immersive experience in our boutique."
+          content={t("header.press.metaDescription")}
         />
         <meta
           name="keywords"

@@ -1,0 +1,410 @@
+{
+    "electimuss": {
+        "logo": "../assets/images/event/brands/017_electimuss.png",
+        "heroImg": "../assets/images/brands/electimuss/hero_3.jpg",
+        "storyImg": "../assets/images/brands/electimuss/001.png",
+        "title": "Electimuss",
+        "name": "Electimuss London",
+        "tagline": "brands.electimuss.tagline",
+        "lead": "brands.electimuss.lead",
+        "story": "brands.electimuss.story",
+        "quote": "brands.electimuss.quote",
+        "products": [
+            {
+                "img": "../assets/images/brands/electimuss/products/trajan.jpg",
+                "title": "Trajan",
+                "volume": "100 ml",
+                "price": "00.000,00",
+                "brand": "Electimuss"
+            },
+            {
+                "img": "../assets/images/brands/electimuss/products/persephones-patchouli.jpg",
+                "title": "Persephone’s Patchouli",
+                "volume": "100 ml",
+                "price": "00.000,00",
+                "brand": "Electimuss"
+            },
+            {
+                "img": "../assets/images/brands/electimuss/products/imperium.jpg",
+                "title": "Imperium",
+                "volume": "100 ml",
+                "price": "00.000,00",
+                "brand": "Electimuss"
+            },
+            {
+                "img": "../assets/images/brands/electimuss/products/vixere.jpg",
+                "title": "Vixere",
+                "volume": "100 ml",
+                "price": "00.000,00",
+                "brand": "Electimuss"
+            },
+            {
+                "img": "../assets/images/brands/electimuss/products/amber-aquilaria.jpg",
+                "title": "Amber Aquilaria",
+                "volume": "100 ml",
+                "price": "00.000,00",
+                "brand": "Electimuss"
+            }
+        ]
+    },
+    "ormonde-jayne": {
+        "logo": "../assets/images/event/brands/013_ormonde.png",
+        "heroImg": "../assets/images/brands/ormonde-jayne/hero.jpg",
+        "storyImg": "../assets/images/brands/ormonde-jayne/001.png",
+        "title": "Ormonde Jayne",
+        "name": "Ormonde Jayne",
+        "tagline": "brands.ormonde-jayne.tagline",
+        "lead": "brands.ormonde-jayne.lead",
+        "story": "brands.ormonde-jayne.story",
+        "quote": "brands.ormonde-jayne.quote",
+        "products": [
+            {
+                "img": "../assets/images/brands/ormonde-jayne/products/champaca.jpg",
+                "title": "Champaca",
+                "volume": "",
+                "price": "",
+                "brand": "Ormonde Jayne"
+            },
+            {
+                "img": "../assets/images/brands/ormonde-jayne/products/frangipani.jpg",
+                "title": "Frangipani",
+                "volume": "",
+                "price": "",
+                "brand": "Ormonde Jayne"
+            },
+            {
+                "img": "../assets/images/brands/ormonde-jayne/products/isfarkand.jpg",
+                "title": "Isfarkand",
+                "volume": "",
+                "price": "",
+                "brand": "Ormonde Jayne"
+            },
+            {
+                "img": "../assets/images/brands/ormonde-jayne/products/osmanthus.jpg",
+                "title": "Osmanthus",
+                "volume": "",
+                "price": "",
+                "brand": "Ormonde Jayne"
+            },
+            {
+                "img": "../assets/images/brands/ormonde-jayne/products/prive.jpg",
+                "title": "Prive",
+                "volume": "",
+                "price": "",
+                "brand": "Ormonde Jayne"
+            }
+        ]
+    },
+    "jovoy": {
+        "logo": "../assets/images/event/brands/002_jovoy.png",
+        "heroImg": "../assets/images/brands/jovoy/hero.jpg",
+        "storyImg": "../assets/images/brands/jovoy/001.png",
+        "title": "Jovoy",
+        "name": "Jovoy",
+        "tagline": "brands.jovoy.tagline",
+        "lead": "brands.jovoy.lead",
+        "story": "brands.jovoy.story",
+        "quote": "brands.jovoy.quote",
+        "products": [
+            {
+                "img": "../assets/images/brands/jovoy/products/21-conduit-st.jpg",
+                "title": "21 Conduit St",
+                "volume": "",
+                "price": "",
+                "brand": "Jovoy"
+            },
+            {
+                "img": "../assets/images/brands/jovoy/products/fire-at-will.jpg",
+                "title": "Fire at Will",
+                "volume": "",
+                "price": "",
+                "brand": "Jovoy"
+            },
+            {
+                "img": "../assets/images/brands/jovoy/products/incident-diplomatique.jpg",
+                "title": "Incident Diplomatique",
+                "volume": "",
+                "price": "",
+                "brand": "Jovoy"
+            },
+            {
+                "img": "../assets/images/brands/jovoy/products/les-jeux-sont-faits.jpg",
+                "title": "Les Jeux sont Faits",
+                "volume": "",
+                "price": "",
+                "brand": "Jovoy"
+            },
+            {
+                "img": "../assets/images/brands/jovoy/products/psychedelique.jpg",
+                "title": "Psychedelique",
+                "volume": "",
+                "price": "",
+                "brand": "Jovoy"
+            }
+        ]
+    },
+    "jeroboam": {
+        "logo": "../assets/images/event/brands/003_jeroboam.png",
+        "heroImg": "",
+        "storyImg": "",
+        "title": "Jeroboam",
+        "name": "Jeroboam",
+        "tagline": "",
+        "lead": "",
+        "story": "",
+        "quote": "",
+        "products": []
+    },
+    "marc-antoine-barrois": {
+        "logo": "../assets/images/event/brands/001_marc-antoine_barrois.png",
+        "heroImg": "",
+        "storyImg": "",
+        "title": "Marc Antoine Barrois",
+        "name": "Marc Antoine Barrois",
+        "tagline": "",
+        "lead": "",
+        "story": "",
+        "quote": "",
+        "products": []
+    },
+    "fragrance-du-bois": {
+        "logo": "../assets/images/event/brands/012_fdb.png",
+        "heroImg": "",
+        "storyImg": "",
+        "title": "Fragrance du Bois",
+        "name": "Fragrance du Bois",
+        "tagline": "",
+        "lead": "",
+        "story": "",
+        "quote": "",
+        "products": []
+    },
+    "puredistance": {
+        "logo": "../assets/images/event/brands/006_puredistance.png",
+        "heroImg": "",
+        "storyImg": "",
+        "title": "Puredistance",
+        "name": "Puredistance",
+        "tagline": "",
+        "lead": "",
+        "story": "",
+        "quote": "",
+        "products": []
+    },
+    "morph": {
+        "logo": "../assets/images/event/brands/004_morph.png",
+        "heroImg": "",
+        "storyImg": "",
+        "title": "Morph",
+        "name": "Morph",
+        "tagline": "",
+        "lead": "",
+        "story": "",
+        "quote": "",
+        "products": []
+    },
+    "mdci": {
+        "logo": "../assets/images/event/brands/005_mdci.png",
+        "heroImg": "",
+        "storyImg": "",
+        "title": "MDCI",
+        "name": "MDCI Paris",
+        "tagline": "",
+        "lead": "",
+        "story": "",
+        "quote": "",
+        "products": []
+    },
+    "histoires-de-parfums": {
+        "logo": "../assets/images/event/brands/007_hdp.png",
+        "heroImg": "",
+        "storyImg": "",
+        "title": "Histoires de Parfums",
+        "name": "Histoires de Parfums",
+        "tagline": "",
+        "lead": "",
+        "story": "",
+        "quote": "",
+        "products": []
+    },
+    "calaj": {
+        "logo": "../assets/images/event/brands/008_calaj.png",
+        "heroImg": "",
+        "storyImg": "",
+        "title": "Calaj",
+        "name": "Calaj",
+        "tagline": "",
+        "lead": "",
+        "story": "",
+        "quote": "",
+        "products": []
+    },
+    "indult": {
+        "logo": "../assets/images/event/brands/009_indult.png",
+        "heroImg": "",
+        "storyImg": "",
+        "title": "Indult",
+        "name": "Indult",
+        "tagline": "",
+        "lead": "",
+        "story": "",
+        "quote": "",
+        "products": []
+    },
+    "thameen": {
+        "logo": "../assets/images/event/brands/010_thameen.png",
+        "heroImg": "../assets/images/brands/thameen/hero.jpg",
+        "storyImg": "../assets/images/brands/thameen/001.png",
+        "title": "Thameen",
+        "name": "Thameen London",
+        "tagline": "brands.thameen.tagline",
+        "lead": "brands.thameen.lead",
+        "story": "brands.thameen.story",
+        "quote": "brands.thameen.quote",
+        "products": []
+    },
+    "theodoros-kalotinis": {
+        "logo": "../assets/images/event/brands/011_theodoros.png",
+        "heroImg": "",
+        "storyImg": "",
+        "title": "Theodoros Kalotinis",
+        "name": "Theodoros Kalotinis",
+        "tagline": "",
+        "lead": "",
+        "story": "",
+        "quote": "",
+        "products": []
+    },
+    "paradis-des-sens": {
+        "logo": "../assets/images/event/brands/014_paradis.png",
+        "heroImg": "",
+        "storyImg": "",
+        "title": "Paradis des Sens",
+        "name": "Paradis des Sens",
+        "tagline": "",
+        "lead": "",
+        "story": "",
+        "quote": "",
+        "products": []
+    },
+    "wesker": {
+        "logo": "../assets/images/event/brands/015_wesker.png",
+        "heroImg": "",
+        "storyImg": "",
+        "title": "Wesker",
+        "name": "Wesker",
+        "tagline": "",
+        "lead": "",
+        "story": "",
+        "quote": "",
+        "products": []
+    },
+    "anima-mundi": {
+        "logo": "../assets/images/event/brands/016_anima_mundi.png",
+        "heroImg": "",
+        "storyImg": "",
+        "title": "Anima Mundi",
+        "name": "Anima Mundi",
+        "tagline": "",
+        "lead": "",
+        "story": "",
+        "quote": "",
+        "products": []
+    },
+    "acque-di-italia": {
+        "logo": "../assets/images/event/brands/018_aque_di_italia.png",
+        "heroImg": "",
+        "storyImg": "",
+        "title": "Acque di Italia",
+        "name": "Acque di Italia",
+        "tagline": "",
+        "lead": "",
+        "story": "",
+        "quote": "",
+        "products": []
+    },
+    "portus-cale": {
+        "logo": "../assets/images/event/brands/019_portus_cale.png",
+        "heroImg": "",
+        "storyImg": "",
+        "title": "Portus Cale",
+        "name": "Portus Cale",
+        "tagline": "",
+        "lead": "",
+        "story": "",
+        "quote": "",
+        "products": []
+    },
+    "veronique-gabai": {
+        "logo": "../assets/images/event/brands/020_veronique_gabai.png",
+        "heroImg": "",
+        "storyImg": "",
+        "title": "Veronique Gabai",
+        "name": "Veronique Gabai",
+        "tagline": "",
+        "lead": "",
+        "story": "",
+        "quote": "",
+        "products": []
+    },
+    "onyrico": {
+        "logo": "../assets/images/event/brands/021_onyrico.png",
+        "heroImg": "",
+        "storyImg": "",
+        "title": "Onyrico",
+        "name": "Onyrico",
+        "tagline": "",
+        "lead": "",
+        "story": "",
+        "quote": "",
+        "products": []
+    },
+    "affinessence": {
+        "logo": "../assets/images/event/brands/022_affinessence.png",
+        "heroImg": "",
+        "storyImg": "",
+        "title": "Affinessence",
+        "name": "Affinessence",
+        "tagline": "",
+        "lead": "",
+        "story": "",
+        "quote": "",
+        "products": []
+    },
+    "castelbel": {
+        "logo": "../assets/images/event/brands/023_castelbel.png",
+        "heroImg": "",
+        "storyImg": "",
+        "title": "Castelbel",
+        "name": "Castelbel",
+        "tagline": "",
+        "lead": "",
+        "story": "",
+        "quote": "",
+        "products": []
+    },
+    "liquides-imaginaries": {
+        "logo": "../assets/images/event/brands/024_liquides_imaginaries.png",
+        "heroImg": "",
+        "storyImg": "",
+        "title": "Liquides Imaginaires",
+        "name": "Liquides Imaginaires",
+        "tagline": "",
+        "lead": "",
+        "story": "",
+        "quote": "",
+        "products": []
+    },
+    "naomi-goodsir": {
+        "logo": "",
+        "heroImg": "",
+        "storyImg": "",
+        "title": "Naomi Goodsir",
+        "name": "Naomi Goodsir",
+        "tagline": "",
+        "lead": "",
+        "story": "",
+        "quote": "",
+        "products": []
+    }
+}

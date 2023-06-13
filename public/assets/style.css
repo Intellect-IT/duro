@@ -34,12 +34,14 @@
     22. Pricing Section CSS
     23. Blog Section CSS
     24. Testimonial Section CSS
-    25. Timecount Ceremony Section CSS
-    26. Contact Section CSS
-    27. Footer Section CSS
-    28. Scroll Up CSS
-    29. Preloader CSS
-    30. Animation Part CSS      
+    25. Errors Section CSS
+    26. Timecount Ceremony Section CSS
+    27. Contact Section CSS
+    28. Footer Section CSS
+    29. Scroll Up CSS
+    30. Modal CSS
+    31. Preloader CSS
+    32. Animation Part CSS      
 
 --------------------------------------------------------*/
 /* @charset "utf-8"; */
@@ -914,6 +916,11 @@ blockquote cite:before {
   display: inline-block;
   transition: all 0.4s ease-in-out 0s;
 }
+.accept-cookies-btn {
+  color: #ffffff !important;
+  display: inline-block;
+  transition: all 0.4s ease-in-out 0s;
+}
 .readon.btn-text {
   background: rgba(0, 0, 0, 0) linear-gradient(160deg, #bf994c 0%, #9e7e37 50%, #7d632e 100%) repeat scroll 0% 0%;
   text-align: center;
@@ -922,6 +929,20 @@ blockquote cite:before {
   transition: 0.5s;
   overflow: hidden;
   position: relative;
+}
+.accept-cookies-btn {
+  background: rgba(0, 0, 0, 0) linear-gradient(160deg, #0d0079 0%, #0E0E63 50%, #0F0F68 100%) repeat scroll 0% 0% !important;
+  text-align: center;
+  padding: 10px 32px !important;
+  border-radius: 4px 4px 4px 4px !important;
+  transition: 0.5s;
+}
+.accept-cookies-btn:hover {
+  background: rgba(0, 0, 0, 0) linear-gradient(160deg, #030e8f 0%, #03164F 50%, #041E42 100%) repeat scroll 0% 0% !important;
+  text-align: center;
+  padding: 10px 32px !important;
+  border-radius: 4px 4px 4px 4px !important;
+  transition: 0.5s;
 }
 .readon.btn-text span {
   position: relative;
@@ -1332,6 +1353,13 @@ blockquote cite:before {
 }
 .sec-title .title.title3 {
   font-size: 30px;
+}
+.spotlight.sec-title .title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 46px;
+  color: #ffffff;
+  margin: 0;
 }
 .sec-title .desc-small {
   font-size: 15px;
@@ -2109,8 +2137,8 @@ body.modal-open {
   padding: 0 !important;
 }
 body .modal.show .modal-dialog {
-  width: 100%;
-  max-width: 900px;
+  /* width: 100%; */
+  /* max-width: 900px; */
 }
 body .search-modal {
   padding: 0 !important;
@@ -2484,6 +2512,9 @@ body .search-modal .close:hover {
 }
 .rs-breadcrumbs.img5 {
   background: url(./images/breadcrumbs/inr-5.jpg);
+}
+.rs-breadcrumbs.img6 {
+  background: url(./images/breadcrumbs/inr-6.jpg);
 }
 /* ------------------------------------
     08. Banner Section CSS
@@ -3166,7 +3197,7 @@ body .search-modal .close:hover {
   margin: 0;
 }
 .rs-services.style1 .services-item:hover {
-  background-image: linear-gradient(60deg, #05106d 0%, #3749db 100%);
+  /*background-image: linear-gradient(60deg, #05106d 0%, #3749db 100%);*/
   border-radius: 4px 4px 4px 4px;
   padding: 0px 0px 0px 0px;
 }
@@ -5429,6 +5460,12 @@ body .search-modal .close:hover {
   border-radius: 5px;
   position: relative;
 }
+.modal_form .newsletter-wrap {
+  padding: 50px 0px 10px 0px;
+  background-color: #bf994c;
+  border-radius: 5px;
+  position: relative;
+}
 .rs-newsletter.style1 .newsletter-wrap .content-wrap {
   display: flex;
   align-items: center;
@@ -5448,10 +5485,10 @@ body .search-modal .close:hover {
   margin-bottom: 0;
   text-transform: capitalize;
 }
-.rs-newsletter.style1 .newsletter-wrap .newsletter-form {
+.rs-newsletter.style1 .newsletter-wrap .newsletter-form, .modal_form .newsletter-form {
   position: relative;
 }
-.rs-newsletter.style1 .newsletter-wrap .newsletter-form input[type="email"] {
+.rs-newsletter.style1 .newsletter-wrap .newsletter-form input[type="email"], .modal_form .newsletter-form input[type="email"] {
   position: relative;
   margin: 0;
   padding-right: 130px;
@@ -5464,35 +5501,35 @@ body .search-modal .close:hover {
   padding-left: 18px;
   border-radius: 4px;
 }
-.rs-newsletter.style1 .newsletter-wrap .newsletter-form input[type="email"] {
+.rs-newsletter.style1 .newsletter-wrap .newsletter-form input[type="email"], .modal_form .newsletter-form input[type="email"] {
   width: 100%;
   opacity: 1;
 }
-.rs-newsletter.style1 .newsletter-wrap .newsletter-form ::-webkit-input-placeholder {
+.rs-newsletter.style1 .newsletter-wrap .newsletter-form ::-webkit-input-placeholder, .modal_form .newsletter-form ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
 
   color: #ffffff;
   opacity: 1;
 }
-.rs-newsletter.style1 .newsletter-wrap .newsletter-form ::-moz-placeholder {
+.rs-newsletter.style1 .newsletter-wrap .newsletter-form ::-moz-placeholder, .modal_form .newsletter-form ::-moz-placeholder {
   /* Firefox 19+ */
 
   color: #ffffff;
   opacity: 1;
 }
-.rs-newsletter.style1 .newsletter-wrap .newsletter-form :-ms-input-placeholder {
+.rs-newsletter.style1 .newsletter-wrap .newsletter-form :-ms-input-placeholder, .modal_form .newsletter-form :-ms-input-placeholder {
   /* IE 10+ */
 
   color: #ffffff;
   opacity: 1;
 }
-.rs-newsletter.style1 .newsletter-wrap .newsletter-form :-moz-placeholder {
+.rs-newsletter.style1 .newsletter-wrap .newsletter-form :-moz-placeholder, .modal_form .newsletter-form :-moz-placeholder {
   /* Firefox 18- */
 
   color: #ffffff;
   opacity: 1;
 }
-.rs-newsletter.style1 .newsletter-wrap .newsletter-form input[type="submit"] {
+.rs-newsletter.style1 .newsletter-wrap .newsletter-form input[type="submit"], .modal_form .newsletter-form input[type="submit"] {
   font-size: 0px;
   background: transparent;
   height: 60px;
@@ -5501,7 +5538,7 @@ body .search-modal .close:hover {
   z-index: 9;
   border: none;
 }
-.rs-newsletter.style1 .newsletter-wrap .newsletter-form .paper-plane {
+.rs-newsletter.style1 .newsletter-wrap .newsletter-form .paper-plane, .modal_form .newsletter-form .paper-plane {
   font-style: normal;
   background: rgba(0, 0, 0, 0) linear-gradient(160deg, #041E42 0%, #03164F 50%, #020F2F 100%) repeat scroll 0% 0%;
   border: none;
@@ -5517,7 +5554,7 @@ body .search-modal .close:hover {
   border-radius: 0 4px 4px 0;
   overflow: hidden;
 }
-.rs-newsletter.style1 .newsletter-wrap .newsletter-form .paper-plane:before {
+.rs-newsletter.style1 .newsletter-wrap .newsletter-form .paper-plane:before, .modal_form .newsletter-form .paper-plane:before {
   content: "\f1d8";
   position: absolute;
   font-family: "Font Awesome 6 Free";
@@ -5532,7 +5569,7 @@ body .search-modal .close:hover {
   cursor: pointer;
   transition: all .5s ease;
 }
-.rs-newsletter.style1 .newsletter-wrap .newsletter-form .paper-plane:after {
+.rs-newsletter.style1 .newsletter-wrap .newsletter-form .paper-plane:after, .modal_form .newsletter-form .paper-plane:after {
   content: "";
   width: 100%;
   height: 100%;
@@ -5545,7 +5582,7 @@ body .search-modal .close:hover {
   transition: 0.5s;
   opacity: 0;
 }
-.rs-newsletter.style1 .newsletter-wrap .newsletter-form .paper-plane:hover:after {
+.rs-newsletter.style1 .newsletter-wrap .newsletter-form .paper-plane:hover:after, .modal_form .newsletter-form .paper-plane:hover:after {
   opacity: 1;
   bottom: 0;
 }
@@ -6540,8 +6577,59 @@ body .search-modal .close:hover {
   text-align: left;
   margin-top: 20px;
 }
+
+.testimonial-statement {
+  font-family: 'Playfair Display', sans-serif;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.testimonial-name {
+  color: #BB9A54;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.testimonial-images-wrap {
+  width: fit-content;
+  margin: auto;
+}
+
+.testimonial-img {
+  width: 60% !important;
+  height: auto;
+}
 /* ------------------------------------
-    25. Timecount Ceremony Section CSS
+    25. Errors Section CSS
+---------------------------------------*/
+.error-type {
+  color: #CA3A31;
+  font-size: 9.8rem;
+  font-weight: 600;
+}
+
+.icon-warning .fa-warning {
+  color: #CA3A31;
+  font-size: 2.4rem;
+}
+
+.error-text {
+  color: #EBEFF6;
+  font-size: 2.4rem;
+  line-height: 1;
+}
+
+.error-desc {
+  color: #CED1D7;
+  font-size: 1.2rem;
+}
+
+.rs-warning .row {
+  justify-content: center;
+  align-items: center;
+}
+/* ------------------------------------
+    26. Timecount Ceremony Section CSS
 ---------------------------------------*/
 .rs-timecoun-ceremony .coming-soon-part .coming-soon-text .CountDownTimer .time_circles {
   width: 100%;
@@ -6664,7 +6752,7 @@ body .search-modal .close:hover {
   border-radius: 50%;
 }
 /* ------------------------------------
-    26. Contact Section CSS
+    27. Contact Section CSS
 ---------------------------------------*/
 .rs-contact {
   position: relative;
@@ -6941,8 +7029,14 @@ body .search-modal .close:hover {
 .rs-contact.home-style3 .map-canvas .address-main .address-box .address-item .address-text .services-txt a:hover {
   color: #ccc;
 }
+
+.error-message {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #d63811;
+}
 /*------------------------------------
-    27. Footer Section CSS
+    28. Footer Section CSS
 ------------------------------------*/
 .rs-footer.style1 {
   /*background-image: url(./images/bg/footer-bg.jpg);*/
@@ -7060,7 +7154,7 @@ body .search-modal .close:hover {
   background: #eb3f0f;
 }
 /* -----------------------
-    28. Scroll Up CSS
+    29. Scroll Up CSS
 --------------------------*/
 #scrollUp {
   text-align: center;
@@ -7120,7 +7214,147 @@ body .search-modal .close:hover {
   padding-right: 30px;
 }
 /*----------------------------------------------
-    29. Preloader CSS
+    30. Modal CSS
+----------------------------------------------*/
+.modal-content {
+  overflow: hidden;
+  border: none;
+  background-color: #bf994c;
+}
+.modal_form {
+  width: 100%;
+}
+.modal__text-content {
+  position: relative;
+  background-color: #bf994c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.modal__close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 18px;
+  cursor: pointer;
+}
+.modal__heading {
+  color: #fff;
+  font-size: 2.4rem;
+}
+.modal__description {
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+.modal__privacy {
+  color: #fff;
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+.modal__content {
+  display: flex;
+  justify-content: center;
+}
+.modal-content, .modal-body, .modal-dialog {
+  max-width: 900px !important;
+}
+.modal__content a, .cookie-policy-btn {
+  color: #03164F;
+  position: relative;
+}
+.cookie-policy-btn {
+  font-weight: 500;
+}
+.cookie-policy-btn:hover {
+  color: #03164F;
+}
+.modal__cancel a {
+  position: relative;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.modal__content a::after, .cookie-policy-btn::after {
+  position: absolute;
+  content: '';
+  inset: 0;
+  height: 100%;
+  width: 0px;
+  border-bottom: 1px solid #03164F;
+  transition: width 300ms ease-in-out;
+}
+.modal__content a:hover::after, .cookie-policy-btn:hover::after {
+  width: 100%;
+}
+.modal__img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.close-container{
+  position: relative;
+  margin: auto;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+.modal__close-btn {
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+.leftright{
+  height: 3px;
+  width: 25px;
+  position: absolute;
+  margin-top: 24px;
+  background-color: #9E7D37;
+  border-radius: 2px;
+  transform: rotate(45deg);
+  transition: all .3s ease-in;
+}
+
+.rightleft{
+  height: 3px;
+  width: 25px;
+  position: absolute;
+  margin-top: 24px;
+  background-color: #9E7D37;
+  border-radius: 2px;
+  transform: rotate(-45deg);
+  transition: all .3s ease-in;
+}
+.close-label{
+  color: white;
+  font-size: .6em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all .3s ease-in;
+  opacity: 0;
+}
+.close-label {
+  margin: 40px 0 0 0;
+  position: absolute;
+  left: -5px;
+}
+
+.close-container:hover .leftright{
+  transform: rotate(-45deg);
+  background-color: #03164F;
+}
+.close-container:hover .rightleft{
+  transform: rotate(45deg);
+  background-color: #03164F;
+}
+.close-container:hover label{
+  opacity: 1;
+}
+.cookie-consent-container {
+  opacity: 0.85;
+}
+/*----------------------------------------------
+    31. Preloader CSS
 ----------------------------------------------*/
 #pre-load {
   background-color: #fff;
@@ -7216,7 +7450,7 @@ body .search-modal .close:hover {
   }
 }
 /* ------------------------------------
-    30. Animation Part CSS
+    32. Animation Part CSS
 ---------------------------------------*/
 @keyframes loaderspin {
   0% {

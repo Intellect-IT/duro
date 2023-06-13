@@ -71,19 +71,19 @@ export default function Header1() {
                       <nav className="rs-menu hidden-md">
                         <ul className="nav-menu">
                           <li className="current-menu-item">
-                            <Link to="/">{t("header.home")}</Link>
+                            <Link to="/">{t("header.home.menuTitle")}</Link>
                           </li>
                           <li>
-                            <Link to="/our-story">{t("header.story")}</Link>
+                            <Link to="/our-story">{t("header.story.menuTitle")}</Link>
                           </li>
                           <li>
-                            <Link to="/brands">{t("header.brands")}</Link>
+                            <Link to="/brands">{t("header.brands.menuTitle")}</Link>
                           </li>
                           <li>
-                            <Link to="/news">{t("header.press")}</Link>
+                            <Link to="/news">{t("header.press.menuTitle")}</Link>
                           </li>
                           <li>
-                            <Link to="/contact">{t("header.contact")}</Link>
+                            <Link to="/contact">{t("header.contact.menuTitle")}</Link>
                           </li>
                         </ul>
                         {/* <!-- //.nav-menu --> */}
@@ -195,19 +195,19 @@ export default function Header1() {
             </div>
             <ul className="nav-menu">
               <li className="current-menu-item">
-                <Link to="/">{t("header.home")}</Link>
+                <Link to="/">{t("header.home.menuTitle")}</Link>
               </li>
               <li>
-                <Link to="/our-story">{t("header.story")}</Link>
+                <Link to="/our-story">{t("header.story.menuTitle")}</Link>
               </li>
               <li>
-                <Link to="/brands">{t("header.brands")}</Link>
+                <Link to="/brands">{t("header.brands.menuTitle")}</Link>
               </li>
               <li>
-                <Link to="/news">{t("header.press")}</Link>
+                <Link to="/news">{t("header.press.menuTitle")}</Link>
               </li>
               <li>
-                <Link to="/contact">{t("header.contact")}</Link>
+                <Link to="/contact">{t("header.contact.menuTitle")}</Link>
               </li>
             </ul>
             {/* <!-- //.nav-menu -->  */}

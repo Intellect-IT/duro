@@ -3,9 +3,9 @@
  *
  * -----------------------------------------------------------------------------
  *
- * Template : Evenio - Events & Conference HTML Template
- * Author : reacthemes
- * Author URI : http://www.reactheme.com/
+ * Author : Intellect Avenue IT d.o.o.
+ * Author URI : https://www.intellect.se/ 
+ * Version: 1.0
  *
  * -----------------------------------------------------------------------------
  *

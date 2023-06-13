@@ -1,13 +1,39 @@
 {
   "newsletter": "Newsletter Subscribe",
+  "testimonials": "Testimonials",
   "yourEmail": "Your Email Address",
   "gallery": "Gallery",
   "header": {
-    "home": "Home",
-    "story": "Our Story",
-    "brands": "Brands",
-    "press": "Press & Media",
-    "contact": "Contact",
+    "home": {
+      "menuTitle": "Home",
+      "pageTitle": "",
+      "metaDescription": "DURŌ - where the art of niche perfumery is framed by ultimate luxury. We represent 25 of the most sought-after artisan perfume houses and niche brands. In a spectacular setting, we create a unique experience for all perfume enthusiasts."
+    },
+    "story": {
+      "menuTitle": "Our Story",
+      "pageTitle": "Our Story",
+      "metaDescription": "At DURŌ, we believe that perfume is more than just a scent. It is a journey that takes you on a sensory experience, evoking emotions and memories. That is why we have dedicated ourselves to curating a selection of the most sought-after artisan perfume houses in the world."
+    },
+    "brands": {
+      "menuTitle": "Brands",
+      "pageTitle": "Our Brands",
+      "metaDescription": "Discover top-notch niche brands exclusively represented by our perfumery. Immerse yourself in the charms of this art and find your favorite brand."
+    },
+    "press": {
+      "menuTitle": "Press & Media",
+      "pageTitle": "Latest News",
+      "metaDescription": "Stay up to date with the latest news and events from the world of DURŌ Niche perfumery."
+    },
+    "contact": {
+      "menuTitle": "Contact",
+      "pageTitle": "Contact Us",
+      "metaDescription": "Get in touch with us. Our team is happy to provide support, information, and answer all your inquiries."
+    },
+    "gallery": {
+      "menuTitle": "Gallery",
+      "pageTitle": "Our Luxury Perfumery",
+      "metaDescription": "Our luxury perfumery captured in photos. Get to know the unique visual aesthetics and enjoy the DURŌ concept."
+    },
     "language": "SR",
     "address": "Address",
     "email": "Email",
@@ -15,7 +41,7 @@
   },
   "footer": {
     "footerHome": {
-      "heartBefore":"© 2023. DURŌ, All Rights Reserved. Made with ",
+      "heartBefore": "© 2023. DURŌ, All Rights Reserved. Made with ",
       "heartAfter": " by "
     },
     "footerMain": {
@@ -43,6 +69,24 @@
     },
     "featured": {
       "title": "Featured Products"
+    },
+    "approach": {
+      "title": "The DURŌ approach",
+      "principle1": {
+        "title": "Niche perfumes",
+        "desc1": "Meticulous selection of exceptional artisan fragrances reflects our uncompromising passion for exquisite things, craftsmanship, and creativity.",
+        "desc2": "We handpick luxury brands from around the world with unique stories and distinctive scents."
+      },
+      "principle2": {
+        "title": "Bespoke approach",
+        "desc1": "Our experienced team understands your style, personality, and scent preferences, offering a personalized and educational experience to discover your signature perfume.",
+        "desc2": "With a bespoke approach, we tailor the perfume journey to your preferences."
+      },
+      "principle3": {
+        "title": "Immersive Luxury",
+        "desc1": "Our boutique exudes exclusivity, sophistication, and a unique flair. From ambiance to attentive service, every detail elevates the experience.",
+        "desc2": "DURŌ transcends traditional shopping, creating an immersive and luxurious atmosphere that indulges your senses."
+      }
     },
     "brands": {
       "title": "Our Brands"
@@ -106,7 +150,7 @@
       "subText": "The Team",
       "title": "Our Visionary Team",
       "founder": "Founder",
-      "coFounder": "Co-founder",
+      "coFounder": "Founder",
       "manager": "Manager"
     }
   },
@@ -125,24 +169,24 @@
       "desc1": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
       "desc2": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
       "tag1": "Creative",
-      "tag2" : "Elementor",
-      "tag3" : "Light",
-      "tag4" : "Minimal"
+      "tag2": "Elementor",
+      "tag3": "Light",
+      "tag4": "Minimal"
     },
     "comments": {
       "title": "3 comments on “ICC Wales Reports Record Breaking Summer",
       "reply": "Reply",
       "leaveReply": "Leave a Reply",
       "note": "Your email address will not be published. Required fields are marked *",
-      "comment1" : {
+      "comment1": {
         "title": "Rswpdemo",
         "desc": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet"
       },
-      "comment2" : {
+      "comment2": {
         "title": "Rswpdemo",
         "desc": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet"
       },
-      "comment3" : {
+      "comment3": {
         "title": "Rswpdemo",
         "desc": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet"
       }
@@ -194,6 +238,86 @@
           "li3": "To personalize your experience on our website."
         }
       }
+    }
+  },
+  "errors": {
+    "name": "Name is required",
+    "email": "Email is required",
+    "emailInvalid": "Invalid email address",
+    "phone": "Phone number is required",
+    "phoneInvalid": "Invalid phone number",
+    "message": "Message is required",
+    "success": "Submitted successfully!",
+    "failed": "Error! Please try again",
+    "submitting": "Submitting your request...",
+    "thanks": "Thanks for Subscribing!",
+    "404": {
+      "title": "Oops! Page not found.",
+      "desc1": "The page you are looking for was not found.",
+      "desc2a": "You may return to the",
+      "desc2b": "Home Page"
+    },
+    "500": {
+      "title": "Oops! Something went wrong.",
+      "desc1": "The page you are looking for is temporarily unavailable.",
+      "desc2a": "You may return to the",
+      "desc2b": "Home Page"
+    }
+  },
+  "titles": {
+    "home": "DURŌ Niche perfumery",
+    "story": "Discover our World",
+    "brands": "Our Brands",
+    "contact": "Contact",
+    "gallery": "Gallery",
+    "press": "Press & Media",
+    "privacy": "Privacy Policy"
+  },
+  "modal": {
+    "subscribe": {
+      "title": "Join our community of perfume enthusiasts!",
+      "desc": "Subscribe to our newsletter for the latest news, product promotions, valuable tips & tricks, and exclusive biweekly updates from the world of niche perfumes.",
+      "notice": "We highly value your privacy and commit to never sending you irrelevant information or disclosing your personal data without your consent. We strictly adhere to our",
+      "policy": "Privacy policy",
+      "decline": "No thanks!"
+    },
+    "cookies": {
+      "consent": "By using this website, you agree to our use of cookies to enhance your browsing experience.",
+      "notice": "For more information on how we use cookies, please see our",
+      "policy": "Cookie Policy",
+      "accept": "I understand"
+    }
+  },
+  "brands": {
+    "pageHeadings": {
+      "about": "About brand",
+      "spotlight": "In spotlight",
+      "featured": "Featured products",
+      "quote": "The Quote"
+    },
+    "electimuss": {
+      "tagline": "To choose the best",
+      "lead": "<p className='desc margin-0 pt-40 pb-15'> At Electimuss London, fragrance becomes an art form. Inspired by the opulence and allure of Ancient Rome, they embark on a journey to craft perfumes that embody unrivaled quality, creativity, and individuality.</p><p className='desc margin-0 pb-15'>Collaborating with the world's most talented perfumers, including Julien Rasquinet, Christian Provenzano, John Stephens, Marco Genovese, and Sofia Bardelli, they harness their expertise to bring their olfactory visions to life. Through their perfumes, they aim to empower individuals to express their unique identities and elevate everyday moments into extraordinary experiences.</p>",
+      "story": "<p className='desc margin-0 pb-15'>Introducing Electimuss London, where fragrance becomes an art form. Inspired by the opulence and allure of Ancient Rome, they have embarked on a journey to craft perfumes that embody unrivaled quality, creativity, and individuality.</p><p className='desc margin-0 pb-15'>The Romans' unwavering passion for perfume and their pursuit of the finest scents resonate deeply with Electimuss London. They draw inspiration from their epic stories and rituals, where fragrance infused every facet of life, from celebrations to seduction. These vibrant tales fuel their imaginations, serving as the wellspring for their captivating fragrances.</p><p className='desc margin-0 pb-15'>Electimuss London is a connoisseur of fragrance, perpetually seeking the very best. Just as the Romans scoured the Empire for exquisite oils and ingredients, they blend rare and precious elements with meticulous care. Their commitment to quality knows no bounds, with their perfumes boasting 25% or 30% Pure Parfum/Extrait concentration, resulting in decadently daring blends that linger with exquisite longevity.</p><p className='desc margin-0 pb-15'>Their perfumes are an invitation to indulge in intensity. Each composition is a potent elixir of scents, meticulously formulated for unrivaled projection and endurance. They believe that luxury should be accessible, which is why they combine exceptional quality with fair pricing, allowing fragrance enthusiasts of all budgets to experience the allure of their creations.</p><p className='desc margin-0 pb-15'>Collaborating with the world's most talented perfumers, including Julien Rasquinet, Christian Provenzano, John Stephens, Marco Genovese, and Sofia Bardelli, they harness their expertise to bring their olfactory visions to life. Through their perfumes, they aim to empower individuals to express their unique identities and elevate everyday moments into extraordinary experiences.</p><p className='desc margin-0 pb-15'>Discover more about Electimuss London on their <a href='https://www.electimuss.com/' target='_blank' rel='noreferrer'>website</a>.</p>",
+      "quote": "Through the mists of time, Roman legends whisper of epicurean pleasures and extravagance, of ambition and seduction. Electimuss London is a niche luxury fragrance house inspired by the legends of love, power and glamour of Rome."
+    },
+    "ormonde-jayne": {
+      "tagline": "Innovative. Inclusive. Inspiring.",
+      "lead": "<p className='desc margin-0 pt-40 pb-15'>Ormonde Jayne is a prestigious perfume house established in London by Linda Pilkington. With a focus on selectivity, Ormonde Jayne crafts fragrances using rare and unconventional materials that are rarely found in perfumery.</p><p className='desc margin-0 pb-15'>The exquisite Ormonde Jayne fragrances are presented in elegant flacons made of luxurious, thick glass, delicately housed within the brand's distinctive mandarin and ebony boxes. Available in eau de parfum concentration and customizable made-to-measure parfum, allowing customers to choose their desired intensity. Some fragrances from the collection are also offered as scented candles, body cream, body lotion, and bath oil, providing a complete sensory experience.</p>",
+      "story": "<p className='desc margin-0 pb-15'>Ormonde Jayne is a brand born out of Linda's lifelong fascination with scents and flavors. From her childhood love for perfume bottles to her travels around the world, Linda's passion for fragrance and diverse cultures shaped the essence of Ormonde Jayne. Starting with the creation of exceptional scented candles, the brand quickly gained recognition and expanded its range to include perfumes, room sprays, bathing oils, and body creams. With a boutique on London's Old Bond Street, Ormonde Jayne became a pioneer in British niche perfumery, blending English craftsmanship, French perfumery artistry, and the sensuality of the Orient. The brand's intelligent design, clean lines, and vibrant packaging embody timeless elegance and create a truly stunning experience.</p><p className='desc margin-0 pb-15'>Discover more about Ormonde Jayne on their <a href='https://www.electimuss.com/' target='_blank' rel='noreferrer'>website</a>.</p>",
+      "quote": "In creating Ormonde Jayne, my goal was to combine elements which I consider define true elegance: The quality of English craftsmanship, the art of French perfumery and the sensuality and natural harmony of the Orient."
+    },
+    "jovoy": {
+      "tagline": "Rares Perfumes",
+      "lead": "<p className='desc margin-0 pt-40 pb-15'>Founded in 1923 by Blanche Arvoy, Jovoy Paris is a revered perfume house that has stood the test of time. Originally known for its exquisite line of perfumes, featuring bottles shaped like animals, Jovoy captivated the world with its unique creations. Blanche went on to establish a new house, Corday, named after the revolutionary figure Charlotte Corday, a year later. While Corday ceased production in the early 1960s, the legacy of Jovoy endured.</p>",
+      "story": "<p className='desc margin-0 pb-15'>In a world of black and white, sometimes gold, often red, JOVOY captures the essence of the present era through its striking and captivating visual style.</p><p className='desc margin-0 pb-15'>Situated on rue de Castiglione in Paris, this perfume house remains committed to its core values: rarity, exploration, awe, subtleties, delight, boldness, loyalty, elegance, sensitivity, and an insatiable curiosity that its founder François Hénin and his long-term partners exude, infectiously embracing an ever-evolving market.</p>",
+      "quote": "In the realm of JOVOY, we celebrate the extraordinary. Our fragrances are crafted to transcend the ordinary, inviting you to experience moments of sublime beauty and captivating emotions."
+    },
+    "thameen": {
+      "tagline": "Creating for Today, Thinking of Tomorrow",
+      "lead": "<p className='desc margin-0 pt-40 pb-15'>Crafted with a profound love and passion for the artistry of fine niche perfumery, Thameen brings a forward-thinking British essence to the world of fragrance. Thameen London is a niche brand born in London in 2013, weaving the intricate stories of that pay homage to British culture and heritage, and those rich traditions.</p><p className='desc margin-0 pb-15'>Drawing inspiration from the opulent world of oriental perfumery, each perfume is a testament to the fusion of scents and precious gems, carefully crafted to captivate the senses.</p>",
+      "story": "<p className='desc margin-0 pb-15'>The name Thameen, which translates to 'precious', encapsulates the essence of their brand. It reflects the meticulous selection of high-quality materials that compose their blends, ensuring that each fragrance exudes a tangible sense of luxury and modern grandeur. Their perfumes are a testament to the creative power of storytelling, with enviable artistry, lingering trails, and long-lasting presence, all achieved using sustainable ingredients.</p><p className='desc margin-0 pb-15'>Spearheaded by the Basel Binjabr, visionary Creative Director, whose passion for perfumes was sparked during his childhood. His father cherished rose oils as his 'precious jewels', igniting Binjabr's fascination with the connection between fragrance and precious gemstones. This profound inspiration now flows through Thameen, where fragrances embody the essence of status, wealth, beauty, love, and desire — qualities synonymous with gemstones themselves. Encased in dazzling azure blue-sapphire-alike glass, the perfume bottles exude a gemstone-like allure.</p><p className='desc margin-0 pb-15'>Thameen fragrances offer an enchanting sensory experience, blending rare fragrance oils and essences to create long-lasting perfum extrait. With intricate formulas enriched by an abundance of heart and middle notes, these scents possess exceptional projection.</p>",
+      "quote": "With each spray, Thameen unveils the tapestry of your soul, painting a vivid portrait of your essence through the notes that dance upon your skin."
     }
   }
 }

@@ -27,12 +27,14 @@ export default function Contact({ setHeader }) {
       <Helmet>
         {/* <!-- meta tag --> */}
         <meta charset="utf-8" />
-        <title>Contact | DURŌ Niche perfumery | Niche parfimerija</title>
+        <title>
+          {t("header.contact.pageTitle")} - DURŌ Niche perfumery - Niche parfimerija
+        </title>
 
         {/* <!-- Meta Tags--> */}
         <meta
           name="description"
-          content="DURŌ, where the art of niche perfumery meets ultimate luxury. We represent 25 of the most sought-after artisan perfume houses and offer a one-of-a-kind immersive experience in our boutique."
+          content={t("header.contact.metaDescription")}
         />
         <meta
           name="keywords"

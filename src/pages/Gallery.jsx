@@ -45,14 +45,13 @@ export default function Gallery({ setHeader }) {
         {/* <!-- meta tag --> */}
         <meta charset="utf-8" />
         <title>
-          Gallery :: DURŌ | Niche perfumery | Niche parfimerija :: TC "Galerija"
-          :: Beograd
+        {t("header.gallery.pageTitle")} - DURŌ Niche perfumery - Niche parfimerija
         </title>
 
         {/* <!-- Meta Tags--> */}
         <meta
           name="description"
-          content="DURŌ, where the art of niche perfumery meets ultimate luxury. We represent 25 of the most sought-after artisan perfume houses and offer a one-of-a-kind immersive experience in our boutique."
+          content={t("header.gallery.metaDescription")}
         />
         <meta
           name="keywords"
@@ -82,7 +81,7 @@ export default function Gallery({ setHeader }) {
       {/* <!-- Main content Start --> */}
       <div className="main-content">
         {/* <!-- Breadcrumbs Start --> */}
-        <div className="rs-breadcrumbs img1">
+        <div className="rs-breadcrumbs img6">
           <div className="container">
             <div className="breadcrumbs-inner">
               <h1 className="page-title">
@@ -95,7 +94,7 @@ export default function Gallery({ setHeader }) {
         {/* <!-- Breadcrumbs End --> */}
 
         {/* <!-- Gallery Start --> */}
-        <div className="rs-gallery style1 mb--160">
+        <div className="rs-gallery style1 mb--199">
           <div className="row no-gutters">
             <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="gallery-item">
@@ -241,7 +240,7 @@ export default function Gallery({ setHeader }) {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-sm-6">
+            {/*<div className="col-lg-3 col-md-6 col-sm-6">
               <div className="gallery-item">
                 <div className="gallery-icon">
                   <a
@@ -288,7 +287,7 @@ export default function Gallery({ setHeader }) {
                   </a>
                 </div>
               </div>
-            </div>
+            </div>*/}
           </div>
         </div>
         {/* <!-- Gallery End --> */}
