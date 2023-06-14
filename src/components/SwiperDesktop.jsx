@@ -989,6 +989,9 @@ const SwiperDesktop = () => {
                           11000 Belgrade
                           <br />
                           Serbia
+                          <br />
+                          <br />
+                          <a href="/contact">{t("home.contact.location")} &raquo;</a>
                         </p>
                       </div>
                     </div>

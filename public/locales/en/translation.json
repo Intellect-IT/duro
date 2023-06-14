@@ -124,7 +124,9 @@
       "emailForm": "E-Mail",
       "phoneForm": "Phone Number",
       "messageForm": "Your message Here",
-      "submit": "Submit Now"
+      "submit": "Submit Now",
+      "mapTitle": "Our location",
+      "location": "Location"
     }
   },
   "story": {

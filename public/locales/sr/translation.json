@@ -125,7 +125,9 @@
       "emailForm": "E-Pošta",
       "phoneForm": "Broj telefona",
       "messageForm": "Vaša poruka",
-      "submit": "Pošalji"
+      "submit": "Pošalji",
+      "mapTitle": "Kako do nas?",
+      "location": "Lokacija"
     }
   },
   "story": {

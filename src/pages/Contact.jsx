@@ -107,6 +107,29 @@ export default function Contact({ setHeader }) {
           </div>
         </div>
         {/* <!-- Contact Section End -->  */}
+        {/* <!-- Map Section Start --> */}
+        <div id="map" className="rs-contact contact-page gray-bg4 home-style1 home-style3 contact-home-style4 height-ctrl pt-130 md-pb-50 md-pt-40">
+          <div className="container">
+            <div className="sec-title text-center mb-60 md-mb-40">
+              <h2 className="title title2 title3 text-middle">
+                {t("home.contact.mapTitle")}
+              </h2>
+            </div>
+            {/* <!-- Contact Section Start --> */}
+            <div className="rs-contact">
+              <div className="row y-middle">
+                <div className="col-lg-12 pr-40 md-pr-15 md-mb-50">
+                  <div className="contact-map">
+                    <img src="/assets/images/contact/map/duro_galerija_map.jpg" alt="DURŌ map" title="DURŌ map" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* <!-- Contact Section End --> */}
+          </div>
+        </div>
+        {/* <!-- Map Section End -->  */}
+
         {/* <!-- Newsletter section start --> */}
         <div className="rs-newsletter gray-bg4 style1 pt-90 md-pt-60 mb--110">
           <Newsletter />
