@@ -83,7 +83,7 @@ export default function Brands({ setHeader }) {
             <div className="breadcrumbs-inner">
               <h1 className="page-title">
                 {currentBrand.title}
-                <span className="watermark">{currentBrand.title}</span>
+                {/*<span className="watermark">{currentBrand.title}</span>*/}
               </h1>
             </div>
           </div>

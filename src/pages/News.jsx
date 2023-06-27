@@ -103,7 +103,7 @@ export default function News({ setHeader }) {
             <div className="breadcrumbs-inner">
               <h1 className="page-title">
                 {t("home.news.main")}
-                <span className="watermark">{t("home.news.main")}</span>
+                {/*<span className="watermark">{home.news.main}</span>*/}
               </h1>
             </div>
           </div>

@@ -69,7 +69,7 @@ export default function Contact({ setHeader }) {
             <div className="breadcrumbs-inner">
               <h1 className="page-title">
                 {t("home.contact.contact")}
-                <span className="watermark">{t("home.contact.contact")}</span>
+                {/*<span className="watermark">{home.contact.contact}</span>*/}
               </h1>
             </div>
           </div>

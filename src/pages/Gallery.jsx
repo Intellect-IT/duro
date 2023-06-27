@@ -86,7 +86,7 @@ export default function Gallery({ setHeader }) {
             <div className="breadcrumbs-inner">
               <h1 className="page-title">
                 {t("gallery")}
-                <span className="watermark">{t("gallery")}</span>
+                {/*<span className="watermark">{gallery}</span>*/}
               </h1>
             </div>
           </div>

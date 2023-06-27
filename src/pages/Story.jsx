@@ -82,7 +82,7 @@ export default function Story({ setHeader }) {
             <div className="breadcrumbs-inner">
               <h1 className="page-title">
                 {t("story.title")}
-                <span className="watermark">{t("home.story.title")}</span>
+                {/*<span className="watermark">{story.title}</span>*/}
               </h1>
             </div>
           </div>

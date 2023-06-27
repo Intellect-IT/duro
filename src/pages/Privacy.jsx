@@ -68,7 +68,7 @@ export default function Privacy({ setHeader }) {
             <div className="breadcrumbs-inner">
               <h1 className="page-title">
                 {t("privacy.title")}
-                <span className="watermark">{t("privacy.title")}</span>
+                {/*<span className="watermark">{privacy.title}</span>*/}
               </h1>
             </div>
           </div>
