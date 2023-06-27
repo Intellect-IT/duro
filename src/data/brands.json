@@ -59,36 +59,36 @@
         "quote": "brands.ormonde-jayne.quote",
         "products": [
             {
-                "img": "../assets/images/brands/ormonde-jayne/products/champaca.jpg",
-                "title": "Champaca",
+                "img": "../assets/images/brands/ormonde-jayne/products/tanger.jpg",
+                "title": "Tanger",
                 "volume": "",
                 "price": "",
                 "brand": "Ormonde Jayne"
             },
             {
-                "img": "../assets/images/brands/ormonde-jayne/products/frangipani.jpg",
-                "title": "Frangipani",
+                "img": "../assets/images/brands/ormonde-jayne/products/ambre-royal.jpg",
+                "title": "Ambre Royal",
                 "volume": "",
                 "price": "",
                 "brand": "Ormonde Jayne"
             },
             {
-                "img": "../assets/images/brands/ormonde-jayne/products/isfarkand.jpg",
-                "title": "Isfarkand",
+                "img": "../assets/images/brands/ormonde-jayne/products/indus.jpg",
+                "title": "Indus",
                 "volume": "",
                 "price": "",
                 "brand": "Ormonde Jayne"
             },
             {
-                "img": "../assets/images/brands/ormonde-jayne/products/osmanthus.jpg",
-                "title": "Osmanthus",
+                "img": "../assets/images/brands/ormonde-jayne/products/ta_if.jpg",
+                "title": "Ta'if",
                 "volume": "",
                 "price": "",
                 "brand": "Ormonde Jayne"
             },
             {
-                "img": "../assets/images/brands/ormonde-jayne/products/prive.jpg",
-                "title": "Prive",
+                "img": "../assets/images/brands/ormonde-jayne/products/montabaco-verano.jpg",
+                "title": "Montabaco Verano",
                 "volume": "",
                 "price": "",
                 "brand": "Ormonde Jayne"
@@ -149,11 +149,47 @@
         "storyImg": "../assets/images/brands/jeroboam/001.png",
         "title": "Jeroboam",
         "name": "Jeroboam",
-        "tagline": "",
-        "lead": "",
-        "story": "",
-        "quote": "",
-        "products": []
+        "tagline": "brands.jeroboam.tagline",
+        "lead": "brands.jeroboam.lead",
+        "story": "brands.jeroboam.story",
+        "quote": "brands.jeroboam.quote",
+        "products": [
+            {
+                "img": "../assets/images/brands/jeroboam/products/gozo.jpg",
+                "title": "Gozo",
+                "volume": "",
+                "price": "",
+                "brand": "Jeroboam"
+            },
+            {
+                "img": "../assets/images/brands/jeroboam/products/insulo.jpg",
+                "title": "Insulo",
+                "volume": "",
+                "price": "",
+                "brand": "Jeroboam"
+            },
+            {
+                "img": "../assets/images/brands/jeroboam/products/ligno.jpg",
+                "title": "Ligno",
+                "volume": "",
+                "price": "",
+                "brand": "Jeroboam"
+            },
+            {
+                "img": "../assets/images/brands/jeroboam/products/vespero.jpg",
+                "title": "Vespero",
+                "volume": "",
+                "price": "",
+                "brand": "Jeroboam"
+            },
+            {
+                "img": "../assets/images/brands/jeroboam/products/floro.jpg",
+                "title": "Floro",
+                "volume": "",
+                "price": "",
+                "brand": "Jeroboam"
+            }
+        ]
     },
     "marc-antoine-barrois": {
         "logo": "../assets/images/event/brands/001_marc-antoine_barrois.png",
@@ -161,11 +197,47 @@
         "storyImg": "../assets/images/brands/marc-antoine-barrois/001.png",
         "title": "Marc-Antoine Barrois",
         "name": "Marc-Antoine Barrois",
-        "tagline": "",
-        "lead": "",
-        "story": "",
-        "quote": "",
-        "products": []
+        "tagline": "brands.marc-antoine-barrois.tagline",
+        "lead": "brands.marc-antoine-barrois.lead",
+        "story": "brands.marc-antoine-barrois.story",
+        "quote": "brands.marc-antoine-barrois.quote",
+        "products": [
+            {
+                "img": "../assets/images/brands/marc-antoine-barrois/products/ganymede.jpg",
+                "title": "Ganymede",
+                "volume": "",
+                "price": "",
+                "brand": "Marc-Antoine Barrois"
+            },
+            {
+                "img": "../assets/images/brands/marc-antoine-barrois/products/ganymede-extrait.jpg",
+                "title": "Ganymede Extrait",
+                "volume": "",
+                "price": "",
+                "brand": "Marc-Antoine Barrois"
+            },
+            {
+                "img": "../assets/images/brands/marc-antoine-barrois/products/encelade.jpg",
+                "title": "Encelade",
+                "volume": "",
+                "price": "",
+                "brand": "Marc-Antoine Barrois"
+            },
+            {
+                "img": "../assets/images/brands/marc-antoine-barrois/products/b683.jpg",
+                "title": "B683",
+                "volume": "",
+                "price": "",
+                "brand": "Marc-Antoine Barrois"
+            },
+            {
+                "img": "../assets/images/brands/marc-antoine-barrois/products/b683-extrait.jpg",
+                "title": "B683 Extrait",
+                "volume": "",
+                "price": "",
+                "brand": "Marc-Antoine Barrois"
+            }
+        ]
     },
     "fragrance-du-bois": {
         "logo": "../assets/images/event/brands/012_fdb.png",
@@ -173,11 +245,47 @@
         "storyImg": "../assets/images/brands/fragrance-du-bois/001.png",
         "title": "Fragrance du Bois",
         "name": "Fragrance du Bois",
-        "tagline": "",
-        "lead": "",
-        "story": "",
-        "quote": "",
-        "products": []
+        "tagline": "brands.fragrance-du-bois.tagline",
+        "lead": "brands.fragrance-du-bois.lead",
+        "story": "brands.fragrance-du-bois.story",
+        "quote": "brands.fragrance-du-bois.quote",
+        "products": [
+            {
+                "img": "../assets/images/brands/fragrance-du-bois/products/oud-orange-intense.jpg",
+                "title": "Oud Orange Intense",
+                "volume": "",
+                "price": "",
+                "brand": "Fragrance du Bois"
+            },
+            {
+                "img": "../assets/images/brands/fragrance-du-bois/products/sahraa.jpg",
+                "title": "Sahraa",
+                "volume": "",
+                "price": "",
+                "brand": "Fragrance du Bois"
+            },
+            {
+                "img": "../assets/images/brands/fragrance-du-bois/products/producer-michael.jpg",
+                "title": "Producer Michael",
+                "volume": "",
+                "price": "",
+                "brand": "Fragrance du Bois"
+            },
+            {
+                "img": "../assets/images/brands/fragrance-du-bois/products/new-york-intense.jpg",
+                "title": "New York Intense",
+                "volume": "",
+                "price": "",
+                "brand": "Fragrance du Bois"
+            },
+            {
+                "img": "../assets/images/brands/fragrance-du-bois/products/siberian-rose.jpg",
+                "title": "Siberian rose",
+                "volume": "",
+                "price": "",
+                "brand": "Fragrance du Bois"
+            }
+        ]
     },
     "puredistance": {
         "logo": "../assets/images/event/brands/006_puredistance.png",
@@ -185,11 +293,47 @@
         "storyImg": "../assets/images/brands/puredistance/001.png",
         "title": "Puredistance",
         "name": "Puredistance",
-        "tagline": "",
-        "lead": "",
-        "story": "",
-        "quote": "",
-        "products": []
+        "tagline": "brands.puredistance.tagline",
+        "lead": "brands.puredistance.lead",
+        "story": "brands.puredistance.story",
+        "quote": "brands.puredistance.quote",
+        "products": [
+            {
+                "img": "../assets/images/brands/puredistance/products/black.jpg",
+                "title": "Black",
+                "volume": "",
+                "price": "",
+                "brand": "Puredistance"
+            },
+            {
+                "img": "../assets/images/brands/puredistance/products/mv2q.jpg",
+                "title": "MV2Q",
+                "volume": "",
+                "price": "",
+                "brand": "Puredistance"
+            },
+            {
+                "img": "../assets/images/brands/puredistance/products/rubikona.jpg",
+                "title": "Rubikona",
+                "volume": "",
+                "price": "",
+                "brand": "Puredistance"
+            },
+            {
+                "img": "../assets/images/brands/puredistance/products/warszawa.jpg",
+                "title": "Warszawa",
+                "volume": "",
+                "price": "",
+                "brand": "Puredistance"
+            },
+            {
+                "img": "../assets/images/brands/puredistance/products/white.jpg",
+                "title": "White",
+                "volume": "",
+                "price": "",
+                "brand": "Puredistance"
+            }
+        ]
     },
     "morph": {
         "logo": "../assets/images/event/brands/004_morph.png",
@@ -197,11 +341,47 @@
         "storyImg": "../assets/images/brands/morph/001.png",
         "title": "Morph",
         "name": "Morph",
-        "tagline": "",
-        "lead": "",
-        "story": "",
-        "quote": "",
-        "products": []
+        "tagline": "brands.morph.tagline",
+        "lead": "brands.morph.lead",
+        "story": "brands.morph.story",
+        "quote": "brands.morph.quote",
+        "products": [
+            {
+                "img": "../assets/images/brands/morph/products/vapor.jpg",
+                "title": "Vapor",
+                "volume": "",
+                "price": "",
+                "brand": "Morph"
+            },
+            {
+                "img": "../assets/images/brands/morph/products/zeta.jpg",
+                "title": "Zeta",
+                "volume": "",
+                "price": "",
+                "brand": "Morph"
+            },
+            {
+                "img": "../assets/images/brands/morph/products/disumano.jpg",
+                "title": "Disumano",
+                "volume": "",
+                "price": "",
+                "brand": "Morph"
+            },
+            {
+                "img": "../assets/images/brands/morph/products/animal.jpg",
+                "title": "Animal",
+                "volume": "",
+                "price": "",
+                "brand": "Morph"
+            },
+            {
+                "img": "../assets/images/brands/morph/products/too.jpg",
+                "title": "Too",
+                "volume": "",
+                "price": "",
+                "brand": "Morph"
+            }
+        ]
     },
     "mdci": {
         "logo": "../assets/images/event/brands/005_mdci.png",
@@ -209,11 +389,47 @@
         "storyImg": "../assets/images/brands/mdci/001.png",
         "title": "MDCI",
         "name": "MDCI Paris",
-        "tagline": "",
-        "lead": "",
-        "story": "",
-        "quote": "",
-        "products": []
+        "tagline": "brands.mdci.tagline",        
+        "lead": "brands.mdci.lead",
+        "story": "brands.mdci.story",
+        "quote": "brands.mdci.quote",
+        "products": [
+            {
+                "img": "../assets/images/brands/mdci/products/product.jpg",
+                "title": "Ambre Topkap",
+                "volume": "",
+                "price": "",
+                "brand": "MDCI"
+            },
+            {
+                "img": "../assets/images/brands/mdci/products/product.jpg",
+                "title": "Chypre Palatin",
+                "volume": "",
+                "price": "",
+                "brand": "MDCI"
+            },
+            {
+                "img": "../assets/images/brands/mdci/products/product.jpg",
+                "title": "Invasion Barbare",
+                "volume": "",
+                "price": "",
+                "brand": "MDCI"
+            },
+            {
+                "img": "../assets/images/brands/mdci/products/product.jpg",
+                "title": "Nuit Andalouse",
+                "volume": "",
+                "price": "",
+                "brand": "MDCI"
+            },
+            {
+                "img": "../assets/images/brands/mdci/products/product.jpg",
+                "title": "Peche Cardinal",
+                "volume": "",
+                "price": "",
+                "brand": "MDCI"
+            }
+        ]
     },
     "histoires-de-parfums": {
         "logo": "../assets/images/event/brands/007_hdp.png",
@@ -221,11 +437,47 @@
         "storyImg": "../assets/images/brands/histoires-de-parfums/001.png",
         "title": "Histoires de Parfums",
         "name": "Histoires de Parfums",
-        "tagline": "",
-        "lead": "",
-        "story": "",
-        "quote": "",
-        "products": []
+        "tagline": "brands.histoires-de-parfums.tagline",
+        "lead": "brands.histoires-de-parfums.lead",
+        "story": "brands.histoires-de-parfums.story",
+        "quote": "brands.histoires-de-parfums.quote",
+        "products": [
+            {
+                "img": "../assets/images/brands/histoires-de-parfums/products/this-is-not-a-blue-bottle.jpg",
+                "title": "This is not a blue bottle",
+                "volume": "",
+                "price": "",
+                "brand": "Histoires de Parfums"
+            },
+            {
+                "img": "../assets/images/brands/histoires-de-parfums/products/1740.jpg",
+                "title": "1740",
+                "volume": "",
+                "price": "",
+                "brand": "Histoires de Parfums"
+            },
+            {
+                "img": "../assets/images/brands/histoires-de-parfums/products/1899.jpg",
+                "title": "1899",
+                "volume": "",
+                "price": "",
+                "brand": "Histoires de Parfums"
+            },
+            {
+                "img": "../assets/images/brands/histoires-de-parfums/products/7753.jpg",
+                "title": "7753",
+                "volume": "",
+                "price": "",
+                "brand": "Histoires de Parfums"
+            },
+            {
+                "img": "../assets/images/brands/histoires-de-parfums/products/1725.jpg",
+                "title": "1725",
+                "volume": "",
+                "price": "",
+                "brand": "Histoires de Parfums"
+            }
+        ]
     },
     "calaj": {
         "logo": "../assets/images/event/brands/008_calaj.png",
@@ -245,11 +497,47 @@
         "storyImg": "../assets/images/brands/indult/001.png",
         "title": "Indult",
         "name": "Indult",
-        "tagline": "",
-        "lead": "",
-        "story": "",
-        "quote": "",
-        "products": []
+        "tagline": "brands.indult.tagline",
+        "lead": "brands.indult.lead",
+        "story": "brands.indult.story",
+        "quote": "brands.indult.quote",
+        "products": [
+            {
+                "img": "../assets/images/brands/indult/products/isvaraya.jpg",
+                "title": "Isvaraya",
+                "volume": "",
+                "price": "",
+                "brand": "Indult"
+            },
+            {
+                "img": "../assets/images/brands/indult/products/manakara.jpg",
+                "title": "Manakara",
+                "volume": "",
+                "price": "",
+                "brand": "Indult"
+            },
+            {
+                "img": "../assets/images/brands/indult/products/my-ju-ju.jpg",
+                "title": "My Ju-ju",
+                "volume": "",
+                "price": "",
+                "brand": "Indult"
+            },
+            {
+                "img": "../assets/images/brands/indult/products/tihota.jpg",
+                "title": "Tihota",
+                "volume": "",
+                "price": "",
+                "brand": "Indult"
+            },
+            {
+                "img": "../assets/images/brands/indult/products/reve-en-cuir.jpg",
+                "title": "Reve en cuir",
+                "volume": "",
+                "price": "",
+                "brand": "Indult"
+            }
+        ]
     },
     "thameen": {
         "logo": "../assets/images/event/brands/010_thameen.png",
@@ -261,7 +549,43 @@
         "lead": "brands.thameen.lead",
         "story": "brands.thameen.story",
         "quote": "brands.thameen.quote",
-        "products": []
+        "products": [
+            {
+                "img": "../assets/images/brands/thameen/products/carved-oud.jpg",
+                "title": "Carved Oud",
+                "volume": "",
+                "price": "",
+                "brand": "Thameen"
+            },
+            {
+                "img": "../assets/images/brands/thameen/products/patiala.jpg",
+                "title": "Patiala",
+                "volume": "",
+                "price": "",
+                "brand": "Thameen"
+            },
+            {
+                "img": "../assets/images/brands/thameen/products/peregrina.jpg",
+                "title": "Peregrina",
+                "volume": "",
+                "price": "",
+                "brand": "Thameen"
+            },
+            {
+                "img": "../assets/images/brands/thameen/products/regent-leather.jpg",
+                "title": "Regent Leather",
+                "volume": "",
+                "price": "",
+                "brand": "Thameen"
+            },
+            {
+                "img": "../assets/images/brands/thameen/products/sceptre.jpg",
+                "title": "Sceptre",
+                "volume": "",
+                "price": "",
+                "brand": "Thameen"
+            }
+        ]
     },
     "theodoros-kalotinis": {
         "logo": "../assets/images/event/brands/011_theodoros.png",
@@ -269,11 +593,47 @@
         "storyImg": "../assets/images/brands/theodoros-kalotinis/001.png",
         "title": "Theodoros Kalotinis",
         "name": "Theodoros Kalotinis",
-        "tagline": "",
-        "lead": "",
-        "story": "",
-        "quote": "",
-        "products": []
+        "tagline": "brands.theodoros-kalotinis.tagline",        
+        "lead": "brands.theodoros-kalotinis.lead",
+        "story": "brands.theodoros-kalotinis.story",
+        "quote": "brands.theodoros-kalotinis.quote",
+        "products": [
+            {
+                "img": "../assets/images/brands/theodoros-kalotinis/products/lemon-tart.jpg",
+                "title": "Lemon Tart",
+                "volume": "",
+                "price": "",
+                "brand": "Theodoros Kalotinis"
+            },
+            {
+                "img": "../assets/images/brands/theodoros-kalotinis/products/coffee-addict.jpg",
+                "title": "Coffee Addict",
+                "volume": "",
+                "price": "",
+                "brand": "Theodoros Kalotinis"
+            },
+            {
+                "img": "../assets/images/brands/theodoros-kalotinis/products/velvet-chocolate.jpg",
+                "title": "Velvet Chocolate",
+                "volume": "",
+                "price": "",
+                "brand": "Theodoros Kalotinis"
+            },
+            {
+                "img": "../assets/images/brands/theodoros-kalotinis/products/alluring-fig.jpg",
+                "title": "Alluring Fig",
+                "volume": "",
+                "price": "",
+                "brand": "Theodoros Kalotinis"
+            },
+            {
+                "img": "../assets/images/brands/theodoros-kalotinis/products/aegean-salt-and-citrus.jpg",
+                "title": "Aegean salt & citrus",
+                "volume": "",
+                "price": "",
+                "brand": "Theodoros Kalotinis"
+            }
+        ]
     },
     "paradis-des-sens": {
         "logo": "../assets/images/event/brands/014_paradis.png",
@@ -281,11 +641,47 @@
         "storyImg": "../assets/images/brands/paradis-des-sens/001.png",
         "title": "Paradis des Sens",
         "name": "Paradis des Sens",
-        "tagline": "",
-        "lead": "",
-        "story": "",
-        "quote": "",
-        "products": []
+        "tagline": "brands.paradis-des-sens.tagline",
+        "lead": "brands.paradis-des-sens.lead",
+        "story": "brands.paradis-des-sens.story",
+        "quote": "brands.paradis-des-sens.quote",
+        "products": [
+            {
+                "img": "../assets/images/brands/paradis-des-sens/products/bliss.jpg",
+                "title": "Bliss",
+                "volume": "",
+                "price": "",
+                "brand": "Paradis des Sens"
+            },
+            {
+                "img": "../assets/images/brands/paradis-des-sens/products/eden.jpg",
+                "title": "Eden",
+                "volume": "",
+                "price": "",
+                "brand": "Paradis des Sens"
+            },
+            {
+                "img": "../assets/images/brands/paradis-des-sens/products/nirvana.jpg",
+                "title": "Nirvana",
+                "volume": "",
+                "price": "",
+                "brand": "Paradis des Sens"
+            },
+            {
+                "img": "../assets/images/brands/paradis-des-sens/products/seven-heaven.jpg",
+                "title": "Seven heaven",
+                "volume": "",
+                "price": "",
+                "brand": "Paradis des Sens"
+            },
+            {
+                "img": "../assets/images/brands/paradis-des-sens/products/wonderland.jpg",
+                "title": "Wonderland",
+                "volume": "",
+                "price": "",
+                "brand": "Paradis des Sens"
+            }
+        ]
     },
     "wesker": {
         "logo": "../assets/images/event/brands/015_wesker.png",
@@ -293,11 +689,47 @@
         "storyImg": "../assets/images/brands/wesker/001.png",
         "title": "Wesker",
         "name": "Wesker",
-        "tagline": "",
-        "lead": "",
-        "story": "",
-        "quote": "",
-        "products": []
+        "tagline": "brands.wesker.tagline",
+        "lead": "brands.wesker.lead",
+        "story": "brands.wesker.story",
+        "quote": "brands.wesker.quote",
+        "products": [
+            {
+                "img": "../assets/images/brands/wesker/products/eau-de-mystique.jpg",
+                "title": "Eau de Mystique",
+                "volume": "",
+                "price": "",
+                "brand": "Wesker"
+            },
+            {
+                "img": "../assets/images/brands/wesker/products/deviant.jpg",
+                "title": "Deviant",
+                "volume": "",
+                "price": "",
+                "brand": "Wesker"
+            },
+            {
+                "img": "../assets/images/brands/wesker/products/histria.jpg",
+                "title": "Histria",
+                "volume": "",
+                "price": "",
+                "brand": "Wesker"
+            },
+            {
+                "img": "../assets/images/brands/wesker/products/imperial.jpg",
+                "title": "Imperial",
+                "volume": "",
+                "price": "",
+                "brand": "Wesker"
+            },
+            {
+                "img": "../assets/images/brands/wesker/products/the-scent-of-banat.jpg",
+                "title": "The Scent of Banat",
+                "volume": "",
+                "price": "",
+                "brand": "Wesker"
+            }
+        ]
     },
     "anima-mundi": {
         "logo": "../assets/images/event/brands/016_anima_mundi.png",
@@ -305,23 +737,95 @@
         "storyImg": "../assets/images/brands/anima-mundi/001.png",
         "title": "Anima Mundi",
         "name": "Anima Mundi",
-        "tagline": "",
-        "lead": "",
-        "story": "",
-        "quote": "",
-        "products": []
+        "tagline": "brands.anima-mundi.tagline",
+        "lead": "brands.anima-mundi.lead",
+        "story": "brands.anima-mundi.story",
+        "quote": "brands.anima-mundi.quote",
+        "products": [
+            {
+                "img": "../assets/images/brands/anima-mundi/products/pompeii.jpg",
+                "title": "Pompeii",
+                "volume": "",
+                "price": "",
+                "brand": "Anima Mundi"
+            },
+            {
+                "img": "../assets/images/brands/anima-mundi/products/dusara.jpg",
+                "title": "Dusara",
+                "volume": "",
+                "price": "",
+                "brand": "Anima Mundi"
+            },
+            {
+                "img": "../assets/images/brands/anima-mundi/products/lhasa.jpg",
+                "title": "Lhasa",
+                "volume": "",
+                "price": "",
+                "brand": "Anima Mundi"
+            },
+            {
+                "img": "../assets/images/brands/anima-mundi/products/triskell.jpg",
+                "title": "Triskell",
+                "volume": "",
+                "price": "",
+                "brand": "Anima Mundi"
+            },
+            {
+                "img": "../assets/images/brands/anima-mundi/products/ankh-sun-amon.jpg",
+                "title": "Ankh Sun Amon",
+                "volume": "",
+                "price": "",
+                "brand": "Anima Mundi"
+            }
+        ]
     },
     "acque-di-italia": {
         "logo": "../assets/images/event/brands/018_aque_di_italia.png",
         "heroImg": "../assets/images/brands/acque-di-italia/hero.jpg",
-        "storyImg": "../assets/images/brands/acque-di-italias/001.png",
+        "storyImg": "../assets/images/brands/acque-di-italia/001.png",
         "title": "Acque di Italia",
         "name": "Acque di Italia",
-        "tagline": "",
-        "lead": "",
-        "story": "",
-        "quote": "",
-        "products": []
+        "tagline": "brands.acque-di-italia.tagline",
+        "lead": "brands.acque-di-italia.lead",
+        "story": "brands.acque-di-italia.story",
+        "quote": "brands.acque-di-italia.quote",
+        "products": [
+            {
+                "img": "../assets/images/brands/acque-di-italia/products/gaudium.jpg",
+                "title": "Gaudium",
+                "volume": "",
+                "price": "",
+                "brand": "Acque di Italia"
+            },
+            {
+                "img": "../assets/images/brands/acque-di-italia/products/incendium.jpg",
+                "title": "Incendium",
+                "volume": "",
+                "price": "",
+                "brand": "Acque di Italia"
+            },
+            {
+                "img": "../assets/images/brands/acque-di-italia/products/serentias.jpg",
+                "title": "Serentias",
+                "volume": "",
+                "price": "",
+                "brand": "Acque di Italia"
+            },
+            {
+                "img": "../assets/images/brands/acque-di-italia/products/vitalitas.jpg",
+                "title": "Vitalitas",
+                "volume": "",
+                "price": "",
+                "brand": "Acque di Italia"
+            },
+            {
+                "img": "../assets/images/brands/acque-di-italia/products/voluptas.jpg",
+                "title": "Voluptas",
+                "volume": "",
+                "price": "",
+                "brand": "Acque di Italia"
+            }
+        ]
     },
     "portus-cale": {
         "logo": "../assets/images/event/brands/019_portus_cale.png",
@@ -341,11 +845,47 @@
         "storyImg": "../assets/images/brands/veronique-gabai/001.png",
         "title": "Veronique Gabai",
         "name": "Veronique Gabai",
-        "tagline": "",
-        "lead": "",
-        "story": "",
-        "quote": "",
-        "products": []
+        "tagline": "brands.veronique-gabai.tagline",
+        "lead": "brands.veronique-gabai.lead",
+        "story": "brands.veronique-gabai.story",
+        "quote": "brands.veronique-gabai.quote",
+        "products": [
+            {
+                "img": "../assets/images/brands/veronique-gabai/products/vert-desir.jpg",
+                "title": "Vert Desir",
+                "volume": "",
+                "price": "",
+                "brand": "Veronique Gabai"
+            },
+            {
+                "img": "../assets/images/brands/veronique-gabai/products/noire-de-mai.jpg",
+                "title": "Noire de Mai",
+                "volume": "",
+                "price": "",
+                "brand": "Veronique Gabai"
+            },
+            {
+                "img": "../assets/images/brands/veronique-gabai/products/sexy-garrigue.jpg",
+                "title": "Sexy Garrigue",
+                "volume": "",
+                "price": "",
+                "brand": "Veronique Gabai"
+            },
+            {
+                "img": "../assets/images/brands/veronique-gabai/products/le-point-g.jpg",
+                "title": "Le Point G",
+                "volume": "",
+                "price": "",
+                "brand": "Veronique Gabai"
+            },
+            {
+                "img": "../assets/images/brands/veronique-gabai/products/souvenirs-de-tunisie.jpg",
+                "title": "Souvenirs de Tunisie",
+                "volume": "",
+                "price": "",
+                "brand": "Veronique Gabai"
+            }
+        ]
     },
     "onyrico": {
         "logo": "../assets/images/event/brands/021_onyrico.png",
@@ -353,11 +893,47 @@
         "storyImg": "../assets/images/brands/onyrico/001.png",
         "title": "Onyrico",
         "name": "Onyrico",
-        "tagline": "",
-        "lead": "",
-        "story": "",
-        "quote": "",
-        "products": []
+        "tagline": "brands.onyrico.tagline",
+        "lead": "brands.onyrico.lead",
+        "story": "brands.onyrico.story",
+        "quote": "brands.onyrico.quote",
+        "products": [
+            {
+                "img": "../assets/images/brands/onyrico/products/artimitia.jpg",
+                "title": "Artimitia",
+                "volume": "",
+                "price": "",
+                "brand": "Onyrico"
+            },
+            {
+                "img": "../assets/images/brands/onyrico/products/empireo.jpg",
+                "title": "Empireo",
+                "volume": "",
+                "price": "",
+                "brand": "Onyrico"
+            },
+            {
+                "img": "../assets/images/brands/onyrico/products/michelangelo.jpg",
+                "title": "Michelangelo",
+                "volume": "",
+                "price": "",
+                "brand": "Onyrico"
+            },
+            {
+                "img": "../assets/images/brands/onyrico/products/rossa-boheme.jpg",
+                "title": "Rossa Boheme",
+                "volume": "",
+                "price": "",
+                "brand": "Onyrico"
+            },
+            {
+                "img": "../assets/images/brands/onyrico/products/unguentum.jpg",
+                "title": "Unguentum",
+                "volume": "",
+                "price": "",
+                "brand": "Onyrico"
+            }
+        ]
     },
     "affinessence": {
         "logo": "../assets/images/event/brands/022_affinessence.png",
@@ -365,11 +941,47 @@
         "storyImg": "../assets/images/brands/affinessence/001.png",
         "title": "Affinessence",
         "name": "Affinessence",
-        "tagline": "",
-        "lead": "",
-        "story": "",
-        "quote": "",
-        "products": []
+        "tagline": "brands.affinessence.tagline",
+        "lead": "brands.affinessence.lead",
+        "story": "brands.affinessence.story",
+        "quote": "brands.affinessence.quote",
+        "products": [
+            {
+                "img": "../assets/images/brands/affinessence/products/cedre-iris.jpg",
+                "title": "Cedre Iris",
+                "volume": "",
+                "price": "",
+                "brand": "Affinessence"
+            },
+            {
+                "img": "../assets/images/brands/affinessence/products/cuir-curcuma.jpg",
+                "title": "Cuir Curcuma",
+                "volume": "",
+                "price": "",
+                "brand": "Affinessence"
+            },
+            {
+                "img": "../assets/images/brands/affinessence/products/patchouli-oud.jpg",
+                "title": "Patchouli oud",
+                "volume": "",
+                "price": "",
+                "brand": "Affinessence"
+            },
+            {
+                "img": "../assets/images/brands/affinessence/products/santal-basmati.jpg",
+                "title": "Santal Basmati",
+                "volume": "",
+                "price": "",
+                "brand": "Affinessence"
+            },
+            {
+                "img": "../assets/images/brands/affinessence/products/vanille-benjoin.jpg",
+                "title": "Vanille Benjoin",
+                "volume": "",
+                "price": "",
+                "brand": "Affinessence"
+            }
+        ]
     },
     "castelbel": {
         "logo": "../assets/images/event/brands/023_castelbel.png",
@@ -389,11 +1001,47 @@
         "storyImg": "../assets/images/brands/liquides-imaginaries/001.png",
         "title": "Liquides Imaginaires",
         "name": "Liquides Imaginaires",
-        "tagline": "",
-        "lead": "",
-        "story": "",
-        "quote": "",
-        "products": []
+        "tagline": "brands.liquides-imaginaries.tagline",
+        "lead": "brands.liquides-imaginaries.lead",
+        "story": "brands.liquides-imaginaries.story",
+        "quote": "brands.liquides-imaginaries.quote",
+        "products": [
+            {
+                "img": "../assets/images/brands/liquides-imaginaries/products/blanche-bete.jpg",           
+                "title": "Blanche Bete",
+                "volume": "",
+                "price": "",
+                "brand": "Liquides Imaginaires"
+            },
+            {
+                "img": "../assets/images/brands/liquides-imaginaries/products/desert-suave.jpg",
+                "title": "Desert Suave",
+                "volume": "",
+                "price": "",
+                "brand": "Liquides Imaginaires"
+            },
+            {
+                "img": "../assets/images/brands/liquides-imaginaries/products/dom-rosa.jpg",
+                "title": "Dom Rosa",
+                "volume": "",
+                "price": "",
+                "brand": "Liquides Imaginaires"
+            },
+            {
+                "img": "../assets/images/brands/liquides-imaginaries/products/fortis.jpg",
+                "title": "Fortis",
+                "volume": "",
+                "price": "",
+                "brand": "Liquides Imaginaires"
+            },
+            {
+                "img": "../assets/images/brands/liquides-imaginaries/products/ile-pourpre.jpg",
+                "title": "Île Pourpre",
+                "volume": "",
+                "price": "",
+                "brand": "Liquides Imaginaires"
+            }
+        ]
     },
     "naomi-goodsir": {
         "logo": "",
