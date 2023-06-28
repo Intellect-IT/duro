@@ -14,35 +14,35 @@
                 "img": "../assets/images/brands/electimuss/products/trajan.jpg",
                 "title": "Trajan",
                 "volume": "100 ml",
-                "price": "00.000,00",
+                "price": "25.500,00",
                 "brand": "Electimuss"
             },
             {
                 "img": "../assets/images/brands/electimuss/products/persephones-patchouli.jpg",
                 "title": "Persephone’s Patchouli",
                 "volume": "100 ml",
-                "price": "00.000,00",
+                "price": "35.000,00",
                 "brand": "Electimuss"
             },
             {
                 "img": "../assets/images/brands/electimuss/products/imperium.jpg",
                 "title": "Imperium",
                 "volume": "100 ml",
-                "price": "00.000,00",
+                "price": "25.500,00",
                 "brand": "Electimuss"
             },
             {
                 "img": "../assets/images/brands/electimuss/products/vixere.jpg",
                 "title": "Vixere",
                 "volume": "100 ml",
-                "price": "00.000,00",
+                "price": "32.000,00",
                 "brand": "Electimuss"
             },
             {
                 "img": "../assets/images/brands/electimuss/products/amber-aquilaria.jpg",
                 "title": "Amber Aquilaria",
                 "volume": "100 ml",
-                "price": "00.000,00",
+                "price": "53.000,00",
                 "brand": "Electimuss"
             }
         ]
@@ -61,36 +61,36 @@
             {
                 "img": "../assets/images/brands/ormonde-jayne/products/tanger.jpg",
                 "title": "Tanger",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "18.000,00",
                 "brand": "Ormonde Jayne"
             },
             {
                 "img": "../assets/images/brands/ormonde-jayne/products/ambre-royal.jpg",
                 "title": "Ambre Royal",
-                "volume": "",
-                "price": "",
+                "volume": "120 ml",
+                "price": "26.000,00",
                 "brand": "Ormonde Jayne"
             },
             {
                 "img": "../assets/images/brands/ormonde-jayne/products/indus.jpg",
                 "title": "Indus",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "18.000,00",
                 "brand": "Ormonde Jayne"
             },
             {
                 "img": "../assets/images/brands/ormonde-jayne/products/ta_if.jpg",
                 "title": "Ta'if",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "18.000,00",
                 "brand": "Ormonde Jayne"
             },
             {
                 "img": "../assets/images/brands/ormonde-jayne/products/montabaco-verano.jpg",
                 "title": "Montabaco Verano",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "21.500,00",
                 "brand": "Ormonde Jayne"
             }
         ]
@@ -109,36 +109,36 @@
             {
                 "img": "../assets/images/brands/jovoy/products/21-conduit-st.jpg",
                 "title": "21 Conduit St",
-                "volume": "",
-                "price": "",
+                "volume": "100 ml",
+                "price": "18.000,00",
                 "brand": "Jovoy"
             },
             {
                 "img": "../assets/images/brands/jovoy/products/fire-at-will.jpg",
                 "title": "Fire at Will",
-                "volume": "",
-                "price": "",
+                "volume": "100 ml",
+                "price": "18.000,00",
                 "brand": "Jovoy"
             },
             {
                 "img": "../assets/images/brands/jovoy/products/incident-diplomatique.jpg",
                 "title": "Incident Diplomatique",
-                "volume": "",
-                "price": "",
+                "volume": "100 ml",
+                "price": "18.000,00",
                 "brand": "Jovoy"
             },
             {
                 "img": "../assets/images/brands/jovoy/products/les-jeux-sont-faits.jpg",
                 "title": "Les Jeux sont Faits",
-                "volume": "",
-                "price": "",
+                "volume": "100 ml",
+                "price": "18.000,00",
                 "brand": "Jovoy"
             },
             {
                 "img": "../assets/images/brands/jovoy/products/psychedelique.jpg",
                 "title": "Psychedelique",
-                "volume": "",
-                "price": "",
+                "volume": "100 ml",
+                "price": "18.000,00",
                 "brand": "Jovoy"
             }
         ]
@@ -157,36 +157,36 @@
             {
                 "img": "../assets/images/brands/jeroboam/products/gozo.jpg",
                 "title": "Gozo",
-                "volume": "",
-                "price": "",
+                "volume": "30 ml",
+                "price": "14.000,00",
                 "brand": "Jeroboam"
             },
             {
                 "img": "../assets/images/brands/jeroboam/products/insulo.jpg",
                 "title": "Insulo",
-                "volume": "",
-                "price": "",
+                "volume": "30 ml",
+                "price": "13.000,00",
                 "brand": "Jeroboam"
             },
             {
                 "img": "../assets/images/brands/jeroboam/products/ligno.jpg",
                 "title": "Ligno",
-                "volume": "",
-                "price": "",
+                "volume": "30 ml",
+                "price": "13.000,00",
                 "brand": "Jeroboam"
             },
             {
                 "img": "../assets/images/brands/jeroboam/products/vespero.jpg",
                 "title": "Vespero",
-                "volume": "",
-                "price": "",
+                "volume": "30 ml",
+                "price": "13.000,00",
                 "brand": "Jeroboam"
             },
             {
                 "img": "../assets/images/brands/jeroboam/products/floro.jpg",
                 "title": "Floro",
-                "volume": "",
-                "price": "",
+                "volume": "30 ml",
+                "price": "13.000,00",
                 "brand": "Jeroboam"
             }
         ]
@@ -205,36 +205,36 @@
             {
                 "img": "../assets/images/brands/marc-antoine-barrois/products/ganymede.jpg",
                 "title": "Ganymede",
-                "volume": "",
-                "price": "",
+                "volume": "100 ml",
+                "price": "22.500,00",
                 "brand": "Marc-Antoine Barrois"
             },
             {
                 "img": "../assets/images/brands/marc-antoine-barrois/products/ganymede-extrait.jpg",
                 "title": "Ganymede Extrait",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "32.500,00",
                 "brand": "Marc-Antoine Barrois"
             },
             {
                 "img": "../assets/images/brands/marc-antoine-barrois/products/encelade.jpg",
                 "title": "Encelade",
-                "volume": "",
-                "price": "",
+                "volume": "30 ml",
+                "price": "13.000,00",
                 "brand": "Marc-Antoine Barrois"
             },
             {
                 "img": "../assets/images/brands/marc-antoine-barrois/products/b683.jpg",
                 "title": "B683",
-                "volume": "",
-                "price": "",
+                "volume": "100 ml",
+                "price": "22.500,00",
                 "brand": "Marc-Antoine Barrois"
             },
             {
                 "img": "../assets/images/brands/marc-antoine-barrois/products/b683-extrait.jpg",
                 "title": "B683 Extrait",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "32.500,00",
                 "brand": "Marc-Antoine Barrois"
             }
         ]
@@ -253,36 +253,36 @@
             {
                 "img": "../assets/images/brands/fragrance-du-bois/products/oud-orange-intense.jpg",
                 "title": "Oud Orange Intense",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "44.000,00",
                 "brand": "Fragrance du Bois"
             },
             {
                 "img": "../assets/images/brands/fragrance-du-bois/products/sahraa.jpg",
                 "title": "Sahraa",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "65.000,00",
                 "brand": "Fragrance du Bois"
             },
             {
                 "img": "../assets/images/brands/fragrance-du-bois/products/producer-michael.jpg",
                 "title": "Producer Michael",
-                "volume": "",
-                "price": "",
+                "volume": "100 ml",
+                "price": "43.000,00",
                 "brand": "Fragrance du Bois"
             },
             {
                 "img": "../assets/images/brands/fragrance-du-bois/products/new-york-intense.jpg",
                 "title": "New York Intense",
-                "volume": "",
-                "price": "",
+                "volume": "100 ml",
+                "price": "33.500,00",
                 "brand": "Fragrance du Bois"
             },
             {
                 "img": "../assets/images/brands/fragrance-du-bois/products/siberian-rose.jpg",
                 "title": "Siberian rose",
-                "volume": "",
-                "price": "",
+                "volume": "100 ml",
+                "price": "30.000,00",
                 "brand": "Fragrance du Bois"
             }
         ]
@@ -301,36 +301,36 @@
             {
                 "img": "../assets/images/brands/puredistance/products/black.jpg",
                 "title": "Black",
-                "volume": "",
-                "price": "",
+                "volume": "60 ml",
+                "price": "37.000,00",
                 "brand": "Puredistance"
             },
             {
                 "img": "../assets/images/brands/puredistance/products/mv2q.jpg",
-                "title": "MV2Q",
-                "volume": "",
-                "price": "",
+                "title": "M V2Q",
+                "volume": "60 ml",
+                "price": "37.000,00",
                 "brand": "Puredistance"
             },
             {
                 "img": "../assets/images/brands/puredistance/products/rubikona.jpg",
                 "title": "Rubikona",
-                "volume": "",
-                "price": "",
+                "volume": "60 ml",
+                "price": "37.000,00",
                 "brand": "Puredistance"
             },
             {
                 "img": "../assets/images/brands/puredistance/products/warszawa.jpg",
                 "title": "Warszawa",
-                "volume": "",
-                "price": "",
+                "volume": "17.5 ml",
+                "price": "21.500,00",
                 "brand": "Puredistance"
             },
             {
                 "img": "../assets/images/brands/puredistance/products/white.jpg",
                 "title": "White",
-                "volume": "",
-                "price": "",
+                "volume": "60 ml",
+                "price": "21.500,00",
                 "brand": "Puredistance"
             }
         ]
@@ -349,36 +349,36 @@
             {
                 "img": "../assets/images/brands/morph/products/vapor.jpg",
                 "title": "Vapor",
-                "volume": "",
-                "price": "",
+                "volume": "100 ml",
+                "price": "17.000,00",
                 "brand": "Morph"
             },
             {
                 "img": "../assets/images/brands/morph/products/zeta.jpg",
                 "title": "Zeta",
-                "volume": "",
-                "price": "",
+                "volume": "100 ml",
+                "price": "17.000,00",
                 "brand": "Morph"
             },
             {
                 "img": "../assets/images/brands/morph/products/disumano.jpg",
                 "title": "Disumano",
-                "volume": "",
-                "price": "",
+                "volume": "100 ml",
+                "price": "19.500,00",
                 "brand": "Morph"
             },
             {
                 "img": "../assets/images/brands/morph/products/animal.jpg",
                 "title": "Animal",
-                "volume": "",
-                "price": "",
+                "volume": "100 ml",
+                "price": "19.500,00",
                 "brand": "Morph"
             },
             {
                 "img": "../assets/images/brands/morph/products/too.jpg",
-                "title": "Too",
-                "volume": "",
-                "price": "",
+                "title": "TOO",
+                "volume": "100 ml",
+                "price": "19.500,00",
                 "brand": "Morph"
             }
         ]
@@ -396,37 +396,37 @@
         "products": [
             {
                 "img": "../assets/images/brands/mdci/products/product.jpg",
-                "title": "Ambre Topkap",
-                "volume": "",
-                "price": "",
+                "title": "Ambre Topkapi",
+                "volume": "75ml",
+                "price": "29.500,00",
                 "brand": "MDCI"
             },
             {
                 "img": "../assets/images/brands/mdci/products/product.jpg",
                 "title": "Chypre Palatin",
-                "volume": "",
-                "price": "",
+                "volume": "75ml",
+                "price": "29.500,00",
                 "brand": "MDCI"
             },
             {
                 "img": "../assets/images/brands/mdci/products/product.jpg",
                 "title": "Invasion Barbare",
-                "volume": "",
-                "price": "",
-                "brand": "MDCI"
-            },
-            {
-                "img": "../assets/images/brands/mdci/products/product.jpg",
-                "title": "Nuit Andalouse",
-                "volume": "",
-                "price": "",
+                "volume": "75ml",
+                "price": "29.500,00",
                 "brand": "MDCI"
             },
             {
                 "img": "../assets/images/brands/mdci/products/product.jpg",
                 "title": "Peche Cardinal",
-                "volume": "",
-                "price": "",
+                "volume": "75ml",
+                "price": "29.500,00",
+                "brand": "MDCI"
+            },
+            {
+                "img": "../assets/images/brands/mdci/products/product.jpg",
+                "title": "Chypre Palatin BUST",
+                "volume": "75ml",
+                "price": "48.000,00",
                 "brand": "MDCI"
             }
         ]
@@ -444,37 +444,37 @@
         "products": [
             {
                 "img": "../assets/images/brands/histoires-de-parfums/products/this-is-not-a-blue-bottle.jpg",
-                "title": "This is not a blue bottle",
-                "volume": "",
-                "price": "",
+                "title": "This is not a blue bottle 1.1",
+                "volume": "120 ml",
+                "price": "22.500,00",
                 "brand": "Histoires de Parfums"
             },
             {
                 "img": "../assets/images/brands/histoires-de-parfums/products/1740.jpg",
-                "title": "1740",
-                "volume": "",
-                "price": "",
+                "title": "1740 - Marquis de Sade",
+                "volume": "60 ml",
+                "price": "14.000,00",
                 "brand": "Histoires de Parfums"
             },
             {
                 "img": "../assets/images/brands/histoires-de-parfums/products/1899.jpg",
-                "title": "1899",
-                "volume": "",
-                "price": "",
+                "title": "1899 - Hemingway",
+                "volume": "60 ml",
+                "price": "14.000,00",
                 "brand": "Histoires de Parfums"
             },
             {
                 "img": "../assets/images/brands/histoires-de-parfums/products/7753.jpg",
-                "title": "7753",
-                "volume": "",
-                "price": "",
+                "title": "7753 - Unexpected Mona",
+                "volume": "60 ml",
+                "price": "14.000,00",
                 "brand": "Histoires de Parfums"
             },
             {
                 "img": "../assets/images/brands/histoires-de-parfums/products/1725.jpg",
-                "title": "1725",
-                "volume": "",
-                "price": "",
+                "title": "1725 - Casanova",
+                "volume": "60 ml",
+                "price": "14.000,00",
                 "brand": "Histoires de Parfums"
             }
         ]
@@ -485,10 +485,10 @@
         "storyImg": "../assets/images/brands/calaj/001.png",
         "title": "Calaj",
         "name": "Calaj",
-        "tagline": "",
-        "lead": "",
-        "story": "",
-        "quote": "",
+        "tagline": "brands.calaj.tagline",
+        "lead": "brands.calaj.lead",
+        "story": "brands.calaj.story",
+        "quote": "brands.calaj.quote",
         "products": []
     },
     "indult": {
@@ -505,36 +505,36 @@
             {
                 "img": "../assets/images/brands/indult/products/isvaraya.jpg",
                 "title": "Isvaraya",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "22.000,00",
                 "brand": "Indult"
             },
             {
                 "img": "../assets/images/brands/indult/products/manakara.jpg",
                 "title": "Manakara",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "22.000,00",
                 "brand": "Indult"
             },
             {
                 "img": "../assets/images/brands/indult/products/my-ju-ju.jpg",
                 "title": "My Ju-ju",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "22.000,00",
                 "brand": "Indult"
             },
             {
                 "img": "../assets/images/brands/indult/products/tihota.jpg",
                 "title": "Tihota",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "22.000,00",
                 "brand": "Indult"
             },
             {
                 "img": "../assets/images/brands/indult/products/reve-en-cuir.jpg",
                 "title": "Reve en cuir",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "22.000,00",
                 "brand": "Indult"
             }
         ]
@@ -553,36 +553,36 @@
             {
                 "img": "../assets/images/brands/thameen/products/carved-oud.jpg",
                 "title": "Carved Oud",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "26.000,00",
                 "brand": "Thameen"
             },
             {
                 "img": "../assets/images/brands/thameen/products/patiala.jpg",
                 "title": "Patiala",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "26.000,00",
                 "brand": "Thameen"
             },
             {
                 "img": "../assets/images/brands/thameen/products/peregrina.jpg",
                 "title": "Peregrina",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "26.000,00",
                 "brand": "Thameen"
             },
             {
                 "img": "../assets/images/brands/thameen/products/regent-leather.jpg",
                 "title": "Regent Leather",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "33.000,00",
                 "brand": "Thameen"
             },
             {
                 "img": "../assets/images/brands/thameen/products/sceptre.jpg",
                 "title": "Sceptre",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "33.000,00",
                 "brand": "Thameen"
             }
         ]
@@ -601,36 +601,36 @@
             {
                 "img": "../assets/images/brands/theodoros-kalotinis/products/lemon-tart.jpg",
                 "title": "Lemon Tart",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "5.500,00",
                 "brand": "Theodoros Kalotinis"
             },
             {
                 "img": "../assets/images/brands/theodoros-kalotinis/products/coffee-addict.jpg",
                 "title": "Coffee Addict",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "5.500,00",
                 "brand": "Theodoros Kalotinis"
             },
             {
                 "img": "../assets/images/brands/theodoros-kalotinis/products/velvet-chocolate.jpg",
                 "title": "Velvet Chocolate",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "5.500,00",
                 "brand": "Theodoros Kalotinis"
             },
             {
                 "img": "../assets/images/brands/theodoros-kalotinis/products/alluring-fig.jpg",
                 "title": "Alluring Fig",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "5.500,00",
                 "brand": "Theodoros Kalotinis"
             },
             {
                 "img": "../assets/images/brands/theodoros-kalotinis/products/aegean-salt-and-citrus.jpg",
-                "title": "Aegean salt & citrus",
-                "volume": "",
-                "price": "",
+                "title": "Aegean Salt & Citrus",
+                "volume": "50 ml",
+                "price": "5.500,00",
                 "brand": "Theodoros Kalotinis"
             }
         ]
@@ -649,36 +649,36 @@
             {
                 "img": "../assets/images/brands/paradis-des-sens/products/bliss.jpg",
                 "title": "Bliss",
-                "volume": "",
-                "price": "",
+                "volume": "100 ml",
+                "price": "19.500,00",
                 "brand": "Paradis des Sens"
             },
             {
                 "img": "../assets/images/brands/paradis-des-sens/products/eden.jpg",
                 "title": "Eden",
-                "volume": "",
-                "price": "",
+                "volume": "100 ml",
+                "price": "19.500,00",
                 "brand": "Paradis des Sens"
             },
             {
                 "img": "../assets/images/brands/paradis-des-sens/products/nirvana.jpg",
                 "title": "Nirvana",
-                "volume": "",
-                "price": "",
+                "volume": "100 ml",
+                "price": "19.500,00",
                 "brand": "Paradis des Sens"
             },
             {
                 "img": "../assets/images/brands/paradis-des-sens/products/seven-heaven.jpg",
-                "title": "Seven heaven",
-                "volume": "",
-                "price": "",
+                "title": "Seven Heaven",
+                "volume": "100 ml",
+                "price": "19.500,00",
                 "brand": "Paradis des Sens"
             },
             {
                 "img": "../assets/images/brands/paradis-des-sens/products/wonderland.jpg",
                 "title": "Wonderland",
-                "volume": "",
-                "price": "",
+                "volume": "100 ml",
+                "price": "19.500,00",
                 "brand": "Paradis des Sens"
             }
         ]
@@ -697,36 +697,36 @@
             {
                 "img": "../assets/images/brands/wesker/products/eau-de-mystique.jpg",
                 "title": "Eau de Mystique",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "21.500,00",
                 "brand": "Wesker"
             },
             {
                 "img": "../assets/images/brands/wesker/products/deviant.jpg",
                 "title": "Deviant",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "21.500,00",
                 "brand": "Wesker"
             },
             {
                 "img": "../assets/images/brands/wesker/products/histria.jpg",
                 "title": "Histria",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "21.500,00",
                 "brand": "Wesker"
             },
             {
                 "img": "../assets/images/brands/wesker/products/imperial.jpg",
                 "title": "Imperial",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "21.500,00",
                 "brand": "Wesker"
             },
             {
                 "img": "../assets/images/brands/wesker/products/the-scent-of-banat.jpg",
                 "title": "The Scent of Banat",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "21.500,00",
                 "brand": "Wesker"
             }
         ]
@@ -745,36 +745,36 @@
             {
                 "img": "../assets/images/brands/anima-mundi/products/pompeii.jpg",
                 "title": "Pompeii",
-                "volume": "",
-                "price": "",
+                "volume": "75 ml",
+                "price": "19.000,00",
                 "brand": "Anima Mundi"
             },
             {
                 "img": "../assets/images/brands/anima-mundi/products/dusara.jpg",
                 "title": "Dusara",
-                "volume": "",
-                "price": "",
+                "volume": "75 ml",
+                "price": "19.000,00",
                 "brand": "Anima Mundi"
             },
             {
                 "img": "../assets/images/brands/anima-mundi/products/lhasa.jpg",
                 "title": "Lhasa",
-                "volume": "",
-                "price": "",
+                "volume": "75 ml",
+                "price": "19.000,00",
                 "brand": "Anima Mundi"
             },
             {
                 "img": "../assets/images/brands/anima-mundi/products/triskell.jpg",
                 "title": "Triskell",
-                "volume": "",
-                "price": "",
+                "volume": "75 ml",
+                "price": "19.000,00",
                 "brand": "Anima Mundi"
             },
             {
                 "img": "../assets/images/brands/anima-mundi/products/ankh-sun-amon.jpg",
                 "title": "Ankh Sun Amon",
-                "volume": "",
-                "price": "",
+                "volume": "75 ml",
+                "price": "19.000,00",
                 "brand": "Anima Mundi"
             }
         ]
@@ -792,37 +792,37 @@
         "products": [
             {
                 "img": "../assets/images/brands/acque-di-italia/products/gaudium.jpg",
-                "title": "Gaudium",
-                "volume": "",
-                "price": "",
+                "title": "Gaudium body cream",
+                "volume": "250 ml",
+                "price": "4.500,00",
                 "brand": "Acque di Italia"
             },
             {
                 "img": "../assets/images/brands/acque-di-italia/products/incendium.jpg",
-                "title": "Incendium",
-                "volume": "",
-                "price": "",
+                "title": "Incendium hand wash",
+                "volume": "290 ml",
+                "price": "2.500,00",
                 "brand": "Acque di Italia"
             },
             {
                 "img": "../assets/images/brands/acque-di-italia/products/serentias.jpg",
-                "title": "Serentias",
-                "volume": "",
-                "price": "",
+                "title": "Serenitas body lotion",
+                "volume": "290 ml",
+                "price": "3.500,00",
                 "brand": "Acque di Italia"
             },
             {
                 "img": "../assets/images/brands/acque-di-italia/products/vitalitas.jpg",
-                "title": "Vitalitas",
-                "volume": "",
-                "price": "",
+                "title": "Vitalitas body spray",
+                "volume": "210 ml",
+                "price": "3.500,00",
                 "brand": "Acque di Italia"
             },
             {
                 "img": "../assets/images/brands/acque-di-italia/products/voluptas.jpg",
-                "title": "Voluptas",
-                "volume": "",
-                "price": "",
+                "title": "Voluptas hand wash",
+                "volume": "290 ml",
+                "price": "2.500,00",
                 "brand": "Acque di Italia"
             }
         ]
@@ -853,36 +853,36 @@
             {
                 "img": "../assets/images/brands/veronique-gabai/products/vert-desir.jpg",
                 "title": "Vert Desir",
-                "volume": "",
-                "price": "",
+                "volume": "85 ml",
+                "price": "31.500,00",
                 "brand": "Veronique Gabai"
             },
             {
                 "img": "../assets/images/brands/veronique-gabai/products/noire-de-mai.jpg",
                 "title": "Noire de Mai",
-                "volume": "",
-                "price": "",
+                "volume": "85 ml",
+                "price": "31.500,00",
                 "brand": "Veronique Gabai"
             },
             {
                 "img": "../assets/images/brands/veronique-gabai/products/sexy-garrigue.jpg",
                 "title": "Sexy Garrigue",
-                "volume": "",
-                "price": "",
+                "volume": "85 ml",
+                "price": "31.500,00",
                 "brand": "Veronique Gabai"
             },
             {
                 "img": "../assets/images/brands/veronique-gabai/products/le-point-g.jpg",
                 "title": "Le Point G",
-                "volume": "",
-                "price": "",
+                "volume": "85 ml",
+                "price": "31.500,00",
                 "brand": "Veronique Gabai"
             },
             {
                 "img": "../assets/images/brands/veronique-gabai/products/souvenirs-de-tunisie.jpg",
                 "title": "Souvenirs de Tunisie",
-                "volume": "",
-                "price": "",
+                "volume": "85 ml",
+                "price": "31.500,00",
                 "brand": "Veronique Gabai"
             }
         ]
@@ -901,36 +901,36 @@
             {
                 "img": "../assets/images/brands/onyrico/products/artimitia.jpg",
                 "title": "Artimitia",
-                "volume": "",
-                "price": "",
+                "volume": "100 ml",
+                "price": "22.000,00",
                 "brand": "Onyrico"
             },
             {
                 "img": "../assets/images/brands/onyrico/products/empireo.jpg",
                 "title": "Empireo",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "14.000,00",
                 "brand": "Onyrico"
             },
             {
                 "img": "../assets/images/brands/onyrico/products/michelangelo.jpg",
                 "title": "Michelangelo",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "14.000,00",
                 "brand": "Onyrico"
             },
             {
                 "img": "../assets/images/brands/onyrico/products/rossa-boheme.jpg",
                 "title": "Rossa Boheme",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "14.000,00",
                 "brand": "Onyrico"
             },
             {
                 "img": "../assets/images/brands/onyrico/products/unguentum.jpg",
                 "title": "Unguentum",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "14.000,00",
                 "brand": "Onyrico"
             }
         ]
@@ -949,36 +949,36 @@
             {
                 "img": "../assets/images/brands/affinessence/products/cedre-iris.jpg",
                 "title": "Cedre Iris",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "22.000,00",
                 "brand": "Affinessence"
             },
             {
                 "img": "../assets/images/brands/affinessence/products/cuir-curcuma.jpg",
                 "title": "Cuir Curcuma",
-                "volume": "",
-                "price": "",
+                "volume": "100 ml",
+                "price": "34.000,00",
                 "brand": "Affinessence"
             },
             {
                 "img": "../assets/images/brands/affinessence/products/patchouli-oud.jpg",
-                "title": "Patchouli oud",
-                "volume": "",
-                "price": "",
+                "title": "Patchouli Oud",
+                "volume": "50 ml",
+                "price": "22.000,00",
                 "brand": "Affinessence"
             },
             {
                 "img": "../assets/images/brands/affinessence/products/santal-basmati.jpg",
                 "title": "Santal Basmati",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "22.000,00",
                 "brand": "Affinessence"
             },
             {
                 "img": "../assets/images/brands/affinessence/products/vanille-benjoin.jpg",
                 "title": "Vanille Benjoin",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "22.000,00",
                 "brand": "Affinessence"
             }
         ]
@@ -1008,37 +1008,37 @@
         "products": [
             {
                 "img": "../assets/images/brands/liquides-imaginaries/products/blanche-bete.jpg",           
-                "title": "Blanche Bete",
-                "volume": "",
-                "price": "",
+                "title": "Blanche Bête",
+                "volume": "100 ml",
+                "price": "30.000,00",
                 "brand": "Liquides Imaginaires"
             },
             {
                 "img": "../assets/images/brands/liquides-imaginaries/products/desert-suave.jpg",
                 "title": "Desert Suave",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "16.000,00",
                 "brand": "Liquides Imaginaires"
             },
             {
                 "img": "../assets/images/brands/liquides-imaginaries/products/dom-rosa.jpg",
-                "title": "Dom Rosa",
-                "volume": "",
-                "price": "",
+                "title": "Dom Rosa Millésimé",
+                "volume": "100 ml",
+                "price": "30.000,00",
                 "brand": "Liquides Imaginaires"
             },
             {
                 "img": "../assets/images/brands/liquides-imaginaries/products/fortis.jpg",
                 "title": "Fortis",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "16.000,00",
                 "brand": "Liquides Imaginaires"
             },
             {
                 "img": "../assets/images/brands/liquides-imaginaries/products/ile-pourpre.jpg",
                 "title": "Île Pourpre",
-                "volume": "",
-                "price": "",
+                "volume": "50 ml",
+                "price": "16.000,00",
                 "brand": "Liquides Imaginaires"
             }
         ]
