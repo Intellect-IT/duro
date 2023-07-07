@@ -229,19 +229,19 @@ export default function Header2({ header }) {
             </div>
             <ul className="nav-menu">
               <li onClick={handleMobileMenu}>
-                <Link to="/">{t("header.home")}</Link>
+                <Link to="/">{t("header.home.menuTitle")}</Link>
               </li>
               <li onClick={handleMobileMenu}>
-                <Link to="/our-story">{t("header.story")}</Link>
+                <Link to="/our-story">{t("header.story.menuTitle")}</Link>
               </li>
               <li onClick={handleMobileMenu}>
-                <Link to="/brands">{t("header.brands")}</Link>
+                <Link to="/brands">{t("header.brands.menuTitle")}</Link>
               </li>
               <li onClick={handleMobileMenu}>
-                <Link to="/news">{t("header.press")}</Link>
+                <Link to="/news">{t("header.press.menuTitle")}</Link>
               </li>
               <li onClick={handleMobileMenu}>
-                <Link to="/contact">{t("header.contact")}</Link>
+                <Link to="/contact">{t("header.contact.menuTitle")}</Link>
               </li>
             </ul>
             {/* <!-- //.nav-menu -->  */}
