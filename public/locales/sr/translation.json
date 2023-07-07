@@ -34,6 +34,10 @@
       "pageTitle": "Naša luksuzna parfimerija",
       "metaDescription": "Naša luksuzna parfimerija u slikama. Upoznajte se sa jedinstvenom vizuelnom estetikom i uživajte u DURŌ konceptu."
     },
+    "giveaway": {
+      "pageTitle": "Nagradna igra | Uslovi i odredbe",
+      "metaDescription": "Uslovi i odredbe za našu uzbudljivu nagradnu igru. Prilika da osvojite sjajne nagrade iz DURŌ parfimerije."
+    },
     "language": "EN",
     "address": "Adresa",
     "email": "E-mail",
@@ -250,31 +254,31 @@
       "subtitle_1": "Kvalifikacije i učešće",
       "eligibility": {
         "count_1": "Ova nagradna igra je otvorena za osobe starije od 18 godina.",
-        "count_2": "Da biste učestvovali u nagradnoj igri, učesnici moraju ispuniti sledeće korake:",
+        "count_2": "Da bi učestvovali u nagradnoj igri, učesnici moraju da ispune sledeće korake:",
         "li1": "Pratiti naš Instagram nalog @duro.cologne",
         "li2": "Lajkovati objavu nagradne igre",
         "li3": "Označiti dvoje prijatelja u komentarima",
-        "li4": "Prijatelji takođe trebaju pratiti naš Instagram nalog",
-        "li5": "Podeliti objavu nagradne igre kao Instagram stori"
+        "li4": "Prijatelji takođe treba da  prate DURŌ Instagram nalog",
+        "li5": "Podeliti objavu nagradne igre kao Instagram story"
       },
       "subtitle_2": "Trajanje i detalji nagrade",
       "prize": {
         "count_1": "Nagradna igra počinje u petak, 07.07.2023. i završava se 17.07.2023. u 18.00.",
         "count_2": "Postoje tri vrste nagrada:",
-        "li1": "Parfem po izboru: Pobednik može izabrati parfem po sopstvenom izboru iz DURŌ parfimerije sa vrednošću do 20.000,00 RSD.",
-        "li2": "Dr. Vranjes Rosso Nobile set za automobil: Pobednik će dobiti set Dr. Vranjes Rosso Nobile za automobil sa vrednošću do 8.500,00 RSD.",
+        "li1": "Parfem po izboru: Pobednik može da izabere parfem po sopstvenom izboru iz DURŌ parfimerije sa vrednošću do 20.000,00 RSD.",
+        "li2": "Dr. Vranjes Rosso Nobile set za automobil: Pobednik će dobiti Dr. Vranjes Rosso Nobile set parfema za automobil sa vrednošću do 8.500,00 RSD.",
         "li3": "DURŌ Vaučer: Pobednik će dobiti DURŌ vaučer sa vrednošću od 10.000,00 RSD koji se može iskoristiti u DURŌ parfimeriji."
       },
       "subtitle_3": "Selekcija pobednika i objava rezultata",
       "winner": {
-        "li1": "Jedan pobednik će biti slučajno izabran iz među učesnicima koji ispunjavaju uslove.",
-        "li2": "Pobednik će biti objavljen 17.07.2023. u 18.30 na našoj Instagram storiju, kao i u komentaru na Instagram objavi.",
-        "li3": "Pobednik će biti kontaktiran putem Instagram Direct Message poruke i mora odgovoriti u roku od 3 dana kako bi preuzeo nagradu.",
-        "li4": "Ako pobednik ne odgovori u navedenom roku ili se utvrdi da ne ispunjava uslove, može se izabrati novi pobednik."
+        "li1": "Pobednici će biti izabrani nasumično između učesnika koji ispunjavaju uslove.",
+        "li2": "Pobednici će biti objavljeni 17.07.2023. u 18.30 na našem Instagram storiju, kao i u komentaru na Instagram objavi.",
+        "li3": "Pobednici  će biti kontaktirani putem Instagram Direct Message poruke i moraju da odgovore u roku od 3 dana kako bi preuzeli nagrade.",
+        "li4": "Ako pobednici ne odgovore u navedenom roku ili se utvrdi da ne ispunjavaju uslove, može se izabrati novi pobednik."
       },
       "subtitle_4": "Opšti uslovi",
       "general": {
-        "li1": "Nagrade se ne mogu preneti niti zameniti za gotovinu ili druge alternative.",
+        "li1": "Nagrade se ne mogu preneti na drugu osobu niti zameniti za gotovinu ili druge alternative.",
         "li2": "Ova nagradna igra nije sponzorisana, podržana ili administrirana od strane Instagrama.",
         "li3": "Sudelovanjem u nagradnoj igri, učesnici daju dozvolu za upotrebu svog imena i lika u promotivne svrhe.",
         "li4": "DURŌ zadržava pravo da izmeni, suspenduje ili otkaže nagradnu igru u bilo koje vreme bez prethodne najave.",

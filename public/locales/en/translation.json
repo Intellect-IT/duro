@@ -34,6 +34,10 @@
       "pageTitle": "Our Luxury Perfumery",
       "metaDescription": "Our luxury perfumery captured in photos. Get to know the unique visual aesthetics and enjoy the DURŌ concept."
     },
+    "giveaway": {
+      "pageTitle": "Giveaway | Terms & Conditions",
+      "metaDescription": "Terms and conditions for our exciting giveaway. A chance to win amazing prizes from DURŌ niche perfumery."
+    },
     "language": "SR",
     "address": "Address",
     "email": "Email",
@@ -266,11 +270,11 @@
       },
       "subtitle_3": "Winner Selection and Announcement",
       "winner": {
-        "li1": "One winner will be randomly selected from the eligible entries.",
-        "li2": "The winner will be announced on 17.07.2023 at 18.30 on our Instagram story, as well as in the pinned comment on the Instagram post.",
-        "li3": "The winner will be contacted via Instagram Direct Message and must respond within 3 to claim the prize.",
-        "li4": "If the winner does not respond within the specified time or is found to be ineligible, a new winner may be selected."
-      },
+        "li1": "Winners will be randomly selected from eligible participants.",
+        "li2": "Winners will be announced on 17.07.2023 at 18:30 on our Instagram story, as well as in the comment section of the Instagram post.",
+        "li3": "Winners will be contacted via Instagram Direct Message and must respond within 3 days to claim their prizes.",
+        "li4": "If winners do not respond within the specified time or fail to meet the requirements, a new winner may be selected."
+        },
       "subtitle_4": "General Terms",
       "general": {
         "li1": "The prizes are non-transferable and cannot be exchanged for cash or any other alternatives.",

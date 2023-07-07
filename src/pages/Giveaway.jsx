@@ -27,13 +27,13 @@ export default function Giveaway ({ setHeader }) {
         {/* <!-- meta tag --> */}
         <meta charset="utf-8" />
         <title>
-          {t("header.privacy.pageTitle")} - DURŌ Niche perfumery - Niche parfimerija
+          {t("header.giveaway.pageTitle")} - DURŌ Niche perfumery - Niche parfimerija
           </title>
 
         {/* <!-- Meta Tags--> */}
         <meta
           name="description"
-          content={t("header.privacy.metaDescription")}
+          content={t("header.giveaway.metaDescription")}
         />
         <meta
           name="keywords"
