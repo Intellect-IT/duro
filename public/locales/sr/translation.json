@@ -243,6 +243,50 @@
       }
     }
   },
+  "giveaway": {
+    "title": "DURŌ Nagradna Igra",
+    "terms": {
+      "title": "Uslovi i odredbe",
+      "subtitle_1": "Kvalifikacije i učešće",
+      "eligibility": {
+        "count_1": "Ova nagradna igra je otvorena za osobe starije od 18 godina.",
+        "count_2": "Da biste učestvovali u nagradnoj igri, učesnici moraju ispuniti sledeće korake:",
+        "li1": "Pratiti naš Instagram nalog @duro.cologne",
+        "li2": "Lajkovati objavu nagradne igre",
+        "li3": "Označiti dvoje prijatelja u komentarima",
+        "li4": "Prijatelji takođe trebaju pratiti naš Instagram nalog",
+        "li5": "Podeliti objavu nagradne igre kao Instagram stori"
+      },
+      "subtitle_2": "Trajanje i detalji nagrade",
+      "prize": {
+        "count_1": "Nagradna igra počinje u petak, 07.07.2023. i završava se 14.07.2023. u 18.00.",
+        "count_2": "Postoje tri vrste nagrada:",
+        "li1": "Parfem po izboru: Pobednik može izabrati parfem po sopstvenom izboru iz DURŌ parfimerije sa vrednošću do 20.000,00 RSD.",
+        "li2": "Dr. Vranjes Rosso Nobile set za automobil: Pobednik će dobiti set Dr. Vranjes Rosso Nobile za automobil sa vrednošću do 8.500,00 RSD.",
+        "li3": "DURŌ Vaučer: Pobednik će dobiti DURŌ vaučer sa vrednošću od 10.000,00 RSD koji se može iskoristiti u DURŌ parfimeriji."
+      },
+      "subtitle_3": "Selekcija pobednika i objava rezultata",
+      "winner": {
+        "li1": "Jedan pobednik će biti slučajno izabran iz među učesnicima koji ispunjavaju uslove.",
+        "li2": "Pobednik će biti objavljen 14.07.2023. u 18.00 na našoj Instagram storiju, kao i u komentaru na Instagram objavi.",
+        "li3": "Pobednik će biti kontaktiran putem Instagram Direct Message poruke i mora odgovoriti u roku od 3 dana kako bi preuzeo nagradu.",
+        "li4": "Ako pobednik ne odgovori u navedenom roku ili se utvrdi da ne ispunjava uslove, može se izabrati novi pobednik."
+      },
+      "subtitle_4": "Opšti uslovi",
+      "general": {
+        "li1": "Nagrade se ne mogu preneti niti zameniti za gotovinu ili druge alternative.",
+        "li2": "Ova nagradna igra nije sponzorisana, podržana ili administrirana od strane Instagrama.",
+        "li3": "Sudelovanjem u nagradnoj igri, učesnici daju dozvolu za upotrebu svog imena i lika u promotivne svrhe.",
+        "li4": "DURŌ zadržava pravo da izmeni, suspenduje ili otkaže nagradnu igru u bilo koje vreme bez prethodne najave.",
+        "li5": "Učesnici su odgovorni za obezbeđivanje da njihov unos bude u skladu sa svim primenjivim zakonima i propisima.",
+        "li6": "DURŌ nije odgovoran za tehničke probleme, kašnjenja ili greške tokom procesa prijave ili izbora nagrada.",
+        "li7": "Učesnici su odgovorni za plaćanje svih poreza i taksi koje mogu biti povezane sa nagradama, ukoliko je to primenjivo.",
+        "li8": "Slanje nagrada je ograničeno na adrese unutar Srbije.",
+        "li9": "Zaposleni i članovi porodice DURŌ parfimerije nemaju pravo učestvovanja u nagradnoj igri.",
+        "count_1": "Za sva pitanja u vezi nagradne igre, kontaktirajte"
+      }
+    }
+  },
   "errors": {
     "name": "Ime je potrebno",
     "email": "E-mail je potreban",
@@ -312,7 +356,7 @@
     },
     "jovoy": {
       "tagline": "Retki Parfemi",
-      "lead": "<p className='desc margin-0 pt-40 pb-15'>Pariska kuću Jovoy je osnovana 1923.godine. Ovaj kuća je prvobitno bila poznat po izuzetnoj liniji parfema sa bocama u obliku životinja, tako da su jedinstvene kreacije parfimerke Blanche Arvoy osvajale svet. Blanche je godinu dana kasnije osnovala novu kuću, Corday, nazvanu po revolucionarki Charlotte Corday. Iako je kuća Corday prestala sa proizvodnjom početkom 1960-ih, nasleđe Jovoya je ostalo.</p>",
+      "lead": "<p className='desc margin-0 pt-40 pb-15'>Pariska kuća Jovoy je osnovana 1923. godine. Prvobitno je bila poznata po izuzetnoj liniji parfema sa bocama u obliku životinja, tako da su jedinstvene kreacije parfimerke Blanche Arvoy osvajale svet. Blanche je godinu dana kasnije osnovala novu kuću, Corday, nazvanu po revolucionarki Charlotte Corday. Iako je kuća Corday prestala sa proizvodnjom početkom 1960-ih, nasleđe Jovoya je ostalo.</p>",
       "story": "<p className='desc margin-0 pb-15'>U svetu crno-bele, ponekad zlatne, često crvene boje, Jovoy dočarava duh današnjeg doba kroz svoj upečatljiv i očaravajući vizuelni stil.</p><p className='desc margin-0 pb-15'>Smeštena u ulici Rue de Castiglione u Parizu, ova parfemska kuća ostaje posvećena svojim osnovnim vrednostima: retkosti, istraživanju, divljenju, nijansama, radosti, hrabrosti, lojalnosti, eleganciji, osetljivosti i nezasitnoj radoznalosti što je koncept koji osnivač modernog Jovoy zdanja Francois Henin i dugoročni partneri sprovode na način koji nezaustavljivo obuhvata parfemsku scenu koja se neprestano menja.</p>",
       "quote": "U Jovoy carstvu slavimo izvanredno. Naši parfemi su stvoreni da prevaziđu obično, pozivajući vas da doživite trenutke uzvišene lepote i očaravajuće emocije"
     },
@@ -322,7 +366,6 @@
       "story": "<p className='desc margin-0 pb-15'>Naziv Thameen se prevodi kao 'dragoceno', opisujući suštinu brenda, koja odražava pažljiv izbor visokokvalitetnih materijala koje se koriste, tako da svaki parfem donosi luksuzni osećaj i opipljivost modernog. Njihovi parfemi svedoče o kreativnoj moći priča, slaveći veštinu i dugotrajnost uz visoku svest o upotrebi održivih sastojaka.</p><p className='desc margin-0 pb-15'>Kreativni direktor brenda je Basel Binjabr, čija se strast prema parfemima rodila u detinjstvu. Poseban odnost njegovog oca prema ružinom ulju, koje je posmatrao kao svoje 'dragocene dragulje', Binjabr je bio fasciniran vezom između parfema i dragog kamenja. Ova nesvakidašnja inspiracija se sada ogleda kroz Thameen, gde parfemi utelovljuju suštinu statusa, bogatstva, lepote, ljubavi i želje - kvaliteta koje su sinonim za drago kamenje. Bočice Thameen parfema su zanosno plave boje, slično safirima.</p><p className='desc margin-0 pb-15'>Thameen parfemi pružaju očaravajuće senzorno iskustvo gde kombinacija retkih mirisnih ulja i esencija omogućava izuzetnu postojanost a složene formule čine da parfemi sa kože odlično projektuju.</p>",
       "quote": "Sa svakim dodirom sa kožom, Thameen otkriva tapiseriju duha, slikajući živopisni portret bića kroz note koje se poigravaju na telu."
     },
-   
     "marc-antoine-barrois": {
       "tagline": "New fragrance, new imaginary universe",
       "lead": "<p className='desc margin-0 pt-40 pb-15'>Marc-Antoine Barrois is not just a couture house; it is a journey into the art of sophistication and timeless elegance. With a profound understanding of craftsmanship and an unwavering commitment to excellence, Marc-Antoine Barrois pushes the boundaries of creativity, creating a world where every detail is meticulously crafted to perfection.</p><p className='desc margin-0 pb-15'>The collaboration between Marc-Antoine Barrois and master perfumer Quentin Bisch gave birth to an unparalleled collection of fragrances.</p>",
@@ -360,10 +403,10 @@
       "quote": "Symbolic Fragrances with Emotional Power"
     },
     "jeroboam": {
-      "tagline": "Perfume Extracts for Urban Nomads",
+      "tagline": "Ekstrakti parfema za urbane nomade",
       "lead": "<p className='desc margin-0 pt-40 pb-15'>Jeroboam, a Parisian niche fragrance house, draws inspiration from its namesake wine bottles. Founded by Francois Henin, the visionary behind Jovoy Paris, it offers bold, innovative perfumes. Each fragrance is a masterpiece, capturing different facets of life.</p><p className='desc margin-0 pb-15'>The brand's name pays homage to the biblical character Jeroboam, symbolizing its belief in perfumery as a regal art form. It blends classic and contemporary elements, catering to exceptional individuals.</p>",
       "story": "<p className='desc margin-0 pb-15'>Jeroboam is a creative exploration between Francois Hénin and Vanina Muracciole. The philosophy behind the brand, showcased by Jéroboam flacons created after six-liter wine bottles, is that 'major perfumes don't need big bottles.' With the tagline 'Perfume Extracts for Urban Nomads,' Jeroboam embodies universal appeal, where fragrances become an international language of seduction. The brand embraces contrast and uniqueness, provoking the question of what defines a perfume as major.</p><p className='desc margin-0 pb-15'>Perfume, for Jeroboam, is a weapon wielded by those who understand its power. Offering fragrances in their most potent extract concentration, these extracts leave an indelible impression and possess inherent nobility, tailored for those with a flirtatious, provocative nature and strong character.</p><p className='desc margin-0 pb-15'>Jeroboam fragrances, characterized by musky bases like most modern perfumes, are designed to be universal. The small bottles make ideal accessories for everyday use, while the scents themselves remind us that fragrance can be more powerful than words.</p>",
-      "quote": "Major perfumes don't need big bottles"
+      "quote": "Najbolji parfemi ne zahtevaju velike boce"
     },
     "veronique-gabai": {
       "tagline": "Sunshine for the senses and the soul",

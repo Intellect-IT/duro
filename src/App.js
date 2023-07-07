@@ -11,6 +11,7 @@ import Contact from "./pages/Contact";
 import Gallery from "./pages/Gallery";
 import News from "./pages/News";
 import Privacy from "./pages/Privacy";
+import Giveaway from "./pages/Giveaway";
 import Brand from "./pages/Brand";
 
 import GoToTop from "./components/GoToTop";
@@ -42,6 +43,7 @@ function App() {
           <Route path="/brands/:slug" element={<Brand setHeader={setHeader}/>} />
           <Route path="/brands" element={<Brands setHeader={setHeader} />} />
           <Route path="/privacy" element={<Privacy setHeader={setHeader} />} />
+          <Route path="/giveaway" element={<Giveaway setHeader={setHeader} />} />
           <Route path="*" element={<Error404 />} />
           <Route path="/error" element={<Error500 />} />
         </Routes>
